@@ -1,0 +1,57 @@
+baseURL = "https://liverpool-lookout.com/"   # ← Change to your domain / Netlify URL
+languageCode = "en-GB"
+title = "Liverpool Lookout | Liverpool FC News, Stats & Analysis"
+enableRobotsTXT = true
+enableGitInfo = false
+summaryLength = 40
+
+[build]
+  writeStats = true
+
+[params]
+  description    = "Your daily source for Liverpool FC news, match reports, transfer rumours, player stats and tactical analysis. Automatically updated 20 times a day."
+  author         = "Liverpool Lookout"
+  logo           = "/images/logo.svg"
+  twitterHandle  = "@LiverpoolLookout"
+  # ──────────────────────────────────────────────────────
+  # Google AdSense — replace with your Publisher ID
+  # ──────────────────────────────────────────────────────
+  adsensePublisher = "ca-pub-XXXXXXXXXXXXXXXX"
+  adsenseSlotLeaderboard = "1234567890"   # 728×90 – top of article
+  adsenseSlotInArticle   = "0987654321"   # in-article responsive
+  adsenseSlotSidebar     = "1122334455"   # 300×250
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+[outputs]
+  home    = ["HTML", "RSS"]
+  page    = ["HTML"]
+  section = ["HTML", "RSS"]
+
+[pagination]
+  pagerSize = 24
+
+[sitemap]
+  changefreq = "hourly"
+  priority   = 0.7
+  filename   = "sitemap.xml"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false   # allow some HTML in markdown
+  [markup.highlight]
+    style = "monokai"
+
+[related]
+  includeNewer = true
+  threshold    = 80
+  toLower      = false
+  [[related.indices]]
+    name   = "tags"
+    weight = 100
+  [[related.indices]]
+    name   = "categories"
+    weight = 80

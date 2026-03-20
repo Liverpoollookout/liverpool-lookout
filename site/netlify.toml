@@ -1,0 +1,41 @@
+[build]
+  base    = "site"
+  publish = "public"
+  command = "hugo --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.141.0"
+  HUGO_ENV     = "production"
+
+# Redirect www → non-www (canonical)
+[[redirects]]
+  from   = "https://www.liverpool-lookout.com/*"
+  to     = "https://liverpool-lookout.com/:splat"
+  status = 301
+  force  = true
+
+# Serve RSS feed with correct Content-Type
+[[headers]]
+  for = "*.xml"
+  [headers.values]
+    Content-Type = "application/rss+xml; charset=UTF-8"
+
+# Security headers (helps with Google trust signals)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options        = "SAMEORIGIN"
+    X-XSS-Protection       = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy        = "strict-origin-when-cross-origin"
+
+# Cache static assets aggressively
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"

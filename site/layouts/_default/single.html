@@ -1,0 +1,178 @@
+{{ define "main" }}
+<div class="page-wrap">
+  <div class="article-layout">
+
+    {{/* ── Main article column ──────────────────────── */}}
+    <div>
+      <article itemscope itemtype="https://schema.org/NewsArticle">
+
+        <header class="article-header">
+          {{ with .Params.categories }}
+          <a href="{{ (index . 0) | urlize | printf "/categories/%s/" }}" class="article-category">
+            {{ index . 0 }}
+          </a>
+          {{ end }}
+
+          <h1 class="article-title" itemprop="headline">{{ .Title }}</h1>
+
+          <div class="article-meta">
+            <time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+              {{ .Date.Format "Monday, 2 January 2006" }}
+            </time>
+            <span class="dot"></span>
+            <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+              <span itemprop="name">Liverpool Lookout</span>
+            </span>
+            <span class="dot"></span>
+            <span>{{ .ReadingTime }} min read</span>
+          </div>
+        </header>
+
+        {{/* ── Leaderboard ad after header ─────────── */}}
+        {{ with .Site.Params.adsensePublisher }}
+        <div class="ad-leaderboard">
+          <p class="ad-label">Advertisement</p>
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="{{ . }}"
+               data-ad-slot="{{ $.Site.Params.adsenseSlotLeaderboard }}"
+               data-ad-format="horizontal"
+               data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+        {{ end }}
+
+        {{/* ── Article body ────────────────────────── */}}
+        <div class="article-body" itemprop="articleBody">
+          {{ $content := .Content }}
+          {{/* Inject mid-article ad after roughly the 3rd paragraph */}}
+          {{ $parts := split $content "</p>" }}
+          {{ range $i, $part := $parts }}
+            {{ $part | safeHTML }}</p>
+            {{ if eq $i 2 }}
+              {{ with $.Site.Params.adsensePublisher }}
+              <div class="ad-inarticle">
+                <p class="ad-label">Advertisement</p>
+                <ins class="adsbygoogle"
+                     style="display:block;text-align:center"
+                     data-ad-layout="in-article"
+                     data-ad-format="fluid"
+                     data-ad-client="{{ . }}"
+                     data-ad-slot="{{ $.Site.Params.adsenseSlotInArticle }}"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+              </div>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </div>
+
+        {{/* ── Tags ────────────────────────────────── */}}
+        {{ with .Params.tags }}
+        <div class="article-tags">
+          <span>Tags:</span>
+          {{ range . }}
+          <a href="/tags/{{ . | urlize }}/" class="tag-pill">{{ . }}</a>
+          {{ end }}
+        </div>
+        {{ end }}
+
+      </article>
+
+      {{/* ── End-of-article ad ────────────────────── */}}
+      {{ with .Site.Params.adsensePublisher }}
+      <div class="ad-leaderboard" style="margin-top:2rem;">
+        <p class="ad-label">Advertisement</p>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="{{ . }}"
+             data-ad-slot="{{ $.Site.Params.adsenseSlotLeaderboard }}"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+      {{ end }}
+
+      {{/* ── Related articles ─────────────────────── */}}
+      {{ $related := .Site.RegularPages.Related . | first 6 }}
+      {{ with $related }}
+      <section class="related-articles" aria-label="Related articles">
+        <h2>Related Articles</h2>
+        <div class="article-grid">
+          {{ range . }}
+          <article class="card">
+            <div class="card-body">
+              {{ with .Params.categories }}
+              <div class="card-category">{{ index . 0 }}</div>
+              {{ end }}
+              <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+              <div class="card-meta">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+              </div>
+            </div>
+          </article>
+          {{ end }}
+        </div>
+      </section>
+      {{ end }}
+
+    </div>
+
+    {{/* ── Sidebar ──────────────────────────────────── */}}
+    <aside class="sidebar" aria-label="Sidebar">
+
+      {{/* Sidebar 300x250 ad */}}
+      {{ with .Site.Params.adsensePublisher }}
+      <div class="sidebar-widget">
+        <div class="sidebar-widget-title">Advertisement</div>
+        <div class="sidebar-ad">
+          <ins class="adsbygoogle"
+               style="display:inline-block;width:300px;height:250px"
+               data-ad-client="{{ . }}"
+               data-ad-slot="{{ $.Site.Params.adsenseSlotSidebar }}"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+      </div>
+      {{ end }}
+
+      {{/* Latest articles widget */}}
+      <div class="sidebar-widget">
+        <div class="sidebar-widget-title">Latest Articles</div>
+        <div class="sidebar-widget-body">
+          <ul class="sidebar-link-list">
+            {{ range first 8 (where .Site.RegularPages "Type" "posts") }}
+            <li><a href="{{ .Permalink }}">{{ .Title | truncate 60 }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+
+      {{/* Categories widget */}}
+      <div class="sidebar-widget">
+        <div class="sidebar-widget-title">Categories</div>
+        <div class="sidebar-widget-body">
+          <ul class="sidebar-link-list">
+            {{ range .Site.Taxonomies.categories.ByCount }}
+            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} <small>({{ .Count }})</small></a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+
+      {{/* Second sidebar ad */}}
+      {{ with .Site.Params.adsensePublisher }}
+      <div class="sidebar-widget">
+        <div class="sidebar-widget-title">Advertisement</div>
+        <div class="sidebar-ad">
+          <ins class="adsbygoogle"
+               style="display:inline-block;width:300px;height:250px"
+               data-ad-client="{{ . }}"
+               data-ad-slot="{{ $.Site.Params.adsenseSlotSidebar }}"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+      </div>
+      {{ end }}
+
+    </aside>
+  </div>
+</div>
+{{ end }}

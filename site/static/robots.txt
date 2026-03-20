@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /tags/
+Disallow: /search/
+
+# Sitemap location
+Sitemap: https://liverpool-lookout.com/sitemap.xml
+
+# Googlebot — full crawl
+User-agent: Googlebot
+Allow: /
+
+# Bingbot — full crawl
+User-agent: Bingbot
+Allow: /

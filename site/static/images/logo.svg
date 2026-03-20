@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <rect width="200" height="50" fill="#111"/>
+  <circle cx="25" cy="25" r="18" fill="#C8102E"/>
+  <text x="25" y="30" font-size="16" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-weight="bold">⚽</text>
+  <text x="45" y="20" font-size="13" fill="white" font-family="Arial,sans-serif" font-weight="800">LIVERPOOL</text>
+  <text x="45" y="36" font-size="13" fill="#C8102E" font-family="Arial,sans-serif" font-weight="800">LOOKOUT</text>
+</svg>

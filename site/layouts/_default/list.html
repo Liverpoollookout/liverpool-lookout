@@ -1,0 +1,72 @@
+{{ define "main" }}
+<div class="page-wrap">
+
+  <header class="archive-header">
+    <h1>{{ .Title }}</h1>
+    <p>
+      {{ if .IsHome }}
+        {{ .Site.Params.description }}
+      {{ else }}
+        {{ with .Description }}{{ . }}{{ else }}All articles in {{ .Title }} — Liverpool Lookout{{ end }}
+      {{ end }}
+    </p>
+  </header>
+
+  {{/* ── Top ad ──────────────────────────────────────── */}}
+  {{ with .Site.Params.adsensePublisher }}
+  <div class="ad-leaderboard">
+    <p class="ad-label">Advertisement</p>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="{{ . }}"
+         data-ad-slot="{{ $.Site.Params.adsenseSlotLeaderboard }}"
+         data-ad-format="horizontal"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+  {{ end }}
+
+  <div class="article-grid">
+    {{ range .Paginator.Pages }}
+    <article class="card">
+      <div class="card-body">
+        {{ with .Params.categories }}
+        <div class="card-category">{{ index . 0 }}</div>
+        {{ end }}
+        <h2 style="font-size:1rem;"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <p class="card-summary">{{ .Summary | plainify | truncate 130 }}</p>
+        <div class="card-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+          {{ with .Params.tags }}<span class="dot"></span><span>{{ index . 0 }}</span>{{ end }}
+          <span class="dot"></span>
+          <span>{{ .ReadingTime }} min read</span>
+        </div>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+
+  {{/* ── Pagination ───────────────────────────────────── */}}
+  {{ $paginator := .Paginator }}
+  {{ if gt $paginator.TotalPages 1 }}
+  <nav class="pagination" aria-label="Page navigation">
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}" aria-label="Previous page">&laquo; Prev</a>
+    {{ end }}
+
+    {{ range $paginator.Pagers }}
+    {{ if eq . $paginator }}
+    <span class="active" aria-current="page">{{ .PageNumber }}</span>
+    {{ else }}
+    <a href="{{ .URL }}">{{ .PageNumber }}</a>
+    {{ end }}
+    {{ end }}
+
+    {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}" aria-label="Next page">Next &raquo;</a>
+    {{ end }}
+  </nav>
+  {{ end }}
+
+</div>
+{{ end }}

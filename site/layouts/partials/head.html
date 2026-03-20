@@ -1,0 +1,183 @@
+{{/* ═══════════════════════════════════════════════════════
+     HEAD PARTIAL — Full SEO stack
+     ═══════════════════════════════════════════════════════ */}}
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{{/* ── Canonical ───────────────────────────────────────── */}}
+<link rel="canonical" href="{{ .Permalink }}" />
+
+{{/* ── Title ───────────────────────────────────────────── */}}
+<title>
+  {{- if .IsHome -}}
+    {{ .Site.Title }}
+  {{- else if .Title -}}
+    {{ .Title }} | Liverpool Lookout
+  {{- else -}}
+    {{ .Site.Title }}
+  {{- end -}}
+</title>
+
+{{/* ── Meta description ─────────────────────────────────── */}}
+<meta name="description" content="
+  {{- if .Description -}}
+    {{ .Description | truncate 155 }}
+  {{- else if .IsHome -}}
+    {{ .Site.Params.description }}
+  {{- else -}}
+    {{ .Summary | plainify | truncate 155 }}
+  {{- end -}}
+">
+
+{{/* ── Keywords (secondary but low-cost) ─────────────────── */}}
+{{ if .Params.tags }}
+<meta name="keywords" content="{{ delimit .Params.tags ", " }}">
+{{ end }}
+
+{{/* ── Robots ───────────────────────────────────────────── */}}
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+
+{{/* ── Open Graph ───────────────────────────────────────── */}}
+<meta property="og:type"        content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:locale"      content="en_GB">
+<meta property="og:site_name"   content="Liverpool Lookout">
+<meta property="og:title"       content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="
+  {{- if .Description -}}
+    {{ .Description | truncate 155 }}
+  {{- else if .IsHome -}}
+    {{ .Site.Params.description }}
+  {{- else -}}
+    {{ .Summary | plainify | truncate 155 }}
+  {{- end -}}
+">
+<meta property="og:url"         content="{{ .Permalink }}">
+{{ with .Site.Params.ogImage }}
+<meta property="og:image"       content="{{ . | absURL }}">
+<meta property="og:image:width"  content="1200">
+<meta property="og:image:height" content="630">
+{{ end }}
+
+{{/* ── Article-specific OG ──────────────────────────────── */}}
+{{ if .IsPage }}
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+<meta property="article:modified_time"  content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+{{ with .Site.Params.facebookAppId }}
+<meta property="article:publisher" content="https://www.facebook.com/{{ . }}">
+{{ end }}
+{{ range .Params.tags }}
+<meta property="article:tag" content="{{ . }}">
+{{ end }}
+{{ end }}
+
+{{/* ── Twitter Card ─────────────────────────────────────── */}}
+<meta name="twitter:card"        content="summary_large_image">
+<meta name="twitter:site"        content="{{ .Site.Params.twitterHandle }}">
+<meta name="twitter:title"       content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:description" content="
+  {{- if .Description -}}
+    {{ .Description | truncate 155 }}
+  {{- else -}}
+    {{ .Summary | plainify | truncate 155 }}
+  {{- end -}}
+">
+
+{{/* ── Schema.org JSON-LD ───────────────────────────────── */}}
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsMediaOrganization",
+  "name": "Liverpool Lookout",
+  "url": "{{ .Site.BaseURL }}",
+  "description": "{{ .Site.Params.description }}",
+  "foundingDate": "2025",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "{{ "/images/logo.png" | absURL }}"
+  },
+  "sameAs": []
+}
+</script>
+{{ else if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ if .Description }}{{ .Description | jsonify }}{{ else }}{{ .Summary | plainify | jsonify }}{{ end }},
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "author": {
+    "@type": "Organization",
+    "name": "Liverpool Lookout",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Liverpool Lookout",
+    "url": "{{ .Site.BaseURL }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ "/images/logo.png" | absURL }}"
+    }
+  },
+  "url": "{{ .Permalink }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "keywords": {{ if .Params.tags }}{{ delimit .Params.tags ", " | jsonify }}{{ else }}"Liverpool FC"{{ end }},
+  "articleSection": {{ if .Params.categories }}{{ index .Params.categories 0 | jsonify }}{{ else }}"News"{{ end }}
+}
+</script>
+
+{{/* Breadcrumb Schema ─────────────────────────────────── */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ .Site.BaseURL }}"
+    },
+    {{ if .Params.categories }}
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ index .Params.categories 0 | jsonify }},
+      "item": "{{ (index .Params.categories 0) | urlize | printf "%scategories/%s/" .Site.BaseURL }}"
+    },
+    {{ end }}
+    {
+      "@type": "ListItem",
+      "position": {{ if .Params.categories }}3{{ else }}2{{ end }},
+      "name": {{ .Title | jsonify }},
+      "item": "{{ .Permalink }}"
+    }
+  ]
+}
+</script>
+{{ end }}
+
+{{/* ── Feed links ───────────────────────────────────────── */}}
+{{ range .AlternativeOutputFormats -}}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type | html }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
+{{ end }}
+
+{{/* ── Stylesheet ───────────────────────────────────────── */}}
+<link rel="stylesheet" href="/css/style.css">
+
+{{/* ── Favicon ───────────────────────────────────────────── */}}
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+<link rel="icon" type="image/png" href="/images/favicon.png">
+
+{{/* ── Preconnect for perf ──────────────────────────────── */}}
+<link rel="preconnect" href="https://pagead2.googlesyndication.com">
+<link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
