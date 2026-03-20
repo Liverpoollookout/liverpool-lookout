@@ -16,7 +16,60 @@ sitemap:
   priority: 0.8
 ---
 
-# Liverpool Team News: Slot Assesses Squad Fitness Ahead of Crucial Run-In
+<div class="article-illustration">
+  <svg class="article-svg" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Team News animated illustration">
+      <defs>
+            <linearGradient id="tnn1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#1a1a2e"/>
+                    <stop offset="100%" style="stop-color:#0d0d1a"/>
+            </linearGradient>linearGradient>
+      </defs>defs>
+      <rect width="600" height="300" fill="url(#tnn1)" rx="12"/>
+      <rect x="50" y="30" width="500" height="240" rx="8" fill="#1e1e3a" stroke="#C8102E" stroke-width="2"/>
+      <rect x="50" y="30" width="500" height="45" rx="8" fill="#C8102E"/>
+      <rect x="50" y="55" width="500" height="20" fill="#C8102E"/>
+      <text x="300" y="60" text-anchor="middle" fill="#F6EB61" font-size="18" font-weight="bold" font-family="Arial">TEAM NEWS BULLETIN</text>text>
+      <circle cx="80" cy="47" r="7" fill="#F6EB61">
+            <animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
+      </circle>circle>
+      <text x="93" y="51" fill="white" font-size="10" font-family="Arial">LIVE</text>text>
+      <line x1="70" y1="105" x2="530" y2="105" stroke="#C8102E" stroke-width="1" opacity="0.5"/>
+      <text x="80" y="98" fill="#F6EB61" font-size="11" font-weight="bold" font-family="Arial">AVAILABLE</text>text>
+      <circle cx="85" cy="118" r="4" fill="#00cc44"/>
+      <text x="96" y="122" fill="white" font-size="11" font-family="Arial">Van Dijk - FULL TRAINING</text>text>
+      <circle cx="85" cy="138" r="4" fill="#00cc44"/>
+      <text x="96" y="142" fill="white" font-size="11" font-family="Arial">Salah - FIT &amp; SELECTED</text>text>
+      <circle cx="85" cy="158" r="4" fill="#ffaa00"/>
+      <text x="96" y="162" fill="white" font-size="11" font-family="Arial">Nunez - LATE FITNESS TEST</text>text>
+      <line x1="70" y1="175" x2="530" y2="175" stroke="#C8102E" stroke-width="1" opacity="0.5"/>
+      <text x="80" y="168" fill="#C8102E" font-size="11" font-weight="bold" font-family="Arial">DOUBTFUL / OUT</text>text>
+      <circle cx="85" cy="190" r="4" fill="#C8102E"/>
+      <text x="96" y="194" fill="white" font-size="11" font-family="Arial">Diaz - MUSCLE ISSUE</text>text>
+      <circle cx="85" cy="210" r="4" fill="#C8102E"/>
+      <text x="96" y="214" fill="white" font-size="11" font-family="Arial">Elliott - MINOR KNOCK</text>text>
+      <rect x="360" y="90" width="170" height="150" rx="6" fill="#111133"/>
+      <text x="445" y="110" text-anchor="middle" fill="#F6EB61" font-size="11" font-weight="bold" font-family="Arial">FORMATION</text>text>
+      <circle cx="445" cy="130" r="6" fill="#C8102E"/>
+      <circle cx="415" cy="155" r="5" fill="#C8102E"/>
+      <circle cx="445" cy="155" r="5" fill="#C8102E"/>
+      <circle cx="475" cy="155" r="5" fill="#C8102E"/>
+      <circle cx="430" cy="178" r="5" fill="#C8102E"/>
+      <circle cx="460" cy="178" r="5" fill="#C8102E"/>
+      <circle cx="415" cy="200" r="5" fill="#C8102E"/>
+      <circle cx="445" cy="200" r="5" fill="#C8102E"/>
+      <circle cx="475" cy="200" r="5" fill="#C8102E"/>
+      <circle cx="430" cy="220" r="5" fill="#C8102E"/>
+      <circle cx="460" cy="220" r="5" fill="#C8102E"/>
+      <circle cx="445" cy="130" r="8" fill="none" stroke="#F6EB61" stroke-width="1" opacity="0.5">
+            <animate attributeName="r" values="8;14;8" dur="2s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.5;0;0.5" dur="2s" repeatCount="indefinite"/>
+      </circle>circle>
+      <text x="300" y="275" text-anchor="middle" fill="#666" font-size="10" font-family="Arial">Team news illustrated</text>text>
+  </svg>svg>
+</div>div>
+
+
+      </defs># Liverpool Team News: Slot Assesses Squad Fitness Ahead of Crucial Run-In
 
 With the 2025-26 campaign entering its decisive phase, Arne Slot faces a careful balancing act as Liverpool navigate the final weeks of the season. The Reds' medical department has been working overtime to ensure key personnel are available for what promises to be a demanding stretch at Anfield and beyond.
 
