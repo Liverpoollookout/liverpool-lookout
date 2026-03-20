@@ -16,6 +16,25 @@ sitemap:
   priority: 0.8
 ---
 
+<div class="article-illustration">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg" role="img" aria-label="Stats and Data illustration">
+      <rect width="800" height="400" fill="#0d1117" rx="8"/>
+      <g transform="translate(80, 320)">
+            <rect x="0" y="0" width="60" height="0" fill="#C8102E" transform="scale(1,-1)"><animate attributeName="height" values="0;180;180" dur="1.5s" fill="freeze"/></rect>rect>
+            <rect x="80" y="0" width="60" height="0" fill="#C8102E" opacity="0.85" transform="scale(1,-1)"><animate attributeName="height" values="0;220;220" dur="1.5s" fill="freeze" begin="0.1s"/></rect>rect>
+            <rect x="160" y="0" width="60" height="0" fill="#C8102E" opacity="0.7" transform="scale(1,-1)"><animate attributeName="height" values="0;150;150" dur="1.5s" fill="freeze" begin="0.2s"/></rect>rect>
+            <rect x="240" y="0" width="60" height="0" fill="#C8102E" opacity="0.9" transform="scale(1,-1)"><animate attributeName="height" values="0;260;260" dur="1.5s" fill="freeze" begin="0.3s"/></rect>rect>
+            <rect x="320" y="0" width="60" height="0" fill="#C8102E" opacity="0.75" transform="scale(1,-1)"><animate attributeName="height" values="0;200;200" dur="1.5s" fill="freeze" begin="0.4s"/></rect>rect>
+            <rect x="400" y="0" width="60" height="0" fill="#4CAF50" opacity="0.8" transform="scale(1,-1)"><animate attributeName="height" values="0;190;190" dur="1.5s" fill="freeze" begin="0.5s"/></rect>rect>
+            <rect x="480" y="0" width="60" height="0" fill="#4CAF50" opacity="0.9" transform="scale(1,-1)"><animate attributeName="height" values="0;270;270" dur="1.5s" fill="freeze" begin="0.6s"/></rect>rect>
+            <rect x="560" y="0" width="60" height="0" fill="#C8102E" opacity="0.8" transform="scale(1,-1)"><animate attributeName="height" values="0;240;240" dur="1.5s" fill="freeze" begin="0.7s"/></rect>rect>
+      </g>g>
+      <line x1="70" y1="320" x2="740" y2="320" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <polyline points="110,280 190,240 270,265 350,200 430,220 510,195 590,160 670,140" fill="none" stroke="#F6EB61" stroke-width="2.5" stroke-dasharray="5,3" opacity="0.8"><animate attributeName="stroke-dashoffset" values="0;-40" dur="1s" repeatCount="indefinite"/></polyline>polyline>
+      <text x="400" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="3">STATS &amp; DATA</text>text>
+  </svg>svg>
+</div>div>
+
 # Clean Sheet Credentials: How Liverpool's Defence Stacks Up Against the Premier League Elite
 
 **20 March 2026**
