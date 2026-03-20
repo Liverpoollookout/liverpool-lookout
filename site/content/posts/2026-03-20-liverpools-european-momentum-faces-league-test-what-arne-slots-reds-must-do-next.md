@@ -16,7 +16,49 @@ sitemap:
   priority: 0.8
 ---
 
-# Liverpool's European Momentum Faces League Test: What Arne Slot's Reds Must Do Next
+<div class="article-illustration">
+  <svg class="article-svg" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Match Preview animated illustration">
+      <defs>
+            <linearGradient id="mp1" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color:#1a3a1a"/>
+                    <stop offset="100%" style="stop-color:#0d200d"/>
+            </linearGradient>linearGradient>
+            <linearGradient id="mp2" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#C8102E"/>
+                    <stop offset="100%" style="stop-color:#8B0000"/>
+            </linearGradient>linearGradient>
+      </defs>defs>
+      <rect width="600" height="300" fill="#111" rx="12"/>
+      <rect x="30" y="40" width="540" height="220" rx="4" fill="url(#mp1)" stroke="#2d7a2d" stroke-width="2"/>
+      <rect x="30" y="40" width="540" height="220" rx="4" fill="none" stroke="#3a9a3a" stroke-width="1" opacity="0.5"/>
+      <line x1="300" y1="40" x2="300" y2="260" stroke="white" stroke-width="1" opacity="0.4"/>
+      <circle cx="300" cy="150" r="35" fill="none" stroke="white" stroke-width="1" opacity="0.4"/>
+      <rect x="30" y="100" width="60" height="100" fill="none" stroke="white" stroke-width="1" opacity="0.4"/>
+      <rect x="510" y="100" width="60" height="100" fill="none" stroke="white" stroke-width="1" opacity="0.4"/>
+      <rect x="30" y="115" width="25" height="70" fill="none" stroke="white" stroke-width="1" opacity="0.4"/>
+      <rect x="545" y="115" width="25" height="70" fill="none" stroke="white" stroke-width="1" opacity="0.4"/>
+      <circle cx="300" cy="150" r="5" fill="white" opacity="0.6"/>
+      <text x="300" y="25" text-anchor="middle" fill="#F6EB61" font-size="16" font-weight="bold" font-family="Arial">MATCH PREVIEW</text>text>
+      <rect x="60" y="270" width="180" height="22" rx="4" fill="url(#mp2)"/>
+      <text x="150" y="285" text-anchor="middle" fill="white" font-size="12" font-weight="bold" font-family="Arial">LIVERPOOL FC</text>text>
+      <text x="300" y="284" text-anchor="middle" fill="#F6EB61" font-size="14" font-weight="bold" font-family="Arial">VS</text>text>
+      <rect x="360" y="270" width="180" height="22" rx="4" fill="#333"/>
+      <text x="450" y="285" text-anchor="middle" fill="white" font-size="12" font-weight="bold" font-family="Arial">OPPONENTS</text>text>
+      <circle cx="300" cy="150" r="10" fill="white" stroke="#C8102E" stroke-width="2">
+            <animateMotion dur="3s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1">
+                    <mpath href="#ballpath"/>
+            </animateMotion>animateMotion>
+      </circle>circle>
+      <path id="ballpath" d="M 80,150 Q 150,80 220,130 Q 280,170 300,150 Q 340,120 400,140 Q 460,160 520,150" fill="none"/>
+      <text x="300" y="150" text-anchor="middle" fill="#F6EB61" font-size="9" font-family="Arial">
+            <animateMotion dur="3s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1">
+                    <mpath href="#ballpath"/>
+            </animateMotion>animateMotion>⚽</text>text>
+  </svg>svg>
+</div>div>
+
+
+      </defs># Liverpool's European Momentum Faces League Test: What Arne Slot's Reds Must Do Next
 
 After delivering what many observers have labelled an 'almost perfect' performance against Galatasaray in the Champions League, Liverpool now faces a critical juncture in their season. Arne Slot's men must translate European brilliance into sustained domestic form—a challenge that has plagued them on occasion this campaign.
 
