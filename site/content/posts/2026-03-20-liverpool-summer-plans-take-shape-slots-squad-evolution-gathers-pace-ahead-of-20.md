@@ -16,7 +16,56 @@ sitemap:
   priority: 0.8
 ---
 
-# Liverpool Summer Plans Take Shape: Slot's Squad Evolution Gathers Pace Ahead of 2025-26 Campaign
+<div class="article-illustration">
+  <svg class="article-svg" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Transfer News animated illustration">
+      <defs>
+            <linearGradient id="tn1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#1a1a2e"/>
+                    <stop offset="100%" style="stop-color:#16213e"/>
+            </linearGradient>linearGradient>
+            <linearGradient id="tn2" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color:#C8102E"/>
+                    <stop offset="100%" style="stop-color:#8B0000"/>
+            </linearGradient>linearGradient>
+      </defs>defs>
+      <rect width="600" height="300" fill="url(#tn1)" rx="12"/>
+      <rect x="20" y="60" width="160" height="180" rx="10" fill="#C8102E" opacity="0.9"/>
+      <text x="100" y="100" text-anchor="middle" fill="#F6EB61" font-size="14" font-weight="bold" font-family="Arial">FROM</text>text>
+      <text x="100" y="125" text-anchor="middle" fill="white" font-size="11" font-family="Arial">Rival Club</text>text>
+      <circle cx="100" cy="175" r="30" fill="#F6EB61" opacity="0.2"/>
+      <text x="100" y="180" text-anchor="middle" fill="#F6EB61" font-size="20" font-family="Arial">⚽</text>text>
+      <rect x="420" y="60" width="160" height="180" rx="10" fill="#C8102E" opacity="0.9"/>
+      <text x="500" y="100" text-anchor="middle" fill="#F6EB61" font-size="14" font-weight="bold" font-family="Arial">TO</text>text>
+      <text x="500" y="125" text-anchor="middle" fill="white" font-size="11" font-family="Arial">Liverpool FC</text>text>
+      <text x="500" y="185" text-anchor="middle" fill="white" font-size="28" font-family="Arial">LFC</text>text>
+      <line x1="190" y1="150" x2="410" y2="150" stroke="#F6EB61" stroke-width="3" stroke-dasharray="8,4"/>
+      <polygon points="405,140 420,150 405,160" fill="#F6EB61"/>
+      <text x="300" y="40" text-anchor="middle" fill="#F6EB61" font-size="22" font-weight="bold" font-family="Arial">TRANSFER NEWS</text>text>
+      <text x="230" y="130" text-anchor="middle" fill="#F6EB61" font-size="18" font-family="Arial" opacity="0">£
+            <animate attributeName="opacity" values="0;1;0" dur="2s" begin="0s" repeatCount="indefinite"/>
+            <animateTransform attributeName="transform" type="translate" values="0,0;0,-30" dur="2s" begin="0s" repeatCount="indefinite"/>
+      </text>text>
+      <text x="270" y="145" text-anchor="middle" fill="#F6EB61" font-size="14" font-family="Arial" opacity="0">£
+            <animate attributeName="opacity" values="0;1;0" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+            <animateTransform attributeName="transform" type="translate" values="0,0;0,-30" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+      </text>text>
+      <text x="310" y="135" text-anchor="middle" fill="#F6EB61" font-size="16" font-family="Arial" opacity="0">£
+            <animate attributeName="opacity" values="0;1;0" dur="2s" begin="1s" repeatCount="indefinite"/>
+            <animateTransform attributeName="transform" type="translate" values="0,0;0,-30" dur="2s" begin="1s" repeatCount="indefinite"/>
+      </text>text>
+      <text x="350" y="125" text-anchor="middle" fill="#F6EB61" font-size="20" font-family="Arial" opacity="0">£
+            <animate attributeName="opacity" values="0;1;0" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+            <animateTransform attributeName="transform" type="translate" values="0,0;0,-30" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+      </text>text>
+      <circle cx="300" cy="150" r="5" fill="#F6EB61">
+            <animateMotion dur="1.5s" repeatCount="indefinite" path="M-110,0 L110,0"/>
+      </circle>circle>
+      <text x="300" y="270" text-anchor="middle" fill="#888" font-size="10" font-family="Arial">Transfer activity illustrated</text>text>
+  </svg>svg>
+</div>div>
+
+
+      </defs># Liverpool Summer Plans Take Shape: Slot's Squad Evolution Gathers Pace Ahead of 2025-26 Campaign
 
 As Liverpool prepare for a crucial summer window under Arne Slot's stewardship, the Anfield club are reportedly beginning their strategic planning for next season, with sources suggesting the manager is keen to add quality depth across key positions.
 
