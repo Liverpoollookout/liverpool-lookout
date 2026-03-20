@@ -1,0 +1,49 @@
+name: 🔴 Generate Liverpool Lookout Content
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+    - cron: "0 17 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    name: Generate Articles
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: 📦 Install dependencies
+        run: pip install anthropic requests
+
+      - name: 📝 Generate articles
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate_articles.py
+
+      - name: 🚀 Commit & push new articles
+        run: |
+          git config --local user.email "bot@liverpool-lookout.com"
+          git config --local user.name "Liverpool Lookout Bot 🤖"
+          git add site/content/posts/
+          if git diff --staged --quiet; then
+            echo "No new articles to commit."
+          else
+            ARTICLE_COUNT=$(git diff --staged --name-only | wc -l)
+            git commit -m "🤖 Auto-publish ${ARTICLE_COUNT} articles — $(date -u +'%d %b %Y %H:%M UTC')"
+            git push
+            echo "✅ Pushed ${ARTICLE_COUNT} new articles."
+          fi
