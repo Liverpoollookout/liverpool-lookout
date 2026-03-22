@@ -1,124 +1,124 @@
 {{ define "main" }}
 
-{{/* ── Top leaderboard ad ─────────────────────────────── */}}
+{{/* Top leaderboard ad */}}
 {{ with .Site.Params.adsensePublisher }}
 <div class="ad-leaderboard">
-    <p class="ad-label">Advertisement</p>p>
+    <p class="ad-label">Advertisement</p>
     <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="{{ . }}"
-          data-ad-slot="{{ $.Site.Params.adsenseSlotLeaderboard }}"
-          data-ad-format="horizontal"
-          data-full-width-responsive="true"></ins>ins>
+        style="display:block"
+        data-ad-client="{{ . }}"
+        data-ad-slot="{{ $.Site.Params.adsenseSlotLeaderboard }}"
+        data-ad-format="horizontal"
+        data-full-width-responsive="true"></ins>
     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>div>
+</div>
 {{ end }}
 
 <div class="page-wrap">
 
-  {{/* ── Hero Section ─────────────────────────────────── */}}
-  {{ $posts := where .Site.RegularPages "Type" "posts" }}
-  {{ $latest := first 1 $posts }}
-  {{ $sideStories := after 1 (first 5 $posts) }}
+    {{/* Hero Section */}}
+    {{ $posts := where .Site.RegularPages "Type" "posts" }}
+    {{ $latest := first 1 $posts }}
+    {{ $sideStories := after 1 (first 5 $posts) }}
 
-  {{ with $latest }}
-  {{ range . }}
-  <section class="hero" aria-label="Lead story">
-      <div class="hero-main">
+    {{ with $latest }}
+    {{ range . }}
+    <section class="hero" aria-label="Lead story">
+        <div class="hero-main">
             {{ with .Params.categories }}
-            <span class="card-category">{{ index . 0 }}</span>span>
+            <span class="card-category">{{ index . 0 }}</span>
             {{ end }}
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a>a></h2>
-            <p class="summary">{{ with .Params.description }}{{ . | truncate 200 }}{{ else }}{{ .Summary | plainify | truncate 200 }}{{ end }}</p>p>
-            <a href="{{ .Permalink }}" class="read-more">Read More →</a>a>
-      </div>div>
-      <div class="hero-stack">
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <p class="summary">{{ with .Params.description }}{{ . | truncate 200 }}{{ else }}{{ .Summary | plainify | truncate 200 }}{{ end }}</p>
+            <a href="{{ .Permalink }}" class="read-more">Read More &rarr;</a>
+        </div>
+        <div class="hero-stack">
             {{ range $sideStories }}
             <article class="mini-card">
-                    <div class="mini-text">
-                              {{ with .Params.categories }}
-                              <div class="mini-category">{{ index . 0 }}</div>div>
-                              {{ end }}
-                              <h3><a href="{{ .Permalink }}">{{ .Title }}</a>a></h3>
-                              <div class="mini-date">{{ .Date.Format "2 Jan 2006" }}</div>div>
-                    </div>div>
-            </article>article>
+                <div class="mini-text">
+                    {{ with .Params.categories }}
+                    <div class="mini-category">{{ index . 0 }}</div>
+                    {{ end }}
+                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <div class="mini-date">{{ .Date.Format "2 Jan 2006" }}</div>
+                </div>
+            </article>
             {{ end }}
-      </div>div>
-  </section>section>
-  {{ end }}
-  {{ end }}
+        </div>
+    </section>
+    {{ end }}
+    {{ end }}
 
-  {{/* ── Latest Articles ──────────────────────────────── */}}
-  <div class="section-heading">
-      <h2>Latest Articles</h2>
-      <span class="pill">Live</span>span>
-  </div>div>
-
-  <div class="article-grid">
-    {{ range after 5 (first 17 $posts) }}
-      <article class="card">
+    {{/* Latest Articles */}}
+    <div class="section-heading">
+        <h2>Latest Articles</h2>
+        <span class="pill">Live</span>
+    </div>
+    <div class="article-grid">
+        {{ range after 5 (first 17 $posts) }}
+        <article class="card">
             <div class="card-body">
-                    {{ with .Params.categories }}
-                    <div class="card-category">{{ index . 0 }}</div>div>
-                    {{ end }}
-                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a>a></h3>
-                    <p class="card-summary">{{ with .Params.description }}{{ . | truncate 120 }}{{ else }}{{ .Summary | plainify | truncate 120 }}{{ end }}</p>p>
-                    <div class="card-meta">
-                              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>time>
-                              {{ with .Params.tags }}<span class="dot"></span>span><span>{{ index . 0 }}</span>{{ end }}
-                    </div>div>
-            </div>div>
-      </article>article>
+                {{ with .Params.categories }}
+                <div class="card-category">{{ index . 0 }}</div>
+                {{ end }}
+                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                <p class="card-summary">{{ with .Params.description }}{{ . | truncate 120 }}{{ else }}{{ .Summary | plainify | truncate 120 }}{{ end }}</p>
+                <div class="card-meta">
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+                    {{ with .Params.tags }}<span class="dot"></span><span>{{ index . 0 }}</span>{{ end }}
+                </div>
+            </div>
+        </article>
+        {{ end }}
+    </div>
+
+    {{/* Mid-page ad */}}
+    {{ with .Site.Params.adsensePublisher }}
+    <div class="ad-leaderboard" style="margin: 1rem 0 2rem;">
+        <p class="ad-label">Advertisement</p>
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="{{ . }}"
+            data-ad-slot="{{ $.Site.Params.adsenseSlotInArticle }}"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
     {{ end }}
-  </div>div>
 
-  {{/* ── Mid-page ad ──────────────────────────────────── */}}
-  {{ with .Site.Params.adsensePublisher }}
-  <div class="ad-leaderboard" style="margin: 1rem 0 2rem;">
-      <p class="ad-label">Advertisement</p>p>
-      <ins class="adsbygoogle"
-              style="display:block"
-              data-ad-client="{{ . }}"
-              data-ad-slot="{{ $.Site.Params.adsenseSlotInArticle }}"
-              data-ad-format="auto"
-              data-full-width-responsive="true"></ins>ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>div>
-  {{ end }}
-
-  {{/* ── More Articles ────────────────────────────────── */}}
-  {{ if gt (len $posts) 17 }}
-  <div class="section-heading">
-      <h2>More From Liverpool Lookout</h2>
-  </div>div>
-  <div class="article-grid">
-    {{ range after 17 (first 29 $posts) }}
-      <article class="card">
+    {{/* More Articles */}}
+    {{ if gt (len $posts) 17 }}
+    <div class="section-heading">
+        <h2>More From Liverpool Lookout</h2>
+    </div>
+    <div class="article-grid">
+        {{ range after 17 (first 29 $posts) }}
+        <article class="card">
             <div class="card-body">
-                    {{ with .Params.categories }}
-                    <div class="card-category">{{ index . 0 }}</div>div>
-                    {{ end }}
-                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a>a></h3>
-                    <p class="card-summary">{{ with .Params.description }}{{ . | truncate 120 }}{{ else }}{{ .Summary | plainify | truncate 120 }}{{ end }}</p>p>
-                    <div class="card-meta">
-                              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>time>
-                    </div>div>
-            </div>div>
-      </article>article>
+                {{ with .Params.categories }}
+                <div class="card-category">{{ index . 0 }}</div>
+                {{ end }}
+                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                <p class="card-summary">{{ with .Params.description }}{{ . | truncate 120 }}{{ else }}{{ .Summary | plainify | truncate 120 }}{{ end }}</p>
+                <div class="card-meta">
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+                </div>
+            </div>
+        </article>
+        {{ end }}
+    </div>
     {{ end }}
-  </div>div>
-  {{ end }}
 
-  {{/* ── Category Quick Links ─────────────────────────── */}}
-  <div class="section-heading" style="margin-top:2rem;">
-      <h2>Browse by Category</h2>
-  </div>div>
-  <nav aria-label="Category navigation" style="display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2.5rem;">
-    {{ range .Site.Taxonomies.categories.ByCount }}
-      <a href="{{ .Page.Permalink }}" class="tag-pill">{{ .Page.Title }} ({{ .Count }})</a>a>
-    {{ end }}
-  </nav>nav>
+    {{/* Category Quick Links */}}
+    <div class="section-heading" style="margin-top:2rem;">
+        <h2>Browse by Category</h2>
+    </div>
+    <nav aria-label="Category navigation" style="display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2.5rem;">
+        {{ range .Site.Taxonomies.categories.ByCount }}
+        <a href="{{ .Page.Permalink }}" class="tag-pill">{{ .Page.Title }} ({{ .Count }})</a>
+        {{ end }}
+    </nav>
 
-</div>div>
-{{ end }}</span></h3></h2></script>
+</div>
+
+{{ end }}
