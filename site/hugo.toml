@@ -16,7 +16,7 @@ summaryLength = 40
             # ──────────────────────────────────────────────────────
               # Google AdSense — replace with your Publisher ID
                 # ──────────────────────────────────────────────────────
-                  adsensePublisher       = "ca-pub-XXXXXXXXXXXXXXXX"
+                  adsensePublisher    = "ca-pub-3275999648500965"
                     adsenseSlotLeaderboard = "1234567890"  # 728x90 - top of article
                       adsenseSlotInArticle   = "0987654321"  # in-article responsive
                         adsenseSlotSidebar     = "1122334455"  # 300x250
