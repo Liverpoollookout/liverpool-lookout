@@ -15,7 +15,7 @@
   --light-grey: #e9ecef;
   --border:     #dee2e6;
   --font-main:  'Georgia', 'Times New Roman', serif;
-  --font-ui:    system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-ui:    system-ui, -apple-system, 'Segoe UI', Helvetica, Aril, sans-serif;
   --max-width:  1200px;
   --radius:     4px;
 }
@@ -35,7 +35,7 @@ a:hover { text-decoration: underline; }
 
 /* ── Site Header ──────────────────────────────────────── */
 .site-header {
-  background: var(--dark);
+    background: #B30000;
   border-bottom: 4px solid var(--red);
   position: sticky;
   top: 0;
@@ -65,6 +65,7 @@ a:hover { text-decoration: underline; }
 }
 .site-logo span { color: var(--red); }
 .site-logo:hover { text-decoration: none; }
+.logo-img { height: 44px; width: auto; display: block; }
 
 /* ── Navigation ───────────────────────────────────────── */
 .site-nav { display: flex; gap: .25rem; flex-wrap: wrap; }
@@ -555,3 +556,19 @@ a:hover { text-decoration: underline; }
   .site-nav { display: none; }
   .article-grid { grid-template-columns: 1fr; }
 }
+
+/* ── Card Image ───────────────────────────────────────── */
+.card-img-wrap {
+  line-height: 0;
+    overflow: hidden;
+      background: #0a1628;
+      }
+      .card-svg {
+        width: 100%;
+          height: auto;
+            display: block;
+              max-height: 180px;
+              }
+              @media (max-width: 640px) {
+                .card-svg { max-height: 140px; }
+                }

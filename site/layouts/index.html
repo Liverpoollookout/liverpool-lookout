@@ -57,6 +57,7 @@
     <div class="article-grid">
         {{ range after 5 (first 17 $posts) }}
         <article class="card">
+                      {{ partial "card-image.html" . }}
             <div class="card-body">
                 {{ with .Params.categories }}
                 <div class="card-category">{{ index . 0 }}</div>
