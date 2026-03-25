@@ -145,9 +145,9 @@ def fetch_json(url, fallback=None):
                     r = requests.get(url, timeout=12, headers={"User-Agent": "LiverpoolLookout/1.0"})
                     r.raise_for_status()
                     return r.json()
-except Exception as e:
-        print(f"  Warning: Fetch failed {url}: {e}")
-        return fallback or {}
+        except Exception as e:
+            print(f"  Warning: Fetch failed {url}: {e}")
+            return fallback or {}
 
 def fetch_fixtures():
         data = fetch_json(f"https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id={TEAM_ID}")
