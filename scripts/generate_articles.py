@@ -171,8 +171,8 @@ def fetch_lfc_news_rss():
                     )
                     headlines = re.findall(r"<title><!\[CDATA\[(.*?)\]\]></title>", r.text)
                     return [h for h in headlines if "Liverpool" in h or "LFC" in h][:10]
-except Exception:
-        return []
+        except Exception:
+            return []
 
 # SLUG / FILE HELPERS
 def slugify(text):
