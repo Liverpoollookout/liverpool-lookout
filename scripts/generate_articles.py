@@ -415,15 +415,12 @@ def build_article_plan(fixtures, results, headlines):
         ("opinion", {**base, "last_result": last_result, "topic": random.choice(["Why Salah is irreplaceable for Liverpool FC", "Is Slot already better than Klopp?", "Liverpool's must-have summer transfer priorities", "Why Van Dijk deserves the Ballon d'Or vote", "Liverpool's title credentials - a realistic assessment", "The academy player ready for Slot's first team"])}),
         ("youth_academy", {**base, "focus": "Liverpool FC Academy graduate scouting report and first-team potential", "player_hint": random.choice(["Ben Doak", "Bobby Clark", "Luke Chambers", "James McConnell", "Trey Nyoni"])}),
     ]
+    # Always include a match_report; fill remaining 2 slots from shuffled pool
+    match_reports = [a for a in all_articles if a[0] == "match_report"]
+    other_articles = [a for a in all_articles if a[0] != "match_report"]
+    random.shuffle(other_articles)
+    return match_reports[:1] + other_articles[:2]
 
-        # Always include a match_report; fill remaining 2 slots from shuffled pool
-            match_reports = [a for a in all_articles if a[0] == "match_report"]
-                other_articles = [a for a in all_articles if a[0] != "match_report"]
-                    random.shuffle(other_articles)
-                        return match_reports[:1] + other_articles[:2]
-
-
-# MAIN
 def main():
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
