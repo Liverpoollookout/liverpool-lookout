@@ -1,4 +1,4 @@
-name: 🔴 Generate Liverpool Lookout Content
+name: Generate Liverpool Lookout Content
 
 on:
   schedule:
@@ -21,39 +21,39 @@ jobs:
       contents: write
 
     steps:
-      - name: ÃÂ¢ÃÂ¬ÃÂÃÂ¯ÃÂ¸ÃÂ Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 1
 
-      - name: ÃÂ°ÃÂÃÂÃÂ Set up Python 3.11
+      - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: "pip"
 
-      - name: ÃÂ°ÃÂÃÂÃÂ¦ Install dependencies
+      - name: Install dependencies
         run: pip install anthropic requests
 
-            - name: Ã¢ÂÂ Check Python syntax
+            - name: Check Python syntax
         run: python -m py_compile scripts/generate_articles.py
 
-- name: ÃÂ°ÃÂÃÂÃÂ Generate articles
+- name: Generate articles
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/generate_articles.py
 
-      - name: ÃÂ°ÃÂÃÂÃÂ Commit & push new articles
+      - name: Commit & push new articles
         run: |
           git config --local user.email "bot@liverpool-lookout.com"
-          git config --local user.name "Liverpool Lookout Bot ÃÂ°ÃÂÃÂ¤ÃÂ"
+          git config --local user.name "Liverpool Lookout Bot"
           git add site/content/posts/
           if git diff --staged --quiet; then
             echo "No new articles to commit."
           else
             ARTICLE_COUNT=$(git diff --staged --name-only | wc -l)
-            git commit -m "ÃÂ°ÃÂÃÂ¤ÃÂ Auto-publish ${ARTICLE_COUNT} articles ÃÂ¢ÃÂÃÂ $(date -u +'%d %b %Y %H:%M UTC')"
+            git commit -m "Auto-publish ${ARTICLE_COUNT} articles - $(date -u +'%d %b %Y %H:%M UTC')"
             git push
-            echo "ÃÂ¢ÃÂÃÂ Pushed ${ARTICLE_COUNT} new articles."
+            echo "Pushed ${ARTICLE_COUNT} new articles."
           fi
