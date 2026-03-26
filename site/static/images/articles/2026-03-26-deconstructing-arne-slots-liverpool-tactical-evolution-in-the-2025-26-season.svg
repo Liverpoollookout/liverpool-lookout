@@ -1,0 +1,110 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch -->
+  <rect x="80" y="40" width="640" height="340" fill="#1a4d2e" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="50" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Center spot -->
+  <circle cx="400" cy="210" r="4" fill="#FFFFFF"/>
+  
+  <!-- Goal areas -->
+  <rect x="80" y="130" width="80" height="160" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="640" y="130" width="80" height="160" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Penalty areas -->
+  <rect x="80" y="80" width="120" height="260" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="600" y="80" width="120" height="260" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#F6EB61" font-family="Arial, sans-serif">SLOT'S 4-2-3-1 SYSTEM</text>
+  
+  <!-- Formation label -->
+  <text x="400" y="405" font-size="14" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif">Pressing Trigger & Build-up Play</text>
+  
+  <!-- Defensive line (4 defenders) -->
+  <!-- LB -->
+  <circle cx="150" cy="120" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="150" y="125" font-size="10" text-anchor="middle" fill="#FFFFFF" font-weight="bold" font-family="Arial, sans-serif">LB</text>
+  
+  <!-- CB Left -->
+  <circle cx="250" cy="100" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="250" y="105" font-size="10" text-anchor="middle" fill="#FFFFFF" font-weight="bold" font-family="Arial, sans-serif">CB</text>
+  
+  <!-- CB Right -->
+  <circle cx="550" cy="100" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="550" y="105" font-size="10" text-anchor="middle" fill="#FFFFFF" font-weight="bold" font-family="Arial, sans-serif">CB</text>
+  
+  <!-- RB -->
+  <circle cx="650" cy="120" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="650" y="125" font-size="10" text-anchor="middle" fill="#FFFFFF" font-weight="bold" font-family="Arial, sans-serif">RB</text>
+  
+  <!-- Midfield line (2 DMs) -->
+  <!-- DM Left -->
+  <circle cx="300" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="300" y="215" font-size="9" text-anchor="middle" fill="#FFFFFF" font-weight="bold" font-family="Arial, sans-serif">DM</text>
+  
+  <!-- DM Right -->
+  <circle cx="500" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="500" y="215" font-size="9" text-anchor="middle" fill="#FFFFFF" font-weight="bold" font-family="Arial, sans-serif">DM</text>
+  
+  <!-- Attacking midfield line (3 players) -->
+  <!-- LM -->
+  <circle cx="200" cy="280" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="200" y="285" font-size="9" text-anchor="middle" fill="#FFFFFF" font-weight="bold" font-family="Arial, sans-serif">AM</text>
+  
+  <!-- CM/Playmaker -->
+  <circle cx="400" cy="300" r="12" fill="#C8102E" stroke="#F6EB61" stroke-width="2"/>
+  <text x="400" y="305" font-size="9" text-anchor="middle" fill="#FFFFFF" font-weight="bold" font-family="Arial, sans-serif">CM</text>
+  
+  <!-- RM -->
+  <circle cx="600" cy="280" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="600" y="285" font-size="9" text-anchor="middle" fill="#FFFFFF" font-weight="bold" font-family="Arial, sans-serif">AM</text>
+  
+  <!-- Striker -->
+  <circle cx="400" cy="350" r="14" fill="#C8102E" stroke="#F6EB61" stroke-width="3"/>
+  <text x="400" y="356" font-size="10" text-anchor="middle" fill="#FFFFFF" font-weight="bold" font-family="Arial, sans-serif">ST</text>
+  
+  <!-- Pressing arrows (sketchy style) -->
+  <!-- From CB to pressing -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- High pressing trigger lines -->
+  <path d="M 250 115 Q 280 160 300 190" stroke="#F6EB61" stroke-width="2" fill="none" stroke-dasharray="4,2" marker-end="url(#arrowhead)"/>
+  <path d="M 550 115 Q 520 160 500 190" stroke="#F6EB61" stroke-width="2" fill="none" stroke-dasharray="4,2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Build-up play connectors -->
+  <line x1="250" y1="100" x2="300" y2="210" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
+  <line x1="550" y1="100" x2="500" y2="210" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
+  
+  <!-- Formation info boxes -->
+  <rect x="50" y="320" width="140" height="65" fill="none" stroke="#F6EB61" stroke-width="2" rx="5"/>
+  <text x="120" y="335" font-size="11" text-anchor="middle" fill="#F6EB61" font-weight="bold" font-family="Arial, sans-serif">PRESSING ZONES</text>
+  <line x1="55" y1="340" x2="185" y2="340" stroke="#F6EB61" stroke-width="1"/>
+  <text x="60" y="353" font-size="9" fill="#FFFFFF" font-family="Arial, sans-serif">• High press (CB)</text>
+  <text x="60" y="365" font-size="9" fill="#FFFFFF" font-family="Arial, sans-serif">• Wing triggers</text>
+  <text x="60" y="377" font-size="9" fill="#FFFFFF" font-family="Arial, sans-serif">• Compact shape</text>
+  
+  <rect x="610" y="320" width="140" height="65" fill="none" stroke="#F6EB61" stroke-width="2" rx="5"/>
+  <text x="680" y="335" font-size="11" text-anchor="middle" fill="#F6EB61" font-weight="bold" font-family="Arial, sans-serif">STRUCTURE</text>
+  <line x1="615" y1="340" x2="745" y2="340" stroke="#F6EB61" stroke-width="1"/>
+  <text x="620" y="353" font-size="9" fill="#FFFFFF" font-family="Arial, sans-serif">• 4 Defenders</text>
+  <text x="620" y="365" font-size="9" fill="#FFFFFF" font-family="Arial, sans-serif">• 2 Deep Mids</text>
+  <text x="620" y="377" font-size="9" fill="#FFFFFF" font-family="Arial, sans-serif">• 3 Attacking Mids</text>
+  
+  <!-- Sketch marks for illustration effect -->
+  <line x1="100" y1="50" x2="95" y2="55" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="700" y1="60" x2="705" y2="65" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="90" y1="380" x2="85" y2="375" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="710" y1="370" x2="715" y2="375" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+</svg>
