@@ -1,0 +1,113 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" font-size="28" font-weight="bold" fill="#F6EB61" text-anchor="middle" font-family="sans-serif">MATCH PREVIEW</text>
+  
+  <!-- Pitch -->
+  <rect x="80" y="70" width="640" height="310" fill="#1a5c3a" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="70" x2="400" y2="380" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="225" r="35" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="400" cy="225" r="3" fill="#FFFFFF"/>
+  
+  <!-- Left penalty area -->
+  <rect x="80" y="140" width="80" height="170" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Right penalty area -->
+  <rect x="640" y="140" width="80" height="170" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Left goal area -->
+  <rect x="80" y="175" width="40" height="100" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Right goal area -->
+  <rect x="680" y="175" width="40" height="100" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Liverpool Formation (4-3-3) - Left side in red -->
+  <!-- Goalkeeper -->
+  <circle cx="110" cy="225" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="110" y="250" font-size="11" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">GK</text>
+  
+  <!-- Defenders -->
+  <circle cx="200" cy="130" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="200" y="152" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif">LB</text>
+  
+  <circle cx="200" cy="225" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="200" y="247" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif">CB</text>
+  
+  <circle cx="200" cy="320" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="200" y="342" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif">RB</text>
+  
+  <circle cx="170" cy="270" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="170" y="292" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif">CB</text>
+  
+  <!-- Midfielders -->
+  <circle cx="310" cy="165" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="310" y="187" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif">CM</text>
+  
+  <circle cx="310" cy="225" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="310" y="247" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif">CM</text>
+  
+  <circle cx="310" cy="285" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="310" y="307" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif">CM</text>
+  
+  <!-- Forwards -->
+  <circle cx="520" cy="120" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="520" y="142" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif">LW</text>
+  
+  <circle cx="520" cy="225" r="12" fill="#C8102E" stroke="#F6EB61" stroke-width="2"/>
+  <text x="520" y="247" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">ST</text>
+  
+  <circle cx="520" cy="330" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="520" y="352" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif">RW</text>
+  
+  <!-- Opposition Formation (4-2-3-1) - Right side in navy -->
+  <!-- Goalkeeper -->
+  <circle cx="690" cy="225" r="12" fill="#0a1628" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="690" y="250" font-size="11" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">GK</text>
+  
+  <!-- Defenders -->
+  <circle cx="600" cy="130" r="11" fill="#0a1628" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="600" cy="225" r="11" fill="#0a1628" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="600" cy="320" r="11" fill="#0a1628" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="630" cy="270" r="11" fill="#0a1628" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Midfielders -->
+  <circle cx="490" cy="190" r="11" fill="#0a1628" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="490" cy="260" r="11" fill="#0a1628" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Attacking players -->
+  <circle cx="380" cy="140" r="10" fill="#0a1628" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="380" cy="225" r="10" fill="#0a1628" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="380" cy="310" r="10" fill="#0a1628" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="320" cy="225" r="11" fill="#0a1628" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Key Battle Highlights -->
+  <g stroke="#F6EB61" stroke-width="2" fill="none" stroke-dasharray="5,3">
+    <line x1="520" y1="225" x2="380" y2="225"/>
+  </g>
+  
+  <!-- Stats boxes -->
+  <g font-family="sans-serif" font-size="12">
+    <!-- Liverpool Info -->
+    <rect x="85" y="385" width="180" height="25" fill="#C8102E" stroke="#FFFFFF" stroke-width="1"/>
+    <text x="95" y="402" fill="#FFFFFF" font-weight="bold">LIVERPOOL FC</text>
+    <text x="265" y="402" fill="#C8102E" font-size="11">Form: Strong</text>
+    
+    <!-- Opposition Info -->
+    <rect x="535" y="385" width="180" height="25" fill="#0a1628" stroke="#FFFFFF" stroke-width="1"/>
+    <text x="545" y="402" fill="#FFFFFF" font-weight="bold">OPPOSITION</text>
+    <text x="720" y="402" fill="#F6EB61" font-size="11">In Form</text>
+  </g>
+  
+  <!-- Decorative corners -->
+  <line x1="85" y1="75" x2="105" y2="75" stroke="#F6EB61" stroke-width="2"/>
+  <line x1="85" y1="75" x2="85" y2="95" stroke="#F6EB61" stroke-width="2"/>
+  
+  <line x1="715" y1="75" x2="735" y2="75" stroke="#F6EB61" stroke-width="2"/>
+  <line x1="735" y1="75" x2="735" y2="95" stroke="#F6EB61" stroke-width="2"/>
+</svg>
