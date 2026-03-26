@@ -185,11 +185,14 @@ def date_slug_prefix():
 
 # ARTICLE PROMPTS
 BASE_INSTRUCTIONS = """
-You are a professional football journalist specialising in Liverpool FC.
-Write authoritative, engaging, original content for LiverpoolLookout.com.
-Always use UK English spelling (colour, defence, favour, etc.).
-Never make up specific scorelines, quotes from named people, or confirmed transfer fees unless given in context.
-Use "according to reports", "sources suggest" for rumours.
+You are a professional football journalist specialising in Liverpool FC for LiverpoolLookout.com.
+CRITICAL RULES you MUST follow on every article:
+- Every article MUST be specifically about Liverpool FC: players, staff, matches, tactics, transfers, or history. NEVER write generic football content.
+- Always name specific Liverpool FC players from the key_players list in context.
+- Always use UK English spelling (colour, defence, favour, etc.).
+- Never fabricate specific scorelines, direct quotes, or confirmed transfer fees unless provided in context.
+- Label all transfer rumours clearly: use "according to reports", "sources suggest", "it is claimed".
+- Every JSON response MUST include: meta_title (max 60 chars, must contain "Liverpool" or a player surname), meta_description (max 155 chars, LFC-focused), keywords (5 specific LFC tags).
 """
 
 PROMPTS = {
@@ -199,67 +202,67 @@ Context data: {json.dumps(ctx, indent=2)}
 Cover: expected lineups, key battles, tactical approach, recent form, prediction.
 Make the headline compelling and include both team names.
 End with a confident prediction section.
-Return ONLY valid JSON: {{"title": "...", "meta_description": "...(max 155 chars)", "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Match Previews"}}
+Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Match Previews"}}
 """,
     "match_report": lambda ctx: f"""{BASE_INSTRUCTIONS}
 Write a Liverpool FC MATCH REPORT article (750-950 words).
 Context data: {json.dumps(ctx, indent=2)}
 Cover: match narrative, key moments, goals, standout performers, manager reaction tone.
 Include a "## Player Ratings" section (1-10) at the end.
-Return ONLY valid JSON: {{"title": "...", "meta_description": "...(max 155 chars)", "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Match Reports"}}
+Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Match Reports"}}
 """,
     "player_spotlight": lambda ctx: f"""{BASE_INSTRUCTIONS}
 Write a Liverpool FC PLAYER SPOTLIGHT article (650-850 words).
 Focus player: {ctx.get("player", "Mohamed Salah")}
 Context data: {json.dumps(ctx, indent=2)}
 Cover: recent form, role in the team, strengths, areas to improve, statistics context, fan verdict.
-Return ONLY valid JSON: {{"title": "...", "meta_description": "...(max 155 chars)", "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Player Analysis"}}
+Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Player Analysis"}}
 """,
     "transfer_news": lambda ctx: f"""{BASE_INSTRUCTIONS}
 Write a Liverpool FC TRANSFER NEWS article (550-750 words).
 Context data: {json.dumps(ctx, indent=2)}
 Cover: potential targets, reported links, likely fees (use "reported" language), how they would fit at Anfield.
 Be responsible - clearly label rumours vs confirmed news.
-Return ONLY valid JSON: {{"title": "...", "meta_description": "...(max 155 chars)", "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Transfer News"}}
+Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Transfer News"}}
 """,
     "tactical_analysis": lambda ctx: f"""{BASE_INSTRUCTIONS}
 Write a Liverpool FC TACTICAL ANALYSIS article (750-950 words).
 Context data: {json.dumps(ctx, indent=2)}
 Cover: Arne Slot's system (4-2-3-1 / 4-3-3 hybrid), pressing triggers, build-up patterns, set-piece routines.
 Use proper tactical terminology.
-Return ONLY valid JSON: {{"title": "...", "meta_description": "...(max 155 chars)", "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Tactical Analysis"}}
+Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Tactical Analysis"}}
 """,
     "stats_analysis": lambda ctx: f"""{BASE_INSTRUCTIONS}
 Write a Liverpool FC STATS AND DATA article (650-850 words).
 Context data: {json.dumps(ctx, indent=2)}
 Focus on one statistical theme. Use plausible, contextually appropriate statistics.
 Clearly present stats in markdown tables where appropriate.
-Return ONLY valid JSON: {{"title": "...", "meta_description": "...(max 155 chars)", "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Stats & Data"}}
+Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Stats & Data"}}
 """,
     "team_news": lambda ctx: f"""{BASE_INSTRUCTIONS}
 Write a Liverpool FC TEAM NEWS article (450-650 words).
 Context data: {json.dumps(ctx, indent=2)}
 Cover: injury updates, returns from fitness, suspensions, squad rotation plans.
-Return ONLY valid JSON: {{"title": "...", "meta_description": "...(max 155 chars)", "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Team News"}}
+Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Team News"}}
 """,
     "historical": lambda ctx: f"""{BASE_INSTRUCTIONS}
 Write an "On This Day" or HISTORICAL RETROSPECTIVE article about Liverpool FC (750-950 words).
 Context data: {json.dumps(ctx, indent=2)}
 Choose a famous match, signing, trophy, or moment in Liverpool history. Rich storytelling approach.
-Return ONLY valid JSON: {{"title": "...", "meta_description": "...(max 155 chars)", "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "History"}}
+Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "History"}}
 """,
     "opinion": lambda ctx: f"""{BASE_INSTRUCTIONS}
 Write an OPINION COLUMN article about Liverpool FC (600-800 words).
 Context data: {json.dumps(ctx, indent=2)}
 Take a clear, well-argued stance on a topical Liverpool FC debate.
 Structure: hook intro, argument, counter-argument, your verdict.
-Return ONLY valid JSON: {{"title": "...", "meta_description": "...(max 155 chars)", "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Opinion"}}
+Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Opinion"}}
 """,
     "youth_academy": lambda ctx: f"""{BASE_INSTRUCTIONS}
 Write a Liverpool FC ACADEMY AND YOUTH article (550-750 words).
 Context data: {json.dumps(ctx, indent=2)}
 Cover rising talent from Liverpool's academy, U21s, or loan players.
-Return ONLY valid JSON: {{"title": "...", "meta_description": "...(max 155 chars)", "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Academy"}}
+Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Academy"}}
 """,
 }
 
@@ -292,16 +295,22 @@ def save_article(article, article_type, existing_slugs):
     filepath = os.path.join(CONTENT_DIR, filename)
     tags = article.get("tags", ["Liverpool FC", "LFC", "Premier League"])
     category = article.get("category", "News")
+    meta_title = article.get("meta_title", title)[:60]
     meta_desc = article.get("meta_description", "")[:155]
+    keywords = article.get("keywords", ["Liverpool FC", "LFC", "Premier League", "Anfield", "Arne Slot"])
     content_body = article.get("content", "")
     svg_content = get_animated_svg(article_type, title)
     tags_yaml = "\n".join(f'  - "{t}"' for t in tags)
+    keywords_yaml = "\n".join(f'  - "{k}"' for k in keywords)
     frontmatter = f"""---
 title: "{title.replace(chr(34), chr(39))}"
+meta_title: "{meta_title.replace(chr(34), chr(39))}"
 date: {iso_date}
 description: "{meta_desc.replace(chr(34), chr(39))}"
 tags:
 {tags_yaml}
+keywords:
+{keywords_yaml}
 categories:
   - "{category}"
 article_type: "{article_type}"
@@ -325,6 +334,7 @@ def build_article_plan(fixtures, results, headlines):
         "stadium": STADIUM,
         "season": SEASON,
         "key_players": KEY_PLAYERS,
+        "departed_players": DEPARTED_PLAYERS,
         "recent_headlines": headlines[:5],
         "today": datetime.now(timezone.utc).strftime("%d %B %Y"),
         "day_of_week": datetime.now(timezone.utc).strftime("%A"),
@@ -334,20 +344,27 @@ def build_article_plan(fixtures, results, headlines):
     recent_results = results[:3] if results else []
     players_pool = KEY_PLAYERS.copy()
     random.shuffle(players_pool)
-    plan = [
-        ("match_preview", {**base, "next_match": next_match, "recent_form": recent_results, "focus": "detailed match preview with lineup predictions"}),
-        ("player_spotlight", {**base, "player": players_pool[0], "recent_results": recent_results, "focus": "current season form and contribution"}),
-        ("transfer_news", {**base, "focus": "summer transfer targets and potential incomings", "rumour_tier": "Tier 2-3 links from European clubs"}),
-        ("tactical_analysis", {**base, "recent_results": recent_results, "focus": "pressing system, high line, and build-up play under Arne Slot"}),
-        ("stats_analysis", {**base, "focus": "Premier League attacking statistics comparison - top 6 clubs", "metric_theme": random.choice(["xG and xGA", "pressing intensity", "goals from set pieces", "clean sheet ratio", "shots on target percentage"])}),
-        ("team_news", {**base, "upcoming": next_match, "focus": "injury and fitness update ahead of next fixture"}),
-        ("historical", {**base, "focus": "famous Liverpool FC moment, signing or match from club history", "era_hint": random.choice(["Shankly era (1959-74)", "Paisley golden age (1974-83)", "Dalglish era", "Gerrard years (2000s)", "Klopp era (2015-2024)"])}),
-        ("player_spotlight", {**base, "player": players_pool[1], "focus": "xG contribution, progressive carries, and impact on pressing"}),
-        ("opinion", {**base, "last_result": last_result, "topic": random.choice(["Is Slot's Liverpool better than Klopp's?", "The title race - can Liverpool hold on?", "Why Liverpool must prioritise the summer transfer window", "The case for promoting an academy player to first-team", "Liverpool's injury crisis: is the fixture calendar too demanding?"])}),
-        ("youth_academy", {**base, "focus": "Liverpool Academy graduates and current U21 standouts", "player_hint": random.choice(["Ben Doak", "Bobby Clark", "Luke Chambers", "James McConnell", "Trey Nyoni"])}),
+
+    # Full pool of Liverpool-specific article types
+    all_articles = [
+        ("match_preview", {**base, "next_match": next_match, "recent_form": recent_results, "focus": "detailed Liverpool FC match preview with lineup predictions, key player battles and Slot's tactical approach"}),
+        ("match_report", {**base, "last_result": last_result, "recent_results": recent_results, "focus": "Liverpool FC match report - player ratings, key moments, Slot tactical decisions"}),
+        ("player_spotlight", {**base, "player": players_pool[0], "recent_results": recent_results, "focus": "current season form, statistics and contribution to Liverpool FC"}),
+        ("player_spotlight", {**base, "player": players_pool[1], "focus": "role in Liverpool FC system, strengths, areas for improvement this season"}),
+        ("transfer_news", {**base, "focus": "Liverpool FC transfer targets - specific player links to Anfield, fee estimates, likelihood", "rumour_tier": "Tier 1-2 links from credible sources"}),
+        ("transfer_news", {**base, "focus": "Liverpool FC transfer rumours - outgoings, contract situations, potential departures from Anfield", "rumour_tier": "Tier 2 links"}),
+        ("tactical_analysis", {**base, "recent_results": recent_results, "focus": "Liverpool FC tactical breakdown - Slot 4-2-3-1 or 4-3-3 system, pressing triggers, build-up patterns, set pieces"}),
+        ("stats_analysis", {**base, "focus": "Liverpool FC player statistics deep dive", "metric_theme": random.choice(["Salah goal contributions vs Premier League top scorers", "Liverpool xG and xGA vs top 6", "Gravenberch progressive passes and ball recoveries", "Liverpool pressing intensity and PPDA stats", "Van Dijk aerial duels and clearances", "Liverpool goals from set pieces this season", "Szoboszlai shot-creating actions and key passes"])}),
+        ("team_news", {**base, "upcoming": next_match, "focus": "Liverpool FC injury and fitness update - availability for next fixture, expected return dates, Slot press conference hints"}),
+        ("historical", {**base, "focus": "famous Liverpool FC moment, legendary player or iconic match from Anfield history", "era_hint": random.choice(["Shankly era (1959-74)", "Paisley golden age (1974-83)", "Dalglish era", "Gerrard years (2000s)", "Klopp era (2015-2024)", "Slot's debut season (2024-25)"])}),
+        ("opinion", {**base, "last_result": last_result, "topic": random.choice(["Why Salah is irreplaceable for Liverpool FC", "Is Slot already better than Klopp?", "Liverpool's must-have summer transfer priorities", "Why Van Dijk deserves the Ballon d'Or vote", "Liverpool's title credentials - a realistic assessment", "The academy player ready for Slot's first team"])}),
+        ("youth_academy", {**base, "focus": "Liverpool FC Academy graduate scouting report and first-team potential", "player_hint": random.choice(["Ben Doak", "Bobby Clark", "Luke Chambers", "James McConnell", "Trey Nyoni"])}),
     ]
-    random.shuffle(plan)
-    return plan
+
+    # Pick 3 articles per run - shuffle for variety across runs
+    random.shuffle(all_articles)
+    return all_articles[:3]
+
 
 # MAIN
 def main():
