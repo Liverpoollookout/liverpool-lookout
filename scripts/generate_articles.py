@@ -11,7 +11,7 @@ import json
 import time
 import random
 import re
-import request
+import requests
 from datetime import datetime, timezone, timedelta
 import anthropic
 
