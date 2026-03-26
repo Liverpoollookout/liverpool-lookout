@@ -24,6 +24,13 @@
     {{ with $latest }}
     {{ range . }}
     <section class="hero" aria-label="Lead story">
+        {{ with .Params.image }}
+        <div class="hero-image">
+            <a href="{{ $.Permalink }}">
+                <img src="{{ . }}" alt="{{ $.Title }}" loading="eager" class="hero-img">
+            </a>
+        </div>
+        {{ end }}
         <div class="hero-main">
             {{ with .Params.categories }}
             <span class="card-category">{{ index . 0 }}</span>
