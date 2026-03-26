@@ -11,7 +11,7 @@ import json
 import time
 import random
 import re
-import requests
+import request
 from datetime import datetime, timezone, timedelta
 import anthropic
 
@@ -416,9 +416,11 @@ def build_article_plan(fixtures, results, headlines):
         ("youth_academy", {**base, "focus": "Liverpool FC Academy graduate scouting report and first-team potential", "player_hint": random.choice(["Ben Doak", "Bobby Clark", "Luke Chambers", "James McConnell", "Trey Nyoni"])}),
     ]
 
-    # Pick 3 articles per run - shuffle for variety across runs
-    random.shuffle(all_articles)
-    return all_articles[:3]
+        # Always include a match_report; fill remaining 2 slots from shuffled pool
+            match_reports = [a for a in all_articles if a[0] == "match_report"]
+                other_articles = [a for a in all_articles if a[0] != "match_report"]
+                    random.shuffle(other_articles)
+                        return match_reports[:1] + other_articles[:2]
 
 
 # MAIN
