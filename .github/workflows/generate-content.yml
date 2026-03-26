@@ -48,7 +48,7 @@ jobs:
         run: |
           git config --local user.email "bot@liverpool-lookout.com"
           git config --local user.name "Liverpool Lookout Bot"
-          git add site/content/posts/
+          git add site/content/posts/ site/static/images/articles/
           if git diff --staged --quiet; then
             echo "No new articles to commit."
           else
