@@ -1,0 +1,91 @@
+<svg viewBox="0 0 800 420" class="article-svg" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline -->
+  <rect x="50" y="40" width="700" height="340" fill="none" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Pitch center line -->
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="50" fill="none" stroke="#2d5016" stroke-width="2"/>
+  <circle cx="400" cy="210" r="3" fill="#2d5016"/>
+  
+  <!-- Penalty areas -->
+  <rect x="50" y="120" width="100" height="180" fill="none" stroke="#2d5016" stroke-width="2"/>
+  <rect x="650" y="120" width="100" height="180" fill="none" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Goal areas -->
+  <rect x="50" y="155" width="60" height="110" fill="none" stroke="#2d5016" stroke-width="2"/>
+  <rect x="690" y="155" width="60" height="110" fill="none" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Corner arcs -->
+  <path d="M 50 40 Q 60 40 60 50" fill="none" stroke="#2d5016" stroke-width="1.5"/>
+  <path d="M 750 40 Q 740 40 740 50" fill="none" stroke="#2d5016" stroke-width="1.5"/>
+  <path d="M 50 380 Q 60 380 60 370" fill="none" stroke="#2d5016" stroke-width="1.5"/>
+  <path d="M 750 380 Q 740 380 740 370" fill="none" stroke="#2d5016" stroke-width="1.5"/>
+  
+  <!-- Player position sketches - Red team (left) -->
+  <!-- Goalkeeper -->
+  <circle cx="80" cy="210" r="12" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <rect x="75" y="225" width="10" height="25" fill="none" stroke="#C8102E" stroke-width="2"/>
+  
+  <!-- Defenders -->
+  <circle cx="160" cy="130" r="10" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <rect x="156" y="142" width="8" height="20" fill="none" stroke="#C8102E" stroke-width="2"/>
+  
+  <circle cx="160" cy="210" r="10" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <rect x="156" y="222" width="8" height="20" fill="none" stroke="#C8102E" stroke-width="2"/>
+  
+  <circle cx="160" cy="290" r="10" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <rect x="156" y="302" width="8" height="20" fill="none" stroke="#C8102E" stroke-width="2"/>
+  
+  <!-- Midfielders -->
+  <circle cx="280" cy="100" r="9" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <rect x="276" y="111" width="8" height="18" fill="none" stroke="#C8102E" stroke-width="2"/>
+  
+  <circle cx="280" cy="210" r="9" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <rect x="276" y="221" width="8" height="18" fill="none" stroke="#C8102E" stroke-width="2"/>
+  
+  <circle cx="280" cy="320" r="9" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <rect x="276" y="331" width="8" height="18" fill="none" stroke="#C8102E" stroke-width="2"/>
+  
+  <!-- Forwards/Attackers -->
+  <circle cx="380" cy="150" r="9" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <rect x="376" y="161" width="8" height="18" fill="none" stroke="#C8102E" stroke-width="2"/>
+  
+  <circle cx="380" cy="270" r="9" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <rect x="376" y="281" width="8" height="18" fill="none" stroke="#C8102E" stroke-width="2"/>
+  
+  <!-- Player position sketches - Opponent (right, navy) -->
+  <!-- Goalkeeper -->
+  <circle cx="720" cy="210" r="12" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="715" y="225" width="10" height="25" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Defenders -->
+  <circle cx="640" cy="130" r="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="636" y="142" width="8" height="20" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <circle cx="640" cy="210" r="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="636" y="222" width="8" height="20" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <circle cx="640" cy="290" r="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="636" y="302" width="8" height="20" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Key moment indicator - highlight with gold circle -->
+  <circle cx="350" cy="180" r="35" fill="none" stroke="#F6EB61" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Title text -->
+  <text x="400" y="410" font-family="sans-serif" font-size="16" font-weight="bold" fill="#C8102E" text-anchor="middle">MATCH REPORT</text>
+  
+  <!-- Slot tactical analysis subtitle -->
+  <text x="400" y="395" font-family="sans-serif" font-size="12" fill="#F6EB61" text-anchor="middle">Tactical Decisions & Player Ratings</text>
+  
+  <!-- Formation indicator -->
+  <text x="70" y="35" font-family="sans-serif" font-size="10" fill="#FFFFFF">LFC</text>
+  <text x="730" y="35" font-family="sans-serif" font-size="10" fill="#FFFFFF">OPP</text>
+  
+  <!-- Decorative line accent -->
+  <line x1="50" y1="25" x2="150" y2="25" stroke="#C8102E" stroke-width="3"/>
+</svg>

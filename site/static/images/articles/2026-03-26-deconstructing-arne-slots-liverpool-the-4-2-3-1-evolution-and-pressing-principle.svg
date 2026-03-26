@@ -1,0 +1,86 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <defs>
+    <style>
+      .pitch-line { stroke: #FFFFFF; stroke-width: 2; fill: none; }
+      .pitch-text { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
+      .player-circle { fill: #C8102E; stroke: #FFFFFF; stroke-width: 2; }
+      .player-label { font-family: Arial, sans-serif; font-size: 12px; fill: #FFFFFF; font-weight: bold; }
+      .title-text { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #F6EB61; }
+      .subtitle-text { font-family: Arial, sans-serif; font-size: 14px; fill: #FFFFFF; }
+      .arrow-press { stroke: #F6EB61; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+
+  <!-- Pitch -->
+  <rect x="80" y="60" width="640" height="320" fill="#1a4d2e" stroke="#FFFFFF" stroke-width="3"/>
+  
+  <!-- Pitch lines -->
+  <line class="pitch-line" x1="80" y1="220" x2="720" y2="220"/>
+  <circle class="pitch-line" cx="400" cy="220" r="60"/>
+  <circle class="pitch-line" cx="400" cy="220" r="3"/>
+  
+  <!-- Penalty areas -->
+  <rect class="pitch-line" x="80" y="140" width="120" height="160"/>
+  <rect class="pitch-line" x="600" y="140" width="120" height="160"/>
+  
+  <!-- Goal areas -->
+  <rect class="pitch-line" x="80" y="170" width="60" height="100"/>
+  <rect class="pitch-line" x="660" y="170" width="60" height="100"/>
+
+  <!-- LIVERPOOL 4-2-3-1 Formation (Red team - left side) -->
+  <!-- GK -->
+  <circle class="player-circle" cx="110" cy="220" r="18"/>
+  <text class="player-label" x="105" y="227" text-anchor="middle">GK</text>
+
+  <!-- Defenders (4) -->
+  <circle class="player-circle" cx="200" cy="140" r="18"/>
+  <text class="player-label" x="200" y="147" text-anchor="middle">LB</text>
+  
+  <circle class="player-circle" cx="200" cy="220" r="18"/>
+  <text class="player-label" x="200" y="227" text-anchor="middle">CB</text>
+  
+  <circle class="player-circle" cx="200" cy="300" r="18"/>
+  <text class="player-label" x="200" y="307" text-anchor="middle">CB</text>
+  
+  <circle class="player-circle" cx="200" cy="280" r="18"/>
+  <text class="player-label" x="200" y="287" text-anchor="middle">RB</text>
+
+  <!-- Midfielders (2) - Pivot -->
+  <circle class="player-circle" cx="310" cy="190" r="18"/>
+  <text class="player-label" x="310" y="197" text-anchor="middle">DM</text>
+  
+  <circle class="player-circle" cx="310" cy="250" r="18"/>
+  <text class="player-label" x="310" y="257" text-anchor="middle">DM</text>
+
+  <!-- Attacking Midfielders (3) -->
+  <circle class="player-circle" cx="420" cy="140" r="18"/>
+  <text class="player-label" x="420" y="147" text-anchor="middle">LW</text>
+  
+  <circle class="player-circle" cx="420" cy="220" r="18"/>
+  <text class="player-label" x="420" y="227" text-anchor="middle">CAM</text>
+  
+  <circle class="player-circle" cx="420" cy="300" r="18"/>
+  <text class="player-label" x="420" y="307" text-anchor="middle">RW</text>
+
+  <!-- Striker (1) -->
+  <circle class="player-circle" cx="550" cy="220" r="18"/>
+  <text class="player-label" x="550" y="227" text-anchor="middle">ST</text>
+
+  <!-- Pressing Triggers - Gold arrows showing pressing direction -->
+  <path class="arrow-press" d="M 420 140 Q 480 120 530 200"/>
+  <path class="arrow-press" d="M 420 300 Q 480 320 530 240"/>
+  <path class="arrow-press" d="M 310 190 Q 360 170 410 140"/>
+  <path class="arrow-press" d="M 310 250 Q 360 270 410 300"/>
+
+  <!-- Title -->
+  <text class="title-text" x="400" y="35" text-anchor="middle">SLOT'S 4-2-3-1 SYSTEM</text>
+  
+  <!-- Subtitle -->
+  <text class="subtitle-text" x="400" y="390" text-anchor="middle">High Press Triggers • Compact Shape • Wide Attacking Threat</text>
+</svg>
