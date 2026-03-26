@@ -1,3 +1,10 @@
+{{ if .Params.image }}
+<div class="card-img-wrap">
+  <a href="{{ .Permalink }}">
+    <img src="{{ .Params.image }}" alt="{{ .Title }}" loading="lazy" class="card-article-img">
+  </a>
+</div>
+{{ else }}
 {{ $cat := "" }}
 {{ with .Params.categories }}{{ $cat = index . 0 | lower }}{{ end }}
 <div class="card-img-wrap">
@@ -119,3 +126,4 @@
                                                                                                                                                                       </svg>
                                                                                                                                                                       {{ end }}
                                                                                                                                                                       </div>
+{{ end }}
