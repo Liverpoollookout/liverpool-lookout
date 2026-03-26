@@ -36,15 +36,15 @@ jobs:
       - name: Install dependencies
         run: pip install anthropic requests
 
-            - name: Check Python syntax
+      - name: Check Python syntax
         run: python -m py_compile scripts/generate_articles.py
 
-- name: Generate articles
+      - name: Generate articles
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/generate_articles.py
 
-      - name: Commit & push new articles
+      - name: Commit and push new articles
         run: |
           git config --local user.email "bot@liverpool-lookout.com"
           git config --local user.name "Liverpool Lookout Bot"
