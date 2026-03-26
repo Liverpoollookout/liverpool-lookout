@@ -23,6 +23,7 @@ STADIUM = "Anfield"
 SEASON = "2025-26"
 CONTENT_DIR = "site/content/posts"
 STATIC_DIR = "site/static"
+IMAGES_DIR = "site/static/images/articles"
 
 # Current 2025-26 squad - updated March 2025
 # IMPORTANT: Trent Alexander-Arnold left for Real Madrid in summer 2024.
@@ -267,6 +268,57 @@ Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpo
 }
 
 # GENERATION
+
+def generate_illustration(client, article_type, context, slug):
+    """Generate a unique SVG sketch illustration of the player/subject for this article."""
+    if not client:
+        return None
+    subject = context.get("player", context.get("focus", "Liverpool FC"))
+    # Build a descriptive subject string
+    if isinstance(subject, list):
+        subject = subject[0] if subject else "Liverpool FC"
+    subject = str(subject)[:80]
+    prompt = (
+        "You are an SVG illustrator. Create a stylised sketch/drawing illustration for a Liverpool FC blog post.\n\n"
+        f"Subject: {subject}\n"
+        f"Article type: {article_type}\n\n"
+        "REQUIREMENTS:\n"
+        "- Return ONLY a valid SVG element, nothing else. No markdown, no explanation.\n"
+        "- viewBox=\"0 0 800 420\"\n"
+        "- Dark navy background (#0a1628)\n"
+        "- Sketch/drawing style using strokes and shapes\n"
+        "- If subject is a player: draw a simplified sketched figure in Liverpool red kit (#C8102E)\n"
+        "- If tactical/stats: draw a stylised pitch diagram with Liverpool red accents\n"
+        "- If transfer news: draw a figure silhouette with directional arrows\n"
+        "- Include Liverpool FC colours: red #C8102E, white #FFFFFF, navy #0a1628, gold #F6EB61\n"
+        "- Add the subject name as text in the illustration\n"
+        "- SVG must be self-contained (no external images, no external fonts)\n"
+        "- Add class=\"article-svg\" to the svg element\n"
+        "- Return only raw SVG starting with <svg and ending with </svg>"
+    )
+    try:
+        message = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=3000,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        raw = message.content[0].text.strip()
+        raw = re.sub(r"^```(?:svg|xml|html)?\s*", "", raw, flags=re.MULTILINE)
+        raw = re.sub(r"\s*```$", "", raw, flags=re.MULTILINE)
+        raw = raw.strip()
+        if not raw.startswith("<svg"):
+            m = re.search(r"(<svg[\s\S]*?</svg>)", raw)
+            raw = m.group(1) if m else None
+        if not raw:
+            return None
+        os.makedirs(IMAGES_DIR, exist_ok=True)
+        img_path = os.path.join(IMAGES_DIR, slug + ".svg")
+        with open(img_path, "w", encoding="utf-8") as f:
+            f.write(raw)
+        return "/images/articles/" + slug + ".svg"
+    except Exception as e:
+        print("  Warning: illustration failed: " + str(e))
+        return None
 def generate_article(client, article_type, context):
     prompt_fn = PROMPTS.get(article_type, PROMPTS["team_news"])
     prompt = prompt_fn(context)
@@ -281,7 +333,7 @@ def generate_article(client, article_type, context):
     raw = raw.strip()
     return json.loads(raw)
 
-def save_article(article, article_type, existing_slugs):
+def save_article(article, article_type, existing_slugs, client=None, context=None):
     now = datetime.now(timezone.utc)
     iso_date = now.strftime("%Y-%m-%dT%H:%M:%SZ")
     prefix = now.strftime("%Y-%m-%d")
@@ -293,6 +345,8 @@ def save_article(article, article_type, existing_slugs):
     existing_slugs.add(slug)
     filename = f"{slug}.md"
     filepath = os.path.join(CONTENT_DIR, filename)
+    # Generate unique illustration for this article
+    image_path = generate_illustration(client, article_type, context or {}, slug) if client else None
     tags = article.get("tags", ["Liverpool FC", "LFC", "Premier League"])
     category = article.get("category", "News")
     meta_title = article.get("meta_title", title)[:60]
@@ -302,11 +356,12 @@ def save_article(article, article_type, existing_slugs):
     svg_content = get_animated_svg(article_type, title)
     tags_yaml = "\n".join(f'  - "{t}"' for t in tags)
     keywords_yaml = "\n".join(f'  - "{k}"' for k in keywords)
+    image_fm = ('\nimage: "' + image_path + '"') if image_path else ""
     frontmatter = f"""---
 title: "{title.replace(chr(34), chr(39))}"
 meta_title: "{meta_title.replace(chr(34), chr(39))}"
 date: {iso_date}
-description: "{meta_desc.replace(chr(34), chr(39))}"
+description: "{meta_desc.replace(chr(34), chr(39))}"{image_fm}
 tags:
 {tags_yaml}
 keywords:
@@ -386,7 +441,7 @@ def main():
         print(f"[{i}/{len(plan)}] Generating {article_type}...")
         try:
             article = generate_article(client, article_type, context)
-            filename = save_article(article, article_type, existing_slugs)
+            filename = save_article(article, article_type, existing_slugs, client=client, context=context)
             print(f"  Saved: {filename}")
             generated += 1
             time.sleep(1.5)
