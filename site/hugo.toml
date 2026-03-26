@@ -6,52 +6,52 @@ enableGitInfo = false
 summaryLength = 40
 
 [build]
-  writeStats = true
+ writeStats = true
 
-  [params]
-    description   = "Your daily source for Liverpool FC news, match reports, transfer rumours, player stats and tactical analysis. Automatically updated 20 times a day."
-      author        = "Liverpool Lookout"
-        logo          = "/images/logo.svg"
-          twitterHandle = "@LiverpoolLookout"
-            # ──────────────────────────────────────────────────────
-              # Google AdSense — replace with your Publisher ID
-                # ──────────────────────────────────────────────────────
-                  adsensePublisher    = "ca-pub-3275999648500965"
-                    adsenseSlotLeaderboard = "1234567890"  # 728x90 - top of article
-                      adsenseSlotInArticle   = "0987654321"  # in-article responsive
-                        adsenseSlotSidebar     = "1122334455"  # 300x250
+ [params]
+ description = "Your daily source for Liverpool FC news, match reports, transfer rumours, player stats and tactical analysis. Automatically updated 20 times a day."
+ author = "Liverpool Lookout"
+ logo = "/images/logo.svg"
+ twitterHandle = "@LiverpoolLookout"
+ # ------------------------------------------------------
+ # Google AdSense
+ # ------------------------------------------------------
+ adsensePublisher = "ca-pub-9962113860155230"
+ adsenseSlotLeaderboard = "1234567890" # 728x90 - top of article
+ adsenseSlotInArticle = "0987654321" # in-article responsive
+ adsenseSlotSidebar = "1122334455" # 300x250
 
-                        [taxonomies]
-                          tag      = "tags"
-                            category = "categories"
+ [taxonomies]
+ tag = "tags"
+ category = "categories"
 
-                            [outputs]
-                              home    = ["HTML", "RSS"]
-                                page    = ["HTML"]
-                                  section = ["HTML", "RSS"]
+ [outputs]
+ home = ["HTML", "RSS"]
+ page = ["HTML"]
+ section = ["HTML", "RSS"]
 
-                                  [pagination]
-                                    pagerSize = 24
+ [pagination]
+ pagerSize = 24
 
-                                    [sitemap]
-                                      changefreq = "hourly"
-                                        priority   = 0.7
-                                          filename   = "sitemap.xml"
+ [sitemap]
+ changefreq = "hourly"
+ priority = 0.7
+ filename = "sitemap.xml"
 
-                                          [markup]
-                                            [markup.goldmark]
-                                                [markup.goldmark.renderer]
-                                                      unsafe = true
-                                                        [markup.highlight]
-                                                            style = "monokai"
+ [markup]
+ [markup.goldmark]
+ [markup.goldmark.renderer]
+ unsafe = true
+ [markup.highlight]
+ style = "monokai"
 
-                                                            [related]
-                                                              includeNewer = true
-                                                                threshold    = 80
-                                                                  toLower      = false
-                                                                    [[related.indices]]
-                                                                        name   = "tags"
-                                                                            weight = 100
-                                                                              [[related.indices]]
-                                                                                  name   = "categories"
-                                                                                      weight = 80
+ [related]
+ includeNewer = true
+ threshold = 80
+ toLower = false
+ [[related.indices]]
+ name = "tags"
+ weight = 100
+ [[related.indices]]
+ name = "categories"
+ weight = 80
