@@ -1,0 +1,83 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="50" cy="50" r="30" fill="#C8102E" opacity="0.1"/>
+  <circle cx="750" cy="370" r="40" fill="#F6EB61" opacity="0.1"/>
+  
+  <!-- Pitch outline sketch -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.8">
+    <!-- Center line -->
+    <line x1="400" y1="80" x2="400" y2="360" stroke-dasharray="5,5"/>
+    <!-- Center circle -->
+    <circle cx="400" cy="220" r="50"/>
+    <!-- Center spot -->
+    <circle cx="400" cy="220" r="4" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Left penalty box sketch -->
+  <g stroke="#C8102E" stroke-width="2.5" fill="none" opacity="0.9">
+    <rect x="80" y="130" width="100" height="180"/>
+    <rect x="80" y="170" width="50" height="100"/>
+  </g>
+  
+  <!-- Right penalty box sketch -->
+  <g stroke="#C8102E" stroke-width="2.5" fill="none" opacity="0.9">
+    <rect x="620" y="130" width="100" height="180"/>
+    <rect x="670" y="170" width="50" height="100"/>
+  </g>
+  
+  <!-- Statistical bars visualization -->
+  <g stroke="#F6EB61" stroke-width="2" fill="none">
+    <!-- Bar 1 -->
+    <line x1="150" y1="280" x2="280" y2="280" stroke-width="8" stroke="#C8102E" opacity="0.7"/>
+    <text x="145" y="300" font-size="12" fill="#FFFFFF" font-family="Arial, sans-serif">PASS %</text>
+    
+    <!-- Bar 2 -->
+    <line x1="520" y1="280" x2="650" y2="280" stroke-width="8" stroke="#C8102E" opacity="0.6"/>
+    <text x="515" y="300" font-size="12" fill="#FFFFFF" font-family="Arial, sans-serif">SHOTS</text>
+    
+    <!-- Bar 3 -->
+    <line x1="150" y1="330" x2="240" y2="330" stroke-width="8" stroke="#C8102E" opacity="0.8"/>
+    <text x="145" y="350" font-size="12" fill="#FFFFFF" font-family="Arial, sans-serif">DRIBBLES</text>
+    
+    <!-- Bar 4 -->
+    <line x1="520" y1="330" x2="600" y2="330" stroke-width="8" stroke="#C8102E" opacity="0.5"/>
+    <text x="515" y="350" font-size="12" fill="#FFFFFF" font-family="Arial, sans-serif">TACKLES</text>
+  </g>
+  
+  <!-- Player icon sketch (simplified) -->
+  <g stroke="#C8102E" stroke-width="2.5" fill="none">
+    <!-- Head -->
+    <circle cx="400" cy="100" r="18"/>
+    <!-- Body -->
+    <line x1="400" y1="118" x2="400" y2="160"/>
+    <!-- Left arm -->
+    <line x1="400" y1="130" x2="370" y2="145"/>
+    <!-- Right arm -->
+    <line x1="400" y1="130" x2="430" y2="145"/>
+    <!-- Left leg -->
+    <line x1="400" y1="160" x2="385" y2="200"/>
+    <!-- Right leg -->
+    <line x1="400" y1="160" x2="415" y2="200"/>
+  </g>
+  
+  <!-- Statistics title -->
+  <text x="400" y="45" font-size="28" font-weight="bold" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif" letter-spacing="2">PLAYER STATISTICS</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="380" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" opacity="0.9">DEEP DIVE ANALYSIS</text>
+  
+  <!-- Decorative lines -->
+  <g stroke="#C8102E" stroke-width="1.5" opacity="0.4">
+    <line x1="100" y1="60" x2="150" y2="60"/>
+    <line x1="650" y1="60" x2="700" y2="60"/>
+  </g>
+  
+  <!-- Small accent dots -->
+  <circle cx="120" cy="70" r="3" fill="#F6EB61"/>
+  <circle cx="680" cy="70" r="3" fill="#F6EB61"/>
+  <circle cx="100" cy="390" r="3" fill="#C8102E"/>
+  <circle cx="700" cy="390" r="3" fill="#C8102E"/>
+</svg>
