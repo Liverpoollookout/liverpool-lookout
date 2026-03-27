@@ -1,0 +1,87 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" font-size="28" font-weight="bold" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">MATCH REPORT</text>
+  
+  <!-- Pitch diagram -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none">
+    <!-- Pitch outline -->
+    <rect x="80" y="70" width="640" height="320" rx="10"/>
+    
+    <!-- Center line -->
+    <line x1="400" y1="70" x2="400" y2="390"/>
+    
+    <!-- Center circle -->
+    <circle cx="400" cy="230" r="40"/>
+    
+    <!-- Penalty areas -->
+    <rect x="80" y="150" width="120" height="160"/>
+    <rect x="600" y="150" width="120" height="160"/>
+    
+    <!-- Goal areas -->
+    <rect x="80" y="190" width="50" height="80"/>
+    <rect x="670" y="190" width="50" height="80"/>
+  </g>
+  
+  <!-- Liverpool attacking formation (red circles with sketchy style) -->
+  <g>
+    <!-- Goalkeeper -->
+    <circle cx="720" cy="230" r="18" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <text x="720" y="238" font-size="11" fill="#C8102E" text-anchor="middle" font-weight="bold">GK</text>
+    
+    <!-- Defenders -->
+    <circle cx="620" cy="120" r="16" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <circle cx="620" cy="230" r="16" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <circle cx="620" cy="340" r="16" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <circle cx="500" cy="170" r="16" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    
+    <!-- Midfielders -->
+    <circle cx="380" cy="140" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <circle cx="380" cy="230" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <circle cx="380" cy="320" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    
+    <!-- Forwards -->
+    <circle cx="220" cy="160" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <circle cx="220" cy="300" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <circle cx="140" cy="230" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  </g>
+  
+  <!-- Passing lines (tactical arrows) -->
+  <defs>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#C8102E" opacity="0.6"/>
+    </marker>
+  </defs>
+  
+  <line x1="380" y1="230" x2="220" y2="230" stroke="#C8102E" stroke-width="1.5" opacity="0.5" marker-end="url(#arrowred)"/>
+  <line x1="380" y1="230" x2="140" y2="230" stroke="#C8102E" stroke-width="1.5" opacity="0.5" marker-end="url(#arrowred)"/>
+  <line x1="500" y1="170" x2="380" y2="230" stroke="#C8102E" stroke-width="1.5" opacity="0.5" marker-end="url(#arrowred)"/>
+  
+  <!-- Slot tactical annotation -->
+  <g>
+    <rect x="50" y="360" width="300" height="50" fill="none" stroke="#F6EB61" stroke-width="1.5" rx="5"/>
+    <text x="60" y="380" font-size="13" fill="#F6EB61" font-family="Arial, sans-serif" font-weight="bold">SLOT'S TACTICS</text>
+    <text x="60" y="398" font-size="11" fill="#FFFFFF" font-family="Arial, sans-serif">High press • Control midfield • Width</text>
+  </g>
+  
+  <!-- Key moments badge -->
+  <g>
+    <circle cx="550" cy="385" r="35" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="550" y="377" font-size="12" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">KEY</text>
+    <text x="550" y="393" font-size="12" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">MOMENTS</text>
+  </g>
+  
+  <!-- Player ratings indicator -->
+  <g>
+    <rect x="670" y="360" width="110" height="50" fill="none" stroke="#C8102E" stroke-width="1.5" rx="5"/>
+    <text x="680" y="380" font-size="13" fill="#C8102E" font-family="Arial, sans-serif" font-weight="bold">RATINGS</text>
+    <text x="680" y="398" font-size="10" fill="#FFFFFF" font-family="Arial, sans-serif">★★★★★</text>
+  </g>
+  
+  <!-- Sketch effect lines for style -->
+  <line x1="100" y1="85" x2="110" y2="80" stroke="#F6EB61" stroke-width="0.8" opacity="0.3"/>
+  <line x1="750" y1="95" x2="760" y2="105" stroke="#F6EB61" stroke-width="0.8" opacity="0.3"/>
+  <line x1="95" y1="380" x2="105" y2="375" stroke="#C8102E" stroke-width="0.8" opacity="0.3"/>
+</svg>
