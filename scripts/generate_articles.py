@@ -306,6 +306,8 @@ def generate_illustration(client, article_type, context, slug):
         raw = re.sub(r"^```(?:svg|xml|html)?\s*", "", raw, flags=re.MULTILINE)
         raw = re.sub(r"\s*```$", "", raw, flags=re.MULTILINE)
         raw = raw.strip()
+        # Sanitize XML entities - replace bare & with &amp; to prevent invalid SVG
+        raw = re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)', '&amp;', raw)
         if not raw.startswith("<svg"):
             m = re.search(r"(<svg[\s\S]*?</svg>)", raw)
             raw = m.group(1) if m else None
