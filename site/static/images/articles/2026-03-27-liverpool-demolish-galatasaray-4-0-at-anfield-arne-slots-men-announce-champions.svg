@@ -1,0 +1,90 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  <circle cx="750" cy="370" r="30" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Football pitch outline (stylised) -->
+  <rect x="80" y="60" width="640" height="300" fill="none" stroke="#2d5a3d" stroke-width="3" opacity="0.6"/>
+  
+  <!-- Pitch center line -->
+  <line x1="400" y1="60" x2="400" y2="360" stroke="#2d5a3d" stroke-width="2" opacity="0.5" stroke-dasharray="5,5"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="40" fill="none" stroke="#2d5a3d" stroke-width="2" opacity="0.5"/>
+  <circle cx="400" cy="210" r="3" fill="#2d5a3d" opacity="0.5"/>
+  
+  <!-- Penalty areas (stylised) -->
+  <rect x="80" y="130" width="120" height="160" fill="none" stroke="#2d5a3d" stroke-width="2" opacity="0.4"/>
+  <rect x="600" y="130" width="120" height="160" fill="none" stroke="#2d5a3d" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Player positions with red accents -->
+  <!-- Player 1 (Goalkeeper position) -->
+  <circle cx="90" cy="210" r="18" fill="#C8102E" opacity="0.7" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="90" y1="195" x2="90" y2="225" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Player 2 -->
+  <circle cx="200" cy="150" r="16" fill="#C8102E" opacity="0.8" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="200" y1="135" x2="200" y2="165" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Player 3 -->
+  <circle cx="220" cy="270" r="16" fill="#C8102E" opacity="0.8" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Player 4 -->
+  <circle cx="340" cy="120" r="16" fill="#C8102E" opacity="0.7" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Player 5 (highlighted) -->
+  <circle cx="360" cy="210" r="20" fill="#C8102E" opacity="0.9" stroke="#F6EB61" stroke-width="3"/>
+  <line x1="360" y1="192" x2="360" y2="228" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Player 6 -->
+  <circle cx="340" cy="300" r="16" fill="#C8102E" opacity="0.7" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Player 7 -->
+  <circle cx="480" cy="160" r="16" fill="#C8102E" opacity="0.8" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Player 8 -->
+  <circle cx="520" cy="280" r="16" fill="#C8102E" opacity="0.7" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Player 9 (Striker - highlighted) -->
+  <circle cx="600" cy="210" r="22" fill="#C8102E" opacity="0.95" stroke="#F6EB61" stroke-width="3"/>
+  <line x1="600" y1="190" x2="600" y2="230" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Tactical movement arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61" opacity="0.7"/>
+    </marker>
+  </defs>
+  
+  <!-- Movement lines -->
+  <path d="M 360 230 Q 450 260 520 280" stroke="#F6EB61" stroke-width="2" fill="none" opacity="0.6" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 200 170 Q 280 200 360 210" stroke="#F6EB61" stroke-width="2" fill="none" opacity="0.6" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  
+  <!-- Stats boxes with sketchy borders -->
+  <!-- Box 1 - Possession -->
+  <rect x="640" y="70" width="140" height="70" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+  <text x="655" y="90" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F6EB61" opacity="0.9">POSSESSION</text>
+  <text x="680" y="115" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">62%</text>
+  
+  <!-- Box 2 - Shots -->
+  <rect x="640" y="155" width="140" height="70" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+  <text x="660" y="175" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F6EB61" opacity="0.9">SHOTS ON TARGET</text>
+  <text x="700" y="200" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">8</text>
+  
+  <!-- Main title -->
+  <text x="400" y="400" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#F6EB61" text-anchor="middle" opacity="0.95">MATCH REPORT • TACTICAL ANALYSIS</text>
+  
+  <!-- Slot's tactical annotations (sketched lines) -->
+  <g opacity="0.4">
+    <path d="M 50 30 L 70 45" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 750 40 L 770 55" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 60 380 L 80 395" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Liverpool FC badge elements (decorative) -->
+  <circle cx="150" cy="370" r="25" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  <circle cx="150" cy="370" r="20" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.2"/>
+</svg>

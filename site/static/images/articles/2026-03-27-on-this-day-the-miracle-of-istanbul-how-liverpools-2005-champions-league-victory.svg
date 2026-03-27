@@ -1,0 +1,88 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Anfield pitch outline -->
+  <rect x="80" y="40" width="640" height="340" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Center circle sketch -->
+  <circle cx="400" cy="210" r="50" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.5"/>
+  <circle cx="400" cy="210" r="3" fill="#F6EB61"/>
+  
+  <!-- Goal areas -->
+  <rect x="80" y="140" width="60" height="140" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.4"/>
+  <rect x="660" y="140" width="60" height="140" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Sketched player figure - Kenny Dalglish style -->
+  <g id="player">
+    <!-- Head -->
+    <circle cx="320" cy="120" r="25" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    
+    <!-- Hair sketch lines -->
+    <path d="M 300 105 Q 320 95 340 105" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.7"/>
+    <path d="M 305 100 L 335 100" fill="none" stroke="#C8102E" stroke-width="1" opacity="0.5"/>
+    
+    <!-- Eyes -->
+    <circle cx="312" cy="118" r="2.5" fill="#C8102E"/>
+    <circle cx="328" cy="118" r="2.5" fill="#C8102E"/>
+    
+    <!-- Nose sketch -->
+    <line x1="320" y1="120" x2="320" y2="130" stroke="#C8102E" stroke-width="1" opacity="0.6"/>
+    
+    <!-- Mouth sketch -->
+    <path d="M 315 138 Q 320 142 325 138" fill="none" stroke="#C8102E" stroke-width="1" opacity="0.5"/>
+    
+    <!-- Body - Liverpool kit -->
+    <ellipse cx="320" cy="170" rx="30" ry="40" fill="#C8102E" opacity="0.9"/>
+    
+    <!-- Shirt details -->
+    <line x1="320" y1="150" x2="320" y2="200" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M 305 160 L 335 160" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
+    
+    <!-- Liver bird shield sketch -->
+    <circle cx="320" cy="165" r="8" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+    <path d="M 318 163 L 322 163 M 318 167 L 322 167" stroke="#F6EB61" stroke-width="1" opacity="0.7"/>
+    
+    <!-- Left arm -->
+    <line x1="290" y1="165" x2="240" y2="190" stroke="#C8102E" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="235" cy="195" r="8" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Right arm -->
+    <line x1="350" y1="165" x2="400" y2="140" stroke="#C8102E" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="405" cy="135" r="8" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Legs -->
+    <line x1="308" y1="210" x2="300" y2="280" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+    <line x1="332" y1="210" x2="340" y2="280" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- Boots -->
+    <ellipse cx="298" cy="285" rx="7" ry="12" fill="#0a1628" stroke="#C8102E" stroke-width="1.5"/>
+    <ellipse cx="342" cy="285" rx="7" ry="12" fill="#0a1628" stroke="#C8102E" stroke-width="1.5"/>
+    
+    <!-- Motion lines around ball -->
+    <circle cx="480" cy="240" r="10" fill="none" stroke="#F6EB61" stroke-width="2.5"/>
+    <path d="M 462 240 L 450 240" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+    <path d="M 498 240 L 515 240" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+    <path d="M 480 222 L 480 210" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+    <path d="M 480 258 L 480 270" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  </g>
+  
+  <!-- Dramatic sketch lines for motion -->
+  <g opacity="0.4">
+    <path d="M 220 150 L 200 140" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 220 170 L 195 175" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 220 190 L 205 210" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Title text with sketched background -->
+  <rect x="50" y="320" width="700" height="70" rx="5" fill="#C8102E" opacity="0.15" stroke="#F6EB61" stroke-width="1.5" stroke-dasharray="5,5"/>
+  
+  <text x="400" y="355" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#C8102E" text-anchor="middle" letter-spacing="1">KENNY DALGLISH</text>
+  
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="14" fill="#F6EB61" text-anchor="middle" opacity="0.8">The King of Anfield | 1977-1990</text>
+  
+  <!-- Corner accent -->
+  <path d="M 20 20 L 50 20 L 50 50" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  <path d="M 780 400 L 750 400 L 750 370" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+</svg>
