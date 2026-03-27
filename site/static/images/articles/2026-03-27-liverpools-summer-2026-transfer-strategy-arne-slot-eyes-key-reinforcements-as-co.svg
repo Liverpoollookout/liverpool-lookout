@@ -1,0 +1,105 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <defs>
+    <style>
+      .sketch-stroke { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .transfer-text { font-family: Arial, sans-serif; font-weight: bold; }
+      .title-text { font-size: 28px; font-weight: bold; }
+      .label-text { font-size: 16px; font-weight: 600; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner lines -->
+  <line x1="20" y1="20" x2="80" y2="20" stroke="#F6EB61" stroke-width="3" class="sketch-stroke"/>
+  <line x1="20" y1="20" x2="20" y2="80" stroke="#F6EB61" stroke-width="3" class="sketch-stroke"/>
+  <line x1="780" y1="400" x2="720" y2="400" stroke="#F6EB61" stroke-width="3" class="sketch-stroke"/>
+  <line x1="780" y1="400" x2="780" y2="340" stroke="#F6EB61" stroke-width="3" class="sketch-stroke"/>
+  
+  <!-- Left silhouette player figure -->
+  <g opacity="0.9">
+    <!-- Head -->
+    <circle cx="150" cy="100" r="28" stroke="#C8102E" stroke-width="2.5" class="sketch-stroke" fill="none"/>
+    
+    <!-- Body - Liverpool kit -->
+    <rect x="130" y="130" width="40" height="70" rx="4" stroke="#C8102E" stroke-width="2.5" class="sketch-stroke" fill="#C8102E" opacity="0.7"/>
+    
+    <!-- Shirt details -->
+    <line x1="150" y1="130" x2="150" y2="200" stroke="#FFFFFF" stroke-width="1.5" class="sketch-stroke"/>
+    <circle cx="150" cy="150" r="3" fill="#FFFFFF"/>
+    
+    <!-- Arms -->
+    <line x1="130" y1="145" x2="80" y2="130" stroke="#C8102E" stroke-width="2.5" class="sketch-stroke"/>
+    <line x1="170" y1="145" x2="220" y2="135" stroke="#C8102E" stroke-width="2.5" class="sketch-stroke"/>
+    
+    <!-- Legs -->
+    <line x1="135" y1="200" x2="120" y2="280" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+    <line x1="165" y1="200" x2="180" y2="280" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+    
+    <!-- Boots -->
+    <ellipse cx="120" cy="285" rx="8" ry="6" stroke="#000" stroke-width="1.5" class="sketch-stroke" fill="none"/>
+    <ellipse cx="180" cy="285" rx="8" ry="6" stroke="#000" stroke-width="1.5" class="sketch-stroke" fill="none"/>
+  </g>
+  
+  <!-- Right silhouette player figure (faded) -->
+  <g opacity="0.4">
+    <!-- Head -->
+    <circle cx="650" cy="100" r="28" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke" fill="none"/>
+    
+    <!-- Body -->
+    <rect x="630" y="130" width="40" height="70" rx="4" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke" fill="none"/>
+    
+    <!-- Arms -->
+    <line x1="630" y1="145" x2="580" y2="130" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+    <line x1="670" y1="145" x2="720" y2="135" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+    
+    <!-- Legs -->
+    <line x1="635" y1="200" x2="620" y2="280" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+    <line x1="665" y1="200" x2="680" y2="280" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+  </g>
+  
+  <!-- Transfer arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Main transfer arrow -->
+  <path d="M 250 150 Q 400 80 550 150" stroke="#F6EB61" stroke-width="3" fill="none" marker-end="url(#arrowhead)" class="sketch-stroke"/>
+  
+  <!-- Supporting arrows -->
+  <path d="M 260 200 Q 380 250 540 200" stroke="#C8102E" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.6" class="sketch-stroke"/>
+  
+  <!-- Title -->
+  <text x="400" y="320" text-anchor="middle" class="title-text transfer-text" fill="#F6EB61">
+    TRANSFER TARGETS
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="355" text-anchor="middle" class="label-text transfer-text" fill="#FFFFFF">
+    Incoming • Fee Estimates • Contract Details
+  </text>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="350" r="12" stroke="#C8102E" stroke-width="2" fill="none" class="sketch-stroke"/>
+  <circle cx="700" cy="350" r="12" stroke="#F6EB61" stroke-width="2" fill="none" class="sketch-stroke"/>
+  
+  <!-- Stats boxes outline -->
+  <rect x="50" y="375" width="120" height="35" rx="3" stroke="#C8102E" stroke-width="1.5" fill="none" class="sketch-stroke"/>
+  <text x="110" y="397" text-anchor="middle" class="label-text transfer-text" fill="#C8102E" font-size="12">
+    FEE ANALYSIS
+  </text>
+  
+  <rect x="730" y="375" width="120" height="35" rx="3" stroke="#F6EB61" stroke-width="1.5" fill="none" class="sketch-stroke"/>
+  <text x="790" y="397" text-anchor="middle" class="label-text transfer-text" fill="#F6EB61" font-size="12">
+    ANFIELD LINKS
+  </text>
+  
+  <!-- Sketch pattern lines -->
+  <line x1="200" y1="50" x2="210" y2="55" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="210" y1="50" x2="220" y2="55" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="590" y1="50" x2="600" y2="55" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="600" y1="50" x2="610" y2="55" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+</svg>
