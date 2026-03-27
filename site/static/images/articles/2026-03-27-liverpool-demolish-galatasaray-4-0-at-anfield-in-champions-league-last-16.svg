@@ -1,0 +1,103 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline - sketched style -->
+  <g stroke="#F6EB61" stroke-width="2" fill="none" stroke-dasharray="5,3" opacity="0.8">
+    <rect x="50" y="40" width="700" height="340" rx="10"/>
+    <!-- Center line -->
+    <line x1="400" y1="40" x2="400" y2="380"/>
+    <!-- Center circle -->
+    <circle cx="400" cy="210" r="60" stroke-dasharray="8,4"/>
+    <!-- Penalty areas -->
+    <rect x="50" y="120" width="120" height="180" rx="5"/>
+    <rect x="630" y="120" width="120" height="180" rx="5"/>
+    <!-- Goal areas -->
+    <rect x="50" y="150" width="60" height="120" rx="3"/>
+    <rect x="690" y="150" width="60" height="120" rx="3"/>
+  </g>
+  
+  <!-- Tactical elements - player positions (sketched circles) -->
+  <!-- Liverpool formation (4-3-3 style) -->
+  <!-- Goalkeeper -->
+  <circle cx="80" cy="210" r="18" fill="#C8102E" opacity="0.7" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="80" y="215" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">GK</text>
+  
+  <!-- Defenders -->
+  <circle cx="180" cy="120" r="16" fill="#C8102E" opacity="0.6" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="180" cy="210" r="16" fill="#C8102E" opacity="0.6" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="180" cy="300" r="16" fill="#C8102E" opacity="0.6" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="280" cy="140" r="16" fill="#C8102E" opacity="0.6" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="280" cy="280" r="16" fill="#C8102E" opacity="0.6" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Midfielders -->
+  <circle cx="380" cy="100" r="15" fill="#C8102E" opacity="0.5" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="380" cy="210" r="15" fill="#C8102E" opacity="0.5" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="380" cy="320" r="15" fill="#C8102E" opacity="0.5" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Forwards -->
+  <circle cx="550" cy="130" r="15" fill="#C8102E" opacity="0.8" stroke="#FFFFFF" stroke-width="2.5"/>
+  <circle cx="550" cy="210" r="15" fill="#C8102E" opacity="0.8" stroke="#FFFFFF" stroke-width="2.5"/>
+  <circle cx="550" cy="290" r="15" fill="#C8102E" opacity="0.8" stroke="#FFFFFF" stroke-width="2.5"/>
+  
+  <!-- Tactical arrows showing movement -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61" opacity="0.7"/>
+    </marker>
+  </defs>
+  
+  <!-- Movement arrows -->
+  <path d="M 380 240 Q 450 260 550 240" stroke="#F6EB61" stroke-width="1.5" fill="none" opacity="0.6" marker-end="url(#arrowhead)"/>
+  <path d="M 280 210 Q 330 200 380 190" stroke="#F6EB61" stroke-width="1.5" fill="none" opacity="0.6" marker-end="url(#arrowhead)"/>
+  
+  <!-- Title section -->
+  <text x="650" y="50" font-size="28" font-weight="bold" fill="#C8102E" font-family="Arial, sans-serif">MATCH</text>
+  <text x="650" y="85" font-size="28" font-weight="bold" fill="#C8102E" font-family="Arial, sans-serif">REPORT</text>
+  
+  <!-- Subtitle with tactical info -->
+  <text x="650" y="110" font-size="12" fill="#F6EB61" font-family="Arial, sans-serif">Slot's Tactics</text>
+  <line x1="650" y1="115" x2="760" y2="115" stroke="#F6EB61" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Player ratings label -->
+  <text x="650" y="140" font-size="11" fill="#FFFFFF" font-family="Arial, sans-serif" opacity="0.8">RATINGS</text>
+  
+  <!-- Rating bars (sketched style) -->
+  <g stroke="#F6EB61" stroke-width="1" fill="none" opacity="0.6">
+    <rect x="650" y="150" width="100" height="6" rx="2"/>
+    <rect x="650" y="150" width="85" height="6" rx="2" fill="#C8102E" opacity="0.7"/>
+  </g>
+  
+  <g stroke="#F6EB61" stroke-width="1" fill="none" opacity="0.6">
+    <rect x="650" y="165" width="100" height="6" rx="2"/>
+    <rect x="650" y="165" width="78" height="6" rx="2" fill="#C8102E" opacity="0.7"/>
+  </g>
+  
+  <g stroke="#F6EB61" stroke-width="1" fill="none" opacity="0.6">
+    <rect x="650" y="180" width="100" height="6" rx="2"/>
+    <rect x="650" y="180" width="92" height="6" rx="2" fill="#C8102E" opacity="0.7"/>
+  </g>
+  
+  <!-- Key moments section -->
+  <text x="650" y="210" font-size="11" fill="#FFFFFF" font-family="Arial, sans-serif" opacity="0.8">KEY MOMENTS</text>
+  
+  <!-- Sketched moment indicators -->
+  <circle cx="660" cy="225" r="4" fill="#F6EB61" opacity="0.8"/>
+  <circle cx="660" cy="245" r="4" fill="#F6EB61" opacity="0.8"/>
+  <circle cx="660" cy="265" r="4" fill="#F6EB61" opacity="0.8"/>
+  
+  <text x="675" y="228" font-size="9" fill="#FFFFFF" font-family="Arial, sans-serif" opacity="0.8">45' - Chance</text>
+  <text x="675" y="248" font-size="9" fill="#FFFFFF" font-family="Arial, sans-serif" opacity="0.8">67' - Goal</text>
+  <text x="675" y="268" font-size="9" fill="#FFFFFF" font-family="Arial, sans-serif" opacity="0.8">82' - Substitution</text>
+  
+  <!-- Decorative sketch elements -->
+  <g stroke="#C8102E" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M 20 30 Q 25 35 20 40"/>
+    <path d="M 30 380 Q 35 375 40 380"/>
+    <path d="M 770 50 Q 775 55 770 60"/>
+  </g>
+  
+  <!-- Liverpool FC accent line -->
+  <line x1="50" y1="390" x2="750" y2="390" stroke="#C8102E" stroke-width="3"/>
+  <line x1="50" y1="395" x2="750" y2="395" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+</svg>
