@@ -1,0 +1,64 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Anfield pitch outline (subtle) -->
+  <rect x="80" y="60" width="640" height="300" fill="none" stroke="#1a3a52" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="60" x2="400" y2="360" stroke="#1a3a52" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#1a3a52" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Sketched figure - Kenny Dalglish in Liverpool red -->
+  <!-- Head -->
+  <circle cx="280" cy="120" r="28" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <circle cx="270" cy="110" r="4" fill="#C8102E"/>
+  <circle cx="290" cy="110" r="4" fill="#C8102E"/>
+  <path d="M 275 120 Q 280 125 285 120" stroke="#C8102E" stroke-width="1.5" fill="none"/>
+  
+  <!-- Body - Liverpool kit -->
+  <path d="M 280 148 L 280 220" stroke="#C8102E" stroke-width="3"/>
+  <ellipse cx="280" cy="180" rx="35" ry="28" fill="#C8102E" opacity="0.15" stroke="#C8102E" stroke-width="2"/>
+  
+  <!-- Liverpool crest suggestion on chest -->
+  <circle cx="280" cy="175" r="8" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  <path d="M 277 172 L 283 172" stroke="#FFFFFF" stroke-width="1"/>
+  
+  <!-- Arms -->
+  <path d="M 250 170 Q 220 160 210 185" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+  <path d="M 310 170 Q 340 160 350 185" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+  
+  <!-- Legs in white shorts -->
+  <path d="M 265 220 L 255 280" stroke="#FFFFFF" stroke-width="2.5"/>
+  <path d="M 295 220 L 305 280" stroke="#FFFFFF" stroke-width="2.5"/>
+  
+  <!-- Boots -->
+  <ellipse cx="255" cy="285" rx="6" ry="8" fill="#C8102E"/>
+  <ellipse cx="305" cy="285" rx="6" ry="8" fill="#C8102E"/>
+  
+  <!-- Ball near feet with motion lines -->
+  <circle cx="240" cy="290" r="6" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  <path d="M 232 290 L 220 288" stroke="#FFFFFF" stroke-width="1" opacity="0.6"/>
+  <path d="M 233 298 L 222 305" stroke="#FFFFFF" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Kop Stadium stand suggestion in background -->
+  <path d="M 450 80 L 480 100 L 500 95 L 520 110 L 540 100 L 560 115 L 580 105 L 600 120" 
+        stroke="#F6EB61" stroke-width="2" fill="none" opacity="0.4"/>
+  <rect x="450" y="120" width="150" height="80" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- Crowd silhouettes -->
+  <circle cx="470" cy="135" r="4" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="495" cy="140" r="4" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="520" cy="138" r="4" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="545" cy="142" r="4" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="570" cy="136" r="4" fill="#FFFFFF" opacity="0.3"/>
+  
+  <!-- Text - Player name with styling -->
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="42" font-weight="bold" 
+        fill="#C8102E" text-anchor="middle" letter-spacing="2">KENNY DALGLISH</text>
+  
+  <!-- Decorative gold underline -->
+  <line x1="200" y1="385" x2="600" y2="385" stroke="#F6EB61" stroke-width="3"/>
+  
+  <!-- Era/era text -->
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="16" 
+        fill="#FFFFFF" text-anchor="middle" opacity="0.8">ANFIELD LEGEND • 1977-1990</text>
+</svg>

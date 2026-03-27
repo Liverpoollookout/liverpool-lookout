@@ -1,0 +1,75 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Sketchy title background -->
+  <rect x="50" y="20" width="700" height="80" fill="none" stroke="#F6EB61" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
+  
+  <!-- Title text -->
+  <text x="400" y="55" font-size="32" font-weight="bold" fill="#C8102E" text-anchor="middle" font-family="Arial, sans-serif">INJURY & FITNESS UPDATE</text>
+  <text x="400" y="85" font-size="18" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">Next Fixture Availability</text>
+  
+  <!-- Player figure left side -->
+  <g transform="translate(150, 180)">
+    <!-- Head -->
+    <circle cx="0" cy="-45" r="20" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Hair sketch lines -->
+    <path d="M -15,-60 Q -18,-70 -10,-72 Q 0,-75 10,-72 Q 18,-70 15,-60" fill="none" stroke="#C8102E" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Body - Liverpool red shirt -->
+    <rect x="-18" y="-22" width="36" height="40" fill="none" stroke="#C8102E" stroke-width="2.5" rx="4"/>
+    
+    <!-- Shirt detail lines -->
+    <line x1="0" y1="-22" x2="0" y2="18" stroke="#C8102E" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-8" y1="-8" x2="8" y2="-8" stroke="#FFFFFF" stroke-width="1" opacity="0.8"/>
+    
+    <!-- Arms -->
+    <line x1="-18" y1="-5" x2="-35" y2="5" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="18" y1="-5" x2="35" y2="5" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Hands -->
+    <circle cx="-35" cy="8" r="5" fill="none" stroke="#C8102E" stroke-width="1.5"/>
+    <circle cx="35" cy="8" r="5" fill="none" stroke="#C8102E" stroke-width="1.5"/>
+    
+    <!-- Legs -->
+    <line x1="-8" y1="18" x2="-8" y2="50" stroke="#0a1628" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="8" y1="18" x2="8" y2="50" stroke="#0a1628" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Feet -->
+    <line x1="-8" y1="50" x2="-12" y2="58" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <line x1="8" y1="50" x2="12" y2="58" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Medical/fitness indicators -->
+  <g transform="translate(380, 150)">
+    <!-- Pulse line -->
+    <polyline points="0,40 10,40 15,25 20,50 25,30 30,40 40,40" fill="none" stroke="#F6EB61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Fitness levels boxes -->
+    <g>
+      <rect x="0" y="70" width="100" height="25" fill="none" stroke="#C8102E" stroke-width="2" rx="4"/>
+      <text x="50" y="88" font-size="12" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">AVAILABLE</text>
+    </g>
+    
+    <g>
+      <rect x="120" y="70" width="100" height="25" fill="none" stroke="#F6EB61" stroke-width="2" rx="4"/>
+      <text x="170" y="88" font-size="12" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">DOUBTFUL</text>
+    </g>
+  </g>
+  
+  <!-- Status indicators on right -->
+  <g transform="translate(580, 170)">
+    <!-- Check mark for ready -->
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="3,3"/>
+    <path d="M -15,0 L -5,10 L 15,-10" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="0" y="50" font-size="14" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">Squad Status</text>
+  </g>
+  
+  <!-- Decorative sketchy corner elements -->
+  <path d="M 30,320 Q 40,330 50,320 Q 60,310 70,320" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 750,380 Q 760,390 770,380 Q 780,370 790,380" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Bottom accent line -->
+  <line x1="50" y1="400" x2="750" y2="400" stroke="#C8102E" stroke-width="3"/>
+  <line x1="50" y1="408" x2="750" y2="408" stroke="#F6EB61" stroke-width="1" stroke-dasharray="4,4"/>
+</svg>

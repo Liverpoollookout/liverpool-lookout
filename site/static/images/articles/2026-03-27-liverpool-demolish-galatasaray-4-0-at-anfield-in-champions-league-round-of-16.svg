@@ -1,0 +1,90 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch background -->
+  <rect x="50" y="40" width="700" height="340" fill="#1a4d2e" stroke="#F6EB61" stroke-width="2"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#F6EB61" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="45" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  
+  <!-- Center spot -->
+  <circle cx="400" cy="210" r="3" fill="#F6EB61"/>
+  
+  <!-- Goal area left -->
+  <rect x="50" y="130" width="80" height="160" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  
+  <!-- Goal area right -->
+  <rect x="670" y="130" width="80" height="160" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  
+  <!-- Penalty area left -->
+  <rect x="50" y="100" width="120" height="220" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  
+  <!-- Penalty area right -->
+  <rect x="630" y="100" width="120" height="220" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  
+  <!-- Penalty spot left -->
+  <circle cx="130" cy="210" r="3" fill="#F6EB61"/>
+  
+  <!-- Penalty spot right -->
+  <circle cx="670" cy="210" r="3" fill="#F6EB61"/>
+  
+  <!-- Player position 1 - Left Wing -->
+  <circle cx="150" cy="160" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="150" y="165" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">1</text>
+  
+  <!-- Player position 2 - Left Back -->
+  <circle cx="120" cy="240" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="120" y="245" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">2</text>
+  
+  <!-- Player position 3 - Center Back Left -->
+  <circle cx="200" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="200" y="215" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">3</text>
+  
+  <!-- Player position 4 - Center Back Right -->
+  <circle cx="300" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="300" y="215" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">4</text>
+  
+  <!-- Player position 5 - Right Back -->
+  <circle cx="680" cy="240" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="680" y="245" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">5</text>
+  
+  <!-- Player position 6 - Midfielder Left -->
+  <circle cx="280" cy="170" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="280" y="175" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">6</text>
+  
+  <!-- Player position 7 - Midfielder Right -->
+  <circle cx="520" cy="170" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="520" y="175" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">7</text>
+  
+  <!-- Player position 8 - Forward -->
+  <circle cx="400" cy="100" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="400" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#FFFFFF">8</text>
+  
+  <!-- Tactical arrow - Left side attack -->
+  <defs>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#C8102E"/>
+    </marker>
+  </defs>
+  
+  <!-- Attack movement arrow -->
+  <path d="M 150,160 Q 200,120 350,90" fill="none" stroke="#C8102E" stroke-width="2.5" opacity="0.7" marker-end="url(#arrowred)" stroke-dasharray="4,4"/>
+  
+  <!-- Title Box -->
+  <rect x="50" y="380" width="700" height="35" fill="#C8102E" rx="3"/>
+  
+  <!-- Title Text -->
+  <text x="400" y="405" text-anchor="middle" font-size="20" font-weight="bold" fill="#FFFFFF">MATCH REPORT - SLOT TACTICAL SETUP</text>
+  
+  <!-- Key moments indicator -->
+  <circle cx="100" cy="20" r="8" fill="#F6EB61"/>
+  <text x="115" y="25" font-size="12" fill="#F6EB61" font-weight="bold">Key Moment</text>
+  
+  <!-- Player rating indicator -->
+  <rect x="280" y="12" width="16" height="16" fill="#C8102E"/>
+  <text x="302" y="25" font-size="12" fill="#C8102E" font-weight="bold">Player Rating</text>
+</svg>
