@@ -44,6 +44,25 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/generate_articles.py
 
+      - name: Fix existing SVG files (sanitize XML entities)
+        run: |
+          python - <<'EOF'
+          import re, os, glob
+          img_dir = "site/static/images/articles"
+          pattern = re.compile(r'&(?!amp;|lt;|gt;|quot;|apos;|#\\d+;|#x[0-9a-fA-F]+;)')
+          fixed = 0
+          for path in glob.glob(os.path.join(img_dir, "*.svg")):
+              with open(path, "r", encoding="utf-8") as f:
+                  content = f.read()
+              new_content = pattern.sub("&amp;", content)
+              if new_content != content:
+                  with open(path, "w", encoding="utf-8") as f:
+                      f.write(new_content)
+                  fixed += 1
+                  print(f"Fixed: {os.path.basename(path)}")
+          print(f"Total fixed: {fixed}")
+          EOF
+
       - name: Commit and push new articles
         run: |
           git config --local user.email "bot@liverpool-lookout.com"
