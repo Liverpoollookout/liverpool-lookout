@@ -1,0 +1,77 @@
+<svg viewBox="0 0 800 420" class="article-svg" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .sketch-stroke { fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .sketch-stroke-thin { fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+      .sketch-fill { fill-opacity: 0.8; }
+      .text-label { font-family: Arial, sans-serif; font-weight: bold; letter-spacing: 1px; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Anfield pitch outline -->
+  <rect x="80" y="60" width="640" height="300" class="sketch-stroke" stroke="#F6EB61" stroke-dasharray="5,3"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="60" x2="400" y2="360" class="sketch-stroke-thin" stroke="#FFFFFF" stroke-dasharray="4,2"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="50" class="sketch-stroke-thin" stroke="#FFFFFF"/>
+  
+  <!-- Center spot -->
+  <circle cx="400" cy="210" r="4" fill="#FFFFFF"/>
+  
+  <!-- Left penalty area -->
+  <rect x="80" y="130" width="90" height="160" class="sketch-stroke" stroke="#C8102E"/>
+  
+  <!-- Right penalty area -->
+  <rect x="630" y="130" width="90" height="160" class="sketch-stroke" stroke="#C8102E"/>
+  
+  <!-- Left goal area -->
+  <rect x="80" y="160" width="50" height="100" class="sketch-stroke" stroke="#C8102E"/>
+  
+  <!-- Right goal area -->
+  <rect x="670" y="160" width="50" height="100" class="sketch-stroke" stroke="#C8102E"/>
+  
+  <!-- Player silhouette - legendary player in red kit -->
+  <!-- Head -->
+  <circle cx="200" cy="140" r="20" class="sketch-stroke" stroke="#C8102E"/>
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="190" rx="22" ry="35" fill="#C8102E" class="sketch-fill"/>
+  
+  <!-- Arms -->
+  <line x1="178" y1="180" x2="140" y2="160" class="sketch-stroke" stroke="#FFFFFF"/>
+  <line x1="222" y1="180" x2="260" y2="160" class="sketch-stroke" stroke="#FFFFFF"/>
+  
+  <!-- Legs -->
+  <line x1="190" y1="220" x2="185" y2="280" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+  <line x1="210" y1="220" x2="215" y2="280" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+  
+  <!-- Football at feet -->
+  <circle cx="220" cy="295" r="12" class="sketch-stroke" stroke="#FFFFFF"/>
+  <line x1="220" y1="283" x2="220" y2="307" class="sketch-stroke-thin" stroke="#FFFFFF"/>
+  <line x1="208" y1="295" x2="232" y2="295" class="sketch-stroke-thin" stroke="#FFFFFF"/>
+  
+  <!-- Action lines around player -->
+  <path d="M 280 130 Q 300 120 320 130" class="sketch-stroke-thin" stroke="#F6EB61"/>
+  <path d="M 280 180 Q 305 175 330 185" class="sketch-stroke-thin" stroke="#F6EB61"/>
+  <path d="M 280 230 Q 300 240 320 250" class="sketch-stroke-thin" stroke="#F6EB61"/>
+  
+  <!-- Anfield badge/crest representation -->
+  <circle cx="550" cy="150" r="35" class="sketch-stroke" stroke="#F6EB61"/>
+  <path d="M 535 140 L 565 140 L 565 170 L 535 170 Z" fill="none" class="sketch-stroke" stroke="#C8102E"/>
+  <text x="550" y="158" text-anchor="middle" fill="#C8102E" font-size="24" font-weight="bold" class="text-label">LFC</text>
+  
+  <!-- Crowd energy lines -->
+  <path d="M 100 380 Q 120 370 140 380" class="sketch-stroke-thin" stroke="#F6EB61" stroke-dasharray="3,2"/>
+  <path d="M 660 380 Q 680 370 700 380" class="sketch-stroke-thin" stroke="#F6EB61" stroke-dasharray="3,2"/>
+  
+  <!-- Title text -->
+  <text x="400" y="30" text-anchor="middle" fill="#F6EB61" font-size="28" font-weight="bold" class="text-label">ANFIELD LEGEND</text>
+  
+  <!-- Historic moment indicator -->
+  <text x="400" y="410" text-anchor="middle" fill="#FFFFFF" font-size="16" class="text-label">THE THEATRE OF DREAMS</text>
+</svg>
