@@ -377,7 +377,11 @@ sitemap:
   priority: 0.8
 ---
 """
-    full_content = frontmatter + f'\n<div class="article-illustration">\n{svg_content}\n</div>\n\n' + content_body
+    if image_path:
+        illustration_html = f'\n<div class="article-illustration">\n<img src="{image_path}" alt="{title}" class="article-svg" loading="eager">\n</div>\n\n'
+    else:
+        illustration_html = f'\n<div class="article-illustration">\n{svg_content}\n</div>\n\n'
+    full_content = frontmatter + illustration_html + content_body
     os.makedirs(CONTENT_DIR, exist_ok=True)
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(full_content)
