@@ -7,7 +7,7 @@
   
   <!-- Title text -->
   <text x="400" y="40" font-size="32" font-weight="bold" text-anchor="middle" fill="#F6EB61" font-family="Arial, sans-serif">TRANSFER RUMOURS</text>
-  <text x="400" y="70" font-size="16" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" opacity="0.8">Contract Situations & Potential Departures</text>
+  <text x="400" y="70" font-size="16" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" opacity="0.8">Contract Situations &amp; Potential Departures</text>
   
   <!-- Left side - Player silhouette (departing) -->
   <g opacity="0.9">

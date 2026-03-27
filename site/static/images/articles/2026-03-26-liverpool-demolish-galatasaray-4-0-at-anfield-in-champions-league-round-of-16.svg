@@ -80,7 +80,7 @@
   <text x="400" y="410" font-family="sans-serif" font-size="16" font-weight="bold" fill="#C8102E" text-anchor="middle">MATCH REPORT</text>
   
   <!-- Slot tactical analysis subtitle -->
-  <text x="400" y="395" font-family="sans-serif" font-size="12" fill="#F6EB61" text-anchor="middle">Tactical Decisions & Player Ratings</text>
+  <text x="400" y="395" font-family="sans-serif" font-size="12" fill="#F6EB61" text-anchor="middle">Tactical Decisions &amp; Player Ratings</text>
   
   <!-- Formation indicator -->
   <text x="70" y="35" font-family="sans-serif" font-size="10" fill="#FFFFFF">LFC</text>

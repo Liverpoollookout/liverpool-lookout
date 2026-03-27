@@ -6,7 +6,7 @@
   <rect x="50" y="20" width="700" height="80" fill="none" stroke="#F6EB61" stroke-width="2" stroke-dasharray="5,5" rx="8"/>
   
   <!-- Title text -->
-  <text x="400" y="55" font-size="32" font-weight="bold" fill="#C8102E" text-anchor="middle" font-family="Arial, sans-serif">INJURY & FITNESS UPDATE</text>
+  <text x="400" y="55" font-size="32" font-weight="bold" fill="#C8102E" text-anchor="middle" font-family="Arial, sans-serif">INJURY &amp; FITNESS UPDATE</text>
   <text x="400" y="85" font-size="18" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">Next Fixture Availability</text>
   
   <!-- Player figure left side -->

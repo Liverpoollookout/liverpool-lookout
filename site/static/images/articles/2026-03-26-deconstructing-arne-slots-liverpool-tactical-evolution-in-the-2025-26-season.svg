@@ -26,7 +26,7 @@
   <text x="400" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#F6EB61" font-family="Arial, sans-serif">SLOT'S 4-2-3-1 SYSTEM</text>
   
   <!-- Formation label -->
-  <text x="400" y="405" font-size="14" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif">Pressing Trigger & Build-up Play</text>
+  <text x="400" y="405" font-size="14" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif">Pressing Trigger &amp; Build-up Play</text>
   
   <!-- Defensive line (4 defenders) -->
   <!-- LB -->
