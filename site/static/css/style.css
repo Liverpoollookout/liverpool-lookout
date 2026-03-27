@@ -608,3 +608,22 @@ a:hover { text-decoration: underline; }
   border-radius: 6px 6px 0 0;
   display: block;
 }
+
+/* ── Article hero illustration image ─────────────────────── */
+.article-hero-image {
+  width: 100%;
+  margin: 1.5rem 0 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #0a1628;
+}
+
+.article-hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 460px;
+  object-fit: cover;
+}
+
+
