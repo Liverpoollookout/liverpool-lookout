@@ -42,6 +42,13 @@
         </div>
         {{ end }}
 
+        {{/* ── Hero illustration image ──────────── */}}
+        {{ with .Params.image }}
+        <div class="article-hero-image">
+          <img src="{{ . }}" alt="{{ $.Title }}" class="article-hero-img" loading="eager">
+        </div>
+        {{ end }}
+
         {{/* ── Article body ────────────────────────── */}}
         <div class="article-body" itemprop="articleBody">
           {{ $content := .Content }}
