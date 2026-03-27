@@ -1,0 +1,84 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative circles background -->
+  <circle cx="150" cy="100" r="80" fill="#C8102E" opacity="0.1"/>
+  <circle cx="700" cy="320" r="100" fill="#F6EB61" opacity="0.08"/>
+  
+  <!-- Head -->
+  <circle cx="280" cy="80" r="35" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  
+  <!-- Hair sketch lines -->
+  <path d="M 250 65 Q 245 50 260 45" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 280 45 Q 290 40 305 50" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 310 65 Q 320 55 315 70" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Face features -->
+  <circle cx="270" cy="75" r="3" fill="#FFFFFF"/>
+  <circle cx="290" cy="75" r="3" fill="#FFFFFF"/>
+  <path d="M 275 88 Q 280 92 285 88" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Neck -->
+  <line x1="270" y1="115" x2="270" y2="140" stroke="#FFFFFF" stroke-width="2.5"/>
+  <line x1="290" y1="115" x2="290" y2="140" stroke="#FFFFFF" stroke-width="2.5"/>
+  
+  <!-- Liverpool shirt body -->
+  <path d="M 240 140 L 320 140 L 330 240 L 230 240 Z" fill="#C8102E" stroke="#FFFFFF" stroke-width="2.5"/>
+  
+  <!-- Shirt details -->
+  <path d="M 260 150 L 300 150" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="280" cy="170" r="8" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Left arm -->
+  <path d="M 240 155 Q 180 160 160 210" fill="none" stroke="#C8102E" stroke-width="18" stroke-linecap="round"/>
+  <path d="M 240 155 Q 180 160 160 210" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Right arm -->
+  <path d="M 320 155 Q 380 160 400 210" fill="none" stroke="#C8102E" stroke-width="18" stroke-linecap="round"/>
+  <path d="M 320 155 Q 380 160 400 210" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Left hand -->
+  <circle cx="160" cy="210" r="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Right hand -->
+  <circle cx="400" cy="210" r="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Shorts -->
+  <rect x="245" y="240" width="70" height="50" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Left leg -->
+  <path d="M 260 290 L 255 360" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Right leg -->
+  <path d="M 300 290 L 305 360" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Left shoe -->
+  <ellipse cx="255" cy="370" rx="12" ry="8" fill="none" stroke="#F6EB61" stroke-width="2.5"/>
+  
+  <!-- Right shoe -->
+  <ellipse cx="305" cy="370" rx="12" ry="8" fill="none" stroke="#F6EB61" stroke-width="2.5"/>
+  
+  <!-- Football at feet -->
+  <circle cx="300" cy="340" r="15" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M 300 325 L 300 355" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
+  <path d="M 285 340 L 315 340" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Accent lines for movement/energy -->
+  <path d="M 320 200 L 360 195" stroke="#F6EB61" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 330 220 L 375 225" stroke="#F6EB61" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Player name text -->
+  <text x="500" y="150" font-size="48" font-weight="bold" fill="#C8102E" font-family="Arial, sans-serif" letter-spacing="2">HARVEY</text>
+  <text x="500" y="200" font-size="48" font-weight="bold" fill="#C8102E" font-family="Arial, sans-serif" letter-spacing="2">ELLIOTT</text>
+  
+  <!-- Decorative underline -->
+  <line x1="500" y1="215" x2="750" y2="215" stroke="#F6EB61" stroke-width="3"/>
+  
+  <!-- Jersey number suggestion -->
+  <text x="500" y="270" font-size="24" fill="#FFFFFF" font-family="Arial, sans-serif" opacity="0.8">MIDFIELDER</text>
+  
+  <!-- Small LFC badge indicator -->
+  <circle cx="720" cy="350" r="25" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <text x="705" y="360" font-size="14" fill="#F6EB61" font-family="Arial, sans-serif" font-weight="bold">LFC</text>
+</svg>

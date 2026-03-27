@@ -1,0 +1,93 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch lines -->
+  <line x1="400" y1="50" x2="400" y2="370" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="210" r="40" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="400" cy="210" r="3" fill="#F6EB61" opacity="0.3"/>
+  
+  <!-- Left penalty area -->
+  <rect x="50" y="110" width="80" height="200" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.2"/>
+  
+  <!-- Right penalty area -->
+  <rect x="670" y="110" width="80" height="200" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.2"/>
+  
+  <!-- Player figure - sketched style -->
+  <!-- Head -->
+  <circle cx="200" cy="120" r="25" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <!-- Hair detail -->
+  <path d="M 180 105 Q 190 95 210 100" fill="none" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Body/Jersey -->
+  <ellipse cx="200" cy="170" rx="35" ry="45" fill="#C8102E" opacity="0.7"/>
+  <path d="M 165 170 L 235 170" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Jersey number -->
+  <text x="200" y="185" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">7</text>
+  
+  <!-- Arms -->
+  <line x1="165" y1="155" x2="130" y2="190" stroke="#C8102E" stroke-width="8" stroke-linecap="round"/>
+  <line x1="235" y1="155" x2="270" y2="190" stroke="#C8102E" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Hands -->
+  <circle cx="130" cy="190" r="8" fill="#C8102E"/>
+  <circle cx="270" cy="190" r="8" fill="#C8102E"/>
+  
+  <!-- Legs -->
+  <line x1="185" y1="215" x2="175" y2="290" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <line x1="215" y1="215" x2="225" y2="290" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  
+  <!-- Boots -->
+  <ellipse cx="175" cy="300" rx="10" ry="12" fill="#C8102E"/>
+  <ellipse cx="225" cy="300" rx="10" ry="12" fill="#C8102E"/>
+  
+  <!-- Ball -->
+  <circle cx="280" cy="280" r="12" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M 280 268 Q 285 274 280 280" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+  <path d="M 280 280 Q 285 286 280 292" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+  
+  <!-- Stats/Attributes boxes on right side -->
+  <!-- Box 1 -->
+  <rect x="420" y="80" width="140" height="60" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  <text x="430" y="100" font-size="11" font-weight="bold" fill="#F6EB61" font-family="Arial, sans-serif">PACE</text>
+  <rect x="430" y="108" width="100" height="8" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+  <rect x="430" y="108" width="78" height="8" fill="#C8102E" opacity="0.8"/>
+  <text x="535" y="115" font-size="10" fill="#FFFFFF" font-family="Arial, sans-serif">78</text>
+  
+  <!-- Box 2 -->
+  <rect x="420" y="160" width="140" height="60" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  <text x="430" y="180" font-size="11" font-weight="bold" fill="#F6EB61" font-family="Arial, sans-serif">PASSING</text>
+  <rect x="430" y="188" width="100" height="8" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+  <rect x="430" y="188" width="82" height="8" fill="#C8102E" opacity="0.8"/>
+  <text x="535" y="195" font-size="10" fill="#FFFFFF" font-family="Arial, sans-serif">82</text>
+  
+  <!-- Box 3 -->
+  <rect x="420" y="240" width="140" height="60" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  <text x="430" y="260" font-size="11" font-weight="bold" fill="#F6EB61" font-family="Arial, sans-serif">POTENTIAL</text>
+  <rect x="430" y="268" width="100" height="8" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+  <rect x="430" y="268" width="88" height="8" fill="#C8102E" opacity="0.8"/>
+  <text x="535" y="275" font-size="10" fill="#FFFFFF" font-family="Arial, sans-serif">88</text>
+  
+  <!-- Arrow showing progression -->
+  <g opacity="0.7">
+    <path d="M 600 150 L 680 150" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <text x="620" y="170" font-size="12" fill="#F6EB61" font-family="Arial, sans-serif">Academy</text>
+    <text x="600" y="190" font-size="12" fill="#F6EB61" font-family="Arial, sans-serif">↓ First Team</text>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Title text -->
+  <text x="200" y="350" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">ACADEMY PROSPECT</text>
+  <text x="200" y="375" font-size="13" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">Scouting Report</text>
+  
+  <!-- Liverpool badge accent -->
+  <circle cx="100" cy="350" r="20" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.5"/>
+  <text x="100" y="360" font-size="12" font-weight="bold" fill="#C8102E" text-anchor="middle" font-family="Arial, sans-serif">LFC</text>
+</svg>
