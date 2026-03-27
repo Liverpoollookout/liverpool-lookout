@@ -1,0 +1,128 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline with sketch effect -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.9">
+    <!-- Pitch rectangle -->
+    <rect x="80" y="40" width="640" height="340" stroke-dasharray="3,2"/>
+    
+    <!-- Center line -->
+    <line x1="400" y1="40" x2="400" y2="380" stroke-dasharray="4,3" stroke-width="1.5"/>
+    
+    <!-- Center circle -->
+    <circle cx="400" cy="210" r="50" stroke-dasharray="3,2" stroke-width="1.5"/>
+    
+    <!-- Center spot -->
+    <circle cx="400" cy="210" r="3" fill="#FFFFFF"/>
+    
+    <!-- Left penalty area -->
+    <rect x="80" y="130" width="90" height="160" stroke-dasharray="3,2"/>
+    
+    <!-- Right penalty area -->
+    <rect x="630" y="130" width="90" height="160" stroke-dasharray="3,2"/>
+    
+    <!-- Left goal area -->
+    <rect x="80" y="160" width="50" height="100" stroke-dasharray="3,2" stroke-width="1"/>
+    
+    <!-- Right goal area -->
+    <rect x="670" y="160" width="50" height="100" stroke-dasharray="3,2" stroke-width="1"/>
+  </g>
+  
+  <!-- Formation title -->
+  <text x="400" y="25" font-size="20" font-weight="bold" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">
+    SLOT 4-2-3-1 PRESSING SYSTEM
+  </text>
+  
+  <!-- Defensive line (4 defenders) -->
+  <g>
+    <!-- GK -->
+    <circle cx="110" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <text x="110" y="216" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">GK</text>
+    
+    <!-- LB -->
+    <circle cx="180" cy="130" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <text x="180" y="136" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">LB</text>
+    
+    <!-- CB Left -->
+    <circle cx="200" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <text x="200" y="216" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">CB</text>
+    
+    <!-- CB Right -->
+    <circle cx="280" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <text x="280" y="216" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">CB</text>
+    
+    <!-- RB -->
+    <circle cx="180" cy="290" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <text x="180" y="296" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">RB</text>
+  </g>
+  
+  <!-- Midfield line (2 holding mid) -->
+  <g>
+    <!-- LCM (holding) -->
+    <circle cx="240" cy="140" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="240" y1="128" x2="240" y2="152" stroke="#F6EB61" stroke-width="1.5"/>
+    <text x="240" y="146" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">CM</text>
+    
+    <!-- RCM (holding) -->
+    <circle cx="320" cy="140" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="320" y1="128" x2="320" y2="152" stroke="#F6EB61" stroke-width="1.5"/>
+    <text x="320" y="146" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">CM</text>
+  </g>
+  
+  <!-- Attacking line (3-1) -->
+  <g>
+    <!-- LW/AM Left -->
+    <circle cx="320" cy="90" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <polygon points="320,78 325,92 315,92" fill="#F6EB61"/>
+    <text x="320" y="96" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">AM</text>
+    
+    <!-- CAM Center -->
+    <circle cx="400" cy="120" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+    <polygon points="400,108 405,132 395,132" fill="#F6EB61"/>
+    <text x="400" y="126" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">CAM</text>
+    
+    <!-- RW/AM Right -->
+    <circle cx="480" cy="90" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <polygon points="480,78 485,92 475,92" fill="#F6EB61"/>
+    <text x="480" y="96" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">AM</text>
+    
+    <!-- ST -->
+    <circle cx="400" cy="45" r="13" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+    <polygon points="400,30 407,60 393,60" fill="#F6EB61" opacity="0.8"/>
+    <text x="400" y="52" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">ST</text>
+  </g>
+  
+  <!-- Pressing trigger arrows (high press) -->
+  <g stroke="#F6EB61" stroke-width="2" fill="none" opacity="0.8">
+    <!-- ST pressing -->
+    <path d="M 400 58 L 400 150" marker-end="url(#arrowhead)"/>
+    
+    <!-- CAM pressing left -->
+    <path d="M 388 132 L 320 160" marker-end="url(#arrowhead)"/>
+    
+    <!-- CAM pressing right -->
+    <path d="M 412 132 L 480 160" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Pressing zone highlights -->
+  <g fill="#F6EB61" opacity="0.1">
+    <ellipse cx="400" cy="120" rx="120" ry="90"/>
+  </g>
+  
+  <!-- Tactical note -->
+  <text x="400" y="395" font-size="12" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif" font-style="italic">
+    HIGH PRESS • ATTACKING TRANSITION
+  </text>
+  
+  <!-- Liverpool badge corner element -->
+  <circle cx="50" cy="40" r="20" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.6"/>
+  <text x="50" y="48" font-size="16" fill="#C8102E" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" opacity="0.6">LFC</text>
+</svg>
