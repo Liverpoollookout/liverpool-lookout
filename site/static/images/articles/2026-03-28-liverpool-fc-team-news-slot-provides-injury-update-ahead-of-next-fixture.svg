@@ -1,0 +1,105 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Title text -->
+  <text x="400" y="40" font-size="28" font-weight="bold" fill="#C8102E" text-anchor="middle" font-family="Arial, sans-serif">
+    Injury &amp; Fitness Update
+  </text>
+  
+  <!-- Decorative line -->
+  <line x1="100" y1="55" x2="700" y2="55" stroke="#F6EB61" stroke-width="2"/>
+  
+  <!-- Medical/fitness icon - stylized heartbeat monitor -->
+  <g stroke="#C8102E" stroke-width="2" fill="none">
+    <!-- Monitor frame -->
+    <rect x="80" y="100" width="140" height="120" rx="8" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Heartbeat line -->
+    <polyline points="95,160 110,160 120,140 130,180 140,160 160,160" stroke="#C8102E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Player figure left -->
+  <g stroke="#C8102E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head -->
+    <circle cx="280" cy="130" r="18" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Body - red kit -->
+    <rect x="265" y="150" width="30" height="45" rx="4" fill="#C8102E" stroke="none"/>
+    
+    <!-- Arms -->
+    <line x1="265" y1="160" x2="230" y2="140"/>
+    <line x1="295" y1="160" x2="330" y2="140"/>
+    
+    <!-- Legs -->
+    <line x1="272" y1="195" x2="260" y2="240"/>
+    <line x1="288" y1="195" x2="300" y2="240"/>
+  </g>
+  
+  <!-- Plus symbol (health/recovery) -->
+  <g stroke="#F6EB61" stroke-width="3" stroke-linecap="round">
+    <line x1="370" y1="145" x2="410" y2="145"/>
+    <line x1="390" y1="125" x2="390" y2="165"/>
+  </g>
+  
+  <!-- Player figure right (recovery) -->
+  <g stroke="#C8102E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head -->
+    <circle cx="520" cy="130" r="18" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Body - red kit -->
+    <rect x="505" y="150" width="30" height="45" rx="4" fill="#C8102E" stroke="none"/>
+    
+    <!-- Arms raised (positive pose) -->
+    <line x1="505" y1="160" x2="460" y2="120"/>
+    <line x1="535" y1="160" x2="580" y2="120"/>
+    
+    <!-- Legs -->
+    <line x1="512" y1="195" x2="500" y2="240"/>
+    <line x1="528" y1="195" x2="540" y2="240"/>
+  </g>
+  
+  <!-- Status indicators -->
+  <!-- Available indicator -->
+  <g>
+    <circle cx="650" cy="140" r="20" stroke="#F6EB61" stroke-width="2" fill="none"/>
+    <polyline points="640,140 650,150 665,130" stroke="#F6EB61" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Status labels -->
+  <text x="280" y="270" font-size="14" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">
+    Monitoring
+  </text>
+  
+  <text x="520" y="270" font-size="14" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">
+    Available
+  </text>
+  
+  <!-- Bottom info bar -->
+  <rect x="0" y="300" width="800" height="120" fill="#0a1628" opacity="0.8"/>
+  
+  <!-- Information boxes -->
+  <rect x="50" y="320" width="280" height="70" rx="4" stroke="#C8102E" stroke-width="2" fill="none"/>
+  <text x="70" y="340" font-size="12" fill="#F6EB61" font-family="Arial, sans-serif" font-weight="bold">
+    Expected Updates:
+  </text>
+  <text x="70" y="360" font-size="11" fill="#FFFFFF" font-family="Arial, sans-serif">
+    Squad availability confirmed
+  </text>
+  <text x="70" y="378" font-size="11" fill="#FFFFFF" font-family="Arial, sans-serif">
+    prior to match day
+  </text>
+  
+  <!-- Liverpool badge accent -->
+  <circle cx="650" cy="355" r="35" stroke="#F6EB61" stroke-width="2" fill="none"/>
+  <text x="650" y="360" font-size="20" fill="#C8102E" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">
+    LFC
+  </text>
+  
+  <!-- Decorative corner elements -->
+  <line x1="20" y1="20" x2="50" y2="20" stroke="#F6EB61" stroke-width="2"/>
+  <line x1="20" y1="20" x2="20" y2="50" stroke="#F6EB61" stroke-width="2"/>
+  
+  <line x1="750" y1="400" x2="780" y2="400" stroke="#F6EB61" stroke-width="2"/>
+  <line x1="780" y1="370" x2="780" y2="400" stroke="#F6EB61" stroke-width="2"/>
+</svg>

@@ -1,0 +1,94 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline with sketch style -->
+  <rect x="60" y="40" width="680" height="340" fill="none" stroke="#2d5a3d" stroke-width="3" stroke-dasharray="5,5" opacity="0.8"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#2d5a3d" stroke-width="2" stroke-dasharray="5,5" opacity="0.6"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="50" fill="none" stroke="#2d5a3d" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Center spot -->
+  <circle cx="400" cy="210" r="4" fill="#2d5a3d" opacity="0.6"/>
+  
+  <!-- Penalty areas -->
+  <rect x="60" y="120" width="120" height="180" fill="none" stroke="#2d5a3d" stroke-width="2" opacity="0.5"/>
+  <rect x="620" y="120" width="120" height="180" fill="none" stroke="#2d5a3d" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Goal areas -->
+  <rect x="60" y="155" width="60" height="110" fill="none" stroke="#2d5a3d" stroke-width="2" opacity="0.4"/>
+  <rect x="680" y="155" width="60" height="110" fill="none" stroke="#2d5a3d" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Liverpool Formation: 4-2-3-1 -->
+  <!-- Back line (4 defenders) -->
+  <circle cx="120" cy="100" r="18" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <circle cx="120" cy="320" r="18" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <circle cx="220" cy="140" r="18" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <circle cx="220" cy="280" r="18" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  
+  <!-- Defensive midfielders (2) -->
+  <circle cx="320" cy="180" r="17" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <circle cx="320" cy="240" r="17" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  
+  <!-- Attacking midfielders/wingers (3) -->
+  <circle cx="480" cy="120" r="16" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <circle cx="480" cy="210" r="16" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <circle cx="480" cy="300" r="16" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  
+  <!-- Striker (1) -->
+  <circle cx="620" cy="210" r="18" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  
+  <!-- Pressing trigger arrows in gold -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Pressing arrows from attacking mids toward opposition -->
+  <path d="M 500 140 L 560 140" stroke="#F6EB61" stroke-width="2.5" fill="none" marker-end="url(#arrowhead)" opacity="0.8"/>
+  <path d="M 500 210 L 570 210" stroke="#F6EB61" stroke-width="2.5" fill="none" marker-end="url(#arrowhead)" opacity="0.8"/>
+  <path d="M 500 280 L 560 280" stroke="#F6EB61" stroke-width="2.5" fill="none" marker-end="url(#arrowhead)" opacity="0.8"/>
+  
+  <!-- Passing lanes (white dashed) -->
+  <line x1="120" y1="100" x2="220" y2="140" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.5"/>
+  <line x1="120" y1="320" x2="220" y2="280" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.5"/>
+  <line x1="220" y1="140" x2="320" y2="180" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.5"/>
+  <line x1="220" y1="280" x2="320" y2="240" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.5"/>
+  
+  <!-- Title and labels -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#C8102E" text-anchor="middle" letter-spacing="2">
+    SLOT 4-2-3-1
+  </text>
+  
+  <text x="100" y="410" font-family="Arial, sans-serif" font-size="12" fill="#F6EB61" letter-spacing="1">
+    DEFENSIVE SHAPE
+  </text>
+  
+  <text x="500" y="410" font-family="Arial, sans-serif" font-size="12" fill="#F6EB61" letter-spacing="1">
+    PRESSING TRIGGERS
+  </text>
+  
+  <!-- Decorative sketch marks -->
+  <g stroke="#FFFFFF" stroke-width="1" opacity="0.3" fill="none">
+    <path d="M 50 50 L 55 45"/>
+    <path d="M 750 370 L 755 375"/>
+    <path d="M 750 50 L 745 45"/>
+    <path d="M 50 370 L 55 375"/>
+  </g>
+  
+  <!-- Formation notation circles with numbers -->
+  <circle cx="120" cy="100" r="4" fill="#F6EB61"/>
+  <circle cx="120" cy="320" r="4" fill="#F6EB61"/>
+  <circle cx="220" cy="140" r="4" fill="#F6EB61"/>
+  <circle cx="220" cy="280" r="4" fill="#F6EB61"/>
+  <circle cx="320" cy="180" r="4" fill="#F6EB61"/>
+  <circle cx="320" cy="240" r="4" fill="#F6EB61"/>
+  <circle cx="480" cy="120" r="4" fill="#F6EB61"/>
+  <circle cx="480" cy="210" r="4" fill="#F6EB61"/>
+  <circle cx="480" cy="300" r="4" fill="#F6EB61"/>
+  <circle cx="620" cy="210" r="4" fill="#F6EB61"/>
+</svg>
