@@ -1,0 +1,104 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline with sketch style -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none" stroke-dasharray="3,2" opacity="0.7">
+    <rect x="40" y="30" width="720" height="360" stroke-linecap="round"/>
+    <line x1="400" y1="30" x2="400" y2="390" stroke-dasharray="2,3"/>
+    <circle cx="400" cy="210" r="50" stroke-dasharray="2,3"/>
+    <circle cx="400" cy="210" r="3" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Left penalty area -->
+  <rect x="40" y="110" width="80" height="200" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.5"/>
+  <!-- Right penalty area -->
+  <rect x="680" y="110" width="80" height="200" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Goalkeeper circles -->
+  <circle cx="60" cy="210" r="20" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  <circle cx="740" cy="210" r="20" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  
+  <!-- LIVERPOOL 4-2-3-1 FORMATION -->
+  <!-- Back line (4 defenders) -->
+  <circle cx="100" cy="100" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="100" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="100" cy="320" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="200" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Defensive midfield line (2 players) -->
+  <circle cx="280" cy="130" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="280" cy="290" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Attacking midfield/wings (3 players) -->
+  <circle cx="380" cy="80" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="380" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="380" cy="340" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Striker (1 player) -->
+  <circle cx="520" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Connection lines showing movement/pressing triggers -->
+  <path d="M 100 100 L 280 130 L 380 80" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,3"/>
+  <path d="M 100 210 L 280 130" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,3"/>
+  <path d="M 100 210 L 280 290" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,3"/>
+  <path d="M 100 320 L 280 290 L 380 340" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,3"/>
+  <path d="M 280 130 L 380 210 L 520 210" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,3"/>
+  <path d="M 380 80 L 520 210" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,3"/>
+  <path d="M 380 340 L 520 210" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,3"/>
+  
+  <!-- Pressing trigger arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61" opacity="0.8"/>
+    </marker>
+  </defs>
+  
+  <!-- Aggressive pressing movements -->
+  <path d="M 280 130 L 320 120" fill="none" stroke="#F6EB61" stroke-width="2" marker-end="url(#arrowhead)" opacity="0.8"/>
+  <path d="M 380 80 L 420 60" fill="none" stroke="#F6EB61" stroke-width="2" marker-end="url(#arrowhead)" opacity="0.8"/>
+  <path d="M 380 340 L 420 360" fill="none" stroke="#F6EB61" stroke-width="2" marker-end="url(#arrowhead)" opacity="0.8"/>
+  <path d="M 520 210 L 560 210" fill="none" stroke="#F6EB61" stroke-width="2" marker-end="url(#arrowhead)" opacity="0.8"/>
+  
+  <!-- Text labels -->
+  <text x="400" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    Slot 4-2-3-1 System
+  </text>
+  
+  <text x="400" y="415" font-family="Arial, sans-serif" font-size="14" fill="#F6EB61" text-anchor="middle" opacity="0.9">
+    Pressing Trigger Formation
+  </text>
+  
+  <!-- Position labels -->
+  <text x="60" y="245" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" opacity="0.7">
+    GK
+  </text>
+  
+  <text x="100" y="75" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle" opacity="0.6">
+    CB
+  </text>
+  
+  <text x="280" y="100" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle" opacity="0.6">
+    DM
+  </text>
+  
+  <text x="380" y="50" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle" opacity="0.6">
+    AM
+  </text>
+  
+  <text x="520" y="240" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle" opacity="0.6">
+    ST
+  </text>
+  
+  <!-- Decorative corner elements -->
+  <g stroke="#C8102E" stroke-width="2" fill="none" opacity="0.3">
+    <line x1="50" y1="50" x2="70" y2="50"/>
+    <line x1="50" y1="50" x2="50" y2="70"/>
+    <line x1="750" y1="50" x2="730" y2="50"/>
+    <line x1="750" y1="50" x2="750" y2="70"/>
+    <line x1="50" y1="370" x2="70" y2="370"/>
+    <line x1="50" y1="370" x2="50" y2="350"/>
+    <line x1="750" y1="370" x2="730" y2="370"/>
+    <line x1="750" y1="370" x2="750" y2="350"/>
+  </g>
+</svg>

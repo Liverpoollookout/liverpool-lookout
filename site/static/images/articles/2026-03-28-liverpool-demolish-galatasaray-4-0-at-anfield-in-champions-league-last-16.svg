@@ -1,0 +1,110 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline - sketch style -->
+  <rect x="80" y="60" width="640" height="300" fill="none" stroke="#2d5016" stroke-width="3" stroke-dasharray="5,5" opacity="0.6"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="60" x2="400" y2="360" stroke="#2d5016" stroke-width="2" opacity="0.5" stroke-dasharray="3,3"/>
+  
+  <!-- Center circle - sketch style -->
+  <circle cx="400" cy="210" r="45" fill="none" stroke="#2d5016" stroke-width="2" opacity="0.5" stroke-dasharray="3,3"/>
+  
+  <!-- Center spot -->
+  <circle cx="400" cy="210" r="4" fill="#F6EB61"/>
+  
+  <!-- Penalty areas - left side -->
+  <rect x="80" y="130" width="90" height="160" fill="none" stroke="#2d5016" stroke-width="2" opacity="0.5"/>
+  <circle cx="120" cy="210" r="12" fill="none" stroke="#2d5016" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Penalty areas - right side -->
+  <rect x="630" y="130" width="90" height="160" fill="none" stroke="#2d5016" stroke-width="2" opacity="0.5"/>
+  <circle cx="680" cy="210" r="12" fill="none" stroke="#2d5016" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Player 1 - Left side (Liverpool red kit) -->
+  <g>
+    <!-- Head -->
+    <circle cx="220" cy="140" r="12" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Body -->
+    <line x1="220" y1="152" x2="220" y2="190" stroke="#C8102E" stroke-width="3"/>
+    <!-- Left arm -->
+    <line x1="220" y1="165" x2="190" y2="155" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Right arm -->
+    <line x1="220" y1="165" x2="250" y2="175" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Left leg -->
+    <line x1="220" y1="190" x2="200" y2="230" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Right leg -->
+    <line x1="220" y1="190" x2="235" y2="235" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Jersey number -->
+    <text x="220" y="185" text-anchor="middle" font-size="14" font-weight="bold" fill="#C8102E" opacity="0.7">7</text>
+  </g>
+  
+  <!-- Player 2 - Center (Liverpool red kit) -->
+  <g>
+    <!-- Head -->
+    <circle cx="400" cy="280" r="12" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Body -->
+    <line x1="400" y1="292" x2="400" y2="330" stroke="#C8102E" stroke-width="3"/>
+    <!-- Left arm -->
+    <line x1="400" y1="305" x2="370" y2="295" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Right arm -->
+    <line x1="400" y1="305" x2="430" y2="315" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Left leg -->
+    <line x1="400" y1="330" x2="380" y2="370" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Right leg -->
+    <line x1="400" y1="330" x2="420" y2="370" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Jersey number -->
+    <text x="400" y="325" text-anchor="middle" font-size="14" font-weight="bold" fill="#C8102E" opacity="0.7">10</text>
+  </g>
+  
+  <!-- Player 3 - Right side (Liverpool red kit) -->
+  <g>
+    <!-- Head -->
+    <circle cx="580" cy="150" r="12" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Body -->
+    <line x1="580" y1="162" x2="580" y2="200" stroke="#C8102E" stroke-width="3"/>
+    <!-- Left arm -->
+    <line x1="580" y1="175" x2="550" y2="165" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Right arm -->
+    <line x1="580" y1="175" x2="610" y2="185" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Left leg -->
+    <line x1="580" y1="200" x2="560" y2="240" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Right leg -->
+    <line x1="580" y1="200" x2="600" y2="245" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Jersey number -->
+    <text x="580" y="195" text-anchor="middle" font-size="14" font-weight="bold" fill="#C8102E" opacity="0.7">9</text>
+  </g>
+  
+  <!-- Tactical arrows - Slot's play direction -->
+  <g stroke="#F6EB61" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <!-- Arrow 1 -->
+    <path d="M 250 180 Q 320 160 380 240" stroke-dasharray="4,4"/>
+    <polygon points="385 245 375 245 378 235" fill="#F6EB61"/>
+    
+    <!-- Arrow 2 -->
+    <path d="M 550 180 Q 480 200 420 280" stroke-dasharray="4,4"/>
+    <polygon points="415 285 420 275 430 280" fill="#F6EB61"/>
+  </g>
+  
+  <!-- Rating boxes -->
+  <g>
+    <!-- Player 7 Rating -->
+    <rect x="160" y="100" width="70" height="25" fill="none" stroke="#FFFFFF" stroke-width="1.5" rx="3"/>
+    <text x="195" y="118" text-anchor="middle" font-size="11" fill="#FFFFFF" font-weight="bold">8.5</text>
+    
+    <!-- Player 10 Rating -->
+    <rect x="360" y="240" width="70" height="25" fill="none" stroke="#FFFFFF" stroke-width="1.5" rx="3"/>
+    <text x="395" y="258" text-anchor="middle" font-size="11" fill="#FFFFFF" font-weight="bold">8.2</text>
+    
+    <!-- Player 9 Rating -->
+    <rect x="540" y="110" width="70" height="25" fill="none" stroke="#FFFFFF" stroke-width="1.5" rx="3"/>
+    <text x="575" y="128" text-anchor="middle" font-size="11" fill="#FFFFFF" font-weight="bold">7.8</text>
+  </g>
+  
+  <!-- Title text -->
+  <text x="400" y="395" text-anchor="middle" font-size="18" fill="#FFFFFF" font-weight="bold" letter-spacing="2">MATCH REPORT</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="412" text-anchor="middle" font-size="12" fill="#F6EB61" font-weight="500" opacity="0.9">Tactical Analysis • Slot's Formation • Player Ratings</text>
+</svg>

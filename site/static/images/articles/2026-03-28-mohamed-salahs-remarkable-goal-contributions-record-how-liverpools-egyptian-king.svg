@@ -1,0 +1,98 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none">
+    <!-- Outer boundary -->
+    <rect x="80" y="60" width="640" height="300" stroke-width="2.5"/>
+    <!-- Center line -->
+    <line x1="400" y1="60" x2="400" y2="360"/>
+    <!-- Center circle -->
+    <circle cx="400" cy="210" r="45" stroke-width="2"/>
+    <!-- Center spot -->
+    <circle cx="400" cy="210" r="3" fill="#FFFFFF"/>
+    <!-- Penalty areas -->
+    <rect x="80" y="130" width="90" height="160"/>
+    <rect x="630" y="130" width="90" height="160"/>
+    <!-- Goal areas -->
+    <rect x="80" y="160" width="50" height="100"/>
+    <rect x="670" y="160" width="50" height="100"/>
+  </g>
+  
+  <!-- Left penalty arc -->
+  <path d="M 125 130 Q 125 90 155 85" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <!-- Right penalty arc -->
+  <path d="M 675 130 Q 675 90 645 85" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Statistical visualization bars (sketchy style) -->
+  <g stroke="#C8102E" stroke-width="3" fill="none" stroke-linecap="round">
+    <!-- Bar 1 -->
+    <path d="M 150 280 L 150 240" stroke-width="4"/>
+    <rect x="140" y="240" width="20" height="40" fill="#C8102E" opacity="0.6"/>
+    
+    <!-- Bar 2 -->
+    <path d="M 220 280 L 220 200" stroke-width="4"/>
+    <rect x="210" y="200" width="20" height="80" fill="#C8102E" opacity="0.6"/>
+    
+    <!-- Bar 3 -->
+    <path d="M 290 280 L 290 180" stroke-width="4"/>
+    <rect x="280" y="180" width="20" height="100" fill="#C8102E" opacity="0.6"/>
+    
+    <!-- Bar 4 -->
+    <path d="M 360 280 L 360 150" stroke-width="4"/>
+    <rect x="350" y="150" width="20" height="130" fill="#C8102E" opacity="0.6"/>
+    
+    <!-- Bar 5 -->
+    <path d="M 430 280 L 430 190" stroke-width="4"/>
+    <rect x="420" y="190" width="20" height="90" fill="#C8102E" opacity="0.6"/>
+    
+    <!-- Bar 6 -->
+    <path d="M 500 280 L 500 210" stroke-width="4"/>
+    <rect x="490" y="210" width="20" height="70" fill="#C8102E" opacity="0.6"/>
+    
+    <!-- Bar 7 -->
+    <path d="M 570 280 L 570 230" stroke-width="4"/>
+    <rect x="560" y="230" width="20" height="50" fill="#C8102E" opacity="0.6"/>
+  </g>
+  
+  <!-- Data points with circles -->
+  <g fill="#F6EB61" stroke="#FFFFFF" stroke-width="1.5">
+    <circle cx="150" cy="240" r="5"/>
+    <circle cx="220" cy="200" r="5"/>
+    <circle cx="290" cy="180" r="5"/>
+    <circle cx="360" cy="150" r="5"/>
+    <circle cx="430" cy="190" r="5"/>
+    <circle cx="500" cy="210" r="5"/>
+    <circle cx="570" cy="230" r="5"/>
+  </g>
+  
+  <!-- Connecting line between data points -->
+  <polyline points="150,240 220,200 290,180 360,150 430,190 500,210 570,230" 
+            stroke="#F6EB61" stroke-width="2" fill="none" stroke-dasharray="4,3" opacity="0.8"/>
+  
+  <!-- Title text -->
+  <text x="400" y="40" font-size="32" font-weight="bold" text-anchor="middle" 
+        fill="#FFFFFF" font-family="Arial, sans-serif" letter-spacing="1">
+    STATISTICS ANALYSIS
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="390" font-size="18" text-anchor="middle" 
+        fill="#F6EB61" font-family="Arial, sans-serif" font-style="italic">
+    Deep Dive Performance Metrics
+  </text>
+  
+  <!-- Decorative sketchy elements -->
+  <g stroke="#C8102E" stroke-width="1.5" fill="none" opacity="0.4">
+    <path d="M 680 100 Q 700 110 690 130" stroke-linecap="round"/>
+    <path d="M 720 150 L 740 140" stroke-linecap="round"/>
+    <path d="M 50 350 Q 60 330 80 340" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Liverpool FC accent corner marks -->
+  <g stroke="#C8102E" stroke-width="3" fill="none">
+    <path d="M 90 70 L 110 70 M 90 70 L 90 90" stroke-linecap="round"/>
+    <path d="M 710 70 L 690 70 M 710 70 L 710 90" stroke-linecap="round"/>
+  </g>
+</svg>
