@@ -1,0 +1,91 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <defs>
+    <style>
+      .pitch-line { stroke: #FFFFFF; stroke-width: 2; fill: none; }
+      .pitch-accent { stroke: #C8102E; stroke-width: 2; fill: none; }
+      .sketch-stroke { stroke: #F6EB61; stroke-width: 1.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .player-figure { stroke: #C8102E; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .text-main { font-family: Arial, sans-serif; font-size: 28px; font-weight: bold; fill: #C8102E; }
+      .text-sub { font-family: Arial, sans-serif; font-size: 14px; fill: #F6EB61; }
+      .text-light { font-family: Arial, sans-serif; font-size: 12px; fill: #FFFFFF; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline -->
+  <rect x="80" y="50" width="640" height="320" fill="none" class="pitch-line" stroke-width="3"/>
+  
+  <!-- Pitch center line -->
+  <line x1="400" y1="50" x2="400" y2="370" class="pitch-line"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="60" class="pitch-line"/>
+  
+  <!-- Center spot -->
+  <circle cx="400" cy="210" r="4" fill="#FFFFFF"/>
+  
+  <!-- Penalty areas -->
+  <rect x="80" y="120" width="100" height="180" class="pitch-line"/>
+  <rect x="620" y="120" width="100" height="180" class="pitch-line"/>
+  
+  <!-- Goal areas -->
+  <rect x="80" y="150" width="50" height="120" class="pitch-line"/>
+  <rect x="670" y="150" width="50" height="120" class="pitch-line"/>
+  
+  <!-- Sketched tactical arrows for Slot decisions -->
+  <g class="sketch-stroke">
+    <!-- Forward movement arrow -->
+    <path d="M 200 180 Q 250 160 300 150" stroke="#C8102E" stroke-width="2"/>
+    <polygon points="300,150 295,140 305,145" fill="#C8102E"/>
+    
+    <!-- Midfield press arrow -->
+    <path d="M 280 240 Q 320 220 360 210" stroke="#C8102E" stroke-width="2"/>
+    <polygon points="360,210 365,200 365,220" fill="#C8102E"/>
+    
+    <!-- Defensive positioning arrow -->
+    <path d="M 500 250 Q 450 260 400 270" stroke="#F6EB61" stroke-width="2"/>
+    <polygon points="400,270 395,280 405,275" fill="#F6EB61"/>
+  </g>
+  
+  <!-- Tactical zones with subtle sketches -->
+  <circle cx="200" cy="150" r="35" class="pitch-accent" opacity="0.6"/>
+  <circle cx="600" cy="150" r="35" class="pitch-accent" opacity="0.6"/>
+  
+  <!-- Player position indicators (sketched circles) -->
+  <circle cx="150" cy="210" r="8" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <circle cx="650" cy="210" r="8" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  
+  <!-- Sketched rating boxes -->
+  <g>
+    <rect x="100" y="280" width="120" height="70" fill="none" class="pitch-accent" stroke-width="2"/>
+    <text x="160" y="310" class="text-sub" text-anchor="middle">KEY MOMENTS</text>
+    <line x1="105" y1="320" x2="215" y2="320" stroke="#F6EB61" stroke-width="1"/>
+    <text x="160" y="340" class="text-light" text-anchor="middle" font-size="11">Goals • Saves</text>
+  </g>
+  
+  <!-- Ratings display -->
+  <g>
+    <rect x="580" y="280" width="120" height="70" fill="none" class="pitch-accent" stroke-width="2"/>
+    <text x="640" y="310" class="text-sub" text-anchor="middle">RATINGS</text>
+    <line x1="585" y1="320" x2="695" y2="320" stroke="#F6EB61" stroke-width="1"/>
+    <text x="640" y="340" class="text-light" text-anchor="middle" font-size="11">Player Form</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="35" class="text-main" text-anchor="middle">MATCH REPORT</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="400" class="text-sub" text-anchor="middle">Slot Tactical Analysis • Liverpool FC</text>
+  
+  <!-- Decorative sketched elements -->
+  <path d="M 50 60 L 60 50 L 70 60" class="sketch-stroke" opacity="0.7"/>
+  <path d="M 750 350 L 760 340 L 770 350" class="sketch-stroke" opacity="0.7"/>
+  
+  <!-- Corner flags sketch -->
+  <circle cx="85" cy="52" r="3" fill="#F6EB61"/>
+  <circle cx="715" cy="52" r="3" fill="#F6EB61"/>
+  <circle cx="85" cy="368" r="3" fill="#F6EB61"/>
+  <circle cx="715" cy="368" r="3" fill="#F6EB61"/>
+</svg>
