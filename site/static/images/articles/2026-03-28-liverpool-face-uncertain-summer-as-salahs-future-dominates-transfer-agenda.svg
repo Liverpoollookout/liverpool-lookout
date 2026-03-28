@@ -1,0 +1,60 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Title text -->
+  <text x="400" y="40" font-size="32" font-weight="bold" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">TRANSFER RUMOURS</text>
+  
+  <!-- Left arrow coming in -->
+  <g stroke="#C8102E" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M 80 180 L 200 180" stroke-dasharray="5,5"/>
+    <polygon points="200,180 190,175 195,180 190,185" fill="#C8102E"/>
+  </g>
+  
+  <!-- Central player silhouette with Liverpool kit -->
+  <circle cx="400" cy="180" r="45" fill="#C8102E" opacity="0.9" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Player shirt detail -->
+  <rect x="375" y="155" width="50" height="50" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5" rx="3"/>
+  
+  <!-- Vertical line for shirt -->
+  <line x1="400" y1="155" x2="400" y2="205" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Arms sketch -->
+  <path d="M 375 170 L 340 165" stroke="#C8102E" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 425 170 L 460 165" stroke="#C8102E" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Legs sketch -->
+  <path d="M 385 205 L 375 250" stroke="#C8102E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 415 205 L 425 250" stroke="#C8102E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Head -->
+  <circle cx="400" cy="140" r="20" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Right arrow going out -->
+  <g stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M 480 180 L 600 180" stroke-dasharray="5,5"/>
+    <polygon points="600,180 590,175 595,180 590,185" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Question marks for uncertainty -->
+  <text x="650" y="190" font-size="48" fill="#F6EB61" font-weight="bold" opacity="0.7" font-family="Arial, sans-serif">?</text>
+  
+  <!-- Contract indicator lines -->
+  <g stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M 100 280 Q 150 260 200 280"/>
+    <path d="M 600 280 Q 650 260 700 280"/>
+  </g>
+  
+  <!-- Status labels -->
+  <text x="150" y="320" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">OUTGOINGS</text>
+  <text x="650" y="320" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">DEPARTURES</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="380" font-size="14" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif" opacity="0.8">Contract Situations &amp; Potential Exits</text>
+  
+  <!-- Decorative circles (Liverpool badge accent) -->
+  <circle cx="50" cy="50" r="8" fill="#C8102E" opacity="0.5"/>
+  <circle cx="750" cy="370" r="8" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="70" cy="400" r="6" fill="#F6EB61" opacity="0.5"/>
+</svg>

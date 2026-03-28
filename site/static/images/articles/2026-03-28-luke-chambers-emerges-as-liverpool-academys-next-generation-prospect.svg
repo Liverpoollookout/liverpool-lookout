@@ -1,0 +1,103 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative pitch lines -->
+  <line x1="0" y1="210" x2="800" y2="210" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#F6EB61" stroke-width="1" opacity="0.2"/>
+  <circle cx="400" cy="210" r="3" fill="#F6EB61" opacity="0.3"/>
+  
+  <!-- Left goal area sketch -->
+  <rect x="20" y="140" width="80" height="140" fill="none" stroke="#F6EB61" stroke-width="1" opacity="0.2" stroke-dasharray="5,5"/>
+  
+  <!-- Right goal area sketch -->
+  <rect x="700" y="140" width="80" height="140" fill="none" stroke="#F6EB61" stroke-width="1" opacity="0.2" stroke-dasharray="5,5"/>
+  
+  <!-- Player figure - young academy player -->
+  <!-- Head -->
+  <circle cx="400" cy="100" r="25" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <circle cx="395" cy="95" r="3" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="405" cy="95" r="3" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M 400 105 Q 397 108 400 110 Q 403 108 400 105" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Body - Liverpool red kit -->
+  <ellipse cx="400" cy="155" rx="22" ry="35" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  
+  <!-- Shirt detail - vertical stripe -->
+  <line x1="400" y1="130" x2="400" y2="185" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Arms -->
+  <line x1="378" y1="145" x2="340" y2="120" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="422" y1="145" x2="460" y2="120" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Hands -->
+  <circle cx="338" cy="118" r="4" fill="#C8102E" stroke="#FFFFFF" stroke-width="1"/>
+  <circle cx="462" cy="118" r="4" fill="#C8102E" stroke="#FFFFFF" stroke-width="1"/>
+  
+  <!-- Legs -->
+  <line x1="385" y1="185" x2="375" y2="260" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="415" y1="185" x2="425" y2="260" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Football boots -->
+  <ellipse cx="373" cy="265" rx="6" ry="8" fill="#FFFFFF" stroke="#0a1628" stroke-width="1"/>
+  <ellipse cx="427" cy="265" rx="6" ry="8" fill="#FFFFFF" stroke="#0a1628" stroke-width="1"/>
+  
+  <!-- Ball near player -->
+  <circle cx="460" cy="260" r="8" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="460" y1="252" x2="460" y2="268" stroke="#FFFFFF" stroke-width="1" opacity="0.6"/>
+  <line x1="452" y1="260" x2="468" y2="260" stroke="#FFFFFF" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Upward trajectory arrow - potential -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <path d="M 320 280 Q 280 220 300 140" fill="none" stroke="#F6EB61" stroke-width="2.5" marker-end="url(#arrowhead)" stroke-dasharray="5,3"/>
+  
+  <!-- Stars representing potential -->
+  <polygon points="310,130 314,140 325,140 317,147 320,158 310,151 300,158 303,147 295,140 306,140" fill="#F6EB61"/>
+  <polygon points="490,100 493,108 503,108 495,114 497,123 488,117 479,123 481,114 473,108 483,108" fill="#F6EB61" opacity="0.7"/>
+  <polygon points="530,200 532,206 541,206 534,211 536,218 529,213 522,218 524,211 517,206 526,206" fill="#F6EB61" opacity="0.6"/>
+  
+  <!-- Scouting report elements on sides -->
+  <!-- Left side metrics -->
+  <g opacity="0.8">
+    <text x="50" y="320" font-family="Arial, sans-serif" font-size="11" fill="#F6EB61" font-weight="bold">PACE</text>
+    <rect x="50" y="328" width="80" height="6" fill="none" stroke="#C8102E" stroke-width="1"/>
+    <rect x="50" y="328" width="60" height="6" fill="#C8102E" opacity="0.6"/>
+    
+    <text x="50" y="355" font-family="Arial, sans-serif" font-size="11" fill="#F6EB61" font-weight="bold">VISION</text>
+    <rect x="50" y="363" width="80" height="6" fill="none" stroke="#C8102E" stroke-width="1"/>
+    <rect x="50" y="363" width="55" height="6" fill="#C8102E" opacity="0.6"/>
+  </g>
+  
+  <!-- Right side metrics -->
+  <g opacity="0.8">
+    <text x="680" y="320" font-family="Arial, sans-serif" font-size="11" fill="#F6EB61" font-weight="bold">TECHNIQUE</text>
+    <rect x="580" y="328" width="80" height="6" fill="none" stroke="#C8102E" stroke-width="1"/>
+    <rect x="580" y="328" width="72" height="6" fill="#C8102E" opacity="0.6"/>
+    
+    <text x="700" y="355" font-family="Arial, sans-serif" font-size="11" fill="#F6EB61" font-weight="bold">POTENTIAL</text>
+    <rect x="580" y="363" width="80" height="6" fill="none" stroke="#C8102E" stroke-width="1"/>
+    <rect x="580" y="363" width="75" height="6" fill="#C8102E" opacity="0.6"/>
+  </g>
+  
+  <!-- Title text -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ACADEMY PROSPECT</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="55" font-family="Arial, sans-serif" font-size="14" fill="#F6EB61" text-anchor="middle" opacity="0.9">First-Team Potential Report</text>
+  
+  <!-- Liverpool FC badge accent -->
+  <circle cx="100" cy="60" r="20" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.5"/>
+  <text x="100" y="66" font-family="Arial, sans-serif" font-size="12" fill="#C8102E" text-anchor="middle" font-weight="bold" opacity="0.7">LFC</text>
+  
+  <!-- Decorative corner sketches -->
+  <line x1="10" y1="10" x2="50" y2="10" stroke="#F6EB61" stroke-width="1.5" opacity="0.4"/>
+  <line x1="10" y1="10" x2="10" y2="50" stroke="#F6EB61" stroke-width="1.5" opacity="0.4"/>
+  
+  <line x1="790" y1="410" x2="750" y2="410" stroke="#F6EB61" stroke-width="1.5" opacity="0.4"/>
+  <line x1="790" y1="410" x2="790" y2="370" stroke="#F6EB61" stroke-width="1.5" opacity="0.4"/>
+</svg>
