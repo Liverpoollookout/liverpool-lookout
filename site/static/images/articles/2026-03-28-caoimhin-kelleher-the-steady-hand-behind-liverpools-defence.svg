@@ -1,0 +1,79 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="50" cy="50" r="30" fill="#F6EB61" opacity="0.1"/>
+  <circle cx="750" cy="370" r="40" fill="#C8102E" opacity="0.1"/>
+  
+  <!-- Sketchy border lines -->
+  <path d="M 20 20 L 780 20 L 780 400 L 20 400 Z" stroke="#F6EB61" stroke-width="2" fill="none" stroke-dasharray="5,5" opacity="0.6"/>
+  
+  <!-- Head -->
+  <circle cx="280" cy="90" r="35" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  <circle cx="275" cy="85" r="4" fill="#FFFFFF"/>
+  <circle cx="285" cy="85" r="4" fill="#FFFFFF"/>
+  <path d="M 280 95 Q 275 100 270 98" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M 280 105 L 278 112" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Neck -->
+  <line x1="280" y1="125" x2="280" y2="145" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Body - Liverpool kit -->
+  <path d="M 250 145 L 310 145 L 315 220 L 245 220 Z" fill="#C8102E" stroke="#FFFFFF" stroke-width="2.5"/>
+  
+  <!-- Kit details -->
+  <circle cx="280" cy="165" r="6" fill="#FFFFFF" opacity="0.7"/>
+  <line x1="280" y1="145" x2="280" y2="220" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Left arm -->
+  <path d="M 250 155 L 200 185" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Left hand/glove -->
+  <circle cx="195" cy="192" r="12" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M 190 190 L 185 188 M 195 197 L 192 205" stroke="#C8102E" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Right arm -->
+  <path d="M 310 155 L 360 185" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Right hand/glove -->
+  <circle cx="365" cy="192" r="12" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M 370 190 L 375 188 M 365 197 L 368 205" stroke="#C8102E" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Shorts -->
+  <rect x="250" y="220" width="60" height="35" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Left leg -->
+  <line x1="265" y1="255" x2="260" y2="330" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Left sock -->
+  <rect x="255" y="330" width="10" height="40" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <!-- Left boot -->
+  <ellipse cx="260" cy="375" rx="8" ry="12" fill="#000000" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Right leg -->
+  <line x1="295" y1="255" x2="300" y2="330" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Right sock -->
+  <rect x="295" y="330" width="10" height="40" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <!-- Right boot -->
+  <ellipse cx="300" cy="375" rx="8" ry="12" fill="#000000" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Goalkeeper glove detail on left hand -->
+  <path d="M 185 185 L 180 175 M 190 190 L 188 178" stroke="#F6EB61" stroke-width="1" opacity="0.8" stroke-linecap="round"/>
+  
+  <!-- Player name text -->
+  <text x="450" y="120" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#C8102E" letter-spacing="2">KELLEHER</text>
+  <text x="450" y="165" font-family="Arial, sans-serif" font-size="28" fill="#FFFFFF" letter-spacing="1">Caoimhin</text>
+  
+  <!-- Position badge -->
+  <rect x="450" y="200" width="140" height="50" rx="5" fill="none" stroke="#F6EB61" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="520" y="235" font-family="Arial, sans-serif" font-size="20" fill="#F6EB61" text-anchor="middle" font-weight="bold">GOALKEEPER</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="520" cy="310" r="3" fill="#C8102E"/>
+  <circle cx="540" cy="330" r="3" fill="#C8102E"/>
+  <circle cx="500" cy="340" r="3" fill="#C8102E"/>
+  <circle cx="560" cy="315" r="3" fill="#F6EB61"/>
+  
+  <!-- Sketch marks for style -->
+  <path d="M 150 200 L 160 205 M 155 200 L 165 210" stroke="#FFFFFF" stroke-width="1" opacity="0.3" stroke-linecap="round"/>
+  <path d="M 620 100 L 635 110 M 625 105 L 645 120" stroke="#C8102E" stroke-width="1" opacity="0.3" stroke-linecap="round"/>
+  <path d="M 680 300 L 695 310" stroke="#F6EB61" stroke-width="1" opacity="0.3" stroke-linecap="round"/>
+</svg>

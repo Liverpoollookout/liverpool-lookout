@@ -1,0 +1,109 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-size="28" font-weight="bold" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">MATCH PREVIEW</text>
+  
+  <!-- Pitch outline -->
+  <rect x="50" y="60" width="700" height="340" fill="#1a4d2e" stroke="#FFFFFF" stroke-width="2" opacity="0.8"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="60" x2="400" y2="400" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="230" r="40" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+  <circle cx="400" cy="230" r="3" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Left penalty area -->
+  <rect x="50" y="130" width="100" height="200" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Right penalty area -->
+  <rect x="650" y="130" width="100" height="200" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Left goal area -->
+  <rect x="50" y="170" width="50" height="120" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Right goal area -->
+  <rect x="700" y="170" width="50" height="120" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Liverpool Formation - 4-3-3 Left Side -->
+  <text x="150" y="50" font-size="16" font-weight="bold" fill="#C8102E" font-family="Arial, sans-serif">LIVERPOOL (4-3-3)</text>
+  
+  <!-- Goalkeeper -->
+  <circle cx="80" cy="230" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="80" y="235" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">GK</text>
+  
+  <!-- Defenders -->
+  <circle cx="150" cy="140" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="150" y="145" font-size="9" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">1</text>
+  
+  <circle cx="150" cy="230" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="150" y="235" font-size="9" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">2</text>
+  
+  <circle cx="150" cy="320" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="150" y="325" font-size="9" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">3</text>
+  
+  <!-- Midfielder back -->
+  <circle cx="220" cy="230" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="220" y="235" font-size="9" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">4</text>
+  
+  <!-- Midfielders -->
+  <circle cx="280" cy="160" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="280" y="165" font-size="9" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">5</text>
+  
+  <circle cx="280" cy="300" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="280" y="305" font-size="9" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">6</text>
+  
+  <!-- Midfield center -->
+  <circle cx="340" cy="230" r="11" fill="#C8102E" stroke="#F6EB61" stroke-width="2"/>
+  <text x="340" y="235" font-size="9" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">7</text>
+  
+  <!-- Forwards -->
+  <circle cx="400" cy="150" r="12" fill="#C8102E" stroke="#F6EB61" stroke-width="2"/>
+  <text x="400" y="156" font-size="9" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">8</text>
+  
+  <circle cx="400" cy="310" r="11" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="400" y="315" font-size="9" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">9</text>
+  
+  <circle cx="460" cy="230" r="12" fill="#C8102E" stroke="#F6EB61" stroke-width="2"/>
+  <text x="460" y="236" font-size="9" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">10</text>
+  
+  <!-- Opponent Formation - Right Side (4-2-3-1) -->
+  <text x="600" y="50" font-size="16" font-weight="bold" fill="#FFFFFF" font-family="Arial, sans-serif">OPPONENT (4-2-3-1)</text>
+  
+  <!-- Opponent Goalkeeper -->
+  <circle cx="720" cy="230" r="12" fill="#1a5f7a" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="720" y="235" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">GK</text>
+  
+  <!-- Opponent Defenders -->
+  <circle cx="650" cy="140" r="11" fill="#1a5f7a" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="650" cy="230" r="11" fill="#1a5f7a" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="650" cy="320" r="11" fill="#1a5f7a" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Opponent Midfielders -->
+  <circle cx="580" cy="190" r="11" fill="#1a5f7a" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="580" cy="270" r="11" fill="#1a5f7a" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="520" cy="160" r="11" fill="#1a5f7a" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="520" cy="230" r="11" fill="#1a5f7a" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="520" cy="300" r="11" fill="#1a5f7a" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Opponent Forward -->
+  <circle cx="460" cy="230" r="11" fill="#1a5f7a" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Key Battle Indicators -->
+  <line x1="340" y1="230" x2="520" y2="230" stroke="#F6EB61" stroke-width="2.5" stroke-dasharray="5,5" opacity="0.8"/>
+  
+  <!-- Attack arrow Liverpool -->
+  <path d="M 400 150 Q 430 120 460 90" fill="none" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="460,90 468,103 452,98" fill="#C8102E"/>
+  
+  <!-- Stats Box -->
+  <rect x="50" y="370" width="700" height="40" fill="#1a1628" stroke="#F6EB61" stroke-width="2" opacity="0.9"/>
+  <text x="200" y="390" font-size="12" fill="#FFFFFF" font-family="Arial, sans-serif">KEY BATTLE: Midfield Control</text>
+  <text x="500" y="390" font-size="12" fill="#FFFFFF" font-family="Arial, sans-serif">Formation: 4-3-3 vs 4-2-3-1</text>
+  
+  <!-- Accent elements -->
+  <circle cx="750" cy="100" r="8" fill="#F6EB61" opacity="0.3"/>
+  <circle cx="40" cy="380" r="6" fill="#C8102E" opacity="0.3"/>
+</svg>
