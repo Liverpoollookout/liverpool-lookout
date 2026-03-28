@@ -1,0 +1,73 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Anfield pitch faint background -->
+  <rect x="50" y="40" width="700" height="340" fill="none" stroke="#1a3a52" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#1a3a52" stroke-width="1" opacity="0.3"/>
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#1a3a52" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Title background accent -->
+  <rect x="40" y="320" width="720" height="80" fill="#C8102E" opacity="0.15" rx="4"/>
+  
+  <!-- Sketched figure of Kenny Dalglish - legendary moment -->
+  <!-- Head -->
+  <circle cx="200" cy="100" r="25" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Hair sketch lines -->
+  <path d="M 180 85 Q 175 80 185 75 Q 195 70 210 75" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 185 90 Q 180 88 190 85" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Face details -->
+  <circle cx="195" cy="95" r="2" fill="#FFFFFF"/>
+  <circle cx="210" cy="95" r="2" fill="#FFFFFF"/>
+  <path d="M 200 105 Q 202 108 205 107" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Body in Liverpool red kit -->
+  <ellipse cx="200" cy="155" rx="30" ry="45" fill="#C8102E" opacity="0.7" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Jersey details -->
+  <path d="M 170 140 L 230 140" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+  <path d="M 200 135 L 200 180" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Arms -->
+  <line x1="170" y1="145" x2="130" y2="120" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="230" y1="145" x2="270" y2="130" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Hands -->
+  <circle cx="130" cy="120" r="8" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="270" cy="130" r="8" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Legs -->
+  <line x1="190" y1="200" x2="185" y2="270" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="210" y1="200" x2="215" y2="270" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Football boots -->
+  <ellipse cx="185" cy="275" rx="10" ry="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <ellipse cx="215" cy="275" rx="10" ry="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Ball near feet with motion lines -->
+  <circle cx="220" cy="260" r="7" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <line x1="230" y1="255" x2="260" y2="240" stroke="#F6EB61" stroke-width="1.5" opacity="0.7"/>
+  <line x1="235" y1="265" x2="270" y2="270" stroke="#F6EB61" stroke-width="1.5" opacity="0.7"/>
+  <line x1="232" y1="250" x2="268" y2="230" stroke="#F6EB61" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Decorative Shankly Gates sketch -->
+  <path d="M 450 80 L 470 50 L 490 80" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 455 85 L 485 85" stroke="#F6EB61" stroke-width="1" opacity="0.5"/>
+  <line x1="465" y1="85" x2="465" y2="50" stroke="#F6EB61" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Crowd silhouettes in background -->
+  <path d="M 320 200 Q 315 190 325 190 Q 330 190 330 200" fill="#FFFFFF" opacity="0.1"/>
+  <path d="M 350 210 Q 345 200 355 200 Q 360 200 360 210" fill="#FFFFFF" opacity="0.1"/>
+  <path d="M 380 205 Q 375 195 385 195 Q 390 195 390 205" fill="#FFFFFF" opacity="0.1"/>
+  <path d="M 550 200 Q 545 190 555 190 Q 560 190 560 200" fill="#FFFFFF" opacity="0.1"/>
+  <path d="M 580 210 Q 575 200 585 200 Q 590 200 590 210" fill="#FFFFFF" opacity="0.1"/>
+  <path d="M 610 205 Q 605 195 615 195 Q 620 195 620 205" fill="#FFFFFF" opacity="0.1"/>
+  
+  <!-- Title text -->
+  <text x="400" y="355" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#F6EB61" text-anchor="middle" letter-spacing="1">KENNY DALGLISH</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="385" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" opacity="0.9">Anfield Legend - 1977 FA Cup Final</text>
+</svg>
