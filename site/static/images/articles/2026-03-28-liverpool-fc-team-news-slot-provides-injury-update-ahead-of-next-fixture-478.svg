@@ -1,0 +1,83 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <defs>
+    <style>
+      .sketch-stroke { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .red-stroke { stroke: #C8102E; }
+      .white-stroke { stroke: #FFFFFF; }
+      .gold-stroke { stroke: #F6EB61; }
+      .title-text { font-family: Arial, sans-serif; font-size: 32px; font-weight: bold; fill: #FFFFFF; }
+      .subtitle-text { font-family: Arial, sans-serif; font-size: 18px; fill: #F6EB61; }
+      .body-text { font-family: Arial, sans-serif; font-size: 16px; fill: #FFFFFF; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="50" cy="50" r="3" fill="#F6EB61" opacity="0.6"/>
+  <circle cx="750" cy="370" r="3" fill="#F6EB61" opacity="0.6"/>
+  
+  <!-- Medical cross symbol (sketch style) -->
+  <g transform="translate(120, 100)">
+    <rect x="-40" y="-60" width="80" height="120" rx="8" class="sketch-stroke red-stroke" stroke-width="3"/>
+    <line x1="-25" y1="-40" x2="25" y2="-40" class="sketch-stroke red-stroke" stroke-width="2.5"/>
+    <line x1="0" y1="-55" x2="0" y2="-25" class="sketch-stroke red-stroke" stroke-width="2.5"/>
+    <line x1="-25" y1="10" x2="25" y2="10" class="sketch-stroke red-stroke" stroke-width="2.5"/>
+    <line x1="0" y1="-5" x2="0" y2="25" class="sketch-stroke red-stroke" stroke-width="2.5"/>
+  </g>
+  
+  <!-- Fitness meter/gauge -->
+  <g transform="translate(650, 120)">
+    <circle cx="0" cy="0" r="45" class="sketch-stroke white-stroke" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="35" class="sketch-stroke white-stroke" stroke-width="1.5" opacity="0.5"/>
+    <path d="M 0,-45 A 45,45 0 0,1 32,32" class="sketch-stroke gold-stroke" stroke-width="3.5"/>
+    <circle cx="0" cy="-40" r="5" fill="#F6EB61"/>
+    <line x1="0" y1="0" x2="28" y2="28" class="sketch-stroke white-stroke" stroke-width="2"/>
+  </g>
+  
+  <!-- Player figure (sketch style) -->
+  <g transform="translate(280, 180)">
+    <!-- Head -->
+    <circle cx="0" cy="-35" r="18" class="sketch-stroke white-stroke" stroke-width="2.5"/>
+    <!-- Body -->
+    <rect x="-15" y="-12" width="30" height="35" rx="4" class="sketch-stroke red-stroke" stroke-width="3" fill="#C8102E" opacity="0.7"/>
+    <!-- Left arm -->
+    <line x1="-15" y1="-5" x2="-40" y2="8" class="sketch-stroke white-stroke" stroke-width="2.5"/>
+    <!-- Right arm -->
+    <line x1="15" y1="-5" x2="40" y2="8" class="sketch-stroke white-stroke" stroke-width="2.5"/>
+    <!-- Left leg -->
+    <line x1="-8" y1="25" x2="-12" y2="55" class="sketch-stroke white-stroke" stroke-width="2.5"/>
+    <!-- Right leg -->
+    <line x1="8" y1="25" x2="12" y2="55" class="sketch-stroke white-stroke" stroke-width="2.5"/>
+    <!-- Boot details -->
+    <circle cx="-12" cy="58" r="4" class="sketch-stroke red-stroke" stroke-width="2"/>
+    <circle cx="12" cy="58" r="4" class="sketch-stroke red-stroke" stroke-width="2"/>
+  </g>
+  
+  <!-- Recovery timeline -->
+  <g transform="translate(100, 310)">
+    <line x1="0" y1="0" x2="600" y2="0" class="sketch-stroke white-stroke" stroke-width="2" stroke-dasharray="5,5" opacity="0.6"/>
+    <!-- Timeline markers -->
+    <circle cx="0" cy="0" r="6" fill="#F6EB61"/>
+    <circle cx="150" cy="0" r="5" fill="#C8102E" opacity="0.7"/>
+    <circle cx="300" cy="0" r="5" fill="#C8102E" opacity="0.7"/>
+    <circle cx="450" cy="0" r="6" fill="#FFFFFF" opacity="0.8"/>
+    <circle cx="600" cy="0" r="7" fill="#F6EB61"/>
+    <!-- Labels -->
+    <text x="0" y="20" class="body-text" text-anchor="middle" font-size="12">Assessment</text>
+    <text x="600" y="20" class="body-text" text-anchor="middle" font-size="12">Available</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="50" class="title-text" text-anchor="middle">INJURY UPDATE</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="285" class="subtitle-text" text-anchor="middle">Fitness &amp; Availability Report</text>
+  
+  <!-- Status badge -->
+  <g transform="translate(580, 280)">
+    <rect x="-45" y="-15" width="90" height="30" rx="4" class="sketch-stroke gold-stroke" stroke-width="2" fill="none"/>
+    <text x="0" y="8" class="body-text" text-anchor="middle" font-size="14">MONITORING</text>
+  </g>
+</svg>
