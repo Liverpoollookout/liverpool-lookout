@@ -1,0 +1,73 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative pitch lines -->
+  <line x1="50" y1="100" x2="750" y2="100" stroke="#F6EB61" stroke-width="2" opacity="0.3" stroke-dasharray="5,5"/>
+  <line x1="50" y1="320" x2="750" y2="320" stroke="#F6EB61" stroke-width="2" opacity="0.3" stroke-dasharray="5,5"/>
+  <circle cx="400" cy="210" r="80" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Medical cross symbol (left side) -->
+  <g opacity="0.4">
+    <circle cx="100" cy="80" r="35" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <rect x="85" y="70" width="30" height="20" fill="#C8102E"/>
+    <rect x="90" y="65" width="20" height="30" fill="#C8102E"/>
+  </g>
+  
+  <!-- Player figure (sketched style) -->
+  <g>
+    <!-- Head -->
+    <circle cx="400" cy="100" r="25" fill="none" stroke="#C8102E" stroke-width="3"/>
+    <circle cx="390" cy="95" r="4" fill="#C8102E"/>
+    <circle cx="410" cy="95" r="4" fill="#C8102E"/>
+    <path d="M 395 105 Q 400 110 405 105" fill="none" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Body - Liverpool kit -->
+    <rect x="375" y="130" width="50" height="60" fill="#C8102E" rx="8"/>
+    <line x1="400" y1="130" x2="400" y2="190" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- White chest stripe -->
+    <rect x="385" y="135" width="30" height="25" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Arms -->
+    <path d="M 375 145 L 320 165" stroke="#C8102E" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 425 145 L 480 165" stroke="#C8102E" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Hands -->
+    <circle cx="315" cy="170" r="8" fill="#C8102E"/>
+    <circle cx="485" cy="170" r="8" fill="#C8102E"/>
+    
+    <!-- Legs -->
+    <path d="M 385 190 L 375 270" stroke="#0a1628" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 415 190 L 425 270" stroke="#0a1628" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Boots -->
+    <ellipse cx="375" cy="280" rx="10" ry="12" fill="#FFFFFF"/>
+    <ellipse cx="425" cy="280" rx="10" ry="12" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Fitness indicator circles (right side) -->
+  <g>
+    <!-- Available circle -->
+    <circle cx="680" cy="150" r="35" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+    <circle cx="680" cy="150" r="30" fill="none" stroke="#C8102E" stroke-width="2" stroke-dasharray="8,4"/>
+    <text x="680" y="160" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">✓</text>
+  </g>
+  
+  <!-- Recovery indicator -->
+  <g opacity="0.6">
+    <circle cx="680" cy="280" r="35" fill="none" stroke="#F6EB61" stroke-width="3"/>
+    <path d="M 670 270 A 10 10 0 1 1 690 270" fill="none" stroke="#F6EB61" stroke-width="2"/>
+    <text x="680" y="290" font-size="14" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">?</text>
+  </g>
+  
+  <!-- Status text -->
+  <text x="400" y="350" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">INJURY &amp; FITNESS UPDATE</text>
+  <text x="400" y="380" font-size="16" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">Availability for Next Fixture</text>
+  
+  <!-- Decorative elements -->
+  <g opacity="0.3">
+    <circle cx="150" cy="300" r="20" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <circle cx="650" cy="80" r="15" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+</svg>
