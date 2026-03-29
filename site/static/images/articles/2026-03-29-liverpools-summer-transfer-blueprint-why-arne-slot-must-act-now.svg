@@ -1,0 +1,50 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  <circle cx="750" cy="370" r="30" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Main sketch elements for opinion piece -->
+  <!-- Thought bubble/discussion element -->
+  <circle cx="200" cy="150" r="80" fill="none" stroke="#F6EB61" stroke-width="2.5" opacity="0.7"/>
+  <circle cx="160" cy="220" r="20" fill="none" stroke="#F6EB61" stroke-width="2.5" opacity="0.7"/>
+  <circle cx="140" cy="250" r="12" fill="none" stroke="#F6EB61" stroke-width="2.5" opacity="0.7"/>
+  
+  <!-- Liverpool FC Shield/Crest simplified -->
+  <rect x="500" y="120" width="120" height="140" rx="8" fill="none" stroke="#C8102E" stroke-width="3"/>
+  <circle cx="560" cy="160" r="25" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <path d="M 545 175 Q 560 185 575 175" fill="none" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Stylized flame/passion element -->
+  <path d="M 300 250 Q 310 200 320 180 Q 325 200 330 250 Q 335 220 340 180" fill="none" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 310 280 Q 320 260 330 280" fill="none" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Debate/opinion lines -->
+  <line x1="100" y1="100" x2="180" y2="80" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+  <line x1="90" y1="150" x2="170" y2="150" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+  <line x1="100" y1="200" x2="180" y2="220" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Accent stars -->
+  <polygon points="250,80 255,95 271,95 259,105 264,120 250,110 236,120 241,105 229,95 245,95" fill="#F6EB61" opacity="0.6"/>
+  <polygon points="650,320 654,330 667,330 657,338 661,348 650,340 639,348 643,338 633,330 646,330" fill="#F6EB61" opacity="0.6"/>
+  
+  <!-- Main text: Liverpool FC -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#C8102E" text-anchor="middle" letter-spacing="2">LIVERPOOL FC</text>
+  
+  <!-- Subtitle: Opinion -->
+  <text x="400" y="350" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#FFFFFF" text-anchor="middle" opacity="0.9">OPINION</text>
+  
+  <!-- Decorative underline -->
+  <line x1="250" y1="370" x2="550" y2="370" stroke="#C8102E" stroke-width="3"/>
+  <line x1="250" y1="375" x2="550" y2="375" stroke="#F6EB61" stroke-width="1.5"/>
+  
+  <!-- Sketch hatching for depth -->
+  <g opacity="0.2">
+    <line x1="50" y1="300" x2="150" y2="320" stroke="#FFFFFF" stroke-width="1"/>
+    <line x1="60" y1="310" x2="160" y2="330" stroke="#FFFFFF" stroke-width="1"/>
+    <line x1="650" y1="100" x2="750" y2="120" stroke="#FFFFFF" stroke-width="1"/>
+    <line x1="660" y1="110" x2="760" y2="130" stroke="#FFFFFF" stroke-width="1"/>
+  </g>
+</svg>
