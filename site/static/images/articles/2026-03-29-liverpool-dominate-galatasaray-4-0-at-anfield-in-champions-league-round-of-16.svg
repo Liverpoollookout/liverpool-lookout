@@ -1,0 +1,126 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  <circle cx="750" cy="370" r="30" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Football pitch outline - sketched style -->
+  <g stroke="#FFFFFF" stroke-width="2.5" fill="none" opacity="0.8">
+    <!-- Pitch rectangle -->
+    <rect x="80" y="60" width="640" height="300" stroke-dasharray="5,3"/>
+    
+    <!-- Center line -->
+    <line x1="400" y1="60" x2="400" y2="360"/>
+    
+    <!-- Center circle -->
+    <circle cx="400" cy="210" r="50" stroke-dasharray="5,3"/>
+    
+    <!-- Center spot -->
+    <circle cx="400" cy="210" r="4" fill="#FFFFFF"/>
+    
+    <!-- Left penalty area -->
+    <rect x="80" y="130" width="100" height="160"/>
+    
+    <!-- Left goal area -->
+    <rect x="80" y="170" width="50" height="80"/>
+    
+    <!-- Right penalty area -->
+    <rect x="720" y="130" width="-100" height="160"/>
+    
+    <!-- Right goal area -->
+    <rect x="720" y="170" width="-50" height="80"/>
+  </g>
+  
+  <!-- Tactical arrows - Slot's formations -->
+  <defs>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#C8102E"/>
+    </marker>
+  </defs>
+  
+  <!-- Player movement arrows (sketched style) -->
+  <g stroke="#C8102E" stroke-width="2.5" fill="none" marker-end="url(#arrowRed)" opacity="0.7">
+    <path d="M 200,150 Q 250,120 300,140" stroke-dasharray="4,2"/>
+    <path d="M 600,150 Q 550,120 500,140" stroke-dasharray="4,2"/>
+    <path d="M 250,280 L 250,220" stroke-dasharray="4,2"/>
+    <path d="M 550,280 L 550,220" stroke-dasharray="4,2"/>
+  </g>
+  
+  <!-- Player positions - simplified circles -->
+  <g fill="#C8102E" opacity="0.8">
+    <!-- Goalkeeper -->
+    <circle cx="120" cy="210" r="12"/>
+    <!-- Defenders -->
+    <circle cx="200" cy="150" r="10"/>
+    <circle cx="200" cy="270" r="10"/>
+    <circle cx="280" cy="210" r="10"/>
+    <!-- Midfielders -->
+    <circle cx="350" cy="130" r="10"/>
+    <circle cx="350" cy="210" r="10"/>
+    <circle cx="350" cy="290" r="10"/>
+    <!-- Forwards -->
+    <circle cx="450" cy="170" r="10"/>
+    <circle cx="450" cy="250" r="10"/>
+    <!-- Right side -->
+    <circle cx="600" cy="150" r="10"/>
+    <circle cx="600" cy="270" r="10"/>
+    <circle cx="680" cy="210" r="10"/>
+    <circle cx="760" cy="210" r="12"/>
+  </g>
+  
+  <!-- Player rating badges -->
+  <g font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    <text x="200" y="155">8.5</text>
+    <text x="350" y="135">7.9</text>
+    <text x="450" y="175">8.2</text>
+    <text x="600" y="155">7.6</text>
+  </g>
+  
+  <!-- Tactical annotation boxes -->
+  <g stroke="#F6EB61" stroke-width="1.5" fill="none" opacity="0.6">
+    <rect x="500" y="20" width="270" height="60" rx="4"/>
+    <rect x="30" y="370" width="200" height="35" rx="4"/>
+  </g>
+  
+  <!-- Text labels -->
+  <g font-family="Arial, sans-serif" fill="#FFFFFF">
+    <!-- Main title -->
+    <text x="400" y="405" font-size="18" font-weight="bold" text-anchor="middle" fill="#F6EB61">
+      MATCH REPORT
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="635" y="50" font-size="12" font-weight="600" fill="#F6EB61">
+      SLOT TACTICAL
+    </text>
+    <text x="635" y="65" font-size="12" font-weight="600" fill="#F6EB61">
+      ANALYSIS
+    </text>
+    
+    <!-- Key moments -->
+    <text x="130" y="385" font-size="10" fill="#C8102E">
+      KEY MOMENTS
+    </text>
+    <text x="130" y="398" font-size="9" fill="#FFFFFF" opacity="0.8">
+      &amp; PLAYER RATINGS
+    </text>
+  </g>
+  
+  <!-- Decorative sketchy lines -->
+  <g stroke="#C8102E" stroke-width="1.5" fill="none" opacity="0.3">
+    <path d="M 50,30 L 100,25" stroke-dasharray="3,2"/>
+    <path d="M 750,390 L 700,395" stroke-dasharray="3,2"/>
+    <path d="M 30,210 L 60,205" stroke-dasharray="3,2"/>
+    <path d="M 770,210 L 740,215" stroke-dasharray="3,2"/>
+  </g>
+  
+  <!-- Corner accent marks -->
+  <g stroke="#C8102E" stroke-width="2" fill="none">
+    <path d="M 85,65 L 100,65 L 100,80"/>
+    <path d="M 715,65 L 700,65 L 700,80"/>
+    <path d="M 85,355 L 100,355 L 100,340"/>
+    <path d="M 715,355 L 700,355 L 700,340"/>
+  </g>
+</svg>

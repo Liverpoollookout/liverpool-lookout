@@ -1,0 +1,94 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch lines sketch -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.3">
+    <line x1="50" y1="210" x2="750" y2="210" stroke-dasharray="5,5"/>
+    <circle cx="400" cy="210" r="60"/>
+    <circle cx="400" cy="210" r="3" fill="#FFFFFF"/>
+    <rect x="80" y="120" width="100" height="180" stroke-dasharray="3,3"/>
+    <rect x="620" y="120" width="100" height="180" stroke-dasharray="3,3"/>
+  </g>
+  
+  <!-- Medical/fitness icon - stylised figure with health indicators -->
+  <g>
+    <!-- Head circle -->
+    <circle cx="200" cy="100" r="25" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+    
+    <!-- Body torso in Liverpool red -->
+    <rect x="180" y="130" width="40" height="70" stroke="#C8102E" stroke-width="2.5" fill="none" rx="5"/>
+    
+    <!-- Left arm -->
+    <line x1="180" y1="145" x2="140" y2="165" stroke="#C8102E" stroke-width="2.5"/>
+    
+    <!-- Right arm raised (recovery gesture) -->
+    <line x1="220" y1="145" x2="270" y2="110" stroke="#C8102E" stroke-width="2.5"/>
+    
+    <!-- Left leg -->
+    <line x1="190" y1="200" x2="180" y2="280" stroke="#C8102E" stroke-width="2.5"/>
+    
+    <!-- Right leg -->
+    <line x1="210" y1="200" x2="220" y2="280" stroke="#C8102E" stroke-width="2.5"/>
+    
+    <!-- Health cross symbol on chest -->
+    <g stroke="#F6EB61" stroke-width="2" stroke-linecap="round">
+      <line x1="200" y1="150" x2="200" y2="175"/>
+      <line x1="185" y1="162.5" x2="215" y2="162.5"/>
+    </g>
+  </g>
+  
+  <!-- Second figure - fitness level check -->
+  <g transform="translate(420, 80)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="20" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.7"/>
+    
+    <!-- Body -->
+    <rect x="-15" y="25" width="30" height="55" stroke="#FFFFFF" stroke-width="2" fill="none" rx="3" opacity="0.7"/>
+    
+    <!-- Arms -->
+    <line x1="-15" y1="35" x2="-45" y2="55" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+    <line x1="15" y1="35" x2="45" y2="55" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+    
+    <!-- Legs -->
+    <line x1="-8" y1="80" x2="-15" y2="120" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+    <line x1="8" y1="80" x2="15" y2="120" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+    
+    <!-- Fitness progress indicators -->
+    <g stroke="#F6EB61" stroke-width="1.5" fill="none" opacity="0.8">
+      <circle cx="50" cy="20" r="8"/>
+      <circle cx="50" cy="20" r="5" fill="#F6EB61" opacity="0.6"/>
+    </g>
+  </g>
+  
+  <!-- Injury update indicator bars -->
+  <g>
+    <!-- Status bar background -->
+    <rect x="100" y="320" width="600" height="60" stroke="#C8102E" stroke-width="2" fill="none" rx="8"/>
+    
+    <!-- Recovery progress indicators -->
+    <rect x="120" y="335" width="80" height="12" stroke="#F6EB61" stroke-width="1.5" fill="none" rx="2"/>
+    <rect x="120" y="335" width="60" height="12" fill="#F6EB61" rx="2" opacity="0.7"/>
+    
+    <rect x="220" y="335" width="80" height="12" stroke="#FFFFFF" stroke-width="1.5" fill="none" rx="2" opacity="0.6"/>
+    <rect x="220" y="335" width="40" height="12" fill="#FFFFFF" rx="2" opacity="0.4"/>
+    
+    <rect x="320" y="335" width="80" height="12" stroke="#C8102E" stroke-width="1.5" fill="none" rx="2"/>
+    <rect x="320" y="335" width="80" height="12" fill="#C8102E" rx="2" opacity="0.5"/>
+    
+    <!-- Status labels -->
+    <text x="120" y="360" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold">AVAILABLE</text>
+    <text x="220" y="360" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold">DOUBTFUL</text>
+    <text x="320" y="360" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold">OUT</text>
+  </g>
+  
+  <!-- Main title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#C8102E" text-anchor="middle">INJURY UPDATE</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="310" font-family="Arial, sans-serif" font-size="14" fill="#F6EB61" text-anchor="middle" opacity="0.9">Fitness Status &amp; Availability</text>
+  
+  <!-- Decorative Liverpool elements -->
+  <circle cx="750" cy="30" r="15" stroke="#C8102E" stroke-width="2" fill="none" opacity="0.5"/>
+  <circle cx="50" cy="370" r="12" stroke="#F6EB61" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>
