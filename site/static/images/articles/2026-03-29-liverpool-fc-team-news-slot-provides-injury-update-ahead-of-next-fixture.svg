@@ -1,0 +1,95 @@
+<svg viewBox="0 0 800 420" class="article-svg" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .sketch-stroke { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .title-text { font-family: Arial, sans-serif; font-weight: bold; letter-spacing: 1px; }
+      .label-text { font-family: Arial, sans-serif; font-size: 14px; }
+    </style>
+  </defs>
+  
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="30" cy="30" r="20" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  <circle cx="770" cy="390" r="20" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Main medical/fitness cross symbol -->
+  <g transform="translate(150, 150)">
+    <!-- Large medical cross background -->
+    <rect x="-35" y="-35" width="70" height="70" fill="none" stroke="#C8102E" stroke-width="3" class="sketch-stroke" opacity="0.8"/>
+    <line x1="-25" y1="0" x2="25" y2="0" stroke="#C8102E" stroke-width="3" class="sketch-stroke"/>
+    <line x1="0" y1="-25" x2="0" y2="25" stroke="#C8102E" stroke-width="3" class="sketch-stroke"/>
+  </g>
+  
+  <!-- Player silhouette left side -->
+  <g transform="translate(320, 120)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+    <!-- Body -->
+    <path d="M -8 22 Q 0 35 0 50" fill="none" stroke="#C8102E" stroke-width="3" class="sketch-stroke"/>
+    <!-- Liverpool shirt detail -->
+    <path d="M -12 25 L 12 25 L 12 45 L -12 45 Z" fill="#C8102E" opacity="0.3"/>
+    <!-- Arms -->
+    <path d="M -8 28 Q -25 20 -30 10" fill="none" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+    <path d="M 8 28 Q 25 20 30 10" fill="none" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+    <!-- Legs -->
+    <path d="M -5 50 L -8 75" fill="none" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+    <path d="M 5 50 L 8 75" fill="none" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+  </g>
+  
+  <!-- Player silhouette right side -->
+  <g transform="translate(580, 120)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+    <!-- Body -->
+    <path d="M -8 22 Q 0 35 0 50" fill="none" stroke="#C8102E" stroke-width="3" class="sketch-stroke"/>
+    <!-- Liverpool shirt detail -->
+    <path d="M -12 25 L 12 25 L 12 45 L -12 45 Z" fill="#C8102E" opacity="0.3"/>
+    <!-- Arms -->
+    <path d="M -8 28 Q -25 20 -30 10" fill="none" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+    <path d="M 8 28 Q 25 20 30 10" fill="none" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+    <!-- Legs -->
+    <path d="M -5 50 L -8 75" fill="none" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+    <path d="M 5 50 L 8 75" fill="none" stroke="#FFFFFF" stroke-width="2.5" class="sketch-stroke"/>
+  </g>
+  
+  <!-- Checkmark for fitness status -->
+  <g transform="translate(400, 280)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#F6EB61" stroke-width="2.5" class="sketch-stroke"/>
+    <path d="M -15 0 L -5 12 L 18 -10" fill="none" stroke="#F6EB61" stroke-width="3" class="sketch-stroke"/>
+  </g>
+  
+  <!-- Availability indicator bars -->
+  <g transform="translate(120, 310)">
+    <!-- Bar 1 - Available -->
+    <rect x="0" y="0" width="120" height="20" fill="none" stroke="#FFFFFF" stroke-width="2" class="sketch-stroke"/>
+    <rect x="2" y="2" width="100" height="16" fill="#C8102E" opacity="0.6"/>
+    <text x="65" y="35" class="label-text" fill="#FFFFFF" text-anchor="middle">Available</text>
+  </g>
+  
+  <g transform="translate(330, 310)">
+    <!-- Bar 2 - Doubtful -->
+    <rect x="0" y="0" width="120" height="20" fill="none" stroke="#FFFFFF" stroke-width="2" class="sketch-stroke"/>
+    <rect x="2" y="2" width="60" height="16" fill="#F6EB61" opacity="0.6"/>
+    <text x="65" y="35" class="label-text" fill="#FFFFFF" text-anchor="middle">Doubtful</text>
+  </g>
+  
+  <g transform="translate(540, 310)">
+    <!-- Bar 3 - Out -->
+    <rect x="0" y="0" width="120" height="20" fill="none" stroke="#FFFFFF" stroke-width="2" class="sketch-stroke"/>
+    <rect x="2" y="2" width="30" height="16" fill="#FFFFFF" opacity="0.4"/>
+    <text x="65" y="35" class="label-text" fill="#FFFFFF" text-anchor="middle">Out</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="50" class="title-text" fill="#C8102E" font-size="32" text-anchor="middle">FITNESS UPDATE</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="90" class="label-text" fill="#F6EB61" font-size="16" text-anchor="middle">INJURY &amp; AVAILABILITY STATUS</text>
+  
+  <!-- LFC badge accent -->
+  <circle cx="680" cy="80" r="25" fill="none" stroke="#C8102E" stroke-width="2.5" opacity="0.5"/>
+  <circle cx="680" cy="80" r="18" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.4"/>
+  <text x="680" y="87" class="label-text" fill="#C8102E" font-size="20" text-anchor="middle" font-weight="bold">LFC</text>
+</svg>

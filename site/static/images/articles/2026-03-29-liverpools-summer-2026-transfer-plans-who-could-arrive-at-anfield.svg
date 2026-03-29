@@ -1,0 +1,104 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <defs>
+    <style>
+      .sketch-stroke { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .light-stroke { stroke: #FFFFFF; stroke-width: 2; }
+      .red-stroke { stroke: #C8102E; stroke-width: 2.5; }
+      .gold-stroke { stroke: #F6EB61; stroke-width: 2; }
+      .text-label { font-family: Arial, sans-serif; font-weight: bold; }
+      .title-text { font-size: 24px; fill: #F6EB61; }
+      .subtitle-text { font-size: 16px; fill: #FFFFFF; }
+      .fee-text { font-size: 14px; fill: #C8102E; font-weight: bold; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative pitch lines -->
+  <line x1="0" y1="210" x2="800" y2="210" class="sketch-stroke light-stroke" stroke-dasharray="5,5" opacity="0.3"/>
+  <circle cx="400" cy="210" r="60" class="sketch-stroke light-stroke" opacity="0.2"/>
+  
+  <!-- Left player silhouette (incoming target) -->
+  <g id="player-left">
+    <!-- Head -->
+    <circle cx="150" cy="100" r="25" class="sketch-stroke red-stroke"/>
+    
+    <!-- Body in Liverpool kit -->
+    <rect x="130" y="125" width="40" height="60" rx="5" class="sketch-stroke red-stroke" fill="#C8102E" opacity="0.8"/>
+    
+    <!-- Shirt details -->
+    <line x1="150" y1="125" x2="150" y2="185" class="sketch-stroke light-stroke"/>
+    <circle cx="150" cy="145" r="4" fill="#FFFFFF"/>
+    
+    <!-- Arms -->
+    <line x1="130" y1="140" x2="80" y2="130" class="sketch-stroke red-stroke" stroke-width="8"/>
+    <line x1="170" y1="140" x2="220" y2="130" class="sketch-stroke red-stroke" stroke-width="8"/>
+    
+    <!-- Legs -->
+    <line x1="135" y1="185" x2="125" y2="260" class="sketch-stroke red-stroke" stroke-width="8"/>
+    <line x1="165" y1="185" x2="175" y2="260" class="sketch-stroke red-stroke" stroke-width="8"/>
+    
+    <!-- Boots -->
+    <ellipse cx="125" cy="270" rx="8" ry="12" fill="#000000"/>
+    <ellipse cx="175" cy="270" rx="8" ry="12" fill="#000000"/>
+  </g>
+  
+  <!-- Arrow pointing right (to Anfield/Liverpool) -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61" />
+    </marker>
+  </defs>
+  
+  <line x1="250" y1="160" x2="550" y2="160" class="sketch-stroke gold-stroke" marker-end="url(#arrowhead)" stroke-width="4"/>
+  
+  <!-- Transfer fee tag -->
+  <rect x="370" y="130" width="160" height="50" rx="8" fill="none" class="sketch-stroke gold-stroke" stroke-width="2"/>
+  <text x="450" y="165" class="fee-text text-label" text-anchor="middle">TRANSFER FEE</text>
+  
+  <!-- Right player silhouette (Liverpool player) -->
+  <g id="player-right">
+    <!-- Head -->
+    <circle cx="650" cy="100" r="25" class="sketch-stroke light-stroke"/>
+    
+    <!-- Body in Liverpool kit -->
+    <rect x="630" y="125" width="40" height="60" rx="5" class="sketch-stroke red-stroke" fill="#C8102E" opacity="0.8"/>
+    
+    <!-- Shirt details -->
+    <line x1="650" y1="125" x2="650" y2="185" class="sketch-stroke light-stroke"/>
+    <circle cx="650" cy="145" r="4" fill="#FFFFFF"/>
+    
+    <!-- Arms -->
+    <rect x="590" y="135" width="40" height="12" rx="6" fill="#C8102E" opacity="0.6"/>
+    <rect x="670" y="135" width="40" height="12" rx="6" fill="#C8102E" opacity="0.6"/>
+    
+    <!-- Legs -->
+    <line x1="635" y1="185" x2="625" y2="260" class="sketch-stroke light-stroke" stroke-width="8"/>
+    <line x1="665" y1="185" x2="675" y2="260" class="sketch-stroke light-stroke" stroke-width="8"/>
+    
+    <!-- Boots -->
+    <ellipse cx="625" cy="270" rx="8" ry="12" fill="#000000"/>
+    <ellipse cx="675" cy="270" rx="8" ry="12" fill="#000000"/>
+  </g>
+  
+  <!-- Liverpool badge/crest simplified -->
+  <g id="lfc-badge">
+    <circle cx="670" cy="280" r="30" fill="none" class="sketch-stroke red-stroke" stroke-width="2"/>
+    <circle cx="670" cy="280" r="25" fill="#C8102E" opacity="0.7"/>
+    <text x="670" y="290" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">LFC</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="350" class="title-text text-label" text-anchor="middle">TRANSFER TARGET</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="375" class="subtitle-text text-label" text-anchor="middle">Liverpool FC - January Window</text>
+  
+  <!-- Decorative corner elements -->
+  <line x1="20" y1="20" x2="80" y2="20" class="sketch-stroke gold-stroke" stroke-width="3"/>
+  <line x1="20" y1="20" x2="20" y2="80" class="sketch-stroke gold-stroke" stroke-width="3"/>
+  
+  <line x1="780" y1="400" x2="720" y2="400" class="sketch-stroke gold-stroke" stroke-width="3"/>
+  <line x1="780" y1="400" x2="780" y2="340" class="sketch-stroke gold-stroke" stroke-width="3"/>
+</svg>
