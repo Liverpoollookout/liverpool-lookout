@@ -1,0 +1,86 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="50" cy="50" r="30" fill="#F6EB61" opacity="0.1"/>
+  <circle cx="750" cy="370" r="40" fill="#C8102E" opacity="0.08"/>
+  
+  <!-- Sketch lines for artistic effect -->
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#C8102E" stroke-width="1" opacity="0.2"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#FFFFFF" stroke-width="1" opacity="0.15"/>
+  
+  <!-- Player figure head -->
+  <circle cx="300" cy="90" r="35" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  <circle cx="290" cy="80" r="6" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="310" cy="80" r="6" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M 295 95 Q 300 100 305 95" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Player body - Liverpool red kit -->
+  <ellipse cx="300" cy="160" rx="32" ry="45" fill="#C8102E" stroke="#FFFFFF" stroke-width="2.5"/>
+  
+  <!-- White shirt stripe -->
+  <rect x="292" y="140" width="16" height="50" fill="#FFFFFF" opacity="0.9"/>
+  
+  <!-- Liverbird badge suggestion -->
+  <circle cx="300" cy="155" r="8" fill="#F6EB61" stroke="#FFFFFF" stroke-width="1"/>
+  <path d="M 297 152 L 303 152 L 300 158" fill="#0a1628"/>
+  
+  <!-- Left arm -->
+  <path d="M 270 155 Q 240 170 235 210" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="235" cy="215" r="7" fill="#FFFFFF"/>
+  
+  <!-- Right arm -->
+  <path d="M 330 155 Q 360 170 365 210" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="365" cy="215" r="7" fill="#FFFFFF"/>
+  
+  <!-- Left leg -->
+  <path d="M 285 205 L 280 310" fill="none" stroke="#0a1628" stroke-width="3.5" stroke-linecap="round"/>
+  <rect x="275" y="310" width="10" height="8" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+  
+  <!-- Right leg -->
+  <path d="M 315 205 L 320 310" fill="none" stroke="#0a1628" stroke-width="3.5" stroke-linecap="round"/>
+  <rect x="315" y="310" width="10" height="8" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+  
+  <!-- Decorative sketch marks around figure -->
+  <g stroke="#C8102E" stroke-width="1.5" opacity="0.6" fill="none">
+    <path d="M 260 120 Q 250 115 240 120"/>
+    <path d="M 340 130 Q 350 125 360 135"/>
+    <path d="M 250 240 Q 240 245 235 240"/>
+    <path d="M 350 250 Q 360 255 365 250"/>
+  </g>
+  
+  <!-- Japanese flag element (subtle) -->
+  <circle cx="450" cy="110" r="15" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+  <circle cx="450" cy="110" r="8" fill="#C8102E" opacity="0.5"/>
+  
+  <!-- Player name text -->
+  <text x="500" y="160" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    WATARU
+  </text>
+  <text x="500" y="220" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#C8102E" letter-spacing="2">
+    ENDO
+  </text>
+  
+  <!-- Decorative underline -->
+  <line x1="500" y1="235" x2="750" y2="235" stroke="#F6EB61" stroke-width="3"/>
+  
+  <!-- Position/role indicator -->
+  <text x="500" y="280" font-family="Arial, sans-serif" font-size="18" fill="#FFFFFF" opacity="0.8">
+    Midfielder
+  </text>
+  
+  <!-- Tactical dots pattern (subtle background) -->
+  <circle cx="150" cy="250" r="3" fill="#F6EB61" opacity="0.15"/>
+  <circle cx="180" cy="280" r="3" fill="#F6EB61" opacity="0.15"/>
+  <circle cx="120" cy="310" r="3" fill="#F6EB61" opacity="0.15"/>
+  <circle cx="200" cy="320" r="3" fill="#F6EB61" opacity="0.15"/>
+  
+  <!-- Sketch texture lines -->
+  <g stroke="#FFFFFF" stroke-width="0.8" opacity="0.1" fill="none">
+    <path d="M 100 50 L 120 70"/>
+    <path d="M 680 100 L 700 120"/>
+    <path d="M 150 350 L 170 370"/>
+    <path d="M 700 300 L 720 320"/>
+  </g>
+</svg>
