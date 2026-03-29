@@ -1,0 +1,85 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Sketch-style pitch -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.3">
+    <rect x="80" y="40" width="640" height="340" stroke-dasharray="5,5"/>
+    <line x1="410" y1="40" x2="410" y2="380"/>
+    <circle cx="410" cy="210" r="45" stroke-dasharray="5,5"/>
+    <circle cx="410" cy="210" r="3" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Penalty areas sketch -->
+  <g stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.2">
+    <rect x="80" y="100" width="100" height="220"/>
+    <rect x="620" y="100" width="100" height="220"/>
+    <rect x="100" y="130" width="60" height="160"/>
+    <rect x="640" y="130" width="60" height="160"/>
+  </g>
+  
+  <!-- Player figure 1 - attacking -->
+  <g transform="translate(200, 180)">
+    <!-- Head -->
+    <circle cx="0" cy="-35" r="12" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <!-- Body -->
+    <line x1="0" y1="-23" x2="0" y2="10" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Arms -->
+    <line x1="0" y1="-15" x2="-18" y2="-5" stroke="#C8102E" stroke-width="2"/>
+    <line x1="0" y1="-15" x2="18" y2="-8" stroke="#C8102E" stroke-width="2"/>
+    <!-- Legs -->
+    <line x1="0" y1="10" x2="-12" y2="35" stroke="#C8102E" stroke-width="2.5"/>
+    <line x1="0" y1="10" x2="10" y2="38" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Jersey number -->
+    <text x="0" y="12" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial">10</text>
+  </g>
+  
+  <!-- Player figure 2 - defensive -->
+  <g transform="translate(550, 200)">
+    <!-- Head -->
+    <circle cx="0" cy="-35" r="12" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <!-- Body -->
+    <line x1="0" y1="-23" x2="0" y2="10" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Arms in defensive position -->
+    <line x1="0" y1="-12" x2="-20" y2="-10" stroke="#C8102E" stroke-width="2"/>
+    <line x1="0" y1="-12" x2="20" y2="-10" stroke="#C8102E" stroke-width="2"/>
+    <!-- Legs -->
+    <line x1="0" y1="10" x2="-10" y2="38" stroke="#C8102E" stroke-width="2.5"/>
+    <line x1="0" y1="10" x2="12" y2="35" stroke="#C8102E" stroke-width="2.5"/>
+  </g>
+  
+  <!-- Ball -->
+  <circle cx="410" cy="210" r="8" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <circle cx="410" cy="210" r="6" fill="none" stroke="#F6EB61" stroke-width="0.5" opacity="0.5"/>
+  
+  <!-- Tactical arrows showing movement -->
+  <g stroke="#F6EB61" stroke-width="2" fill="none" opacity="0.7">
+    <!-- Attack direction -->
+    <path d="M 240 180 Q 320 150 380 210" stroke-dasharray="4,4"/>
+    <polygon points="380,210 370,205 375,220" fill="#F6EB61"/>
+    
+    <!-- Defense positioning -->
+    <path d="M 520 200 Q 480 220 420 210" stroke-dasharray="4,4"/>
+    <polygon points="420,210 430,215 425,200" fill="#F6EB61"/>
+  </g>
+  
+  <!-- Title text - Match Report -->
+  <text x="410" y="380" font-size="24" font-weight="bold" fill="#C8102E" text-anchor="middle" font-family="Arial">MATCH REPORT</text>
+  
+  <!-- Subtitle - Slot Tactical Analysis -->
+  <text x="410" y="408" font-size="14" fill="#FFFFFF" text-anchor="middle" font-family="Arial" opacity="0.9">Slot's Tactical Decisions • Player Ratings • Key Moments</text>
+  
+  <!-- Decorative sketch marks for drawing effect -->
+  <g stroke="#F6EB61" stroke-width="1" opacity="0.3" fill="none">
+    <path d="M 50 50 L 55 48 L 58 52"/>
+    <path d="M 750 380 L 755 378 L 758 382"/>
+    <circle cx="100" cy="80" r="3" fill="none"/>
+    <circle cx="700" cy="350" r="3" fill="none"/>
+  </g>
+  
+  <!-- Liverpool crest suggestion - simplified -->
+  <g opacity="0.15">
+    <circle cx="90" cy="60" r="25" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+    <path d="M 75 50 Q 90 40 105 50" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+  </g>
+</svg>

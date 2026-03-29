@@ -1,0 +1,67 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative pitch lines -->
+  <line x1="400" y1="0" x2="400" y2="420" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.2"/>
+  
+  <!-- Sketched figure of Kenny Dalglish -->
+  <!-- Head -->
+  <circle cx="280" cy="100" r="35" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  <circle cx="270" cy="95" r="5" fill="#FFFFFF"/>
+  <circle cx="290" cy="95" r="5" fill="#FFFFFF"/>
+  
+  <!-- Body in Liverpool red kit -->
+  <ellipse cx="280" cy="170" rx="40" ry="55" fill="none" stroke="#C8102E" stroke-width="3"/>
+  <rect x="250" y="155" width="60" height="45" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  
+  <!-- Liverpool crest accent on chest -->
+  <circle cx="280" cy="175" r="12" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+  <line x1="276" y1="171" x2="284" y2="179" stroke="#F6EB61" stroke-width="1"/>
+  
+  <!-- Arms -->
+  <line x1="250" y1="165" x2="200" y2="140" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="310" y1="165" x2="360" y2="145" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Hands -->
+  <circle cx="195" cy="135" r="6" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="365" cy="140" r="6" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Legs -->
+  <line x1="260" y1="225" x2="250" y2="310" stroke="#0a1628" stroke-width="3" stroke-linecap="round"/>
+  <line x1="300" y1="225" x2="310" y2="310" stroke="#0a1628" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Feet/boots -->
+  <ellipse cx="250" cy="315" rx="10" ry="8" fill="#FFFFFF"/>
+  <ellipse cx="310" cy="315" rx="10" ry="8" fill="#FFFFFF"/>
+  
+  <!-- Football at feet -->
+  <circle cx="280" cy="330" r="15" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="280" y1="315" x2="280" y2="345" stroke="#FFFFFF" stroke-width="1.5"/>
+  <line x1="265" y1="330" x2="295" y2="330" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Motion lines -->
+  <line x1="220" y1="80" x2="200" y2="70" stroke="#C8102E" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+  <line x1="215" y1="100" x2="190" y2="100" stroke="#C8102E" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+  <line x1="225" y1="120" x2="205" y2="135" stroke="#C8102E" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+  
+  <!-- Title and text -->
+  <text x="520" y="120" font-size="48" font-weight="bold" fill="#C8102E" font-family="Arial, sans-serif" letter-spacing="2">KENNY</text>
+  <text x="520" y="165" font-size="48" font-weight="bold" fill="#C8102E" font-family="Arial, sans-serif" letter-spacing="2">DALGLISH</text>
+  
+  <!-- Subtitle -->
+  <text x="520" y="210" font-size="18" fill="#F6EB61" font-family="Arial, sans-serif">The King of Anfield</text>
+  
+  <!-- Decorative underline -->
+  <line x1="520" y1="225" x2="800" y2="225" stroke="#C8102E" stroke-width="2"/>
+  
+  <!-- Achievement stars -->
+  <text x="520" y="280" font-size="14" fill="#FFFFFF" font-family="Arial, sans-serif">★ 102 Goals for Liverpool</text>
+  <text x="520" y="305" font-size="14" fill="#FFFFFF" font-family="Arial, sans-serif">★ League Champion 1977, 1979, 1980</text>
+  <text x="520" y="330" font-size="14" fill="#FFFFFF" font-family="Arial, sans-serif">★ European Cup Winner 1977, 1978</text>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.4"/>
+  <circle cx="750" cy="380" r="35" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+</svg>
