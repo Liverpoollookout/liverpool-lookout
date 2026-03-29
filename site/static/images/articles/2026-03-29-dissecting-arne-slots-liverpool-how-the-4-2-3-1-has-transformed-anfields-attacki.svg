@@ -1,0 +1,135 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch -->
+  <rect x="50" y="30" width="700" height="360" fill="#1a4d2e" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Pitch markings -->
+  <line x1="400" y1="30" x2="400" y2="390" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="400" cy="210" r="50" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="400" cy="210" r="4" fill="#FFFFFF"/>
+  
+  <!-- Penalty areas -->
+  <rect x="50" y="110" width="100" height="200" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="650" y="110" width="100" height="200" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Goal areas -->
+  <rect x="50" y="150" width="60" height="120" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="690" y="150" width="60" height="120" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Corner arcs -->
+  <path d="M 50 30 Q 65 30 65 45" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  <path d="M 750 30 Q 735 30 735 45" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  <path d="M 50 390 Q 65 390 65 375" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  <path d="M 750 390 Q 735 390 735 375" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Formation Title - 4-2-3-1 System -->
+  <g>
+    <text x="400" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#F6EB61" text-anchor="middle">SLOT 4-2-3-1 SYSTEM</text>
+  </g>
+  
+  <!-- Back line - 4 defenders -->
+  <g stroke="#C8102E" stroke-width="2" fill="none">
+    <!-- LB -->
+    <circle cx="120" cy="100" r="18"/>
+    <text x="120" y="105" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#C8102E" text-anchor="middle">LB</text>
+    
+    <!-- CB1 -->
+    <circle cx="220" cy="80" r="18"/>
+    <text x="220" y="85" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#C8102E" text-anchor="middle">CB</text>
+    
+    <!-- CB2 -->
+    <circle cx="580" cy="80" r="18"/>
+    <text x="580" y="85" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#C8102E" text-anchor="middle">CB</text>
+    
+    <!-- RB -->
+    <circle cx="680" cy="100" r="18"/>
+    <text x="680" y="105" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#C8102E" text-anchor="middle">RB</text>
+  </g>
+  
+  <!-- Midfield two - 2 holding midfielders -->
+  <g stroke="#C8102E" stroke-width="2" fill="none">
+    <!-- DM1 -->
+    <circle cx="280" cy="180" r="18"/>
+    <text x="280" y="185" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#C8102E" text-anchor="middle">DM</text>
+    
+    <!-- DM2 -->
+    <circle cx="520" cy="180" r="18"/>
+    <text x="520" y="185" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#C8102E" text-anchor="middle">DM</text>
+  </g>
+  
+  <!-- Attacking midfield - 3 -->
+  <g stroke="#C8102E" stroke-width="2" fill="none">
+    <!-- LM -->
+    <circle cx="200" cy="260" r="18"/>
+    <text x="200" y="265" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#C8102E" text-anchor="middle">LM</text>
+    
+    <!-- CAM -->
+    <circle cx="400" cy="260" r="18"/>
+    <text x="400" y="265" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#C8102E" text-anchor="middle">AM</text>
+    
+    <!-- RM -->
+    <circle cx="600" cy="260" r="18"/>
+    <text x="600" y="265" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#C8102E" text-anchor="middle">RM</text>
+  </g>
+  
+  <!-- Forward - 1 striker -->
+  <g stroke="#C8102E" stroke-width="2.5" fill="none">
+    <circle cx="400" cy="330" r="20"/>
+    <text x="400" y="336" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#C8102E" text-anchor="middle">ST</text>
+  </g>
+  
+  <!-- Connection lines - formation shape -->
+  <g stroke="#FFFFFF" stroke-width="1" stroke-dasharray="3,3" opacity="0.4" fill="none">
+    <!-- Back line connections -->
+    <line x1="120" y1="100" x2="220" y2="80"/>
+    <line x1="220" y1="80" x2="580" y2="80"/>
+    <line x1="580" y1="80" x2="680" y2="100"/>
+    
+    <!-- Mid connections -->
+    <line x1="220" y1="80" x2="280" y2="180"/>
+    <line x1="680" y2="100" x2="520" y2="180"/>
+    
+    <!-- Attack connections -->
+    <line x1="280" y1="180" x2="200" y2="260"/>
+    <line x1="520" y1="180" x2="600" y2="260"/>
+  </g>
+  
+  <!-- Pressing trigger arrows - showing aggressive pressing -->
+  <defs>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10" fill="#C8102E" stroke="#C8102E" stroke-width="1.5"/>
+    </marker>
+    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10" fill="#F6EB61" stroke="#F6EB61" stroke-width="1.5"/>
+    </marker>
+  </defs>
+  
+  <!-- Pressing trigger zones - high press arrows -->
+  <g opacity="0.7">
+    <!-- Forward pressing -->
+    <path d="M 400 330 L 400 360" stroke="#C8102E" stroke-width="2.5" fill="none" marker-end="url(#arrowRed)"/>
+    
+    <!-- Aggressive wing pressing -->
+    <path d="M 200 260 L 150 290" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowGold)"/>
+    <path d="M 600 260 L 650 290" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowGold)"/>
+    
+    <!-- Midfield press trigger -->
+    <path d="M 280 180 L 250 210" stroke="#C8102E" stroke-width="2" fill="none" marker-end="url(#arrowRed)"/>
+    <path d="M 520 180 L 550 210" stroke="#C8102E" stroke-width="2" fill="none" marker-end="url(#arrowRed)"/>
+  </g>
+  
+  <!-- Label text -->
+  <g fill="#FFFFFF" font-family="Arial, sans-serif" font-size="13">
+    <text x="60" y="410" font-style="italic">Pressing Trigger: High press from front 3 + aggressive midfield</text>
+  </g>
+  
+  <!-- Sketch effect lines -->
+  <g stroke="#F6EB61" stroke-width="1" opacity="0.3" fill="none">
+    <path d="M 100 50 Q 150 40 200 55"/>
+    <path d="M 600 40 Q 650 35 700 50"/>
+    <path d="M 70 300 Q 100 290 130 305"/>
+    <path d="M 730 310 Q 760 300 770 320"/>
+  </g>
+</svg>
