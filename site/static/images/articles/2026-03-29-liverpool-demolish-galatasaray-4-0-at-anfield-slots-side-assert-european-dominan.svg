@@ -1,0 +1,106 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline -->
+  <rect x="80" y="40" width="640" height="340" fill="none" stroke="#2a4a5a" stroke-width="2" stroke-dasharray="4,4" opacity="0.6"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#2a4a5a" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="50" fill="none" stroke="#2a4a5a" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Penalty areas -->
+  <rect x="80" y="120" width="120" height="180" fill="none" stroke="#2a4a5a" stroke-width="1.5" opacity="0.4"/>
+  <rect x="600" y="120" width="120" height="180" fill="none" stroke="#2a4a5a" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Goal areas -->
+  <rect x="80" y="150" width="60" height="120" fill="none" stroke="#2a4a5a" stroke-width="1.5" opacity="0.4"/>
+  <rect x="660" y="150" width="60" height="120" fill="none" stroke="#2a4a5a" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Sketched player figures in red kit - tactical formation -->
+  <!-- Goalkeeper left side -->
+  <g transform="translate(100, 210)">
+    <circle cx="0" cy="-15" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <path d="M -8,-6 Q 0,5 8,-6" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="-6" y1="8" x2="-6" y2="18" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="6" y1="8" x2="6" y2="18" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Defender 1 -->
+  <g transform="translate(160, 140)">
+    <circle cx="0" cy="-12" r="6" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <path d="M -6,-4 Q 0,6 6,-4" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="-5" y1="8" x2="-5" y2="16" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="5" y1="8" x2="5" y2="16" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Defender 2 -->
+  <g transform="translate(160, 280)">
+    <circle cx="0" cy="-12" r="6" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <path d="M -6,-4 Q 0,6 6,-4" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="-5" y1="8" x2="-5" y2="16" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="5" y1="8" x2="5" y2="16" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Midfielder 1 -->
+  <g transform="translate(280, 160)">
+    <circle cx="0" cy="-12" r="6" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <path d="M -6,-4 Q 0,6 6,-4" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="-5" y1="8" x2="-5" y2="16" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="5" y1="8" x2="5" y2="16" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Midfielder 2 -->
+  <g transform="translate(280, 260)">
+    <circle cx="0" cy="-12" r="6" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <path d="M -6,-4 Q 0,6 6,-4" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="-5" y1="8" x2="-5" y2="16" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="5" y1="8" x2="5" y2="16" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Forward -->
+  <g transform="translate(380, 210)">
+    <circle cx="0" cy="-14" r="7" fill="#C8102E" stroke="#F6EB61" stroke-width="2"/>
+    <path d="M -7,-5 Q 0,8 7,-5" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="-5" y1="10" x2="-5" y2="20" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="5" y1="10" x2="5" y2="20" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Tactical arrows showing movement -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61" opacity="0.7"/>
+    </marker>
+  </defs>
+  
+  <!-- Movement arrows -->
+  <path d="M 280,160 Q 330,150 380,190" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.6" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  <path d="M 280,260 Q 330,230 380,220" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.6" marker-end="url(#arrowhead)" stroke-dasharray="3,3"/>
+  
+  <!-- Player ratings box -->
+  <rect x="480" y="60" width="280" height="140" fill="none" stroke="#F6EB61" stroke-width="2" rx="4"/>
+  
+  <!-- Ratings title -->
+  <text x="620" y="85" font-size="16" font-weight="bold" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">PLAYER RATINGS</text>
+  
+  <!-- Rating entries -->
+  <text x="495" y="110" font-size="13" fill="#FFFFFF" font-family="Arial, sans-serif">★★★★★ Key Performance</text>
+  <text x="495" y="130" font-size="13" fill="#FFFFFF" font-family="Arial, sans-serif">★★★★☆ Strong Display</text>
+  <text x="495" y="150" font-size="13" fill="#FFFFFF" font-family="Arial, sans-serif">★★★☆☆ Solid Effort</text>
+  <text x="495" y="170" font-size="13" fill="#FFFFFF" font-family="Arial, sans-serif">★★☆☆☆ Needs Improvement</text>
+  <text x="495" y="190" font-size="13" fill="#FFFFFF" font-family="Arial, sans-serif">★☆☆☆☆ Poor Performance</text>
+  
+  <!-- Slot tactical title -->
+  <text x="400" y="340" font-size="20" font-weight="bold" fill="#C8102E" text-anchor="middle" font-family="Arial, sans-serif">SLOT TACTICAL SETUP</text>
+  
+  <!-- Match report label -->
+  <text x="50" y="30" font-size="14" fill="#F6EB61" font-family="Arial, sans-serif">MATCH REPORT</text>
+  
+  <!-- Key moments indicator -->
+  <circle cx="720" cy="360" r="6" fill="#C8102E"/>
+  <circle cx="735" cy="360" r="6" fill="#FFFFFF"/>
+  <circle cx="750" cy="360" r="6" fill="#F6EB61"/>
+  <text x="770" y="365" font-size="12" fill="#FFFFFF" font-family="Arial, sans-serif">Key</text>
+</svg>

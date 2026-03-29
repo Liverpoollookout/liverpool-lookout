@@ -1,0 +1,90 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative pitch lines -->
+  <line x1="0" y1="210" x2="800" y2="210" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  <line x1="400" y1="0" x2="400" y2="420" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Left figure - Player staying (more solid) -->
+  <g opacity="0.6">
+    <!-- Head -->
+    <circle cx="150" cy="90" r="25" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Body in Liverpool red -->
+    <rect x="130" y="120" width="40" height="50" fill="#C8102E" opacity="0.7"/>
+    <!-- Arms -->
+    <line x1="130" y1="135" x2="80" y2="120" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    <line x1="170" y1="135" x2="220" y2="120" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="140" y1="170" x2="130" y2="240" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    <line x1="160" y1="170" x2="170" y2="240" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Center figure - Player departing (darker, more prominent) -->
+  <g>
+    <!-- Head -->
+    <circle cx="400" cy="85" r="28" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+    <!-- Body in Liverpool red -->
+    <rect x="376" y="115" width="48" height="60" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+    <!-- Arms -->
+    <line x1="376" y1="135" x2="310" y2="115" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="424" y1="135" x2="490" y2="115" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="385" y1="175" x2="375" y2="260" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="415" y1="175" x2="425" y2="260" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Football at feet -->
+    <circle cx="400" cy="280" r="12" fill="none" stroke="#F6EB61" stroke-width="2.5"/>
+  </g>
+  
+  <!-- Right figure - Potential departure (faded) -->
+  <g opacity="0.5">
+    <!-- Head -->
+    <circle cx="650" cy="95" r="23" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <!-- Body -->
+    <rect x="632" y="122" width="36" height="48" fill="none" stroke="#C8102E" stroke-width="2" stroke-dasharray="5,5"/>
+    <!-- Arms -->
+    <line x1="632" y1="135" x2="590" y2="125" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="668" y1="135" x2="710" y2="125" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="640" y1="170" x2="635" y2="235" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="660" y1="170" x2="665" y2="235" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Directional arrows - outgoing transfer -->
+  <!-- Arrow from center going right -->
+  <defs>
+    <marker id="arrowhead-white" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#FFFFFF"/>
+    </marker>
+    <marker id="arrowhead-gold" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Main exit arrow -->
+  <path d="M 440 210 Q 520 180 600 210" fill="none" stroke="#FFFFFF" stroke-width="3.5" marker-end="url(#arrowhead-white)" stroke-dasharray="8,6"/>
+  
+  <!-- Secondary departure indicators -->
+  <path d="M 440 250 Q 520 280 600 260" fill="none" stroke="#F6EB61" stroke-width="2.5" marker-end="url(#arrowhead-gold)" opacity="0.8"/>
+  
+  <!-- Uncertainty wave lines around right figure -->
+  <path d="M 710 150 Q 725 160 710 170" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  <path d="M 720 160 Q 735 170 720 180" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Title text -->
+  <text x="400" y="350" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">
+    OUTGOINGS
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="16" fill="#F6EB61" text-anchor="middle" opacity="0.9">
+    Transfer Departures &amp; Contract Updates
+  </text>
+  
+  <!-- Decorative corner elements -->
+  <line x1="20" y1="20" x2="60" y2="20" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="20" y1="20" x2="20" y2="60" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="780" y1="400" x2="740" y2="400" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="780" y1="400" x2="780" y2="360" stroke="#C8102E" stroke-width="2.5"/>
+</svg>
