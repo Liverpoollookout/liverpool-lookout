@@ -1,0 +1,85 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch background -->
+  <rect x="80" y="60" width="640" height="300" fill="#1a472a" stroke="#FFFFFF" stroke-width="2" opacity="0.9"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="60" x2="400" y2="360" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="45" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Center spot -->
+  <circle cx="400" cy="210" r="4" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Penalty areas -->
+  <rect x="80" y="130" width="90" height="160" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+  <rect x="630" y="130" width="90" height="160" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Goal areas -->
+  <rect x="80" y="160" width="40" height="100" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+  <rect x="680" y="160" width="40" height="100" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Tactical formation diagram - 4-3-3 -->
+  <!-- Goalkeeper -->
+  <circle cx="120" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="120" y="215" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="bold">GK</text>
+  
+  <!-- Defenders (4) -->
+  <circle cx="220" cy="120" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="220" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="220" cy="300" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="280" cy="160" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="280" y="165" font-size="7" fill="#FFFFFF" text-anchor="middle" font-weight="bold">CB</text>
+  
+  <!-- Midfielders (3) -->
+  <circle cx="380" cy="140" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="380" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="380" cy="280" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Forwards (3) -->
+  <circle cx="540" cy="100" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="540" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="540" cy="320" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Tactical movement arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61" opacity="0.7"/>
+    </marker>
+  </defs>
+  
+  <!-- Movement lines showing tactical setup -->
+  <path d="M 380 140 L 500 80" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.6" stroke-dasharray="5,5"/>
+  <path d="M 380 210 L 500 210" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.6" stroke-dasharray="5,5"/>
+  <path d="M 380 280 L 500 330" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.6" stroke-dasharray="5,5"/>
+  
+  <!-- Title section -->
+  <rect x="20" y="10" width="760" height="40" fill="#C8102E" opacity="0.9" rx="4"/>
+  <text x="400" y="35" font-size="28" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial, sans-serif">MATCH REPORT</text>
+  
+  <!-- Key stats boxes -->
+  <g opacity="0.85">
+    <rect x="50" y="370" width="140" height="40" fill="#F6EB61" rx="3"/>
+    <text x="120" y="385" font-size="11" fill="#0a1628" text-anchor="middle" font-weight="bold" font-family="Arial, sans-serif">Slot Tactics</text>
+    <text x="120" y="402" font-size="9" fill="#0a1628" text-anchor="middle" font-family="Arial, sans-serif">4-3-3 Formation</text>
+  </g>
+  
+  <g opacity="0.85">
+    <rect x="330" y="370" width="140" height="40" fill="#FFFFFF" rx="3"/>
+    <text x="400" y="385" font-size="11" fill="#C8102E" text-anchor="middle" font-weight="bold" font-family="Arial, sans-serif">Key Moments</text>
+    <text x="400" y="402" font-size="9" fill="#0a1628" text-anchor="middle" font-family="Arial, sans-serif">Player Ratings</text>
+  </g>
+  
+  <g opacity="0.85">
+    <rect x="610" y="370" width="140" height="40" fill="#F6EB61" rx="3"/>
+    <text x="680" y="385" font-size="11" fill="#0a1628" text-anchor="middle" font-weight="bold" font-family="Arial, sans-serif">Tactical Shift</text>
+    <text x="680" y="402" font-size="9" fill="#0a1628" text-anchor="middle" font-family="Arial, sans-serif">Analysis</text>
+  </g>
+  
+  <!-- Decorative Liverpool FC corner badge -->
+  <circle cx="760" cy="30" r="18" fill="#C8102E" opacity="0.7"/>
+  <text x="760" y="33" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial, sans-serif">LFC</text>
+</svg>
