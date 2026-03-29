@@ -1,0 +1,86 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Anfield pitch outline -->
+  <rect x="80" y="40" width="640" height="340" fill="none" stroke="#F6EB61" stroke-width="3" opacity="0.6"/>
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#F6EB61" stroke-width="2" opacity="0.4"/>
+  <circle cx="400" cy="210" r="50" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Center spot -->
+  <circle cx="400" cy="210" r="4" fill="#F6EB61" opacity="0.6"/>
+  
+  <!-- Penalty areas sketch -->
+  <rect x="80" y="120" width="100" height="180" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  <rect x="620" y="120" width="100" height="180" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Goal areas -->
+  <rect x="80" y="160" width="50" height="100" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.3"/>
+  <rect x="670" y="160" width="50" height="100" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- Legendary player figure - Kenny Dalglish style -->
+  <g transform="translate(250, 150)">
+    <!-- Head -->
+    <circle cx="0" cy="-35" r="18" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    
+    <!-- Hair sketch -->
+    <path d="M -15 -40 Q -18 -50 -10 -48" fill="none" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 0 -53 Q 8 -58 12 -50" fill="none" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Face details -->
+    <circle cx="-7" cy="-37" r="2" fill="#C8102E"/>
+    <circle cx="7" cy="-37" r="2" fill="#C8102E"/>
+    <path d="M -5 -32 Q 0 -30 5 -32" fill="none" stroke="#C8102E" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Body - Liverpool kit -->
+    <rect x="-20" y="-15" width="40" height="45" fill="#C8102E" stroke="#C8102E" stroke-width="2" rx="3"/>
+    
+    <!-- White collar detail -->
+    <path d="M -15 -15 L -10 -5 L 10 -5 L 15 -15" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5"/>
+    
+    <!-- Shirt number 7 -->
+    <text x="0" y="12" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial">7</text>
+    
+    <!-- Left arm -->
+    <path d="M -20 0 L -40 15" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="-40" cy="15" r="6" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+    
+    <!-- Right arm -->
+    <path d="M 20 5 L 38 20" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="38" cy="20" r="6" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+    
+    <!-- Legs -->
+    <path d="M -10 30 L -8 55" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 10 30 L 12 55" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Boots -->
+    <ellipse cx="-8" cy="58" rx="5" ry="6" fill="#C8102E" stroke="#C8102E" stroke-width="1.5"/>
+    <ellipse cx="12" cy="58" rx="5" ry="6" fill="#C8102E" stroke="#C8102E" stroke-width="1.5"/>
+    
+    <!-- Ball at feet -->
+    <circle cx="15" cy="60" r="6" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M 12 60 L 18 60 M 15 57 L 15 63" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Motion lines -->
+  <path d="M 150 220 Q 140 230 135 245" stroke="#C8102E" stroke-width="2" fill="none" opacity="0.6" stroke-linecap="round"/>
+  <path d="M 160 210 Q 145 215 135 225" stroke="#C8102E" stroke-width="1.5" fill="none" opacity="0.4" stroke-linecap="round"/>
+  
+  <!-- Golden accent lines -->
+  <path d="M 320 80 Q 380 60 440 75" stroke="#F6EB61" stroke-width="2" fill="none" opacity="0.7" stroke-linecap="round"/>
+  <path d="M 350 320 Q 400 340 450 325" stroke="#F6EB61" stroke-width="2" fill="none" opacity="0.7" stroke-linecap="round"/>
+  
+  <!-- Player name text -->
+  <text x="250" y="290" font-size="32" font-weight="bold" fill="#C8102E" text-anchor="middle" font-family="Arial, sans-serif">KENNY DALGLISH</text>
+  
+  <!-- Subtitle -->
+  <text x="250" y="320" font-size="14" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" opacity="0.8">The King of Anfield</text>
+  
+  <!-- Liverpool FC badge elements -->
+  <circle cx="650" cy="80" r="35" fill="none" stroke="#F6EB61" stroke-width="2.5" opacity="0.7"/>
+  <text x="650" y="85" font-size="20" font-weight="bold" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">LFC</text>
+  
+  <!-- Decorative stars -->
+  <polygon points="100,40 105,55 121,55 109,65 114,80 100,70 86,80 91,65 79,55 95,55" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.5"/>
+  <polygon points="700,350 704,362 720,362 709,370 713,382 700,374 687,382 691,370 680,362 696,362" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.5"/>
+</svg>
