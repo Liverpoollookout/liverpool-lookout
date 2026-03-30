@@ -1,0 +1,100 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Football pitch diagram -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none">
+    <!-- Pitch outline -->
+    <rect x="80" y="40" width="640" height="340" stroke-width="2.5"/>
+    
+    <!-- Centre line -->
+    <line x1="400" y1="40" x2="400" y2="380"/>
+    
+    <!-- Centre circle -->
+    <circle cx="400" cy="210" r="50" stroke-width="2"/>
+    
+    <!-- Centre spot -->
+    <circle cx="400" cy="210" r="3" fill="#FFFFFF"/>
+    
+    <!-- Left penalty area -->
+    <rect x="80" y="110" width="100" height="200"/>
+    
+    <!-- Right penalty area -->
+    <rect x="620" y="110" width="100" height="200"/>
+    
+    <!-- Left goal area -->
+    <rect x="80" y="160" width="50" height="100"/>
+    
+    <!-- Right goal area -->
+    <rect x="670" y="160" width="50" height="100"/>
+  </g>
+  
+  <!-- Player positions - sketched circles with numbers -->
+  <g id="team-formation">
+    <!-- Goalkeeper left -->
+    <circle cx="110" cy="210" r="18" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <text x="110" y="216" text-anchor="middle" font-size="14" font-weight="bold" fill="#C8102E" font-family="Arial">1</text>
+    
+    <!-- Defenders -->
+    <circle cx="200" cy="130" r="16" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <text x="200" y="135" text-anchor="middle" font-size="12" font-weight="bold" fill="#C8102E" font-family="Arial">4</text>
+    
+    <circle cx="200" cy="210" r="16" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <text x="200" y="215" text-anchor="middle" font-size="12" font-weight="bold" fill="#C8102E" font-family="Arial">5</text>
+    
+    <circle cx="200" cy="290" r="16" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <text x="200" y="295" text-anchor="middle" font-size="12" font-weight="bold" fill="#C8102E" font-family="Arial">3</text>
+    
+    <!-- Midfielders -->
+    <circle cx="310" cy="160" r="15" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <text x="310" y="164" text-anchor="middle" font-size="11" font-weight="bold" fill="#C8102E" font-family="Arial">6</text>
+    
+    <circle cx="310" cy="210" r="15" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <text x="310" y="214" text-anchor="middle" font-size="11" font-weight="bold" fill="#C8102E" font-family="Arial">8</text>
+    
+    <circle cx="310" cy="260" r="15" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <text x="310" y="264" text-anchor="middle" font-size="11" font-weight="bold" fill="#C8102E" font-family="Arial">7</text>
+    
+    <!-- Forwards -->
+    <circle cx="450" cy="150" r="15" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <text x="450" y="154" text-anchor="middle" font-size="11" font-weight="bold" fill="#C8102E" font-family="Arial">11</text>
+    
+    <circle cx="450" cy="270" r="15" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <text x="450" y="274" text-anchor="middle" font-size="11" font-weight="bold" fill="#C8102E" font-family="Arial">10</text>
+    
+    <circle cx="520" cy="210" r="16" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <text x="520" y="215" text-anchor="middle" font-size="12" font-weight="bold" fill="#C8102E" font-family="Arial">9</text>
+  </g>
+  
+  <!-- Tactical arrows showing movement -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61" opacity="0.8"/>
+    </marker>
+  </defs>
+  
+  <!-- Attack direction arrow -->
+  <path d="M 520 210 L 600 210" stroke="#F6EB61" stroke-width="2.5" fill="none" marker-end="url(#arrowhead)" opacity="0.7" stroke-dasharray="5,5"/>
+  
+  <!-- Title section -->
+  <g>
+    <!-- Background for title -->
+    <rect x="50" y="365" width="700" height="45" fill="#C8102E" opacity="0.9" rx="4"/>
+    
+    <!-- Main title -->
+    <text x="400" y="388" text-anchor="middle" font-size="22" font-weight="bold" fill="#FFFFFF" font-family="Arial">MATCH REPORT</text>
+    
+    <!-- Subtitle -->
+    <text x="400" y="405" text-anchor="middle" font-size="13" fill="#F6EB61" font-family="Arial">Slot's Tactics • Player Ratings • Key Moments</text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <!-- Small stars/highlights for key moments -->
+  <g fill="#F6EB61" opacity="0.6">
+    <polygon points="650,80 655,95 671,95 660,105 665,120 650,110 635,120 640,105 629,95 645,95"/>
+    <polygon points="150,60 153,70 164,70 155,76 158,86 150,80 142,86 145,76 136,70 147,70"/>
+  </g>
+  
+  <!-- Slot name indicator -->
+  <text x="70" y="330" font-size="14" fill="#F6EB61" font-family="Arial" font-weight="bold">SLOT TACTICAL SETUP</text>
+</svg>

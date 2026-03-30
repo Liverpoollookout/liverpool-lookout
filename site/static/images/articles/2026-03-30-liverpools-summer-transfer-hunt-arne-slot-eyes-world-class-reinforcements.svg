@@ -1,0 +1,75 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative pitch lines -->
+  <line x1="0" y1="210" x2="800" y2="210" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.2"/>
+  
+  <!-- Left side - Player silhouette with incoming arrow -->
+  <g>
+    <!-- Incoming arrow from left -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+        <polygon points="0 0, 10 3, 0 6" fill="#C8102E"/>
+      </marker>
+    </defs>
+    
+    <path d="M 80 200 Q 150 200 200 200" stroke="#C8102E" stroke-width="3" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+    
+    <!-- Player figure in red kit -->
+    <circle cx="120" cy="100" r="20" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <rect x="105" y="125" width="30" height="45" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <rect x="100" y="130" width="40" height="8" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <line x1="110" y1="175" x2="105" y2="210" stroke="#C8102E" stroke-width="2.5"/>
+    <line x1="130" y1="175" x2="135" y2="210" stroke="#C8102E" stroke-width="2.5"/>
+  </g>
+  
+  <!-- Center - Anfield badge/goal -->
+  <g>
+    <!-- Goal post sketch -->
+    <line x1="400" y1="80" x2="400" y2="340" stroke="#FFFFFF" stroke-width="3"/>
+    <line x1="350" y1="80" x2="450" y2="80" stroke="#FFFFFF" stroke-width="3"/>
+    <line x1="350" y1="80" x2="400" y2="140" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+    <line x1="450" y1="80" x2="400" y2="140" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+    
+    <!-- "ANFIELD" text -->
+    <text x="400" y="185" font-size="28" font-weight="bold" text-anchor="middle" fill="#C8102E" font-family="Arial, sans-serif" letter-spacing="2">ANFIELD</text>
+    
+    <!-- Decorative circle -->
+    <circle cx="400" cy="150" r="35" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.8"/>
+  </g>
+  
+  <!-- Right side - Target player with price tag -->
+  <g>
+    <!-- Player figure -->
+    <circle cx="680" cy="100" r="20" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    <rect x="665" y="125" width="30" height="45" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    <rect x="660" y="130" width="40" height="8" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="670" y1="175" x2="665" y2="210" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="690" y1="175" x2="695" y2="210" stroke="#FFFFFF" stroke-width="2.5"/>
+    
+    <!-- Outgoing arrow to right -->
+    <path d="M 600 200 Q 650 200 700 200" stroke="#FFFFFF" stroke-width="3" fill="none" marker-end="url(#arrowhead2)" stroke-dasharray="5,5"/>
+    
+    <defs>
+      <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+        <polygon points="0 0, 10 3, 0 6" fill="#FFFFFF"/>
+      </marker>
+    </defs>
+    
+    <!-- Price tag -->
+    <rect x="640" y="240" width="80" height="50" rx="5" fill="#F6EB61" stroke="#C8102E" stroke-width="2"/>
+    <text x="680" y="260" font-size="14" font-weight="bold" text-anchor="middle" fill="#0a1628" font-family="Arial, sans-serif">FEE</text>
+    <text x="680" y="280" font-size="16" font-weight="bold" text-anchor="middle" fill="#C8102E" font-family="Arial, sans-serif">ESTIMATE</text>
+  </g>
+  
+  <!-- Bottom text - Transfer News header -->
+  <text x="400" y="390" font-size="18" font-weight="bold" text-anchor="middle" fill="#F6EB61" font-family="Arial, sans-serif" letter-spacing="1">TRANSFER TARGETS 2024</text>
+  
+  <!-- Decorative sketched elements -->
+  <g opacity="0.3">
+    <circle cx="50" cy="50" r="15" fill="none" stroke="#C8102E" stroke-width="1.5"/>
+    <circle cx="750" cy="370" r="12" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+</svg>

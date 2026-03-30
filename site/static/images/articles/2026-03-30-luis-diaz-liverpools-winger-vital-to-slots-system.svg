@@ -1,0 +1,69 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="80" r="40" fill="#C8102E" opacity="0.1"/>
+  <circle cx="700" cy="350" r="60" fill="#F6EB61" opacity="0.08"/>
+  
+  <!-- Sketch lines for artistic effect -->
+  <line x1="0" y1="100" x2="800" y2="95" stroke="#F6EB61" stroke-width="1" opacity="0.2"/>
+  <line x1="0" y1="320" x2="800" y2="325" stroke="#C8102E" stroke-width="1" opacity="0.15"/>
+  
+  <!-- Player head -->
+  <circle cx="280" cy="100" r="45" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  <circle cx="265" cy="85" r="6" fill="#FFFFFF"/>
+  <circle cx="295" cy="85" r="6" fill="#FFFFFF"/>
+  <path d="M 280 105 Q 275 115 280 120" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Hair sketch -->
+  <path d="M 240 70 Q 230 50 280 40 Q 330 50 320 70" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 245 65 Q 260 45 280 42" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 315 65 Q 300 45 280 42" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Liverpool kit - body -->
+  <rect x="240" y="145" width="80" height="100" rx="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="2.5"/>
+  
+  <!-- Kit details - shirt lines -->
+  <line x1="280" y1="145" x2="280" y2="245" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+  <path d="M 260 165 Q 280 160 300 165" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Arms -->
+  <line x1="240" y1="165" x2="180" y2="200" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+  <line x1="320" y1="165" x2="380" y2="200" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Hands -->
+  <circle cx="170" cy="205" r="12" fill="#F5DEB3" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="390" cy="205" r="12" fill="#F5DEB3" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Shorts -->
+  <path d="M 245 245 L 235 310 Q 235 320 245 320 L 315 320 Q 325 320 325 310 L 315 245" fill="#C8102E" stroke="#FFFFFF" stroke-width="2.5"/>
+  <line x1="280" y1="245" x2="280" y2="320" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Legs -->
+  <line x1="260" y1="320" x2="255" y2="380" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <line x1="300" y1="320" x2="305" y2="380" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  
+  <!-- Feet -->
+  <ellipse cx="253" cy="385" rx="10" ry="8" fill="#F5DEB3" stroke="#FFFFFF" stroke-width="1.5"/>
+  <ellipse cx="307" cy="385" rx="10" ry="8" fill="#F5DEB3" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Ball at feet -->
+  <circle cx="320" cy="360" r="14" fill="none" stroke="#F6EB61" stroke-width="2.5"/>
+  <path d="M 310 350 Q 320 355 330 350" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+  <path d="M 310 370 Q 320 365 330 370" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+  
+  <!-- Player name -->
+  <text x="520" y="140" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#F6EB61" letter-spacing="2">LUIS</text>
+  <text x="520" y="200" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#C8102E" letter-spacing="2">DIAZ</text>
+  
+  <!-- Accent underline -->
+  <rect x="520" y="215" width="200" height="3" fill="#FFFFFF"/>
+  
+  <!-- Decorative sketch elements -->
+  <path d="M 450 250 Q 480 240 500 270" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.4"/>
+  <path d="M 600 120 Q 630 130 650 110" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="700" cy="280" r="3" fill="#F6EB61" opacity="0.5"/>
+  <circle cx="720" cy="260" r="2" fill="#C8102E" opacity="0.4"/>
+  <circle cx="680" cy="310" r="2.5" fill="#FFFFFF" opacity="0.4"/>
+</svg>
