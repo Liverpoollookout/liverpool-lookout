@@ -1,0 +1,86 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline -->
+  <rect x="80" y="40" width="640" height="340" fill="none" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#2d5016" stroke-width="2"/>
+  <circle cx="400" cy="210" r="4" fill="#2d5016"/>
+  
+  <!-- Penalty areas -->
+  <rect x="80" y="120" width="120" height="180" fill="none" stroke="#2d5016" stroke-width="2"/>
+  <rect x="600" y="120" width="120" height="180" fill="none" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Goal areas -->
+  <rect x="80" y="155" width="60" height="110" fill="none" stroke="#2d5016" stroke-width="2"/>
+  <rect x="660" y="155" width="60" height="110" fill="none" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Sketched player positions with Liverpool red -->
+  <!-- Goalkeeper position -->
+  <circle cx="110" cy="210" r="18" fill="none" stroke="#C8102E" stroke-width="2.5" stroke-dasharray="3,3"/>
+  <circle cx="110" cy="210" r="8" fill="#C8102E" opacity="0.6"/>
+  
+  <!-- Defenders -->
+  <circle cx="200" cy="140" r="16" fill="none" stroke="#C8102E" stroke-width="2.5" stroke-dasharray="3,3"/>
+  <circle cx="200" cy="280" r="16" fill="none" stroke="#C8102E" stroke-width="2.5" stroke-dasharray="3,3"/>
+  <circle cx="280" cy="210" r="16" fill="none" stroke="#C8102E" stroke-width="2.5" stroke-dasharray="3,3"/>
+  
+  <!-- Midfielders -->
+  <circle cx="350" cy="160" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <circle cx="350" cy="260" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <circle cx="420" cy="210" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  
+  <!-- Attackers -->
+  <circle cx="520" cy="150" r="14" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <circle cx="520" cy="270" r="14" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <circle cx="580" cy="210" r="14" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  
+  <!-- Tactical arrows showing movement -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Movement arrows -->
+  <path d="M 350 160 L 480 180" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.8"/>
+  <path d="M 420 210 L 560 210" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.8"/>
+  <path d="M 280 210 L 370 210" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.8"/>
+  
+  <!-- Key moment indicator -->
+  <circle cx="520" cy="150" r="28" fill="none" stroke="#F6EB61" stroke-width="3" opacity="0.7"/>
+  <circle cx="520" cy="150" r="32" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.4" stroke-dasharray="4,4"/>
+  
+  <!-- Title and labels -->
+  <text x="400" y="410" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">
+    TACTICAL ANALYSIS
+  </text>
+  
+  <!-- Slot's tactical setup label -->
+  <text x="650" y="65" font-size="13" fill="#F6EB61" font-family="Arial, sans-serif" font-weight="bold">
+    SLOT SETUP
+  </text>
+  
+  <!-- Sketched elements for emphasis -->
+  <line x1="640" y1="55" x2="680" y2="85" stroke="#C8102E" stroke-width="2" opacity="0.6"/>
+  <line x1="680" y1="55" x2="640" y2="85" stroke="#C8102E" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Match report elements corner -->
+  <g opacity="0.7">
+    <rect x="20" y="350" width="140" height="60" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <text x="30" y="370" font-size="11" fill="#FFFFFF" font-family="Arial, sans-serif">
+      PLAYER RATINGS
+    </text>
+    <text x="30" y="388" font-size="9" fill="#F6EB61" font-family="Arial, sans-serif">
+      Key Moments
+    </text>
+    <text x="30" y="402" font-size="9" fill="#F6EB61" font-family="Arial, sans-serif">
+      Tactical Decisions
+    </text>
+  </g>
+</svg>

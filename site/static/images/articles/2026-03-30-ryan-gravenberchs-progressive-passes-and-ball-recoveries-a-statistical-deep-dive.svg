@@ -1,0 +1,98 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch lines sketch style -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.6">
+    <!-- Center line -->
+    <line x1="400" y1="80" x2="400" y2="340" stroke-dasharray="5,5"/>
+    <!-- Center circle -->
+    <circle cx="400" cy="210" r="50" stroke-dasharray="5,5"/>
+    <!-- Center spot -->
+    <circle cx="400" cy="210" r="3" fill="#FFFFFF"/>
+    <!-- Halfway line -->
+    <rect x="50" y="80" width="700" height="260" fill="none"/>
+  </g>
+  
+  <!-- Left penalty area -->
+  <g stroke="#C8102E" stroke-width="2.5" fill="none" opacity="0.8">
+    <rect x="50" y="130" width="120" height="160"/>
+    <rect x="50" y="160" width="60" height="100"/>
+  </g>
+  
+  <!-- Right penalty area -->
+  <g stroke="#C8102E" stroke-width="2.5" fill="none" opacity="0.8">
+    <rect x="730" y="130" width="-120" height="160"/>
+    <rect x="730" y="160" width="-60" height="100"/>
+  </g>
+  
+  <!-- Stylized player position markers with Liverpool red -->
+  <g>
+    <!-- Forward positions -->
+    <circle cx="650" cy="150" r="8" fill="#C8102E" opacity="0.7"/>
+    <circle cx="650" cy="270" r="8" fill="#C8102E" opacity="0.7"/>
+    <circle cx="700" cy="210" r="8" fill="#C8102E" opacity="0.8"/>
+    
+    <!-- Midfield positions -->
+    <circle cx="520" cy="120" r="8" fill="#C8102E" opacity="0.7"/>
+    <circle cx="520" cy="210" r="8" fill="#C8102E" opacity="0.8"/>
+    <circle cx="520" cy="300" r="8" fill="#C8102E" opacity="0.7"/>
+    <circle cx="580" cy="170" r="8" fill="#C8102E" opacity="0.7"/>
+    <circle cx="580" cy="250" r="8" fill="#C8102E" opacity="0.7"/>
+    
+    <!-- Defensive positions -->
+    <circle cx="350" cy="140" r="8" fill="#C8102E" opacity="0.6"/>
+    <circle cx="350" cy="210" r="8" fill="#C8102E" opacity="0.6"/>
+    <circle cx="350" cy="280" r="8" fill="#C8102E" opacity="0.6"/>
+    <circle cx="280" cy="175" r="8" fill="#C8102E" opacity="0.6"/>
+    <circle cx="280" cy="245" r="8" fill="#C8102E" opacity="0.6"/>
+    
+    <!-- Goalkeeper -->
+    <circle cx="80" cy="210" r="10" fill="#F6EB61" opacity="0.8"/>
+  </g>
+  
+  <!-- Data visualization bars on right side -->
+  <g>
+    <!-- Bar 1 -->
+    <rect x="150" y="30" width="600" height="8" fill="#FFFFFF" opacity="0.2"/>
+    <rect x="150" y="30" width="540" height="8" fill="#C8102E" opacity="0.7"/>
+    
+    <!-- Bar 2 -->
+    <rect x="150" y="50" width="600" height="8" fill="#FFFFFF" opacity="0.2"/>
+    <rect x="150" y="50" width="480" height="8" fill="#C8102E" opacity="0.7"/>
+    
+    <!-- Bar 3 -->
+    <rect x="150" y="70" width="600" height="8" fill="#FFFFFF" opacity="0.2"/>
+    <rect x="150" y="70" width="520" height="8" fill="#C8102E" opacity="0.7"/>
+  </g>
+  
+  <!-- Passing lanes sketch -->
+  <g stroke="#F6EB61" stroke-width="1.5" fill="none" opacity="0.5" stroke-dasharray="3,3">
+    <line x1="700" y1="210" x2="580" y2="210"/>
+    <line x1="580" y2="210" x2="520" y2="210"/>
+    <line x1="700" y1="150" x2="580" y2="170"/>
+    <line x1="700" y1="270" x2="580" y2="250"/>
+  </g>
+  
+  <!-- Title box -->
+  <g>
+    <rect x="30" y="360" width="740" height="50" fill="#C8102E" opacity="0.8" rx="4"/>
+    <text x="400" y="385" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">PLAYER STATISTICS ANALYSIS</text>
+  </g>
+  
+  <!-- Decorative corner elements -->
+  <g stroke="#F6EB61" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M 20 20 L 50 20 L 50 50"/>
+    <path d="M 780 20 L 750 20 L 750 50"/>
+  </g>
+  
+  <!-- Small stat indicators -->
+  <g fill="#F6EB61" opacity="0.6">
+    <circle cx="100" cy="30" r="3"/>
+    <circle cx="120" cy="35" r="3"/>
+    <circle cx="140" cy="28" r="3"/>
+    <circle cx="680" cy="350" r="3"/>
+    <circle cx="700" cy="345" r="3"/>
+    <circle cx="720" cy="355" r="3"/>
+  </g>
+</svg>

@@ -1,0 +1,90 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Title background banner -->
+  <rect width="800" height="80" fill="#C8102E" opacity="0.1"/>
+  <line x1="0" y1="80" x2="800" y2="80" stroke="#C8102E" stroke-width="3"/>
+  
+  <!-- Title text -->
+  <text x="400" y="50" font-size="28" font-weight="bold" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif">
+    INJURY &amp; FITNESS UPDATE
+  </text>
+  
+  <!-- Medical clipboard with sketch style -->
+  <g stroke="#F6EB61" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Clipboard base -->
+    <rect x="80" y="130" width="180" height="240" rx="8"/>
+    <rect x="90" y="140" width="160" height="30" fill="#C8102E" opacity="0.3"/>
+    
+    <!-- Clipboard clip -->
+    <circle cx="170" cy="135" r="12" stroke="#F6EB61" stroke-width="2.5" fill="none"/>
+    <line x1="165" y1="147" x2="175" y2="147" stroke="#F6EB61" stroke-width="2"/>
+    
+    <!-- Document lines (sketch style) -->
+    <line x1="100" y1="180" x2="240" y2="180" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+    <line x1="100" y1="195" x2="240" y2="195" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+    <line x1="100" y1="210" x2="220" y2="210" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+    <line x1="100" y1="235" x2="240" y2="235" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+    <line x1="100" y1="250" x2="230" y2="250" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+    <line x1="100" y1="265" x2="240" y2="265" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+    <line x1="100" y1="285" x2="210" y2="285" stroke="#FFFFFF" stroke-width="1.5" opacity="0.4"/>
+    
+    <!-- Red cross/medical symbol -->
+    <line x1="230" y1="290" x2="260" y2="320" stroke="#C8102E" stroke-width="3"/>
+    <line x1="260" y1="290" x2="230" y2="320" stroke="#C8102E" stroke-width="3"/>
+  </g>
+  
+  <!-- Player silhouette figure -->
+  <g stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head -->
+    <circle cx="420" cy="160" r="25"/>
+    
+    <!-- Body in Liverpool kit -->
+    <rect x="400" y="190" width="40" height="50" fill="#C8102E" stroke="#FFFFFF" stroke-width="2.5" rx="3"/>
+    
+    <!-- Arms -->
+    <line x1="400" y1="200" x2="340" y2="230" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="440" y1="200" x2="500" y2="230" stroke="#FFFFFF" stroke-width="2.5"/>
+    
+    <!-- Hands -->
+    <circle cx="340" cy="235" r="6" fill="#FFFFFF"/>
+    <circle cx="500" cy="235" r="6" fill="#FFFFFF"/>
+    
+    <!-- Legs -->
+    <line x1="405" y1="240" x2="390" y2="310" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="435" y1="240" x2="450" y2="310" stroke="#FFFFFF" stroke-width="2.5"/>
+    
+    <!-- Feet -->
+    <line x1="390" y1="310" x2="360" y2="315" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="450" y1="310" x2="480" y2="315" stroke="#FFFFFF" stroke-width="2.5"/>
+  </g>
+  
+  <!-- Status indicators -->
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    <!-- Available badge -->
+    <circle cx="580" cy="180" r="45" fill="none" stroke="#F6EB61" stroke-width="2.5" stroke-dasharray="5,3"/>
+    <text x="580" y="175" text-anchor="middle" fill="#F6EB61" font-size="12" font-weight="bold">AVAILABLE</text>
+    <text x="580" y="192" text-anchor="middle" fill="#F6EB61" font-size="11">Next Fixture</text>
+    
+    <!-- Recovery indicator with arrow -->
+    <g stroke="#C8102E" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <path d="M 550 260 L 600 260" stroke="#C8102E" stroke-width="2.5"/>
+      <polygon points="605,260 595,255 598,260 595,265" fill="#C8102E"/>
+      <text x="575" y="285" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold">Recovery</text>
+      <text x="575" y="302" text-anchor="middle" fill="#FFFFFF" font-size="11" opacity="0.8">On Track</text>
+    </g>
+  </g>
+  
+  <!-- Decorative Liverpool FC elements -->
+  <g stroke="#C8102E" stroke-width="1.5" fill="none" opacity="0.3">
+    <circle cx="100" cy="350" r="20"/>
+    <line x1="85" y1="350" x2="115" y2="350" stroke="#C8102E" stroke-width="1.5"/>
+    <line x1="100" y1="335" x2="100" y2="365" stroke="#C8102E" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Footer accent -->
+  <line x1="0" y1="410" x2="800" y2="410" stroke="#F6EB61" stroke-width="2"/>
+  <circle cx="20" cy="410" r="4" fill="#F6EB61"/>
+  <circle cx="780" cy="410" r="4" fill="#F6EB61"/>
+</svg>
