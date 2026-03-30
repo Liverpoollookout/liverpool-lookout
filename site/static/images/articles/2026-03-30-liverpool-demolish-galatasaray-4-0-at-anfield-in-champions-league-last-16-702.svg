@@ -1,0 +1,139 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch diagram - stylised football field -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Pitch outline -->
+    <rect x="50" y="40" width="700" height="340" stroke="#FFFFFF" stroke-width="3"/>
+    
+    <!-- Center line -->
+    <line x1="400" y1="40" x2="400" y2="380"/>
+    
+    <!-- Center circle -->
+    <circle cx="400" cy="210" r="60"/>
+    
+    <!-- Center spot -->
+    <circle cx="400" cy="210" r="4" fill="#FFFFFF"/>
+    
+    <!-- Left penalty area -->
+    <rect x="50" y="100" width="120" height="220"/>
+    
+    <!-- Left goal area -->
+    <rect x="50" y="150" width="50" height="120"/>
+    
+    <!-- Left penalty arc -->
+    <path d="M 170 100 Q 195 100 195 145" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    <path d="M 170 320 Q 195 320 195 275" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    
+    <!-- Right penalty area -->
+    <rect x="630" y="100" width="120" height="220"/>
+    
+    <!-- Right goal area -->
+    <rect x="700" y="150" width="50" height="120"/>
+    
+    <!-- Right penalty arc -->
+    <path d="M 630 100 Q 605 100 605 145" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    <path d="M 630 320 Q 605 320 605 275" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Liverpool players in red - left side -->
+  <g id="player1">
+    <!-- Head -->
+    <circle cx="150" cy="100" r="12" fill="#C8102E" stroke="#C8102E" stroke-width="1.5"/>
+    <!-- Body -->
+    <ellipse cx="150" cy="130" rx="14" ry="20" fill="#C8102E" stroke="#C8102E" stroke-width="1.5"/>
+    <!-- Jersey number accent -->
+    <text x="150" y="135" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">7</text>
+    <!-- Legs -->
+    <line x1="145" y1="150" x2="140" y2="175" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    <line x1="155" y1="150" x2="160" y2="175" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <g id="player2">
+    <!-- Head -->
+    <circle cx="250" cy="180" r="12" fill="#C8102E" stroke="#C8102E" stroke-width="1.5"/>
+    <!-- Body -->
+    <ellipse cx="250" cy="210" rx="14" ry="20" fill="#C8102E" stroke="#C8102E" stroke-width="1.5"/>
+    <!-- Jersey number -->
+    <text x="250" y="215" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">4</text>
+    <!-- Legs -->
+    <line x1="245" y1="230" x2="240" y2="255" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    <line x1="255" y1="230" x2="260" y2="255" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <g id="player3">
+    <!-- Head -->
+    <circle cx="350" cy="80" r="12" fill="#C8102E" stroke="#C8102E" stroke-width="1.5"/>
+    <!-- Body -->
+    <ellipse cx="350" cy="110" rx="14" ry="20" fill="#C8102E" stroke="#C8102E" stroke-width="1.5"/>
+    <!-- Jersey number -->
+    <text x="350" y="115" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+    <!-- Legs -->
+    <line x1="345" y1="130" x2="340" y2="155" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    <line x1="355" y1="130" x2="360" y2="155" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Opposition players in white/navy - right side -->
+  <g id="opponent1" opacity="0.6">
+    <circle cx="550" cy="120" r="12" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5"/>
+    <ellipse cx="550" cy="150" rx="14" ry="20" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="545" y1="170" x2="540" y2="195" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="555" y1="170" x2="560" y2="195" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <g id="opponent2" opacity="0.6">
+    <circle cx="650" cy="260" r="12" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5"/>
+    <ellipse cx="650" cy="290" rx="14" ry="20" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="645" y1="310" x2="640" y2="335" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="655" y1="310" x2="660" y2="335" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Tactical arrows - Slot decisions -->
+  <g stroke="#F6EB61" stroke-width="2.5" fill="none" stroke-linecap="round" marker-end="url(#arrowhead)">
+    <!-- Arrow for pressing -->
+    <path d="M 200 140 Q 280 160 350 180" stroke-dasharray="4,4"/>
+    
+    <!-- Arrow for ball movement -->
+    <path d="M 350 110 L 420 180"/>
+    
+    <!-- Ball -->
+    <circle cx="420" cy="180" r="8" fill="#F6EB61" stroke="#F6EB61" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Title and text -->
+  <g fill="#FFFFFF" font-family="Arial, sans-serif">
+    <text x="50" y="410" font-size="18" font-weight="bold" fill="#F6EB61">MATCH REPORT</text>
+    <text x="400" y="410" font-size="16" text-anchor="middle" fill="#FFFFFF" opacity="0.9">Slot Tactical Analysis</text>
+  </g>
+  
+  <!-- Rating badges -->
+  <g fill="none" stroke="#F6EB61" stroke-width="2">
+    <circle cx="720" cy="80" r="20"/>
+    <text x="720" y="90" font-size="16" font-weight="bold" fill="#F6EB61" text-anchor="middle">8.5</text>
+  </g>
+  
+  <g fill="none" stroke="#F6EB61" stroke-width="2">
+    <circle cx="720" cy="150" r="20"/>
+    <text x="720" y="160" font-size="16" font-weight="bold" fill="#F6EB61" text-anchor="middle">7.2</text>
+  </g>
+  
+  <g fill="none" stroke="#F6EB61" stroke-width="2">
+    <circle cx="720" cy="220" r="20"/>
+    <text x="720" y="230" font-size="16" font-weight="bold" fill="#F6EB61" text-anchor="middle">8.8</text>
+  </g>
+  
+  <!-- Decorative sketch elements -->
+  <g stroke="#C8102E" stroke-width="1.5" fill="none" opacity="0.4">
+    <path d="M 80 220 Q 85 225 90 220"/>
+    <path d="M 500 320 Q 505 325 510 320"/>
+    <path d="M 600 100 Q 595 105 590 100"/>
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative pitch lines -->
+  <line x1="0" y1="210" x2="800" y2="210" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#F6EB61" stroke-width="1" opacity="0.2"/>
+  <circle cx="400" cy="210" r="5" fill="#F6EB61" opacity="0.3"/>
+  
+  <!-- Sketched player figure -->
+  <g id="player">
+    <!-- Head -->
+    <circle cx="400" cy="100" r="28" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    
+    <!-- Hair sketch -->
+    <path d="M 375 80 Q 375 65 400 65 Q 425 65 425 80" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+    
+    <!-- Eyes -->
+    <circle cx="392" cy="95" r="3" fill="#FFFFFF"/>
+    <circle cx="408" cy="95" r="3" fill="#FFFFFF"/>
+    
+    <!-- Body - Liverpool red kit -->
+    <ellipse cx="400" cy="160" rx="32" ry="45" fill="#C8102E" opacity="0.9"/>
+    
+    <!-- Jersey stripes suggestion -->
+    <path d="M 375 140 L 375 180" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+    <path d="M 400 140 L 400 180" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+    <path d="M 425 140 L 425 180" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+    
+    <!-- Chest crest circle suggestion -->
+    <circle cx="400" cy="155" r="12" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+    
+    <!-- Left arm -->
+    <path d="M 368 150 L 330 190" stroke="#C8102E" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="330" cy="190" r="10" fill="#FFFFFF" opacity="0.8"/>
+    
+    <!-- Right arm -->
+    <path d="M 432 150 L 470 190" stroke="#C8102E" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="470" cy="190" r="10" fill="#FFFFFF" opacity="0.8"/>
+    
+    <!-- Shorts -->
+    <rect x="375" y="200" width="50" height="35" fill="#0a1628" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
+    
+    <!-- Left leg -->
+    <path d="M 385 235 L 375 310" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+    <rect x="365" y="310" width="20" height="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1"/>
+    
+    <!-- Right leg -->
+    <path d="M 415 235 L 425 310" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+    <rect x="415" y="310" width="20" height="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="1"/>
+    
+    <!-- Ball at feet -->
+    <circle cx="420" cy="330" r="12" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M 420 318 Q 425 325 420 332" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  
+  <!-- Radar/potential chart -->
+  <g id="stats" transform="translate(600, 100)">
+    <!-- Pentagon chart background -->
+    <polygon points="0,-50 48,-15 30,40 -30,40 -48,-15" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.3"/>
+    
+    <!-- Potential lines -->
+    <polygon points="0,-35 34,-11 21,28 -21,28 -34,-11" fill="#C8102E" opacity="0.2" stroke="#C8102E" stroke-width="2"/>
+    
+    <!-- Stats labels -->
+    <text x="0" y="-60" font-family="Arial, sans-serif" font-size="10" fill="#F6EB61" text-anchor="middle" opacity="0.8">PACE</text>
+    <text x="55" y="-8" font-family="Arial, sans-serif" font-size="10" fill="#F6EB61" text-anchor="start" opacity="0.8">TECH</text>
+    <text x="35" y="52" font-family="Arial, sans-serif" font-size="10" fill="#F6EB61" text-anchor="middle" opacity="0.8">VISION</text>
+    <text x="-35" y="52" font-family="Arial, sans-serif" font-size="10" fill="#F6EB61" text-anchor="middle" opacity="0.8">PHYS</text>
+    <text x="-55" y="-8" font-family="Arial, sans-serif" font-size="10" fill="#F6EB61" text-anchor="end" opacity="0.8">GAME</text>
+  </g>
+  
+  <!-- Academy badge -->
+  <g id="academy-badge" transform="translate(120, 280)">
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.7"/>
+    
+    <!-- LFC text -->
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#C8102E" text-anchor="middle">LFC</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle" opacity="0.8">ACADEMY</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="385" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Academy Prospect</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="12" fill="#F6EB61" text-anchor="middle" opacity="0.9">Scouting Report &amp; First-Team Potential</text>
+  
+  <!-- Decorative corner lines -->
+  <line x1="20" y1="20" x2="80" y2="20" stroke="#C8102E" stroke-width="2" opacity="0.6"/>
+  <line x1="20" y1="20" x2="20" y2="60" stroke="#C8102E" stroke-width="2" opacity="0.6"/>
+  
+  <line x1="780" y1="20" x2="720" y2="20" stroke="#C8102E" stroke-width="2" opacity="0.6"/>
+  <line x1="780" y1="20" x2="780" y2="60" stroke="#C8102E" stroke-width="2" opacity="0.6"/>
+</svg>
