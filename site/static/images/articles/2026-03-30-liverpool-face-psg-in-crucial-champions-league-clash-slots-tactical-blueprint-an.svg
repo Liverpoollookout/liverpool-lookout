@@ -1,0 +1,107 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner lines -->
+  <line x1="20" y1="20" x2="80" y2="20" stroke="#F6EB61" stroke-width="2"/>
+  <line x1="20" y1="20" x2="20" y2="80" stroke="#F6EB61" stroke-width="2"/>
+  <line x1="780" y1="20" x2="720" y2="20" stroke="#F6EB61" stroke-width="2"/>
+  <line x1="780" y1="20" x2="780" y2="80" stroke="#F6EB61" stroke-width="2"/>
+  
+  <!-- Pitch outline -->
+  <rect x="40" y="50" width="720" height="320" fill="none" stroke="#C8102E" stroke-width="3" stroke-dasharray="5,5"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="50" x2="400" y2="370" stroke="#C8102E" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="45" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Center spot -->
+  <circle cx="400" cy="210" r="4" fill="#C8102E"/>
+  
+  <!-- Penalty areas -->
+  <rect x="40" y="130" width="100" height="160" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+  <rect x="660" y="130" width="100" height="160" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Goal areas -->
+  <rect x="40" y="160" width="50" height="100" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.4"/>
+  <rect x="710" y="160" width="50" height="100" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Left formation (Liverpool) -->
+  <!-- GK -->
+  <circle cx="90" cy="210" r="18" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <text x="90" y="220" font-size="10" fill="#C8102E" text-anchor="middle" font-weight="bold">GK</text>
+  
+  <!-- Defense line -->
+  <circle cx="170" cy="140" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <text x="170" y="147" font-size="8" fill="#C8102E" text-anchor="middle">D</text>
+  
+  <circle cx="170" cy="210" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <text x="170" y="217" font-size="8" fill="#C8102E" text-anchor="middle">D</text>
+  
+  <circle cx="170" cy="280" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <text x="170" y="287" font-size="8" fill="#C8102E" text-anchor="middle">D</text>
+  
+  <!-- Midfield line -->
+  <circle cx="280" cy="110" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <text x="280" y="117" font-size="8" fill="#C8102E" text-anchor="middle">M</text>
+  
+  <circle cx="280" cy="180" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <text x="280" y="187" font-size="8" fill="#C8102E" text-anchor="middle">M</text>
+  
+  <circle cx="280" cy="250" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <text x="280" y="257" font-size="8" fill="#C8102E" text-anchor="middle">M</text>
+  
+  <circle cx="280" cy="320" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <text x="280" y="327" font-size="8" fill="#C8102E" text-anchor="middle">M</text>
+  
+  <!-- Attack line -->
+  <circle cx="370" cy="150" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <text x="370" y="157" font-size="8" fill="#C8102E" text-anchor="middle">F</text>
+  
+  <circle cx="370" cy="270" r="15" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <text x="370" y="277" font-size="8" fill="#C8102E" text-anchor="middle">F</text>
+  
+  <!-- Forward -->
+  <circle cx="450" cy="210" r="16" fill="none" stroke="#C8102E" stroke-width="3"/>
+  <text x="450" y="218" font-size="9" fill="#C8102E" text-anchor="middle" font-weight="bold">ST</text>
+  
+  <!-- Right formation (Opposition) -->
+  <!-- GK -->
+  <circle cx="710" cy="210" r="18" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.7"/>
+  <text x="710" y="220" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold" opacity="0.7">GK</text>
+  
+  <!-- Defense line -->
+  <circle cx="630" cy="140" r="15" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.6"/>
+  <text x="630" y="147" font-size="8" fill="#FFFFFF" text-anchor="middle" opacity="0.6">D</text>
+  
+  <circle cx="630" cy="210" r="15" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.6"/>
+  <text x="630" y="217" font-size="8" fill="#FFFFFF" text-anchor="middle" opacity="0.6">D</text>
+  
+  <circle cx="630" cy="280" r="15" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.6"/>
+  <text x="630" y="287" font-size="8" fill="#FFFFFF" text-anchor="middle" opacity="0.6">D</text>
+  
+  <!-- Midfield line -->
+  <circle cx="520" cy="110" r="15" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.6"/>
+  <circle cx="520" cy="180" r="15" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.6"/>
+  <circle cx="520" cy="250" r="15" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.6"/>
+  <circle cx="520" cy="320" r="15" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.6"/>
+  
+  <!-- Attack line -->
+  <circle cx="570" cy="150" r="15" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.6"/>
+  <circle cx="570" cy="270" r="15" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.6"/>
+  
+  <!-- Title section -->
+  <rect x="50" y="390" width="700" height="25" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+  <text x="400" y="408" font-size="14" fill="#F6EB61" text-anchor="middle" font-weight="bold" font-family="Arial, sans-serif">MATCH PREVIEW • LINEUP PREDICTION</text>
+  
+  <!-- Key battle indicator -->
+  <path d="M 450 180 L 450 240" stroke="#F6EB61" stroke-width="2" stroke-dasharray="3,3" opacity="0.8"/>
+  <circle cx="450" cy="210" r="20" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Sketch effect - random lines for artistic style -->
+  <line x1="380" y1="85" x2="410" y2="88" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="390" y1="350" x2="420" y2="348" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  
+</svg>
