@@ -1,0 +1,59 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative sketch lines -->
+  <g stroke="#C8102E" stroke-width="2" fill="none" opacity="0.3">
+    <path d="M 50 80 Q 150 60 250 90" stroke-dasharray="5,5"/>
+    <path d="M 700 350 Q 600 370 500 340" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- Main iconic Liverpool bird/crest shape suggestion -->
+  <g id="crest-accent">
+    <circle cx="400" cy="100" r="45" fill="none" stroke="#F6EB61" stroke-width="2"/>
+    <path d="M 370 80 L 430 80 M 370 120 L 430 120" stroke="#F6EB61" stroke-width="2"/>
+  </g>
+  
+  <!-- Stylised Liverpool FC shield/crest outline -->
+  <g id="shield">
+    <path d="M 400 140 L 320 170 L 320 240 Q 320 290 400 320 Q 480 290 480 240 L 480 170 Z" 
+          fill="none" stroke="#C8102E" stroke-width="3"/>
+    <circle cx="400" cy="240" r="25" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M 390 230 L 410 240 L 390 250" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Decorative elements representing passion/movement -->
+  <g id="dynamic-lines" stroke="#C8102E" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M 200 180 Q 220 200 240 190"/>
+    <path d="M 560 200 Q 580 210 600 195"/>
+    <path d="M 280 300 L 320 320"/>
+    <path d="M 520 300 L 480 320"/>
+  </g>
+  
+  <!-- Sketch-style accent shapes -->
+  <g id="sketch-accents">
+    <rect x="150" y="280" width="120" height="80" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.4" stroke-dasharray="3,3"/>
+    <rect x="530" y="280" width="120" height="80" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.4" stroke-dasharray="3,3"/>
+  </g>
+  
+  <!-- Title text - "OPINION" -->
+  <text x="400" y="380" font-size="32" font-weight="bold" text-anchor="middle" fill="#C8102E" font-family="Arial, sans-serif" letter-spacing="2">OPINION</text>
+  
+  <!-- Subtitle - "LIVERPOOL FC" -->
+  <text x="400" y="410" font-size="20" text-anchor="middle" fill="#F6EB61" font-family="Arial, sans-serif" letter-spacing="1">LIVERPOOL FC</text>
+  
+  <!-- Decorative corner marks -->
+  <g stroke="#FFFFFF" stroke-width="2" opacity="0.5">
+    <line x1="30" y1="30" x2="70" y2="30"/>
+    <line x1="30" y1="30" x2="30" y2="70"/>
+    <line x1="770" y1="30" x2="730" y2="30"/>
+    <line x1="770" y1="30" x2="770" y2="70"/>
+  </g>
+  
+  <!-- Central focal point - stylised You'll Never Walk Alone reference with geometric shapes -->
+  <g id="focal-point">
+    <circle cx="400" cy="200" r="60" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.7"/>
+    <circle cx="400" cy="200" r="50" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+    <path d="M 360 200 Q 400 160 440 200 Q 400 240 360 200" fill="none" stroke="#F6EB61" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

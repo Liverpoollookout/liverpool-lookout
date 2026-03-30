@@ -1,0 +1,75 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  <circle cx="750" cy="370" r="40" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Sketch lines background -->
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#C8102E" stroke-width="1" opacity="0.1"/>
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#C8102E" stroke-width="1" opacity="0.1"/>
+  
+  <!-- Player figure - Joe Gomez in Liverpool kit -->
+  <!-- Head -->
+  <circle cx="400" cy="100" r="35" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  
+  <!-- Hair sketch -->
+  <path d="M 370 75 Q 365 55 400 50 Q 435 55 430 75" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Body - Liverpool red kit -->
+  <ellipse cx="400" cy="165" rx="45" ry="55" fill="#C8102E" stroke="#FFFFFF" stroke-width="2.5"/>
+  
+  <!-- Shirt details -->
+  <line x1="400" y1="135" x2="400" y2="200" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Liverpool crest suggestion -->
+  <circle cx="400" cy="155" r="8" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+  <line x1="395" y1="155" x2="405" y2="155" stroke="#F6EB61" stroke-width="1"/>
+  
+  <!-- Left arm -->
+  <line x1="360" y1="145" x2="300" y2="180" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Right arm -->
+  <line x1="440" y1="145" x2="500" y2="185" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Left hand -->
+  <circle cx="300" cy="185" r="8" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Right hand -->
+  <circle cx="505" cy="190" r="8" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Shorts - Liverpool red -->
+  <rect x="365" y="210" width="70" height="45" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Left leg -->
+  <line x1="380" y1="255" x2="375" y2="340" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Right leg -->
+  <line x1="420" y1="255" x2="425" y2="340" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Left boot -->
+  <ellipse cx="375" cy="350" rx="10" ry="14" fill="#000000" stroke="#C8102E" stroke-width="1.5"/>
+  
+  <!-- Right boot -->
+  <ellipse cx="425" cy="350" rx="10" ry="14" fill="#000000" stroke="#C8102E" stroke-width="1.5"/>
+  
+  <!-- Defensive stance indicator - protective arm gesture -->
+  <path d="M 300 180 Q 280 200 290 240" fill="none" stroke="#F6EB61" stroke-width="2" stroke-dasharray="5,5" opacity="0.7"/>
+  
+  <!-- Name label with background -->
+  <rect x="480" y="280" width="280" height="90" fill="none" stroke="#F6EB61" stroke-width="2" rx="8"/>
+  
+  <!-- Name text -->
+  <text x="620" y="310" font-size="48" font-weight="bold" fill="#C8102E" text-anchor="middle" font-family="Arial, sans-serif" letter-spacing="2">JOE GOMEZ</text>
+  
+  <!-- Position/role text -->
+  <text x="620" y="355" font-size="16" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" opacity="0.85">DEFENDER • LIVERPOOL FC</text>
+  
+  <!-- Accent lines around player -->
+  <path d="M 340 120 Q 320 100 310 130" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.5"/>
+  <path d="M 460 120 Q 480 100 490 130" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Jersey number suggestion (small detail) -->
+  <text x="400" y="165" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" opacity="0.4">22</text>
+</svg>
