@@ -1,0 +1,79 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Sketch grid lines for artistic effect -->
+  <line x1="0" y1="210" x2="800" y2="210" stroke="#1a2a3a" stroke-width="1" opacity="0.3"/>
+  <line x1="400" y1="0" x2="400" y2="420" stroke="#1a2a3a" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Head -->
+  <circle cx="400" cy="90" r="35" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.9"/>
+  
+  <!-- Hair sketch -->
+  <path d="M 370 65 Q 365 50 380 45 Q 400 40 420 45 Q 435 50 430 65" 
+        fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.8"/>
+  
+  <!-- Face features -->
+  <circle cx="390" cy="85" r="4" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="410" cy="85" r="4" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M 385 95 Q 400 100 415 95" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Neck -->
+  <line x1="395" y1="125" x2="395" y2="150" stroke="#FFFFFF" stroke-width="2.5" opacity="0.9"/>
+  <line x1="405" y1="125" x2="405" y2="150" stroke="#FFFFFF" stroke-width="2.5" opacity="0.9"/>
+  
+  <!-- Liverpool Red Kit - Jersey -->
+  <path d="M 360 150 L 340 180 L 340 280 L 460 280 L 460 180 L 440 150 Z" 
+        fill="#C8102E" stroke="#FFFFFF" stroke-width="2.5" opacity="0.95"/>
+  
+  <!-- White chest stripe/detail -->
+  <rect x="375" y="155" width="50" height="4" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Jersey number 18 -->
+  <g transform="translate(400, 210)">
+    <text x="0" y="15" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle" opacity="0.85" font-family="Arial, sans-serif">18</text>
+  </g>
+  
+  <!-- Left arm -->
+  <path d="M 360 160 Q 320 170 310 220" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.9" stroke-linecap="round"/>
+  
+  <!-- Right arm -->
+  <path d="M 440 160 Q 480 170 490 220" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.9" stroke-linecap="round"/>
+  
+  <!-- Left hand -->
+  <circle cx="310" cy="225" r="6" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Right hand -->
+  <circle cx="490" cy="225" r="6" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Shorts (red) -->
+  <rect x="360" y="280" width="80" height="35" fill="#C8102E" stroke="#FFFFFF" stroke-width="2" opacity="0.9"/>
+  
+  <!-- White trim on shorts -->
+  <rect x="360" y="280" width="80" height="3" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Left leg -->
+  <path d="M 375 315 L 372 360" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.9" stroke-linecap="round"/>
+  
+  <!-- Right leg -->
+  <path d="M 425 315 L 428 360" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.9" stroke-linecap="round"/>
+  
+  <!-- Left boot -->
+  <ellipse cx="372" cy="368" rx="8" ry="6" fill="#1a1a1a" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8"/>
+  
+  <!-- Right boot -->
+  <ellipse cx="428" cy="368" rx="8" ry="6" fill="#1a1a1a" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8"/>
+  
+  <!-- Accent line (ball near foot) -->
+  <circle cx="440" cy="370" r="5" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.8"/>
+  
+  <!-- Decorative sketch lines around player -->
+  <path d="M 300 100 Q 280 120 290 140" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.5" stroke-dasharray="5,3"/>
+  <path d="M 500 100 Q 520 120 510 140" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.5" stroke-dasharray="5,3"/>
+  
+  <!-- Player name text -->
+  <text x="400" y="410" font-size="32" font-weight="bold" fill="#C8102E" text-anchor="middle" font-family="Arial, sans-serif">GRAVENBERCH</text>
+  
+  <!-- Gold accent line under name -->
+  <rect x="250" y="416" width="300" height="2" fill="#F6EB61" opacity="0.8"/>
+</svg>

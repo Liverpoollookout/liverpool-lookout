@@ -1,0 +1,99 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <defs>
+    <style>
+      .sketch-stroke { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .sketch-fill { fill-opacity: 0.8; }
+      .text-title { font-family: Arial, sans-serif; font-size: 32px; font-weight: bold; letter-spacing: 1px; }
+      .text-sub { font-family: Arial, sans-serif; font-size: 14px; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative pitch lines -->
+  <line x1="0" y1="210" x2="800" y2="210" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="210" r="60" class="sketch-stroke" stroke="#F6EB61" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Left player silhouette (outgoing) -->
+  <g opacity="0.6">
+    <!-- Head -->
+    <circle cx="120" cy="90" r="25" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2.5"/>
+    <!-- Body -->
+    <ellipse cx="120" cy="160" rx="22" ry="35" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2.5"/>
+    <!-- Arms -->
+    <line x1="98" y1="145" x2="60" y2="130" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="142" y1="145" x2="180" y2="130" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2.5"/>
+    <!-- Legs -->
+    <line x1="110" y1="190" x2="105" y2="250" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="130" y1="190" x2="135" y2="250" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2.5"/>
+  </g>
+  
+  <!-- Center player silhouette (Anfield target) in Liverpool red -->
+  <g>
+    <!-- Head -->
+    <circle cx="400" cy="100" r="30" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+    <!-- Body in red -->
+    <ellipse cx="400" cy="180" rx="28" ry="45" fill="#C8102E" class="sketch-fill" opacity="0.9"/>
+    <ellipse cx="400" cy="180" rx="28" ry="45" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+    <!-- Arms -->
+    <line x1="372" y1="160" x2="310" y2="140" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+    <line x1="428" y1="160" x2="490" y2="140" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+    <!-- Legs -->
+    <line x1="385" y1="220" x2="375" y2="295" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+    <line x1="415" y1="220" x2="425" y2="295" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+    <!-- Liverpool shirt number circle -->
+    <circle cx="400" cy="180" r="35" class="sketch-stroke" stroke="#F6EB61" stroke-width="2" stroke-dasharray="5,3"/>
+  </g>
+  
+  <!-- Right player silhouette (outgoing) -->
+  <g opacity="0.6">
+    <!-- Head -->
+    <circle cx="680" cy="90" r="25" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2.5"/>
+    <!-- Body -->
+    <ellipse cx="680" cy="160" rx="22" ry="35" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2.5"/>
+    <!-- Arms -->
+    <line x1="658" y1="145" x2="620" y2="130" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="702" y1="145" x2="740" y2="130" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2.5"/>
+    <!-- Legs -->
+    <line x1="670" y1="190" x2="665" y2="250" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="690" y1="190" x2="695" y2="250" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2.5"/>
+  </g>
+  
+  <!-- Directional arrows -->
+  <!-- Left to center arrow -->
+  <defs>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#C8102E"/>
+    </marker>
+    <marker id="arrowhead-gold" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <path d="M 180 150 Q 290 120 350 150" class="sketch-stroke" stroke="#C8102E" stroke-width="3" marker-end="url(#arrowhead-red)"/>
+  
+  <!-- Right to center arrow -->
+  <path d="M 620 150 Q 510 120 450 150" class="sketch-stroke" stroke="#F6EB61" stroke-width="3" marker-end="url(#arrowhead-gold)"/>
+  
+  <!-- Transfer fee indicators -->
+  <g>
+    <!-- Left fee box -->
+    <rect x="30" y="310" width="160" height="70" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    <text x="110" y="330" class="text-sub" fill="#FFFFFF" text-anchor="middle">OUTGOINGS</text>
+    <text x="110" y="355" class="text-sub" fill="#F6EB61" text-anchor="middle" font-weight="bold">Est. €30-40M</text>
+  </g>
+  
+  <g>
+    <!-- Right fee box -->
+    <rect x="610" y="310" width="160" height="70" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    <text x="690" y="330" class="text-sub" fill="#FFFFFF" text-anchor="middle">TARGETS</text>
+    <text x="690" y="355" class="text-sub" fill="#C8102E" text-anchor="middle" font-weight="bold">Est. €50-70M</text>
+  </g>
+  
+  <!-- Main title -->
+  <text x="400" y="395" class="text-title" fill="#C8102E" text-anchor="middle">TRANSFER TARGETS</text>
+  
+  <!-- Anfield indicator -->
+  <text x="400" y="65" class="text-sub" fill="#F6EB61" text-anchor="middle" font-weight="bold">→ ANFIELD BOUND →</text>
+</svg>
