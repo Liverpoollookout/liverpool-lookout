@@ -1,0 +1,73 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  <circle cx="750" cy="370" r="30" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Main figure silhouette (player outline) -->
+  <g id="player">
+    <!-- Head -->
+    <circle cx="250" cy="90" r="25" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    
+    <!-- Body in Liverpool red kit -->
+    <ellipse cx="250" cy="155" rx="20" ry="35" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Arms -->
+    <line x1="230" y1="140" x2="180" y2="120" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="270" y1="140" x2="320" y2="120" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Legs -->
+    <line x1="240" y1="190" x2="235" y2="260" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="260" y1="190" x2="265" y2="260" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Shorts detail -->
+    <line x1="235" y1="185" x2="265" y2="185" stroke="#F6EB61" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Directional arrows showing movement/departure -->
+  <!-- Arrow 1 - pointing right -->
+  <g id="arrow1">
+    <line x1="340" y1="100" x2="450" y2="100" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="450,100 435,92 440,100 435,108" fill="#C8102E"/>
+    <text x="395" y="85" font-family="Arial, sans-serif" font-size="12" fill="#C8102E" font-weight="bold">POTENTIAL</text>
+  </g>
+  
+  <!-- Arrow 2 - pointing down-right -->
+  <g id="arrow2">
+    <line x1="350" y1="150" x2="480" y2="250" stroke="#F6EB61" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5,5"/>
+    <polygon points="480,250 468,240 475,250 468,258" fill="#F6EB61"/>
+    <text x="400" y="210" font-family="Arial, sans-serif" font-size="12" fill="#F6EB61" font-weight="bold">DEPARTURE</text>
+  </g>
+  
+  <!-- Contract icon -->
+  <g id="contract">
+    <rect x="520" y="80" width="80" height="100" fill="none" stroke="#FFFFFF" stroke-width="2" rx="4"/>
+    <line x1="540" y1="100" x2="580" y2="100" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="540" y1="115" x2="575" y2="115" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="540" y1="130" x2="575" y2="130" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="540" y1="145" x2="570" y2="145" stroke="#FFFFFF" stroke-width="1.5"/>
+    <circle cx="540" cy="165" r="6" fill="none" stroke="#C8102E" stroke-width="2"/>
+  </g>
+  
+  <!-- Transfer market elements -->
+  <g id="market-badge">
+    <circle cx="650" cy="150" r="45" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <circle cx="650" cy="150" r="40" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+    <text x="650" y="155" font-family="Arial, sans-serif" font-size="14" fill="#C8102E" font-weight="bold" text-anchor="middle">EXIT</text>
+  </g>
+  
+  <!-- Bottom decorative line -->
+  <line x1="50" y1="380" x2="750" y2="380" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Title text -->
+  <text x="400" y="330" font-family="Arial, sans-serif" font-size="28" fill="#FFFFFF" font-weight="bold" text-anchor="middle">TRANSFER RUMOURS</text>
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="16" fill="#C8102E" font-weight="bold" text-anchor="middle">Contract Situations &amp; Potential Departures</text>
+  
+  <!-- LFC Badge accent -->
+  <g id="badge-accent">
+    <path d="M 100 300 L 110 280 L 120 300 Z" fill="#C8102E" opacity="0.7"/>
+    <circle cx="110" cy="305" r="8" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.7"/>
+  </g>
+</svg>
