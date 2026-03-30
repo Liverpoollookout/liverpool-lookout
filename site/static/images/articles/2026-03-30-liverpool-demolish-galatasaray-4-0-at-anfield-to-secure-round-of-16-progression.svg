@@ -1,0 +1,78 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline sketch -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.8">
+    <!-- Center line -->
+    <line x1="400" y1="60" x2="400" y2="360" stroke-dasharray="5,5"/>
+    <!-- Center circle -->
+    <circle cx="400" cy="210" r="45"/>
+    <!-- Center spot -->
+    <circle cx="400" cy="210" r="3" fill="#FFFFFF"/>
+    <!-- Penalty areas -->
+    <rect x="50" y="110" width="120" height="200" stroke-width="2"/>
+    <rect x="630" y="110" width="120" height="200" stroke-width="2"/>
+    <!-- Goal areas -->
+    <rect x="90" y="150" width="60" height="120" stroke-width="2"/>
+    <rect x="650" y="150" width="60" height="120" stroke-width="2"/>
+  </g>
+  
+  <!-- Tactical formation sketch - Liverpool attacking -->
+  <!-- Goalkeeper -->
+  <circle cx="680" cy="210" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="680" y="235" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="Arial">GK</text>
+  
+  <!-- Defenders -->
+  <circle cx="580" cy="120" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="580" cy="210" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="580" cy="300" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="545" y="215" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="Arial">DEF</text>
+  
+  <!-- Midfielders -->
+  <circle cx="420" cy="90" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="420" cy="210" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="420" cy="330" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="400" y="265" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="Arial">MID</text>
+  
+  <!-- Forwards -->
+  <circle cx="280" cy="150" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="280" cy="270" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="240" y="215" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="Arial">ATT</text>
+  
+  <!-- Movement arrows showing attacking play -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Passing lanes -->
+  <path d="M 580 210 L 420 210" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.7"/>
+  <path d="M 420 210 L 280 210" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.7"/>
+  <path d="M 420 90 L 280 150" stroke="#F6EB61" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)" opacity="0.6"/>
+  
+  <!-- Slot tactical diagram label -->
+  <text x="150" y="390" font-size="16" font-weight="bold" fill="#C8102E" font-family="Arial">SLOT TACTICS</text>
+  <text x="400" y="390" font-size="14" fill="#F6EB61" text-anchor="middle" font-family="Arial">Match Analysis &amp; Key Moments</text>
+  
+  <!-- Performance rating stars -->
+  <g>
+    <!-- Star 1 -->
+    <polygon points="70,40 75,55 91,55 78,65 83,80 70,70 57,80 62,65 49,55 65,55" fill="#F6EB61" stroke="#FFFFFF" stroke-width="0.5"/>
+    <!-- Star 2 -->
+    <polygon points="120,40 125,55 141,55 128,65 133,80 120,70 107,80 112,65 99,55 115,55" fill="#F6EB61" stroke="#FFFFFF" stroke-width="0.5"/>
+    <!-- Star 3 -->
+    <polygon points="170,40 175,55 191,55 178,65 183,80 170,70 157,80 162,65 149,55 165,55" fill="#F6EB61" stroke="#FFFFFF" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Player rating indicators -->
+  <text x="70" y="105" font-size="11" fill="#FFFFFF" text-anchor="middle" font-family="Arial">8.5</text>
+  <text x="120" y="105" font-size="11" fill="#FFFFFF" text-anchor="middle" font-family="Arial">7.8</text>
+  <text x="170" y="105" font-size="11" fill="#FFFFFF" text-anchor="middle" font-family="Arial">8.2</text>
+  
+  <!-- Decorative sketchy elements -->
+  <circle cx="750" cy="60" r="6" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.6"/>
+  <line x1="745" y1="65" x2="755" y2="75" stroke="#C8102E" stroke-width="1" opacity="0.6"/>
+  <line x1="755" y1="65" x2="745" y2="75" stroke="#C8102E" stroke-width="1" opacity="0.6"/>
+</svg>
