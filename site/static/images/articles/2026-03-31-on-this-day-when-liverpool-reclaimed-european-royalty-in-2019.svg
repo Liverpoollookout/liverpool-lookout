@@ -1,0 +1,76 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Subtle pitch lines -->
+  <line x1="400" y1="0" x2="400" y2="420" stroke="#1a2d4d" stroke-width="2" opacity="0.3"/>
+  <line x1="0" y1="210" x2="800" y2="210" stroke="#1a2d4d" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="210" r="80" fill="none" stroke="#1a2d4d" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Sketched figure - Kenny Dalglish iconic moment -->
+  <!-- Head -->
+  <circle cx="320" cy="100" r="35" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  
+  <!-- Hair sketch -->
+  <path d="M 290 85 Q 285 70 305 65 Q 320 60 335 65 Q 355 70 350 85" fill="none" stroke="#C8102E" stroke-width="2"/>
+  
+  <!-- Face details -->
+  <circle cx="310" cy="95" r="3" fill="#C8102E"/>
+  <circle cx="330" cy="95" r="3" fill="#C8102E"/>
+  <path d="M 315 105 Q 320 110 325 105" fill="none" stroke="#C8102E" stroke-width="1.5"/>
+  
+  <!-- Body - Liverpool red kit -->
+  <ellipse cx="320" cy="160" rx="40" ry="50" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  
+  <!-- Kit details -->
+  <line x1="320" y1="135" x2="320" y2="190" stroke="#C8102E" stroke-width="2"/>
+  <path d="M 290 145 L 280 140" stroke="#C8102E" stroke-width="1.5" fill="none"/>
+  <path d="M 350 145 L 360 140" stroke="#C8102E" stroke-width="1.5" fill="none"/>
+  
+  <!-- Arms -->
+  <line x1="285" y1="155" x2="220" y2="120" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="355" y1="155" x2="420" y2="120" stroke="#C8102E" stroke-width="2.5"/>
+  
+  <!-- Hands -->
+  <circle cx="215" cy="115" r="8" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <circle cx="425" cy="115" r="8" fill="none" stroke="#C8102E" stroke-width="2"/>
+  
+  <!-- Legs -->
+  <line x1="305" y1="205" x2="295" y2="290" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="335" y1="205" x2="345" y2="290" stroke="#C8102E" stroke-width="2.5"/>
+  
+  <!-- Boots -->
+  <ellipse cx="292" cy="295" rx="12" ry="8" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <ellipse cx="348" cy="295" rx="12" ry="8" fill="none" stroke="#C8102E" stroke-width="2"/>
+  
+  <!-- Ball at foot -->
+  <circle cx="350" cy="310" r="15" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="345" y1="305" x2="355" y2="315" stroke="#FFFFFF" stroke-width="1" opacity="0.6"/>
+  <line x1="355" y1="305" x2="345" y2="315" stroke="#FFFFFF" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Goal post on right side -->
+  <line x1="550" y1="80" x2="550" y2="340" stroke="#FFFFFF" stroke-width="3" opacity="0.7"/>
+  <line x1="550" y1="80" x2="600" y2="80" stroke="#FFFFFF" stroke-width="3" opacity="0.7"/>
+  <line x1="550" y1="340" x2="600" y2="340" stroke="#FFFFFF" stroke-width="3" opacity="0.7"/>
+  <line x1="600" y1="80" x2="600" y2="340" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Net suggestion -->
+  <line x1="555" y1="90" x2="595" y2="90" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+  <line x1="555" y1="110" x2="595" y2="110" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+  <line x1="555" y1="130" x2="595" y2="130" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+  <line x1="555" y1="150" x2="595" y2="150" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Emotional lines - victory -->
+  <path d="M 450 150 Q 480 120 510 140" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.8"/>
+  <path d="M 460 180 Q 490 160 520 180" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.8"/>
+  
+  <!-- Player name -->
+  <text x="320" y="370" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#C8102E" text-anchor="middle" letter-spacing="2">KENNY DALGLISH</text>
+  
+  <!-- Subtitle -->
+  <text x="320" y="395" font-family="Arial, sans-serif" font-size="14" fill="#F6EB61" text-anchor="middle" opacity="0.9">European Cup Glory</text>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="30" cy="30" r="15" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="770" cy="390" r="15" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.4"/>
+</svg>
