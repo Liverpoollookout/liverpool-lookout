@@ -1,0 +1,85 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  <circle cx="750" cy="370" r="30" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Left side - Player silhouette (departing) -->
+  <g id="player-left">
+    <!-- Head -->
+    <circle cx="120" cy="80" r="25" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    
+    <!-- Body in Liverpool red -->
+    <rect x="100" y="110" width="40" height="60" fill="#C8102E" opacity="0.7" rx="3"/>
+    
+    <!-- Arms -->
+    <line x1="100" y1="125" x2="70" y2="140" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="140" y1="125" x2="170" y2="140" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Legs -->
+    <line x1="105" y1="170" x2="95" y2="220" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="135" y1="170" x2="145" y2="220" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Feet -->
+    <ellipse cx="95" cy="225" rx="8" ry="5" fill="#C8102E"/>
+    <ellipse cx="145" cy="225" rx="8" ry="5" fill="#C8102E"/>
+  </g>
+  
+  <!-- Center - Directional arrows and labels -->
+  <g id="transfer-arrows">
+    <!-- Left arrow (departure) -->
+    <defs>
+      <marker id="arrowhead-red" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+        <polygon points="0 0, 10 3, 0 6" fill="#C8102E"/>
+      </marker>
+      <marker id="arrowhead-gold" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+        <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+      </marker>
+    </defs>
+    
+    <!-- Departure arrow (left) -->
+    <line x1="220" y1="130" x2="320" y2="130" stroke="#C8102E" stroke-width="3" marker-end="url(#arrowhead-red)" stroke-dasharray="5,5"/>
+    
+    <!-- Arrival arrow (right) -->
+    <line x1="480" y1="130" x2="580" y2="130" stroke="#F6EB61" stroke-width="3" marker-end="url(#arrowhead-gold)"/>
+    
+    <!-- Uncertainty arrow (down) -->
+    <line x1="400" y1="180" x2="400" y2="280" stroke="#FFFFFF" stroke-width="2" marker-end="url(#arrowhead-gold)" stroke-dasharray="3,3" opacity="0.6"/>
+  </g>
+  
+  <!-- Center text labels -->
+  <text x="270" y="115" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#C8102E">DEPARTURES</text>
+  <text x="400" y="310" font-family="Arial, sans-serif" font-size="14" fill="#F6EB61" text-anchor="middle">UNCERTAIN</text>
+  
+  <!-- Right side - Question mark figure -->
+  <g id="player-right">
+    <!-- Head -->
+    <circle cx="650" cy="80" r="25" fill="none" stroke="#F6EB61" stroke-width="2.5"/>
+    
+    <!-- Body faded -->
+    <rect x="630" y="110" width="40" height="60" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5" rx="3"/>
+    
+    <!-- Arms faded -->
+    <line x1="630" y1="125" x2="600" y2="140" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <line x1="670" y1="125" x2="700" y2="140" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    
+    <!-- Legs faded -->
+    <line x1="635" y1="170" x2="625" y2="220" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    <line x1="665" y1="170" x2="675" y2="220" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+    
+    <!-- Question mark -->
+    <text x="650" y="240" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#F6EB61" text-anchor="middle">?</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TRANSFER RUMOURS</text>
+  
+  <!-- Decorative dashes -->
+  <line x1="100" y1="395" x2="700" y2="395" stroke="#C8102E" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Liverpool crest accent -->
+  <circle cx="40" cy="370" r="20" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.4"/>
+  <text x="40" y="377" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#F6EB61" text-anchor="middle">LFC</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="50" cy="50" r="40" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  <circle cx="750" cy="370" r="50" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Main speech bubble for opinion -->
+  <path d="M 100 80 L 700 80 Q 720 80 720 100 L 720 280 Q 720 300 700 300 L 150 300 L 120 340 L 160 300 L 120 300 Q 100 300 100 280 L 100 100 Q 100 80 120 80 Z" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Decorative question marks suggesting opinion/debate -->
+  <text x="130" y="150" font-size="48" font-weight="bold" fill="#F6EB61" opacity="0.4" font-family="Arial, sans-serif">?</text>
+  <text x="680" y="220" font-size="36" font-weight="bold" fill="#F6EB61" opacity="0.4" font-family="Arial, sans-serif">!</text>
+  
+  <!-- Liverpool shirt outline sketch -->
+  <g>
+    <!-- Shirt body -->
+    <path d="M 350 120 L 380 120 L 390 180 L 350 200 L 310 180 L 320 120 Z" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Left sleeve -->
+    <path d="M 320 135 L 270 140 L 260 160" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Right sleeve -->
+    <path d="M 380 135 L 430 140 L 440 160" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Shirt vertical stripes (sketch style) -->
+    <line x1="345" y1="125" x2="340" y2="195" stroke="#C8102E" stroke-width="2" opacity="0.5"/>
+    <line x1="360" y1="125" x2="360" y2="200" stroke="#C8102E" stroke-width="2" opacity="0.5"/>
+    
+    <!-- Collar -->
+    <path d="M 345 120 Q 350 115 355 120" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Stylized head sketch -->
+  <circle cx="350" cy="95" r="22" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <circle cx="344" cy="92" r="3" fill="#C8102E"/>
+  <circle cx="356" cy="92" r="3" fill="#C8102E"/>
+  <path d="M 348 98 Q 350 100 352 98" fill="none" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Opinion element - thought waves -->
+  <circle cx="500" cy="100" r="8" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <circle cx="520" cy="85" r="6" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <circle cx="540" cy="95" r="5" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  
+  <!-- Subject text - "OPINION" -->
+  <text x="400" y="260" font-size="32" font-weight="bold" fill="#FFFFFF" font-family="Arial, sans-serif" letter-spacing="2">OPINION</text>
+  
+  <!-- Liverpool FC reference -->
+  <text x="400" y="310" font-size="18" fill="#F6EB61" font-family="Arial, sans-serif" letter-spacing="1" opacity="0.8">LIVERPOOL FC</text>
+  
+  <!-- Decorative elements - small sketch marks -->
+  <line x1="150" y1="250" x2="170" y2="245" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+  <line x1="160" y1="255" x2="175" y2="265" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+  <line x1="650" y1="150" x2="670" y2="145" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+  <line x1="660" y1="155" x2="675" y2="165" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- Border accent -->
+  <rect x="95" y="75" width="610" height="230" fill="none" stroke="#F6EB61" stroke-width="1" opacity="0.3" stroke-dasharray="5,5"/>
+</svg>
