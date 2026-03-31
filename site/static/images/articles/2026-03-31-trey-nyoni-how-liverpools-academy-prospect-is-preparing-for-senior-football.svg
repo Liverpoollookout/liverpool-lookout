@@ -1,0 +1,79 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Subtle pitch lines -->
+  <line x1="400" y1="50" x2="400" y2="370" stroke="#1a2a3a" stroke-width="2" stroke-dasharray="5,5"/>
+  <rect x="50" y="80" width="700" height="260" fill="none" stroke="#1a2a3a" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Title area -->
+  <text x="400" y="35" font-size="24" font-weight="bold" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">ACADEMY PROSPECT</text>
+  
+  <!-- Player figure - simplified sketch style -->
+  <g id="player">
+    <!-- Head -->
+    <circle cx="400" cy="100" r="22" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Hair detail -->
+    <path d="M 382 90 Q 400 75 418 90" fill="none" stroke="#C8102E" stroke-width="2"/>
+    
+    <!-- Body - Liverpool red kit -->
+    <ellipse cx="400" cy="155" rx="28" ry="45" fill="#C8102E" stroke="#C8102E" stroke-width="2"/>
+    <!-- White shirt detail -->
+    <line x1="380" y1="140" x2="420" y2="140" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="378" y1="150" x2="422" y2="150" stroke="#FFFFFF" stroke-width="1.5"/>
+    
+    <!-- Left arm extended -->
+    <path d="M 375 135 L 340 120" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    <!-- Left hand -->
+    <circle cx="335" cy="115" r="6" fill="#F4A896" stroke="#C8102E" stroke-width="1.5"/>
+    
+    <!-- Right arm -->
+    <path d="M 425 135 L 460 120" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    <!-- Right hand -->
+    <circle cx="465" cy="115" r="6" fill="#F4A896" stroke="#C8102E" stroke-width="1.5"/>
+    
+    <!-- Legs -->
+    <path d="M 390 200 L 385 280" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 410 200 L 415 280" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Feet -->
+    <ellipse cx="385" cy="290" rx="8" ry="12" fill="#1a1a1a" stroke="#C8102E" stroke-width="1.5"/>
+    <ellipse cx="415" cy="290" rx="8" ry="12" fill="#1a1a1a" stroke="#C8102E" stroke-width="1.5"/>
+    
+    <!-- Football at feet -->
+    <circle cx="400" cy="310" r="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M 400 300 L 400 320" stroke="#FFFFFF" stroke-width="1"/>
+    <path d="M 390 310 L 410 310" stroke="#FFFFFF" stroke-width="1"/>
+  </g>
+  
+  <!-- Evaluation metrics sketched -->
+  <g id="stats" opacity="0.85">
+    <!-- Left side stats -->
+    <text x="80" y="330" font-size="13" fill="#F6EB61" font-family="Arial, sans-serif" font-weight="bold">TECHNICAL</text>
+    <path d="M 75 340 L 180 340" stroke="#C8102E" stroke-width="2"/>
+    <circle cx="140" cy="340" r="4" fill="#C8102E"/>
+    
+    <text x="80" y="360" font-size="13" fill="#F6EB61" font-family="Arial, sans-serif" font-weight="bold">ATHLETICISM</text>
+    <path d="M 75 370 L 190 370" stroke="#C8102E" stroke-width="2"/>
+    <circle cx="160" cy="370" r="4" fill="#C8102E"/>
+    
+    <!-- Right side stats -->
+    <text x="650" y="330" font-size="13" fill="#F6EB61" font-family="Arial, sans-serif" font-weight="bold">POSITIONING</text>
+    <path d="M 640 340 L 745 340" stroke="#C8102E" stroke-width="2"/>
+    <circle cx="710" cy="340" r="4" fill="#C8102E"/>
+    
+    <text x="650" y="360" font-size="13" fill="#F6EB61" font-family="Arial, sans-serif" font-weight="bold">POTENTIAL</text>
+    <path d="M 640 370 L 735 370" stroke="#C8102E" stroke-width="2"/>
+    <circle cx="720" cy="370" r="4" fill="#C8102E"/>
+  </g>
+  
+  <!-- Decorative corner elements -->
+  <path d="M 10 10 L 40 10 L 40 40" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <path d="M 790 10 L 760 10 L 760 40" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <path d="M 10 410 L 40 410 L 40 380" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <path d="M 790 410 L 760 410 L 760 380" fill="none" stroke="#C8102E" stroke-width="2"/>
+  
+  <!-- Liverpool badge elements -->
+  <circle cx="100" cy="380" r="12" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <text x="100" y="385" font-size="16" font-weight="bold" fill="#C8102E" text-anchor="middle" font-family="Arial, sans-serif">LFC</text>
+</svg>

@@ -1,0 +1,100 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <defs>
+    <filter id="sketch">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0.8" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline -->
+  <rect x="50" y="40" width="700" height="340" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#FFFFFF" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="50" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Center spot -->
+  <circle cx="400" cy="210" r="4" fill="#FFFFFF" opacity="0.3"/>
+  
+  <!-- Left penalty area -->
+  <rect x="50" y="110" width="100" height="200" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Right penalty area -->
+  <rect x="750" y="110" width="-100" height="200" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Goal areas -->
+  <rect x="50" y="160" width="40" height="100" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.2"/>
+  <rect x="750" y="160" width="-40" height="100" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Tactical annotations - Left side players -->
+  <circle cx="120" cy="150" r="20" fill="none" stroke="#C8102E" stroke-width="3"/>
+  <text x="115" y="155" font-family="Arial" font-size="12" fill="#C8102E" font-weight="bold">1</text>
+  
+  <circle cx="180" cy="120" r="20" fill="none" stroke="#C8102E" stroke-width="3"/>
+  <text x="175" y="125" font-family="Arial" font-size="12" fill="#C8102E" font-weight="bold">2</text>
+  
+  <circle cx="180" cy="210" r="20" fill="none" stroke="#C8102E" stroke-width="3"/>
+  <text x="175" y="215" font-family="Arial" font-size="12" fill="#C8102E" font-weight="bold">3</text>
+  
+  <circle cx="180" cy="300" r="20" fill="none" stroke="#C8102E" stroke-width="3"/>
+  <text x="175" y="305" font-family="Arial" font-size="12" fill="#C8102E" font-weight="bold">4</text>
+  
+  <!-- Midfield players -->
+  <circle cx="280" cy="100" r="20" fill="none" stroke="#C8102E" stroke-width="3"/>
+  <text x="275" y="105" font-family="Arial" font-size="12" fill="#C8102E" font-weight="bold">5</text>
+  
+  <circle cx="280" cy="210" r="20" fill="none" stroke="#C8102E" stroke-width="3"/>
+  <text x="275" y="215" font-family="Arial" font-size="12" fill="#C8102E" font-weight="bold">6</text>
+  
+  <circle cx="280" cy="320" r="20" fill="none" stroke="#C8102E" stroke-width="3"/>
+  <text x="275" y="325" font-family="Arial" font-size="12" fill="#C8102E" font-weight="bold">7</text>
+  
+  <!-- Forward players -->
+  <circle cx="380" cy="130" r="20" fill="none" stroke="#C8102E" stroke-width="3"/>
+  <text x="375" y="135" font-family="Arial" font-size="12" fill="#C8102E" font-weight="bold">8</text>
+  
+  <circle cx="380" cy="290" r="20" fill="none" stroke="#C8102E" stroke-width="3"/>
+  <text x="375" y="295" font-family="Arial" font-size="12" fill="#C8102E" font-weight="bold">9</text>
+  
+  <!-- Attacking movements - curved arrows -->
+  <path d="M 400 210 Q 520 150 620 120" stroke="#F6EB61" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  <polygon points="620,120 615,115 625,105" fill="#F6EB61"/>
+  
+  <path d="M 380 290 Q 500 260 600 240" stroke="#F6EB61" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  <polygon points="600,240 600,220 615,235" fill="#F6EB61"/>
+  
+  <!-- Slot name label -->
+  <rect x="520" y="20" width="240" height="50" fill="none" stroke="#F6EB61" stroke-width="2" rx="5"/>
+  <text x="640" y="35" font-family="Arial" font-size="14" fill="#F6EB61" font-weight="bold" text-anchor="middle">SLOT TACTICS</text>
+  <text x="640" y="55" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">Match Analysis &amp; Formation</text>
+  
+  <!-- Key moments section -->
+  <g>
+    <rect x="50" y="350" width="300" height="50" fill="none" stroke="#C8102E" stroke-width="2" rx="3"/>
+    <text x="70" y="370" font-family="Arial" font-size="12" fill="#C8102E" font-weight="bold">KEY MOMENTS</text>
+    <circle cx="210" cy="375" r="3" fill="#F6EB61"/>
+    <circle cx="230" cy="375" r="3" fill="#F6EB61"/>
+    <circle cx="250" cy="375" r="3" fill="#F6EB61"/>
+    <circle cx="270" cy="375" r="3" fill="#F6EB61"/>
+  </g>
+  
+  <!-- Player ratings section -->
+  <g>
+    <rect x="450" y="350" width="300" height="50" fill="none" stroke="#FFFFFF" stroke-width="2" rx="3"/>
+    <text x="470" y="370" font-family="Arial" font-size="12" fill="#FFFFFF" font-weight="bold">PLAYER RATINGS</text>
+    <line x1="470" y1="385" x2="520" y2="385" stroke="#F6EB61" stroke-width="2"/>
+    <line x1="530" y1="385" x2="580" y2="385" stroke="#F6EB61" stroke-width="1" opacity="0.5"/>
+    <line x1="590" y1="385" x2="640" y2="385" stroke="#F6EB61" stroke-width="1" opacity="0.3"/>
+  </g>
+  
+  <!-- Decorative sketched lines for drawing effect -->
+  <g stroke="#FFFFFF" stroke-width="1" opacity="0.1" stroke-dasharray="2,2">
+    <path d="M 80 60 Q 150 80 200 50"/>
+    <path d="M 700 370 Q 650 390 600 360"/>
+  </g>
+</svg>
