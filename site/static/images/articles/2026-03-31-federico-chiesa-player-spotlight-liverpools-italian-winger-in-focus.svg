@@ -1,0 +1,91 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a2f4a" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="420" fill="url(#grid)"/>
+  
+  <!-- Head -->
+  <circle cx="400" cy="120" r="45" fill="none" stroke="#E8C4A8" stroke-width="2.5"/>
+  
+  <!-- Hair sketch -->
+  <path d="M 360 90 Q 355 70 380 65 Q 400 60 420 65 Q 445 70 440 90" fill="none" stroke="#8B6F47" stroke-width="2"/>
+  <path d="M 365 75 Q 380 65 400 63" fill="none" stroke="#8B6F47" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 435 75 Q 420 65 400 63" fill="none" stroke="#8B6F47" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Face features -->
+  <circle cx="385" cy="115" r="4" fill="#2C2C2C"/>
+  <circle cx="415" cy="115" r="4" fill="#2C2C2C"/>
+  
+  <!-- Nose -->
+  <path d="M 400 115 L 400 135" fill="none" stroke="#D4A574" stroke-width="1.5"/>
+  
+  <!-- Mouth sketch -->
+  <path d="M 395 145 Q 400 150 405 145" fill="none" stroke="#8B6F47" stroke-width="1.5"/>
+  
+  <!-- Neck -->
+  <path d="M 385 160 L 385 190" fill="none" stroke="#E8C4A8" stroke-width="3"/>
+  <path d="M 415 160 L 415 190" fill="none" stroke="#E8C4A8" stroke-width="3"/>
+  
+  <!-- Liverpool Red Kit - Main body -->
+  <ellipse cx="400" cy="240" rx="55" ry="70" fill="#C8102E" opacity="0.9"/>
+  
+  <!-- Jersey details - sketchy lines -->
+  <path d="M 400 170 L 400 290" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 370 220 L 430 220" fill="none" stroke="#FFFFFF" stroke-width="1.2" opacity="0.5"/>
+  
+  <!-- Collar -->
+  <path d="M 380 170 Q 400 160 420 170" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <ellipse cx="400" cy="165" rx="22" ry="8" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- LFC Badge sketch -->
+  <circle cx="400" cy="225" r="15" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <path d="M 395 220 L 405 220 M 400 215 L 400 225" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+  
+  <!-- Left arm -->
+  <path d="M 350 200 Q 300 220 290 270" fill="none" stroke="#E8C4A8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 348 210 Q 310 235 305 280" fill="none" stroke="#C8102E" stroke-width="8" opacity="0.7"/>
+  
+  <!-- Right arm -->
+  <path d="M 450 200 Q 500 220 510 270" fill="none" stroke="#E8C4A8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 452 210 Q 490 235 495 280" fill="none" stroke="#C8102E" stroke-width="8" opacity="0.7"/>
+  
+  <!-- Hands -->
+  <circle cx="285" cy="285" r="8" fill="#E8C4A8"/>
+  <circle cx="515" cy="285" r="8" fill="#E8C4A8"/>
+  
+  <!-- Left leg -->
+  <path d="M 380 305 L 370 380" fill="none" stroke="#1a1a1a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 370 380 L 375 410" fill="none" stroke="#E8C4A8" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Right leg -->
+  <path d="M 420 305 L 430 380" fill="none" stroke="#1a1a1a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 430 380 L 425 410" fill="none" stroke="#E8C4A8" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Boots -->
+  <ellipse cx="375" cy="415" rx="7" ry="4" fill="#1a1a1a"/>
+  <ellipse cx="425" cy="415" rx="7" ry="4" fill="#1a1a1a"/>
+  
+  <!-- Player number 14 on back (visible from side) -->
+  <text x="400" y="260" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle" opacity="0.8" font-family="Arial, sans-serif">14</text>
+  
+  <!-- Name text -->
+  <text x="400" y="50" font-size="42" font-weight="bold" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">Chiesa</text>
+  
+  <!-- Subtle accent lines (sketch effect) -->
+  <path d="M 340 200 Q 350 190 360 200" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+  <path d="M 440 200 Q 450 190 460 200" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Liverpool FC red accent bar -->
+  <rect x="0" y="0" width="800" height="4" fill="#C8102E"/>
+  <rect x="0" y="416" width="800" height="4" fill="#C8102E"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="20" cy="20" r="3" fill="#F6EB61" opacity="0.6"/>
+  <circle cx="780" cy="400" r="3" fill="#F6EB61" opacity="0.6"/>
+</svg>
