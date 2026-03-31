@@ -1,0 +1,140 @@
+<svg viewBox="0 0 800 420" class="article-svg" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'Arial';
+        src: local('Arial');
+      }
+      .sketch-stroke {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .pitch-line {
+        fill: none;
+        stroke: #FFFFFF;
+        stroke-width: 2;
+        opacity: 0.8;
+      }
+      .title-text {
+        font-family: Arial, sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        fill: #F6EB61;
+      }
+      .subtitle-text {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        fill: #FFFFFF;
+        opacity: 0.9;
+      }
+      .label-text {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        fill: #C8102E;
+        font-weight: bold;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch diagram -->
+  <g id="pitch">
+    <!-- Outer pitch boundary -->
+    <rect x="50" y="40" width="700" height="340" class="pitch-line" stroke-width="3"/>
+    
+    <!-- Center line -->
+    <line x1="400" y1="40" x2="400" y2="380" class="pitch-line"/>
+    
+    <!-- Center circle -->
+    <circle cx="400" cy="210" r="60" class="pitch-line"/>
+    
+    <!-- Center spot -->
+    <circle cx="400" cy="210" r="4" fill="#FFFFFF" opacity="0.8"/>
+    
+    <!-- Left penalty area -->
+    <rect x="50" y="110" width="120" height="200" class="pitch-line"/>
+    
+    <!-- Right penalty area -->
+    <rect x="630" y="110" width="120" height="200" class="pitch-line"/>
+    
+    <!-- Left goal area -->
+    <rect x="50" y="150" width="60" height="120" class="pitch-line"/>
+    
+    <!-- Right goal area -->
+    <rect x="690" y="150" width="60" height="120" class="pitch-line"/>
+  </g>
+  
+  <!-- Tactical sketches - players on pitch -->
+  <g id="formation-left">
+    <!-- Goalkeeper -->
+    <circle cx="85" cy="210" r="18" class="sketch-stroke" stroke="#C8102E" stroke-width="2.5"/>
+    <line x1="85" y1="192" x2="85" y2="228" class="sketch-stroke" stroke="#C8102E" stroke-width="2.5"/>
+    <line x1="67" y1="205" x2="103" y2="205" class="sketch-stroke" stroke="#C8102E" stroke-width="2.5"/>
+    
+    <!-- Defenders -->
+    <circle cx="150" cy="130" r="16" class="sketch-stroke" stroke="#C8102E" stroke-width="2.5"/>
+    <circle cx="150" cy="210" r="16" class="sketch-stroke" stroke="#C8102E" stroke-width="2.5"/>
+    <circle cx="150" cy="290" r="16" class="sketch-stroke" stroke="#C8102E" stroke-width="2.5"/>
+    
+    <!-- Midfielders -->
+    <circle cx="260" cy="160" r="16" class="sketch-stroke" stroke="#C8102E" stroke-width="2.5"/>
+    <circle cx="260" cy="260" r="16" class="sketch-stroke" stroke="#C8102E" stroke-width="2.5"/>
+    <circle cx="310" cy="210" r="16" class="sketch-stroke" stroke="#C8102E" stroke-width="2.5"/>
+    
+    <!-- Forwards -->
+    <circle cx="380" cy="150" r="16" class="sketch-stroke" stroke="#C8102E" stroke-width="2.5"/>
+    <circle cx="380" cy="270" r="16" class="sketch-stroke" stroke="#C8102E" stroke-width="2.5"/>
+  </g>
+  
+  <!-- Movement arrows (tactical play) -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61" opacity="0.7"/>
+    </marker>
+  </defs>
+  
+  <g id="movement">
+    <path d="M 260 160 Q 300 150 340 155" class="sketch-stroke" stroke="#F6EB61" stroke-width="2" marker-end="url(#arrowhead)" opacity="0.6"/>
+    <path d="M 310 210 Q 340 200 360 160" class="sketch-stroke" stroke="#F6EB61" stroke-width="2" marker-end="url(#arrowhead)" opacity="0.6"/>
+  </g>
+  
+  <!-- Tactical annotations -->
+  <g id="annotations">
+    <!-- Key moment indicators -->
+    <circle cx="520" cy="100" r="35" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+    <text x="520" y="108" class="label-text" text-anchor="middle" font-size="11">KEY</text>
+    <text x="520" y="122" class="label-text" text-anchor="middle" font-size="11">MOMENT</text>
+    
+    <circle cx="680" cy="100" r="35" class="sketch-stroke" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+    <text x="680" y="108" class="label-text" text-anchor="middle" font-size="11">RATING</text>
+    <text x="680" y="122" class="label-text" text-anchor="middle" font-size="11">★★★</text>
+  </g>
+  
+  <!-- Title and headers -->
+  <text x="400" y="410" class="title-text" text-anchor="middle">MATCH ANALYSIS</text>
+  
+  <!-- Slot tactician indicator -->
+  <g id="slot-badge">
+    <rect x="20" y="360" width="140" height="50" rx="5" fill="none" class="sketch-stroke" stroke="#F6EB61" stroke-width="2"/>
+    <text x="90" y="378" class="subtitle-text" text-anchor="middle">Slot's</text>
+    <text x="90" y="398" class="subtitle-text" text-anchor="middle" font-size="12">Tactical Setup</text>
+  </g>
+  
+  <!-- Performance rating badges -->
+  <g id="performance">
+    <rect x="640" y="360" width="140" height="50" rx="5" fill="none" class="sketch-stroke" stroke="#C8102E" stroke-width="2"/>
+    <text x="710" y="378" class="subtitle-text" text-anchor="middle">Player</text>
+    <text x="710" y="398" class="subtitle-text" text-anchor="middle" font-size="12">Ratings</text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="650" cy="50" r="8" fill="none" class="sketch-stroke" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  <circle cx="100" cy="50" r="8" fill="none" class="sketch-stroke" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Sketch effect lines -->
+  <line x1="35" y1="200" x2="50" y2="205" class="sketch-stroke" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+  <line x1="750" y1="200" x2="765" y2="205" class="sketch-stroke" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
+</svg>

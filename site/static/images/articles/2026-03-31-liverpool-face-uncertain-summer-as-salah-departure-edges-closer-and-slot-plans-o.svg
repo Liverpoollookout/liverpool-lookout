@@ -1,0 +1,88 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <defs>
+    <style>
+      .sketch-stroke { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .player-silhouette { fill: #C8102E; opacity: 0.9; }
+      .arrow-line { fill: none; stroke: #F6EB61; stroke-width: 3; }
+      .text-main { font-family: Arial, sans-serif; font-size: 32px; font-weight: bold; fill: #FFFFFF; }
+      .text-sub { font-family: Arial, sans-serif; font-size: 18px; fill: #F6EB61; }
+      .header-text { font-family: Arial, sans-serif; font-size: 24px; fill: #C8102E; font-weight: bold; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative border -->
+  <rect x="10" y="10" width="780" height="400" fill="none" stroke="#C8102E" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Left player silhouette - departing player -->
+  <g id="player-left">
+    <!-- Head -->
+    <circle cx="150" cy="100" r="20" class="player-silhouette" stroke="#FFFFFF" stroke-width="1.5" class="sketch-stroke"/>
+    <!-- Body -->
+    <rect x="135" y="125" width="30" height="50" rx="5" class="player-silhouette" stroke="#FFFFFF" stroke-width="1.5" class="sketch-stroke"/>
+    <!-- Left arm -->
+    <line x1="135" y1="135" x2="100" y2="115" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+    <!-- Right arm -->
+    <line x1="165" y1="135" x2="200" y2="115" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+    <!-- Left leg -->
+    <line x1="142" y1="175" x2="130" y2="220" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+    <!-- Right leg -->
+    <line x1="158" y1="175" x2="170" y2="220" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+    <!-- Jersey number -->
+    <text x="150" y="155" text-anchor="middle" class="text-sub" font-size="14">7</text>
+  </g>
+  
+  <!-- Right player silhouette - staying player -->
+  <g id="player-right">
+    <!-- Head -->
+    <circle cx="650" cy="100" r="20" class="player-silhouette" stroke="#FFFFFF" stroke-width="1.5" class="sketch-stroke"/>
+    <!-- Body -->
+    <rect x="635" y="125" width="30" height="50" rx="5" class="player-silhouette" stroke="#FFFFFF" stroke-width="1.5" class="sketch-stroke"/>
+    <!-- Left arm -->
+    <line x1="635" y1="135" x2="600" y2="115" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+    <!-- Right arm -->
+    <line x1="665" y1="135" x2="700" y2="115" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+    <!-- Left leg -->
+    <line x1="642" y1="175" x2="630" y2="220" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+    <!-- Right leg -->
+    <line x1="658" y1="175" x2="670" y2="220" class="sketch-stroke" stroke="#C8102E" stroke-width="3"/>
+    <!-- Jersey number -->
+    <text x="650" y="155" text-anchor="middle" class="text-sub" font-size="14">23</text>
+  </g>
+  
+  <!-- Directional arrows showing movement out -->
+  <defs>
+    <marker id="arrowhead-gold" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61" />
+    </marker>
+  </defs>
+  
+  <!-- Arrow pointing left (departure) -->
+  <path d="M 220 280 Q 180 280, 120 280" class="arrow-line" marker-end="url(#arrowhead-gold)" stroke-dasharray="8,4"/>
+  
+  <!-- Arrow pointing right (staying) -->
+  <path d="M 580 280 Q 620 280, 680 280" class="arrow-line" marker-end="url(#arrowhead-gold)"/>
+  
+  <!-- Labels -->
+  <text x="150" y="250" text-anchor="middle" class="header-text" font-size="16">OUTGOINGS</text>
+  <text x="650" y="250" text-anchor="middle" class="header-text" font-size="16">STAYING</text>
+  
+  <!-- Main title -->
+  <text x="400" y="350" text-anchor="middle" class="text-main" font-size="28">TRANSFER RUMOURS</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="385" text-anchor="middle" class="text-sub" font-size="16">Contract Situations &amp; Potential Departures</text>
+  
+  <!-- Question marks indicating uncertainty -->
+  <text x="80" y="120" class="text-sub" font-size="24">?</text>
+  <text x="720" y="120" class="text-sub" font-size="24">✓</text>
+  
+  <!-- Sketch details - contract papers -->
+  <g id="contract-papers">
+    <rect x="320" y="140" width="30" height="40" fill="none" stroke="#FFFFFF" stroke-width="1.5" class="sketch-stroke"/>
+    <line x1="320" y1="155" x2="350" y2="155" stroke="#FFFFFF" stroke-width="1"/>
+    <line x1="320" y1="165" x2="345" y2="165" stroke="#FFFFFF" stroke-width="1"/>
+  </g>
+</svg>

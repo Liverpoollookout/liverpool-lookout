@@ -1,0 +1,77 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative pitch lines -->
+  <line x1="0" y1="210" x2="800" y2="210" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#F6EB61" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Left player silhouette (Current squad) -->
+  <g opacity="0.6">
+    <!-- Head -->
+    <circle cx="120" cy="100" r="25" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <!-- Body -->
+    <rect x="105" y="130" width="30" height="50" fill="none" stroke="#FFFFFF" stroke-width="2" rx="3"/>
+    <!-- Arms -->
+    <line x1="105" y1="145" x2="70" y2="120" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="135" y1="145" x2="170" y2="120" stroke="#FFFFFF" stroke-width="2"/>
+    <!-- Legs -->
+    <line x1="110" y1="180" x2="100" y2="240" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="120" y1="180" x2="130" y2="240" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+  
+  <!-- Target player silhouette (Transfer target) in Liverpool red -->
+  <g>
+    <!-- Head -->
+    <circle cx="400" cy="85" r="30" fill="none" stroke="#C8102E" stroke-width="3"/>
+    <!-- Body (Liverpool kit) -->
+    <rect x="380" y="120" width="40" height="65" fill="#C8102E" stroke="#C8102E" stroke-width="2" rx="3"/>
+    <!-- Arms -->
+    <line x1="380" y1="140" x2="320" y2="110" stroke="#C8102E" stroke-width="3"/>
+    <line x1="420" y1="140" x2="480" y2="110" stroke="#C8102E" stroke-width="3"/>
+    <!-- Legs -->
+    <line x1="385" y1="185" x2="375" y2="270" stroke="#C8102E" stroke-width="3"/>
+    <line x1="415" y1="185" x2="425" y2="270" stroke="#C8102E" stroke-width="3"/>
+    <!-- Shirt detail -->
+    <circle cx="400" cy="135" r="6" fill="#FFFFFF" opacity="0.8"/>
+  </g>
+  
+  <!-- Transfer arrow (left to right) -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Main transfer arrow -->
+  <path d="M 200 210 Q 300 180 390 150" fill="none" stroke="#F6EB61" stroke-width="3" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+  
+  <!-- Right side - Anfield destination -->
+  <g opacity="0.7">
+    <!-- Stadium representation -->
+    <path d="M 650 80 L 750 80 L 745 180 L 655 180 Z" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <!-- Roof detail -->
+    <path d="M 655 80 L 700 50 L 745 80" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <!-- Gate detail -->
+    <rect x="685" y="140" width="30" height="40" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Transfer fee indicator -->
+  <g>
+    <text x="400" y="320" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#F6EB61" text-anchor="middle">TRANSFER TARGET</text>
+    <text x="400" y="350" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" opacity="0.8">Fee: TBD</text>
+  </g>
+  
+  <!-- Top label -->
+  <text x="50" y="35" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" opacity="0.7">Current Squad</text>
+  <text x="400" y="35" font-family="Arial, sans-serif" font-size="14" fill="#C8102E" font-weight="bold" text-anchor="middle">Target Player</text>
+  <text x="700" y="35" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" opacity="0.7" text-anchor="end">Anfield</text>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="30" cy="30" r="15" fill="none" stroke="#F6EB61" stroke-width="1" opacity="0.3"/>
+  <circle cx="770" cy="390" r="15" fill="none" stroke="#F6EB61" stroke-width="1" opacity="0.3"/>
+  
+  <!-- LFC Badge element (stylized) -->
+  <circle cx="680" cy="240" r="25" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.6"/>
+  <text x="680" y="248" font-family="Arial, sans-serif" font-size="10" fill="#C8102E" text-anchor="middle" font-weight="bold" opacity="0.6">LFC</text>
+</svg>
