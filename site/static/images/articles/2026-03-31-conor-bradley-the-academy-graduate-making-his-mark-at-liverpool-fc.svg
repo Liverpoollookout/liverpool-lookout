@@ -1,0 +1,67 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative sketched circle background -->
+  <circle cx="280" cy="180" r="140" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3" stroke-dasharray="5,5"/>
+  <circle cx="280" cy="180" r="120" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.2" stroke-dasharray="3,3"/>
+  
+  <!-- Player figure - sketched style -->
+  <!-- Head -->
+  <circle cx="280" cy="100" r="35" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  <circle cx="270" cy="95" r="5" fill="#FFFFFF"/>
+  <circle cx="290" cy="95" r="5" fill="#FFFFFF"/>
+  <path d="M 275 105 Q 280 110 285 105" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+  
+  <!-- Body - Liverpool kit -->
+  <ellipse cx="280" cy="165" rx="45" ry="55" fill="none" stroke="#C8102E" stroke-width="3"/>
+  <path d="M 235 160 L 210 220" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 325 160 L 350 220" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Shirt stripes detail -->
+  <line x1="260" y1="140" x2="260" y2="190" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  <line x1="280" y1="140" x2="280" y2="190" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  <line x1="300" y1="140" x2="300" y2="190" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Arms -->
+  <path d="M 235 155 L 180 180" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 325 155 L 380 180" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Legs -->
+  <path d="M 210 215 L 195 290" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 350 215 L 365 290" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Football -->
+  <circle cx="160" cy="140" r="12" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <path d="M 155 135 Q 160 138 165 135" stroke="#F6EB61" stroke-width="1.5" fill="none"/>
+  <path d="M 155 145 Q 160 142 165 145" stroke="#F6EB61" stroke-width="1.5" fill="none"/>
+  
+  <!-- Sketched accent lines for movement -->
+  <path d="M 150 140 L 120 130" stroke="#C8102E" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.5"/>
+  <path d="M 150 140 L 125 160" stroke="#C8102E" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.5"/>
+  
+  <!-- Liverpool badge accent -->
+  <circle cx="280" cy="165" r="18" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.7"/>
+  <path d="M 275 160 L 285 160 M 275 170 L 285 170" stroke="#F6EB61" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Name text -->
+  <text x="520" y="120" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    CONOR
+  </text>
+  <text x="520" y="180" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#C8102E" letter-spacing="2">
+    BRADLEY
+  </text>
+  
+  <!-- Decorative line under name -->
+  <line x1="520" y1="200" x2="780" y2="200" stroke="#F6EB61" stroke-width="3"/>
+  
+  <!-- Position badge -->
+  <rect x="520" y="240" width="140" height="50" fill="none" stroke="#FFFFFF" stroke-width="2" rx="5"/>
+  <text x="590" y="275" font-family="Arial, sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">
+    RIGHT BACK
+  </text>
+  
+  <!-- Sketched corner accents -->
+  <path d="M 20 20 L 60 20 L 20 60" stroke="#F6EB61" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 780 400 L 740 400 L 780 360" stroke="#C8102E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,126 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" font-size="28" font-weight="bold" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">MATCH PREVIEW</text>
+  
+  <!-- Football pitch outline -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none">
+    <!-- Pitch boundary -->
+    <rect x="50" y="70" width="700" height="320" rx="8"/>
+    
+    <!-- Center line -->
+    <line x1="400" y1="70" x2="400" y2="390"/>
+    
+    <!-- Center circle -->
+    <circle cx="400" cy="230" r="50"/>
+    
+    <!-- Center spot -->
+    <circle cx="400" cy="230" r="3" fill="#FFFFFF"/>
+    
+    <!-- Left penalty area -->
+    <rect x="50" y="150" width="120" height="160"/>
+    
+    <!-- Left goal area -->
+    <rect x="50" y="190" width="60" height="80"/>
+    
+    <!-- Left goal circle -->
+    <circle cx="170" cy="230" r="40" fill="none"/>
+    
+    <!-- Right penalty area -->
+    <rect x="630" y="150" width="120" height="160"/>
+    
+    <!-- Right goal area -->
+    <rect x="690" y="190" width="60" height="80"/>
+    
+    <!-- Right goal circle -->
+    <circle cx="630" cy="230" r="40" fill="none"/>
+  </g>
+  
+  <!-- Liverpool XI Formation (Left side) -->
+  <g id="liverpool-formation">
+    <!-- Goalkeeper -->
+    <circle cx="100" cy="230" r="16" stroke="#C8102E" stroke-width="2" fill="#C8102E" opacity="0.3"/>
+    <text x="100" y="260" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="Arial">GK</text>
+    
+    <!-- Defense Line (4 players) -->
+    <!-- LB -->
+    <circle cx="200" cy="130" r="14" stroke="#C8102E" stroke-width="2" fill="#C8102E" opacity="0.3"/>
+    <text x="200" y="155" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial">LB</text>
+    
+    <!-- CB1 -->
+    <circle cx="280" cy="160" r="14" stroke="#C8102E" stroke-width="2" fill="#C8102E" opacity="0.3"/>
+    <text x="280" y="185" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial">CB</text>
+    
+    <!-- CB2 -->
+    <circle cx="280" cy="300" r="14" stroke="#C8102E" stroke-width="2" fill="#C8102E" opacity="0.3"/>
+    <text x="280" y="325" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial">CB</text>
+    
+    <!-- RB -->
+    <circle cx="200" cy="330" r="14" stroke="#C8102E" stroke-width="2" fill="#C8102E" opacity="0.3"/>
+    <text x="200" y="355" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial">RB</text>
+    
+    <!-- Midfield Line (3 players) -->
+    <!-- LM -->
+    <circle cx="350" cy="110" r="13" stroke="#C8102E" stroke-width="2" fill="#C8102E" opacity="0.3"/>
+    <text x="350" y="133" font-size="8" fill="#FFFFFF" text-anchor="middle" font-family="Arial">MID</text>
+    
+    <!-- CM -->
+    <circle cx="380" cy="230" r="13" stroke="#C8102E" stroke-width="2" fill="#C8102E" opacity="0.3"/>
+    <text x="380" y="253" font-size="8" fill="#FFFFFF" text-anchor="middle" font-family="Arial">CM</text>
+    
+    <!-- RM -->
+    <circle cx="350" cy="350" r="13" stroke="#C8102E" stroke-width="2" fill="#C8102E" opacity="0.3"/>
+    <text x="350" y="373" font-size="8" fill="#FFFFFF" text-anchor="middle" font-family="Arial">MID</text>
+    
+    <!-- Forward Line (3 players) -->
+    <!-- LW -->
+    <circle cx="500" cy="140" r="13" stroke="#C8102E" stroke-width="2" fill="#C8102E" opacity="0.3"/>
+    <text x="500" y="163" font-size="8" fill="#FFFFFF" text-anchor="middle" font-family="Arial">FW</text>
+    
+    <!-- ST -->
+    <circle cx="540" cy="230" r="15" stroke="#C8102E" stroke-width="3" fill="#C8102E" opacity="0.4"/>
+    <text x="540" y="236" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="Arial" font-weight="bold">ST</text>
+    
+    <!-- RW -->
+    <circle cx="500" cy="320" r="13" stroke="#C8102E" stroke-width="2" fill="#C8102E" opacity="0.3"/>
+    <text x="500" y="343" font-size="8" fill="#FFFFFF" text-anchor="middle" font-family="Arial">FW</text>
+  </g>
+  
+  <!-- Key Battles Indicators -->
+  <g id="key-battles" stroke="#F6EB61" stroke-width="2" fill="none">
+    <!-- Midfield battle indicator -->
+    <line x1="280" y1="200" x2="320" y2="230" stroke-dasharray="5,5"/>
+    <circle cx="300" cy="215" r="8" fill="none"/>
+    
+    <!-- Attack vs Defense indicator -->
+    <line x1="420" y1="230" x2="480" y2="230" stroke-dasharray="5,5"/>
+    <circle cx="450" cy="230" r="8" fill="none"/>
+  </g>
+  
+  <!-- Team badge/crest indication -->
+  <circle cx="650" cy="100" r="30" stroke="#C8102E" stroke-width="2" fill="none"/>
+  <text x="650" y="105" font-size="14" fill="#C8102E" text-anchor="middle" font-family="Arial" font-weight="bold">LFC</text>
+  
+  <!-- Tactical notes section -->
+  <rect x="600" y="160" width="180" height="220" stroke="#F6EB61" stroke-width="1" fill="none" rx="4"/>
+  <text x="690" y="185" font-size="12" fill="#F6EB61" text-anchor="middle" font-weight="bold" font-family="Arial">KEY BATTLES</text>
+  
+  <text x="615" y="210" font-size="10" fill="#FFFFFF" font-family="Arial">• Midfield Control</text>
+  <text x="615" y="230" font-size="10" fill="#FFFFFF" font-family="Arial">• Defensive Shape</text>
+  <text x="615" y="250" font-size="10" fill="#FFFFFF" font-family="Arial">• Attacking Tempo</text>
+  <text x="615" y="270" font-size="10" fill="#FFFFFF" font-family="Arial">• Set Piece Risk</text>
+  <text x="615" y="290" font-size="10" fill="#FFFFFF" font-family="Arial">• Wing Play</text>
+  <text x="615" y="310" font-size="10" fill="#FFFFFF" font-family="Arial">• Counter Press</text>
+  
+  <!-- Formation label -->
+  <text x="250" y="410" font-size="12" fill="#F6EB61" font-family="Arial" font-weight="bold">4-3-3 FORMATION</text>
+  
+  <!-- Sketch elements for drawing effect -->
+  <g stroke="#C8102E" stroke-width="1" opacity="0.2" fill="none">
+    <circle cx="80" cy="90" r="20"/>
+    <path d="M 720 350 Q 740 340 750 360"/>
+    <path d="M 50 50 L 70 55"/>
+  </g>
+</svg>

@@ -1,0 +1,86 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline -->
+  <rect x="80" y="40" width="640" height="340" fill="none" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="50" fill="none" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Penalty areas -->
+  <rect x="80" y="130" width="100" height="160" fill="none" stroke="#2d5016" stroke-width="2"/>
+  <rect x="620" y="130" width="100" height="160" fill="none" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Goal areas -->
+  <rect x="80" y="160" width="50" height="100" fill="none" stroke="#2d5016" stroke-width="2"/>
+  <rect x="670" y="160" width="50" height="100" fill="none" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Liverpool player positions (left side) - sketched style -->
+  <!-- GK -->
+  <circle cx="100" cy="210" r="12" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="100" y1="222" x2="100" y2="235" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
+  <line x1="92" y1="230" x2="108" y2="230" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Defenders -->
+  <circle cx="180" cy="120" r="11" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="180" y1="131" x2="180" y2="145" stroke="#C8102E" stroke-width="2"/>
+  
+  <circle cx="180" cy="210" r="11" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="180" y1="221" x2="180" y2="235" stroke="#C8102E" stroke-width="2"/>
+  
+  <circle cx="180" cy="300" r="11" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="180" y1="311" x2="180" y2="325" stroke="#C8102E" stroke-width="2"/>
+  
+  <!-- Midfielders -->
+  <circle cx="280" cy="150" r="11" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="280" y1="161" x2="280" y2="175" stroke="#C8102E" stroke-width="2"/>
+  
+  <circle cx="280" cy="210" r="11" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="280" y1="221" x2="280" y2="235" stroke="#C8102E" stroke-width="2"/>
+  
+  <circle cx="280" cy="270" r="11" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="280" y1="281" x2="280" y2="295" stroke="#C8102E" stroke-width="2"/>
+  
+  <!-- Forwards -->
+  <circle cx="360" cy="170" r="11" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="360" y1="181" x2="360" y2="195" stroke="#C8102E" stroke-width="2"/>
+  
+  <circle cx="360" cy="250" r="11" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <line x1="360" y1="261" x2="360" y2="275" stroke="#C8102E" stroke-width="2"/>
+  
+  <!-- Opponent player silhouettes (right side) - white -->
+  <circle cx="600" cy="130" r="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="600" cy="210" r="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="600" cy="290" r="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="680" cy="170" r="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="680" cy="250" r="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Ball position -->
+  <circle cx="340" cy="210" r="6" fill="#F6EB61" stroke="#C8102E" stroke-width="1.5"/>
+  
+  <!-- Tactical arrow - Slot's passing direction -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <path d="M 340 210 Q 380 180 420 170" fill="none" stroke="#F6EB61" stroke-width="2.5" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+  
+  <!-- Title section -->
+  <rect x="40" y="320" width="720" height="70" fill="none" stroke="#F6EB61" stroke-width="2" rx="4"/>
+  
+  <!-- Text labels -->
+  <text x="400" y="350" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#C8102E" text-anchor="middle" letter-spacing="2">MATCH REPORT</text>
+  
+  <text x="400" y="375" font-family="Arial, sans-serif" font-size="14" fill="#F6EB61" text-anchor="middle">Slot's Tactical Masterclass • Player Ratings • Key Moments</text>
+  
+  <!-- Decorative elements - sketchy marks -->
+  <circle cx="50" cy="60" r="8" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.6"/>
+  <circle cx="750" cy="80" r="6" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+  <line x1="45" y1="100" x2="65" y2="110" stroke="#F6EB61" stroke-width="1.5" opacity="0.7"/>
+</svg>
