@@ -1,0 +1,70 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative pitch lines -->
+  <line x1="0" y1="210" x2="800" y2="210" stroke="#F6EB61" stroke-width="2" opacity="0.3" stroke-dasharray="10,10"/>
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Left figure - Player silhouette (departing) -->
+  <g opacity="0.9">
+    <!-- Head -->
+    <circle cx="150" cy="100" r="25" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    
+    <!-- Body in Liverpool red kit -->
+    <path d="M 150 125 L 150 200" stroke="#C8102E" stroke-width="20" stroke-linecap="round" fill="none"/>
+    
+    <!-- Arms -->
+    <path d="M 150 140 L 110 170" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M 150 140 L 190 170" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" fill="none"/>
+    
+    <!-- Legs -->
+    <path d="M 140 200 L 130 280" stroke="#0a1628" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M 160 200 L 170 280" stroke="#0a1628" stroke-width="10" stroke-linecap="round" fill="none"/>
+    
+    <!-- Feet -->
+    <ellipse cx="130" cy="285" rx="8" ry="12" fill="#FFFFFF"/>
+    <ellipse cx="170" cy="285" rx="8" ry="12" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Directional arrow pointing right (departure) -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Arrow path -->
+  <path d="M 220 160 Q 300 140 380 160" fill="none" stroke="#F6EB61" stroke-width="3" marker-end="url(#arrowhead)" stroke-dasharray="8,4"/>
+  
+  <!-- Question mark in center -->
+  <text x="400" y="120" font-size="80" font-weight="bold" fill="#F6EB61" opacity="0.4" text-anchor="middle" font-family="Arial, sans-serif">?</text>
+  
+  <!-- Right side - Multiple direction arrows (uncertainty) -->
+  <g opacity="0.8">
+    <!-- Arrow up-right -->
+    <path d="M 550 180 L 620 120" stroke="#C8102E" stroke-width="2.5" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="6,3"/>
+    
+    <!-- Arrow down-right -->
+    <path d="M 550 180 L 620 240" stroke="#C8102E" stroke-width="2.5" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="6,3"/>
+    
+    <!-- Arrow straight right -->
+    <path d="M 550 180 L 640 180" stroke="#FFFFFF" stroke-width="2.5" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="6,3"/>
+  </g>
+  
+  <!-- Decorative circles representing uncertainty -->
+  <circle cx="500" cy="150" r="15" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="530" cy="140" r="10" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- Transfer text label -->
+  <text x="400" y="360" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">TRANSFER RUMOURS</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="390" font-size="16" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">Contract Situations &amp; Potential Departures</text>
+  
+  <!-- Decorative corner accents -->
+  <rect x="20" y="20" width="40" height="3" fill="#C8102E"/>
+  <rect x="20" y="20" width="3" height="40" fill="#C8102E"/>
+  <rect x="740" y="20" width="40" height="3" fill="#C8102E"/>
+  <rect x="777" y="20" width="3" height="40" fill="#C8102E"/>
+</svg>
