@@ -1,0 +1,71 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Anfield pitch outline -->
+  <rect x="80" y="40" width="640" height="340" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#F6EB61" stroke-width="2"/>
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <circle cx="400" cy="210" r="4" fill="#F6EB61"/>
+  
+  <!-- Left goal area -->
+  <rect x="80" y="130" width="80" height="160" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <rect x="80" y="160" width="40" height="100" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  
+  <!-- Right goal area -->
+  <rect x="640" y="130" width="80" height="160" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <rect x="680" y="160" width="40" height="100" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  
+  <!-- Player figure - Kenny Dalglish style -->
+  <g id="player">
+    <!-- Head -->
+    <circle cx="350" cy="120" r="20" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    
+    <!-- Body in Liverpool red kit -->
+    <path d="M 350 140 Q 340 160 335 190" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Left arm -->
+    <path d="M 350 150 Q 330 155 320 165" fill="none" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Right arm -->
+    <path d="M 350 150 Q 370 155 385 160" fill="none" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Left leg -->
+    <path d="M 335 190 Q 330 220 328 250" fill="none" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Right leg -->
+    <path d="M 335 190 Q 340 220 345 250" fill="none" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Ball near foot -->
+    <circle cx="340" cy="260" r="8" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M 335 256 Q 340 265 345 258" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Iconic moment - The Goal -->
+  <g id="moment-lines">
+    <!-- Motion lines -->
+    <line x1="420" y1="180" x2="480" y2="160" stroke="#F6EB61" stroke-width="1.5" opacity="0.6"/>
+    <line x1="430" y1="195" x2="495" y2="185" stroke="#F6EB61" stroke-width="1.5" opacity="0.6"/>
+    <line x1="425" y1="210" x2="490" y2="215" stroke="#F6EB61" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  
+  <!-- Goal net suggestion -->
+  <g id="goal">
+    <line x1="640" y1="140" x2="670" y2="120" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
+    <line x1="640" y1="160" x2="675" y2="150" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
+    <line x1="640" y1="180" x2="670" y2="190" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
+  </g>
+  
+  <!-- Stars for legendary status -->
+  <g id="stars">
+    <polygon points="480,80 485,95 501,95 489,105 494,120 480,110 466,120 471,105 459,95 475,95" fill="#F6EB61" opacity="0.8"/>
+    <polygon points="550,90 553,100 565,100 556,107 559,117 550,110 541,117 544,107 535,100 547,100" fill="#F6EB61" opacity="0.6"/>
+    <polygon points="320,70 323,80 335,80 326,87 329,97 320,90 311,97 314,87 305,80 317,80" fill="#F6EB61" opacity="0.6"/>
+  </g>
+  
+  <!-- Title text -->
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#C8102E" text-anchor="middle" letter-spacing="2">KENNY DALGLISH</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="390" font-family="Arial, sans-serif" font-size="14" fill="#F6EB61" text-anchor="middle" opacity="0.9">ANFIELD LEGEND</text>
+</svg>
