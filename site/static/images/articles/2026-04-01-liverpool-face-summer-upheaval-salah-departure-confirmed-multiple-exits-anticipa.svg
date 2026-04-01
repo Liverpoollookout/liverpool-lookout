@@ -1,0 +1,95 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <defs>
+    <style>
+      .sketch-stroke { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .light-stroke { stroke: #FFFFFF; stroke-width: 2; }
+      .red-stroke { stroke: #C8102E; stroke-width: 2.5; }
+      .gold-stroke { stroke: #F6EB61; stroke-width: 2; }
+      .title-text { font-family: Arial, sans-serif; font-weight: bold; font-size: 32px; fill: #FFFFFF; }
+      .subtitle-text { font-family: Arial, sans-serif; font-size: 18px; fill: #F6EB61; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="50" cy="50" r="3" fill="#F6EB61" opacity="0.6"/>
+  <circle cx="750" cy="370" r="3" fill="#F6EB61" opacity="0.6"/>
+  
+  <!-- Player silhouette leaving (left side) -->
+  <g id="player-leaving">
+    <!-- Head -->
+    <circle cx="150" cy="100" r="25" class="sketch-stroke light-stroke"/>
+    <!-- Body -->
+    <path d="M 150 125 L 150 200" class="sketch-stroke red-stroke" stroke-width="20"/>
+    <!-- Left arm -->
+    <path d="M 150 145 L 110 180" class="sketch-stroke light-stroke"/>
+    <!-- Right arm -->
+    <path d="M 150 145 L 190 180" class="sketch-stroke light-stroke"/>
+    <!-- Left leg -->
+    <path d="M 145 200 L 130 280" class="sketch-stroke light-stroke"/>
+    <!-- Right leg -->
+    <path d="M 155 200 L 170 280" class="sketch-stroke light-stroke"/>
+  </g>
+  
+  <!-- Exit arrows pointing left -->
+  <g id="exit-arrows">
+    <!-- Main arrow -->
+    <path d="M 250 150 L 50 150" class="sketch-stroke red-stroke" stroke-width="3" stroke-dasharray="5,5"/>
+    <polygon points="40,150 55,145 55,155" fill="#C8102E"/>
+    
+    <!-- Secondary arrow -->
+    <path d="M 250 250 L 80 250" class="sketch-stroke gold-stroke" stroke-width="2" stroke-dasharray="5,5"/>
+    <polygon points="70,250 85,245 85,255" fill="#F6EB61"/>
+  </g>
+  
+  <!-- Central question mark or uncertainty symbol -->
+  <g id="uncertainty">
+    <circle cx="400" cy="180" r="40" class="sketch-stroke light-stroke" stroke-width="2" opacity="0.7"/>
+    <text x="400" y="200" font-size="60" font-weight="bold" fill="#F6EB61" text-anchor="middle" opacity="0.8">?</text>
+  </g>
+  
+  <!-- Player silhouette uncertain (center-right) -->
+  <g id="player-uncertain" opacity="0.8">
+    <!-- Head -->
+    <circle cx="550" cy="120" r="22" class="sketch-stroke light-stroke" stroke-width="1.5"/>
+    <!-- Body in red -->
+    <path d="M 550 142 L 550 210" class="sketch-stroke red-stroke" stroke-width="18"/>
+    <!-- Arms -->
+    <path d="M 550 160 L 520 190" class="sketch-stroke light-stroke" stroke-width="1.5"/>
+    <path d="M 550 160 L 580 190" class="sketch-stroke light-stroke" stroke-width="1.5"/>
+    <!-- Legs -->
+    <path d="M 545 210 L 535 285" class="sketch-stroke light-stroke" stroke-width="1.5"/>
+    <path d="M 555 210 L 565 285" class="sketch-stroke light-stroke" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Bidirectional arrow indicating uncertainty -->
+  <g id="uncertainty-arrow">
+    <path d="M 480 120 L 520 120" class="sketch-stroke gold-stroke" stroke-width="2"/>
+    <polygon points="475,120 485,115 485,125" fill="#F6EB61"/>
+    <polygon points="525,120 515,115 515,125" fill="#F6EB61"/>
+  </g>
+  
+  <!-- Contract situation element -->
+  <g id="contract-docs">
+    <rect x="650" y="200" width="70" height="100" class="sketch-stroke light-stroke" stroke-width="2" fill="none"/>
+    <line x1="660" y1="225" x2="710" y2="225" class="sketch-stroke light-stroke" stroke-width="1.5"/>
+    <line x1="660" y1="240" x2="710" y2="240" class="sketch-stroke light-stroke" stroke-width="1.5"/>
+    <line x1="660" y1="255" x2="700" y2="255" class="sketch-stroke light-stroke" stroke-width="1.5"/>
+    <line x1="660" y1="270" x2="705" y2="270" class="sketch-stroke red-stroke" stroke-width="2"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="350" text-anchor="middle" class="title-text">TRANSFER DEPARTURES</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="385" text-anchor="middle" class="subtitle-text">Contract Situations &amp; Outgoings</text>
+  
+  <!-- Decorative lines -->
+  <line x1="100" y1="330" x2="700" y2="330" class="sketch-stroke gold-stroke" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Small Liverpool badge element -->
+  <circle cx="750" cy="40" r="18" class="sketch-stroke red-stroke" stroke-width="2"/>
+  <text x="750" y="48" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">LFC</text>
+</svg>
