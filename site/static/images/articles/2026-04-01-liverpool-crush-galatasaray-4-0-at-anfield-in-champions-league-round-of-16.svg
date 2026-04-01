@@ -1,0 +1,96 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch diagram -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none">
+    <!-- Outer pitch boundary -->
+    <rect x="60" y="40" width="680" height="340" stroke-width="3"/>
+    
+    <!-- Halfway line -->
+    <line x1="400" y1="40" x2="400" y2="380"/>
+    
+    <!-- Center circle -->
+    <circle cx="400" cy="210" r="50"/>
+    
+    <!-- Center spot -->
+    <circle cx="400" cy="210" r="4" fill="#FFFFFF"/>
+    
+    <!-- Left penalty area -->
+    <rect x="60" y="110" width="120" height="200"/>
+    
+    <!-- Left goal area -->
+    <rect x="60" y="160" width="60" height="100"/>
+    
+    <!-- Right penalty area -->
+    <rect x="720" y="110" width="-120" height="200"/>
+    
+    <!-- Right goal area -->
+    <rect x="720" y="160" width="-60" height="100"/>
+    
+    <!-- Left corner arcs -->
+    <path d="M 60 40 A 20 20 0 0 1 80 40" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    <path d="M 60 380 A 20 20 0 0 0 80 380" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    
+    <!-- Right corner arcs -->
+    <path d="M 740 40 A 20 20 0 0 0 720 40" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    <path d="M 740 380 A 20 20 0 0 1 720 380" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Tactical formation dots - Liverpool attacking left to right -->
+  <!-- Formation: 4-3-3 style -->
+  <g>
+    <!-- Defense line (red) -->
+    <circle cx="150" cy="140" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="150" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="150" cy="280" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="120" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Midfield line (red with gold accent) -->
+    <circle cx="280" cy="120" r="12" fill="#C8102E" stroke="#F6EB61" stroke-width="2"/>
+    <circle cx="280" cy="210" r="12" fill="#C8102E" stroke="#F6EB61" stroke-width="2"/>
+    <circle cx="280" cy="300" r="12" fill="#C8102E" stroke="#F6EB61" stroke-width="2"/>
+    
+    <!-- Attack line (red) -->
+    <circle cx="420" cy="100" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="420" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="420" cy="320" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+  
+  <!-- Movement arrows showing Slot tactical play -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Passing lanes and movement -->
+  <path d="M 280 210 L 350 180" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.7"/>
+  <path d="M 280 210 L 350 240" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.7"/>
+  <path d="M 350 210 L 420 100" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.6"/>
+  <path d="M 350 210 L 420 320" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.6"/>
+  
+  <!-- Key moment indicator - bright flash effect -->
+  <circle cx="520" cy="150" r="40" fill="none" stroke="#F6EB61" stroke-width="3" opacity="0.8"/>
+  <circle cx="520" cy="150" r="25" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Match Report Text -->
+  <text x="400" y="400" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">
+    MATCH REPORT
+  </text>
+  
+  <!-- Subtitle elements -->
+  <text x="80" y="20" font-family="Arial, sans-serif" font-size="14" fill="#F6EB61" font-weight="bold">
+    SLOT TACTICS
+  </text>
+  
+  <text x="720" y="20" font-family="Arial, sans-serif" font-size="14" fill="#C8102E" font-weight="bold" text-anchor="end">
+    KEY MOMENTS
+  </text>
+  
+  <!-- Decorative Liverpool badge-like element -->
+  <circle cx="50" cy="50" r="20" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <text x="50" y="58" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#C8102E" text-anchor="middle">
+    LFC
+  </text>
+</svg>

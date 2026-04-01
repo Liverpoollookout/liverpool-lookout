@@ -1,0 +1,76 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative circles background -->
+  <circle cx="650" cy="80" r="120" fill="#C8102E" opacity="0.08"/>
+  <circle cx="150" cy="350" r="100" fill="#F6EB61" opacity="0.06"/>
+  
+  <!-- Head -->
+  <circle cx="400" cy="100" r="45" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.9"/>
+  
+  <!-- Hair/top of head detail -->
+  <path d="M 365 65 Q 360 45 400 40 Q 440 45 435 65" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Face features - sketchy style -->
+  <circle cx="385" cy="95" r="4" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="415" cy="95" r="4" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M 390 110 Q 400 115 410 110" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Neck -->
+  <line x1="390" y1="142" x2="385" y2="165" stroke="#FFFFFF" stroke-width="2.5" opacity="0.8"/>
+  <line x1="410" y1="142" x2="415" y2="165" stroke="#FFFFFF" stroke-width="2.5" opacity="0.8"/>
+  
+  <!-- Liverpool Kit - Jersey -->
+  <path d="M 350 165 L 330 220 L 330 300 Q 330 320 350 325 L 450 325 Q 470 320 470 300 L 470 220 L 450 165 Z" 
+        fill="#C8102E" stroke="#FFFFFF" stroke-width="2.5" opacity="0.95"/>
+  
+  <!-- Jersey details -->
+  <line x1="360" y1="165" x2="355" y2="230" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+  <line x1="440" y1="165" x2="445" y2="230" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Collar detail -->
+  <path d="M 380 165 Q 400 155 420 165" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Chest emblem suggestion -->
+  <circle cx="400" cy="200" r="12" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 395 198 L 400 205 L 405 198" fill="none" stroke="#F6EB61" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Left Arm -->
+  <line x1="350" y1="175" x2="300" y2="240" stroke="#FFFFFF" stroke-width="3" opacity="0.8" stroke-linecap="round"/>
+  <line x1="300" y1="240" x2="285" y2="310" stroke="#FFFFFF" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+  
+  <!-- Left Hand -->
+  <circle cx="280" cy="320" r="12" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Right Arm -->
+  <line x1="450" y1="175" x2="500" y2="235" stroke="#FFFFFF" stroke-width="3" opacity="0.8" stroke-linecap="round"/>
+  <line x1="500" y1="235" x2="520" y2="305" stroke="#FFFFFF" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+  
+  <!-- Right Hand -->
+  <circle cx="528" cy="318" r="12" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Left Leg -->
+  <line x1="360" y1="325" x2="355" y2="385" stroke="#FFFFFF" stroke-width="2.5" opacity="0.8" stroke-linecap="round"/>
+  
+  <!-- Right Leg -->
+  <line x1="440" y1="325" x2="445" y2="385" stroke="#FFFFFF" stroke-width="2.5" opacity="0.8" stroke-linecap="round"/>
+  
+  <!-- Left Boot -->
+  <ellipse cx="355" cy="395" rx="15" ry="10" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Right Boot -->
+  <ellipse cx="445" cy="395" rx="15" ry="10" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Motion lines - dynamic sketch feel -->
+  <line x1="250" y1="200" x2="280" y2="195" stroke="#F6EB61" stroke-width="1.5" opacity="0.4" stroke-dasharray="3,2"/>
+  <line x1="550" y1="220" x2="520" y2="230" stroke="#F6EB61" stroke-width="1.5" opacity="0.4" stroke-dasharray="3,2"/>
+  <line x1="240" y1="280" x2="270" y2="285" stroke="#F6EB61" stroke-width="1" opacity="0.3" stroke-dasharray="3,2"/>
+  
+  <!-- Player Name -->
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="48" font-weight="bold" 
+        text-anchor="middle" fill="#F6EB61" opacity="0.95" letter-spacing="2">JOTA</text>
+  
+  <!-- Decorative underline -->
+  <line x1="280" y1="375" x2="520" y2="375" stroke="#C8102E" stroke-width="2" opacity="0.6"/>
+</svg>
