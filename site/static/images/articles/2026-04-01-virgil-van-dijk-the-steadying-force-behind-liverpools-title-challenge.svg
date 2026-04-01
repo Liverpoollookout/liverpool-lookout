@@ -1,0 +1,74 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  <circle cx="750" cy="370" r="25" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Head -->
+  <circle cx="400" cy="100" r="35" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  
+  <!-- Hair sketch -->
+  <path d="M 370 75 Q 365 65 375 60" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 390 65 Q 395 60 410 62" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 425 70 Q 430 65 435 75" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Face features -->
+  <circle cx="390" cy="95" r="3" fill="#FFFFFF"/>
+  <circle cx="410" cy="95" r="3" fill="#FFFFFF"/>
+  <path d="M 395 110 Q 400 115 405 110" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Neck -->
+  <path d="M 385 130 L 385 145" stroke="#FFFFFF" stroke-width="3"/>
+  <path d="M 415 130 L 415 145" stroke="#FFFFFF" stroke-width="3"/>
+  
+  <!-- Liverpool kit - body -->
+  <ellipse cx="400" cy="200" rx="45" ry="55" fill="#C8102E" opacity="0.9"/>
+  <rect x="360" y="145" width="80" height="120" fill="#C8102E" opacity="0.9"/>
+  
+  <!-- Kit details - white stripes -->
+  <rect x="360" y="160" width="80" height="3" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="360" y="190" width="80" height="2" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Number on chest -->
+  <text x="400" y="210" font-size="48" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">4</text>
+  
+  <!-- Arms -->
+  <path d="M 358 165 L 310 240" stroke="#C8102E" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 442 165 L 490 240" stroke="#C8102E" stroke-width="16" stroke-linecap="round"/>
+  
+  <!-- Arm sketch lines -->
+  <path d="M 358 165 L 310 240" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+  <path d="M 442 165 L 490 240" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+  
+  <!-- Hands -->
+  <circle cx="305" cy="250" r="8" fill="#F5D5B8" stroke="#FFFFFF" stroke-width="1.5"/>
+  <circle cx="495" cy="250" r="8" fill="#F5D5B8" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Legs -->
+  <rect x="375" y="270" width="14" height="90" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5"/>
+  <rect x="411" y="270" width="14" height="90" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Shorts -->
+  <rect x="355" y="250" width="90" height="35" fill="#0a1628" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Boots -->
+  <ellipse cx="382" cy="375" rx="12" ry="15" fill="#000000" stroke="#FFFFFF" stroke-width="1.5"/>
+  <ellipse cx="418" cy="375" rx="12" ry="15" fill="#000000" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Decorative sketch marks -->
+  <path d="M 320 180 Q 330 175 335 185" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.6" stroke-linecap="round"/>
+  <path d="M 480 185 Q 470 178 465 190" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.6" stroke-linecap="round"/>
+  
+  <!-- Highlight accents -->
+  <circle cx="375" cy="185" r="4" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="425" cy="190" r="3" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Player name -->
+  <text x="400" y="420" font-size="28" font-weight="bold" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">VIRGIL VAN DIJK</text>
+  
+  <!-- Subtle background pattern -->
+  <line x1="0" y1="0" x2="800" y2="420" stroke="#FFFFFF" stroke-width="0.5" opacity="0.05"/>
+  <line x1="800" y1="0" x2="0" y2="420" stroke="#FFFFFF" stroke-width="0.5" opacity="0.05"/>
+</svg>

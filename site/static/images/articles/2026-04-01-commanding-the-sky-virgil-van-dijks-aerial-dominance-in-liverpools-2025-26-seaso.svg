@@ -1,0 +1,77 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline - stylized -->
+  <rect x="80" y="60" width="640" height="300" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="60" x2="400" y2="360" stroke="#FFFFFF" stroke-width="1.5" opacity="0.2"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="40" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.2"/>
+  
+  <!-- Goal area left -->
+  <rect x="80" y="140" width="60" height="140" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Goal area right -->
+  <rect x="660" y="140" width="60" height="140" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Penalty area left -->
+  <rect x="80" y="100" width="100" height="220" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- Penalty area right -->
+  <rect x="620" y="100" width="100" height="220" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- Data visualization - stylized bar chart -->
+  <!-- Bar 1 - Goals -->
+  <rect x="150" y="240" width="30" height="80" fill="#C8102E" opacity="0.8"/>
+  <text x="165" y="335" font-family="sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">GOALS</text>
+  
+  <!-- Bar 2 - Assists -->
+  <rect x="220" y="260" width="30" height="60" fill="#F6EB61" opacity="0.8"/>
+  <text x="235" y="335" font-family="sans-serif" font-size="12" fill="#0a1628" text-anchor="middle">ASSISTS</text>
+  
+  <!-- Bar 3 - Passes -->
+  <rect x="290" y="210" width="30" height="110" fill="#FFFFFF" opacity="0.7"/>
+  <text x="305" y="335" font-family="sans-serif" font-size="12" fill="#0a1628" text-anchor="middle">PASSES</text>
+  
+  <!-- Bar 4 - Tackles -->
+  <rect x="360" y="270" width="30" height="50" fill="#C8102E" opacity="0.6"/>
+  <text x="375" y="335" font-family="sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">TACKLES</text>
+  
+  <!-- Stylized player figure with ball -->
+  <g transform="translate(550, 120)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <!-- Body -->
+    <line x1="0" y1="15" x2="0" y2="45" stroke="#C8102E" stroke-width="2"/>
+    <!-- Left arm -->
+    <line x1="0" y1="20" x2="-20" y2="30" stroke="#C8102E" stroke-width="2"/>
+    <!-- Right arm -->
+    <line x1="0" y1="20" x2="20" y2="30" stroke="#C8102E" stroke-width="2"/>
+    <!-- Left leg -->
+    <line x1="0" y1="45" x2="-15" y2="70" stroke="#C8102E" stroke-width="2"/>
+    <!-- Right leg -->
+    <line x1="0" y1="45" x2="15" y2="70" stroke="#C8102E" stroke-width="2"/>
+    <!-- Jersey number -->
+    <text x="0" y="50" font-family="sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">7</text>
+    <!-- Ball -->
+    <circle cx="35" cy="65" r="8" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="35" y1="57" x2="35" y2="73" stroke="#FFFFFF" stroke-width="1"/>
+    <line x1="27" y1="65" x2="43" y2="65" stroke="#FFFFFF" stroke-width="1"/>
+  </g>
+  
+  <!-- Title text -->
+  <text x="400" y="40" font-family="sans-serif" font-size="28" fill="#F6EB61" text-anchor="middle" font-weight="bold">PLAYER STATISTICS</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="390" font-family="sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" opacity="0.8">Deep Dive Analysis</text>
+  
+  <!-- Decorative elements - corner accents -->
+  <line x1="50" y1="30" x2="80" y2="30" stroke="#C8102E" stroke-width="2"/>
+  <line x1="50" y1="30" x2="50" y2="60" stroke="#C8102E" stroke-width="2"/>
+  
+  <line x1="750" y1="30" x2="720" y2="30" stroke="#F6EB61" stroke-width="2"/>
+  <line x1="750" y1="30" x2="750" y2="60" stroke="#F6EB61" stroke-width="2"/>
+</svg>
