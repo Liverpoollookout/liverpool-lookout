@@ -1,0 +1,65 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <defs>
+    <style>
+      .sketch-line { fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .sketch-bold { fill: none; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+      .fill-red { fill: #C8102E; }
+      .fill-white { fill: #FFFFFF; }
+      .fill-gold { fill: #F6EB61; }
+      .stroke-red { stroke: #C8102E; }
+      .stroke-white { stroke: #FFFFFF; }
+      .stroke-gold { stroke: #F6EB61; }
+      .text-main { font-family: Arial, sans-serif; font-size: 48px; font-weight: bold; fill: #FFFFFF; letter-spacing: 2px; }
+      .text-sub { font-family: Arial, sans-serif; font-size: 24px; fill: #F6EB61; }
+    </style>
+  </defs>
+  
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative pitch lines in background -->
+  <line x1="400" y1="20" x2="400" y2="400" class="sketch-line stroke-white" opacity="0.15"/>
+  <circle cx="400" cy="210" r="60" class="sketch-line stroke-white" opacity="0.1"/>
+  <rect x="320" y="20" width="160" height="60" class="sketch-line stroke-white" opacity="0.1"/>
+  <rect x="320" y="340" width="160" height="60" class="sketch-line stroke-white" opacity="0.1"/>
+  
+  <!-- Central sketched football with shading -->
+  <circle cx="400" cy="120" r="45" class="sketch-bold stroke-red"/>
+  <line x1="385" y1="100" x2="415" y2="100" class="sketch-line stroke-red"/>
+  <line x1="385" y1="120" x2="415" y2="120" class="sketch-line stroke-red"/>
+  <line x1="385" y1="140" x2="415" y2="140" class="sketch-line stroke-red"/>
+  <path d="M 380 105 Q 400 110 420 105" class="sketch-line stroke-gold"/>
+  
+  <!-- Sketched Liverpool crest elements -->
+  <!-- Shield shape -->
+  <path d="M 400 160 L 360 180 L 360 260 Q 400 290 400 290 Q 400 290 440 260 L 440 180 Z" class="sketch-bold stroke-red"/>
+  
+  <!-- Bird outline (Liver Bird) inside shield -->
+  <circle cx="385" cy="215" r="8" class="fill-red"/>
+  <circle cx="415" cy="215" r="8" class="fill-red"/>
+  <path d="M 380 225 Q 400 235 420 225" class="sketch-line stroke-red"/>
+  <line x1="375" y1="220" x2="365" y2="240" class="sketch-line stroke-red"/>
+  <line x1="425" y1="220" x2="435" y2="240" class="sketch-line stroke-red"/>
+  
+  <!-- Decorative flame/accent elements -->
+  <path d="M 320 200 Q 310 210 315 225" class="sketch-bold stroke-gold" opacity="0.7"/>
+  <path d="M 480 200 Q 490 210 485 225" class="sketch-bold stroke-gold" opacity="0.7"/>
+  
+  <!-- Sketchy accent lines for drawing effect -->
+  <line x1="200" y1="80" x2="250" y2="90" class="sketch-line stroke-white" opacity="0.2"/>
+  <line x1="550" y1="95" x2="600" y2="85" class="sketch-line stroke-white" opacity="0.2"/>
+  <line x1="180" y1="320" x2="240" y2="310" class="sketch-line stroke-red" opacity="0.25"/>
+  <line x1="560" y1="325" x2="620" y2="315" class="sketch-line stroke-red" opacity="0.25"/>
+  
+  <!-- Text: Subject/Opinion headline -->
+  <text x="400" y="340" text-anchor="middle" class="text-main">OPINION</text>
+  
+  <!-- Supporting text -->
+  <text x="400" y="375" text-anchor="middle" class="text-sub">Liverpool FC Analysis</text>
+  
+  <!-- Decorative corner dots -->
+  <circle cx="50" cy="50" r="3" class="fill-gold" opacity="0.6"/>
+  <circle cx="750" cy="50" r="3" class="fill-gold" opacity="0.6"/>
+  <circle cx="50" cy="370" r="3" class="fill-red" opacity="0.5"/>
+  <circle cx="750" cy="370" r="3" class="fill-red" opacity="0.5"/>
+</svg>
