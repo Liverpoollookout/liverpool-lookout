@@ -1,0 +1,111 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Football pitch -->
+  <g stroke="#FFFFFF" stroke-width="2" fill="none">
+    <!-- Pitch outline -->
+    <rect x="80" y="40" width="640" height="340" stroke-width="3"/>
+    
+    <!-- Center line -->
+    <line x1="400" y1="40" x2="400" y2="380"/>
+    
+    <!-- Center circle -->
+    <circle cx="400" cy="210" r="50"/>
+    
+    <!-- Center spot -->
+    <circle cx="400" cy="210" r="3" fill="#FFFFFF"/>
+    
+    <!-- Left penalty area -->
+    <rect x="80" y="130" width="80" height="160"/>
+    
+    <!-- Left goal area -->
+    <rect x="80" y="160" width="40" height="100"/>
+    
+    <!-- Left goal -->
+    <circle cx="80" cy="210" r="8" fill="none" stroke="#C8102E" stroke-width="2"/>
+    
+    <!-- Right penalty area -->
+    <rect x="640" y="130" width="80" height="160"/>
+    
+    <!-- Right goal area -->
+    <rect x="680" y="160" width="40" height="100"/>
+    
+    <!-- Right goal -->
+    <circle cx="720" cy="210" r="8" fill="none" stroke="#C8102E" stroke-width="2"/>
+  </g>
+  
+  <!-- Stats visualization - left side bars -->
+  <g stroke="#C8102E" stroke-width="2" fill="none">
+    <!-- Bar 1 -->
+    <rect x="120" y="340" width="30" height="30" fill="#C8102E" opacity="0.7"/>
+    <text x="125" y="395" font-size="12" fill="#FFFFFF" text-anchor="middle" font-family="Arial">Goals</text>
+    
+    <!-- Bar 2 -->
+    <rect x="170" y="310" width="30" height="60" fill="#C8102E" opacity="0.7"/>
+    <text x="175" y="395" font-size="12" fill="#FFFFFF" text-anchor="middle" font-family="Arial">Assists</text>
+    
+    <!-- Bar 3 -->
+    <rect x="220" y="290" width="30" height="80" fill="#C8102E" opacity="0.7"/>
+    <text x="225" y="395" font-size="12" fill="#FFFFFF" text-anchor="middle" font-family="Arial">Passes</text>
+    
+    <!-- Bar 4 -->
+    <rect x="270" y="320" width="30" height="50" fill="#C8102E" opacity="0.7"/>
+    <text x="275" y="395" font-size="12" fill="#FFFFFF" text-anchor="middle" font-family="Arial">Tackles</text>
+  </g>
+  
+  <!-- Stats visualization - right side -->
+  <g stroke="#F6EB61" stroke-width="2" fill="none">
+    <!-- Circular stats -->
+    <circle cx="520" cy="150" r="45" fill="none" stroke="#F6EB61"/>
+    <circle cx="520" cy="150" r="35" fill="none" stroke="#C8102E" opacity="0.5"/>
+    <text x="520" y="160" font-size="20" fill="#F6EB61" text-anchor="middle" font-family="Arial" font-weight="bold">92%</text>
+    <text x="520" y="210" font-size="11" fill="#FFFFFF" text-anchor="middle" font-family="Arial">Pass Accuracy</text>
+    
+    <!-- Performance indicator -->
+    <circle cx="620" cy="150" r="40" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <path d="M 620 110 A 40 40 0 0 1 650 170" stroke="#F6EB61" stroke-width="3" fill="none"/>
+    <text x="620" y="160" font-size="18" fill="#F6EB61" text-anchor="middle" font-family="Arial" font-weight="bold">8.2</text>
+    <text x="620" y="210" font-size="11" fill="#FFFFFF" text-anchor="middle" font-family="Arial">Rating</text>
+  </g>
+  
+  <!-- Sketched player figure -->
+  <g stroke="#C8102E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head -->
+    <circle cx="350" cy="100" r="15" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Jersey (Liverpool red) -->
+    <path d="M 335 115 L 320 150 L 330 160 L 370 160 L 380 150 L 365 115 Z" fill="#C8102E" stroke="#C8102E" stroke-width="2"/>
+    
+    <!-- Shorts -->
+    <rect x="325" y="160" width="50" height="25" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Left leg -->
+    <line x1="335" y1="185" x2="335" y2="210"/>
+    <circle cx="335" cy="215" r="4" fill="#FFFFFF"/>
+    
+    <!-- Right leg -->
+    <line x1="365" y1="185" x2="365" y2="210"/>
+    <circle cx="365" cy="215" r="4" fill="#FFFFFF"/>
+    
+    <!-- Left arm -->
+    <line x1="320" y1="125" x2="290" y2="140"/>
+    
+    <!-- Right arm -->
+    <line x1="380" y1="125" x2="410" y2="140"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="50" y="35" font-size="28" fill="#F6EB61" font-family="Arial" font-weight="bold">PLAYER STATISTICS</text>
+  <text x="50" y="60" font-size="16" fill="#FFFFFF" font-family="Arial">Deep Dive Analysis</text>
+  
+  <!-- Liverpool FC badge accent -->
+  <circle cx="750" cy="50" r="20" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <text x="750" y="56" font-size="24" fill="#C8102E" text-anchor="middle" font-family="Arial" font-weight="bold">LFC</text>
+  
+  <!-- Decorative elements -->
+  <g stroke="#F6EB61" stroke-width="1" opacity="0.5">
+    <line x1="100" y1="20" x2="150" y2="20"/>
+    <line x1="700" y1="400" x2="750" y2="400"/>
+  </g>
+</svg>

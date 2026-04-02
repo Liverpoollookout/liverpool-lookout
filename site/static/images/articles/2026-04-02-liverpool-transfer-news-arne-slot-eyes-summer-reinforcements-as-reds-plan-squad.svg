@@ -1,0 +1,77 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative pitch lines -->
+  <line x1="400" y1="0" x2="400" y2="420" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Left figure - player silhouette -->
+  <g id="player-left">
+    <!-- Head -->
+    <circle cx="150" cy="80" r="25" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Body -->
+    <rect x="130" y="110" width="40" height="60" fill="#C8102E" opacity="0.8" stroke="#C8102E" stroke-width="2"/>
+    <!-- Arms -->
+    <line x1="130" y1="130" x2="90" y2="120" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="170" y1="130" x2="210" y2="120" stroke="#FFFFFF" stroke-width="2.5"/>
+    <!-- Legs -->
+    <line x1="140" y1="170" x2="130" y2="240" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="160" y1="170" x2="170" y2="240" stroke="#FFFFFF" stroke-width="2.5"/>
+    <!-- Feet -->
+    <circle cx="130" cy="245" r="8" fill="#0a1628" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="170" cy="245" r="8" fill="#0a1628" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+  
+  <!-- Right figure - target player -->
+  <g id="player-right">
+    <!-- Head -->
+    <circle cx="650" cy="80" r="25" fill="none" stroke="#C8102E" stroke-width="2.5" stroke-dasharray="5,3"/>
+    <!-- Body -->
+    <rect x="630" y="110" width="40" height="60" fill="none" stroke="#C8102E" stroke-width="2.5" stroke-dasharray="5,3"/>
+    <!-- Arms -->
+    <line x1="630" y1="130" x2="590" y2="120" stroke="#FFFFFF" stroke-width="2.5" opacity="0.6"/>
+    <line x1="670" y1="130" x2="710" y2="120" stroke="#FFFFFF" stroke-width="2.5" opacity="0.6"/>
+    <!-- Legs -->
+    <line x1="640" y1="170" x2="630" y2="240" stroke="#FFFFFF" stroke-width="2.5" opacity="0.6"/>
+    <line x1="660" y1="170" x2="670" y2="240" stroke="#FFFFFF" stroke-width="2.5" opacity="0.6"/>
+    <!-- Feet -->
+    <circle cx="630" cy="245" r="8" fill="none" stroke="#C8102E" stroke-width="2" stroke-dasharray="5,3"/>
+    <circle cx="670" cy="245" r="8" fill="none" stroke="#C8102E" stroke-width="2" stroke-dasharray="5,3"/>
+  </g>
+  
+  <!-- Directional arrows - Transfer flow -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Main transfer arrow -->
+  <path d="M 200 210 Q 400 150 600 210" fill="none" stroke="#F6EB61" stroke-width="3" marker-end="url(#arrowhead)" stroke-dasharray="8,4"/>
+  
+  <!-- Secondary arrows showing different paths/options -->
+  <path d="M 200 260 Q 350 300 600 260" fill="none" stroke="#FFFFFF" stroke-width="2" marker-end="url(#arrowhead)" opacity="0.5" stroke-dasharray="5,5"/>
+  
+  <!-- Fee indicator circles -->
+  <g id="fee-badge-left">
+    <circle cx="150" cy="310" r="35" fill="none" stroke="#F6EB61" stroke-width="2.5"/>
+    <text x="150" y="315" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#F6EB61" text-anchor="middle">LINKED</text>
+  </g>
+  
+  <g id="fee-badge-right">
+    <circle cx="650" cy="310" r="35" fill="none" stroke="#C8102E" stroke-width="2.5" stroke-dasharray="5,3"/>
+    <text x="650" y="313" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#C8102E" text-anchor="middle">TARGET</text>
+    <text x="650" y="328" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" opacity="0.8">Est. Fee</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TRANSFER TARGET</text>
+  
+  <!-- Liverpool FC badge accent -->
+  <g id="badge-accent">
+    <circle cx="50" cy="50" r="30" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <circle cx="50" cy="50" r="20" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+    <text x="50" y="55" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#F6EB61" text-anchor="middle">LFC</text>
+  </g>
+</svg>

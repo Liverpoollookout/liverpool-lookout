@@ -1,0 +1,106 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline -->
+  <rect x="80" y="40" width="640" height="340" fill="none" stroke="#2d5a3d" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#2d5a3d" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="50" fill="none" stroke="#2d5a3d" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Center spot -->
+  <circle cx="400" cy="210" r="3" fill="#2d5a3d" opacity="0.6"/>
+  
+  <!-- Penalty areas -->
+  <rect x="80" y="120" width="100" height="180" fill="none" stroke="#2d5a3d" stroke-width="1" opacity="0.4"/>
+  <rect x="620" y="120" width="100" height="180" fill="none" stroke="#2d5a3d" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Goal areas -->
+  <rect x="80" y="160" width="60" height="100" fill="none" stroke="#2d5a3d" stroke-width="1" opacity="0.4"/>
+  <rect x="660" y="160" width="60" height="100" fill="none" stroke="#2d5a3d" stroke-width="1" opacity="0.4"/>
+  
+  <!-- LIVERPOOL 4-2-3-1 FORMATION -->
+  
+  <!-- Goalkeeper -->
+  <circle cx="110" cy="210" r="12" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <text x="110" y="235" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">GK</text>
+  
+  <!-- Defensive line (4 players) -->
+  <!-- Left back -->
+  <circle cx="200" cy="140" r="10" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <line x1="200" y1="130" x2="200" y2="150" stroke="#C8102E" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Left center back -->
+  <circle cx="280" cy="120" r="10" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <line x1="280" y1="110" x2="280" y2="130" stroke="#C8102E" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Right center back -->
+  <circle cx="520" cy="120" r="10" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <line x1="520" y1="110" x2="520" y2="130" stroke="#C8102E" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Right back -->
+  <circle cx="600" cy="140" r="10" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <line x1="600" y1="130" x2="600" y2="150" stroke="#C8102E" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Midfield line (2 defensive mids) -->
+  <!-- Left DM -->
+  <circle cx="240" cy="210" r="10" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <circle cx="240" cy="210" r="6" fill="#C8102E" opacity="0.4"/>
+  
+  <!-- Right DM -->
+  <circle cx="560" cy="210" r="10" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <circle cx="560" cy="210" r="6" fill="#C8102E" opacity="0.4"/>
+  
+  <!-- Attacking midfield line (3 players) -->
+  <!-- Left AM -->
+  <circle cx="300" cy="280" r="9" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <circle cx="300" cy="280" r="5" fill="#F6EB61" opacity="0.5"/>
+  
+  <!-- Center AM -->
+  <circle cx="400" cy="290" r="9" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <circle cx="400" cy="290" r="5" fill="#F6EB61" opacity="0.5"/>
+  
+  <!-- Right AM -->
+  <circle cx="500" cy="280" r="9" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <circle cx="500" cy="280" r="5" fill="#F6EB61" opacity="0.5"/>
+  
+  <!-- Striker -->
+  <circle cx="400" cy="360" r="11" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  <circle cx="400" cy="360" r="7" fill="#FFFFFF" opacity="0.3"/>
+  
+  <!-- Pressing trigger arrows -->
+  <!-- From center back left -->
+  <path d="M 280 130 L 240 200 L 245 195" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.7" stroke-dasharray="3,2"/>
+  
+  <!-- From center back right -->
+  <path d="M 520 130 L 560 200 L 555 195" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.7" stroke-dasharray="3,2"/>
+  
+  <!-- From strikers pressing -->
+  <path d="M 400 350 L 400 330" fill="none" stroke="#C8102E" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <polygon points="400,330 395,340 405,340" fill="#C8102E" opacity="0.8"/>
+  
+  <!-- Left AM pressing trigger -->
+  <path d="M 300 270 L 260 210" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.6" stroke-dasharray="2,2"/>
+  
+  <!-- Right AM pressing trigger -->
+  <path d="M 500 270 L 540 210" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.6" stroke-dasharray="2,2"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-size="20" font-weight="bold" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">SLOT'S 4-2-3-1</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="410" font-size="12" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" opacity="0.8">Pressing Trigger System</text>
+  
+  <!-- Legend indicators -->
+  <circle cx="680" cy="60" r="5" fill="none" stroke="#C8102E" stroke-width="1.5"/>
+  <text x="700" y="65" font-size="10" fill="#FFFFFF" font-family="Arial, sans-serif">Defensive</text>
+  
+  <circle cx="680" cy="85" r="5" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+  <text x="700" y="90" font-size="10" fill="#FFFFFF" font-family="Arial, sans-serif">Creative</text>
+  
+  <circle cx="680" cy="110" r="5.5" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="700" y="115" font-size="10" fill="#FFFFFF" font-family="Arial, sans-serif">Striker</text>
+</svg>

@@ -1,0 +1,112 @@
+<svg viewBox="0 0 800 420" class="article-svg" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .pitch-line { stroke: #FFFFFF; stroke-width: 2; fill: none; }
+      .pitch-line-dashed { stroke: #FFFFFF; stroke-width: 1.5; stroke-dasharray: 4,4; fill: none; }
+      .player-circle { fill: #C8102E; stroke: #FFFFFF; stroke-width: 2; }
+      .player-label { fill: #FFFFFF; font-size: 10px; font-family: Arial, sans-serif; font-weight: bold; text-anchor: middle; }
+      .title-text { fill: #F6EB61; font-size: 28px; font-family: Arial, sans-serif; font-weight: bold; }
+      .subtitle-text { fill: #FFFFFF; font-size: 14px; font-family: Arial, sans-serif; }
+      .battle-line { stroke: #F6EB61; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline -->
+  <rect x="50" y="30" width="320" height="360" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  
+  <!-- Pitch center line -->
+  <line x1="210" y1="30" x2="210" y2="390" class="pitch-line"/>
+  
+  <!-- Center circle -->
+  <circle cx="210" cy="210" r="40" class="pitch-line"/>
+  
+  <!-- Center spot -->
+  <circle cx="210" cy="210" r="3" fill="#FFFFFF"/>
+  
+  <!-- Penalty areas -->
+  <rect x="50" y="110" width="60" height="200" class="pitch-line"/>
+  <rect x="310" y="110" width="60" height="200" class="pitch-line"/>
+  
+  <!-- Goal areas -->
+  <rect x="50" y="160" width="30" height="100" class="pitch-line"/>
+  <rect x="340" y="160" width="30" height="100" class="pitch-line"/>
+  
+  <!-- Penalty spots -->
+  <circle cx="95" cy="210" r="2" fill="#FFFFFF"/>
+  <circle cx="325" cy="210" r="2" fill="#FFFFFF"/>
+  
+  <!-- Liverpool Formation (Left side - 4-3-3) -->
+  <!-- Goalkeeper -->
+  <circle cx="75" cy="210" r="12" class="player-circle"/>
+  <text x="75" y="230" class="player-label">GK</text>
+  
+  <!-- Defense line -->
+  <circle cx="130" cy="120" r="12" class="player-circle"/>
+  <text x="130" y="140" class="player-label">LB</text>
+  
+  <circle cx="130" cy="160" r="12" class="player-circle"/>
+  <text x="130" y="180" class="player-label">CB</text>
+  
+  <circle cx="130" cy="260" r="12" class="player-circle"/>
+  <text x="130" y="280" class="player-label">CB</text>
+  
+  <circle cx="130" cy="300" r="12" class="player-circle"/>
+  <text x="130" y="320" class="player-label">RB</text>
+  
+  <!-- Midfield line -->
+  <circle cx="170" cy="100" r="12" class="player-circle"/>
+  <text x="170" y="120" class="player-label">LM</text>
+  
+  <circle cx="170" cy="210" r="12" class="player-circle"/>
+  <text x="170" y="230" class="player-label">CM</text>
+  
+  <circle cx="170" cy="320" r="12" class="player-circle"/>
+  <text x="170" y="340" class="player-label">RM</text>
+  
+  <!-- Forward line -->
+  <circle cx="260" cy="80" r="12" class="player-circle"/>
+  <text x="260" y="100" class="player-label">LW</text>
+  
+  <circle cx="260" cy="210" r="12" class="player-circle"/>
+  <text x="260" y="230" class="player-label">ST</text>
+  
+  <circle cx="260" cy="340" r="12" class="player-circle"/>
+  <text x="260" y="360" class="player-label">RW</text>
+  
+  <!-- Opposition Formation (Right side - simplified) -->
+  <g opacity="0.6">
+    <circle cx="295" cy="210" r="12" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+    <circle cx="325" cy="140" r="10" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+    <circle cx="325" cy="210" r="10" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+    <circle cx="325" cy="280" r="10" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/>
+  </g>
+  
+  <!-- Title and Info -->
+  <text x="420" y="60" class="title-text">MATCH PREVIEW</text>
+  
+  <text x="420" y="95" class="subtitle-text">Liverpool FC Lineup Prediction</text>
+  <text x="420" y="120" class="subtitle-text">Key Player Battles &amp; Tactical Analysis</text>
+  
+  <!-- Formation labels -->
+  <text x="420" y="165" class="subtitle-text" style="font-size: 12px;">Liverpool Formation: 4-3-3</text>
+  
+  <!-- Key Battles Section -->
+  <text x="420" y="200" class="subtitle-text" style="font-size: 13px; font-weight: bold; fill: #F6EB61;">KEY MATCHUPS:</text>
+  
+  <line x1="420" y1="210" x2="760" y2="210" class="battle-line"/>
+  
+  <text x="420" y="235" class="subtitle-text" style="font-size: 11px;">• Central Midfield Control</text>
+  <text x="420" y="255" class="subtitle-text" style="font-size: 11px;">• Wide Attacking Play</text>
+  <text x="420" y="275" class="subtitle-text" style="font-size: 11px;">• Defensive Transitions</text>
+  <text x="420" y="295" class="subtitle-text" style="font-size: 11px;">• Set Piece Vulnerability</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="420" cy="340" r="4" fill="#F6EB61"/>
+  <circle cx="430" cy="340" r="4" fill="#C8102E"/>
+  <circle cx="440" cy="340" r="4" fill="#FFFFFF"/>
+  
+  <text x="465" y="345" class="subtitle-text" style="font-size: 10px;">Liverpool   Opposition   Tactical Focus</text>
+</svg>
