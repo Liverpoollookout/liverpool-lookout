@@ -9,7 +9,7 @@ import os
 import sys
 import json
 import time
-import random
+import rando
 import re
 import requests
 from datetime import datetime, timezone, timedelta
@@ -316,27 +316,40 @@ def api_call_with_retry(client, model, max_tokens, prompt, max_retries=5):
             wait = (2 ** attempt) * 10  # 10s, 20s, 40s, 80s
             print(f"  Rate limit hit. Waiting {wait}s before retry {attempt + 2}/{max_retries}...")
             time.sleep(wait)
+        except anthropic.PermissionDeniedError as e:
+            # Credit exhaustion or auth error - fail immediately, no point retrying
+            print(f"  API permission/billing error: {e}")
+            raise
         except anthropic.APIStatusError as e:
             if e.status_code == 529 and attempt < max_retries - 1:
                 # API overloaded
                 wait = (2 ** attempt) * 15
                 print(f"  API overloaded. Waiting {wait}s before retry {attempt + 2}/{max_retries}...")
                 time.sleep(wait)
+            elif e.status_code in (401, 403) and attempt < max_retries - 1:
+                # Auth/billing error - fail immediately
+                print(f"  API auth/billing error ({e.status_code}): {e}")
+                raise
             else:
                 raise
-
-
 def generate_article(client, article_type, context):
     prompt_fn = PROMPTS.get(article_type, PROMPTS["team_news"])
     prompt = prompt_fn(context)
-    message = api_call_with_retry(client, "claude-haiku-4-5-20251001", 2000, prompt)
-    raw = message.content[0].text.strip()
-    raw = re.sub(r"^```json\s*", "", raw, flags=re.MULTILINE)
-    raw = re.sub(r"\s*```$", "", raw, flags=re.MULTILINE)
-    raw = raw.strip()
-    return json.loads(raw)
-
-
+    last_err = None
+    for attempt in range(3):
+        try:
+            message = api_call_with_retry(client, "claude-haiku-4-5-20251001", 3000, prompt)
+            raw = message.content[0].text.strip()
+            raw = re.sub(r"^```json\s*", "", raw, flags=re.MULTILINE)
+            raw = re.sub(r"\s*```$", "", raw, flags=re.MULTILINE)
+            raw = raw.strip()
+            return json.loads(raw)
+        except json.JSONDecodeError as e:
+            last_err = e
+            print(f"  JSON parse error (attempt {attempt + 1}/3): {e}")
+            if attempt < 2:
+                time.sleep(3)
+    raise last_err
 def save_article(article, article_type, existing_slugs, client=None, context=None):
     now = datetime.now(timezone.utc)
     iso_date = now.strftime("%Y-%m-%dT%H:%M:%SZ")
