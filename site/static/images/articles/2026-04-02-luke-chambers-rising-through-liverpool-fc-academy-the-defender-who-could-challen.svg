@@ -1,0 +1,96 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <defs>
+    <style>
+      .sketch-stroke { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .sketch-thin { stroke-width: 1.5; }
+      .sketch-medium { stroke-width: 2.5; }
+      .sketch-thick { stroke-width: 3.5; }
+      .text-title { font-family: Arial, sans-serif; font-size: 28px; font-weight: bold; }
+      .text-label { font-family: Arial, sans-serif; font-size: 14px; font-weight: 600; }
+      .text-small { font-family: Arial, sans-serif; font-size: 11px; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner lines -->
+  <line x1="20" y1="20" x2="80" y2="20" class="sketch-stroke sketch-medium" stroke="#F6EB61"/>
+  <line x1="20" y1="20" x2="20" y2="80" class="sketch-stroke sketch-medium" stroke="#F6EB61"/>
+  <line x1="780" y1="20" x2="720" y2="20" class="sketch-stroke sketch-medium" stroke="#C8102E"/>
+  <line x1="780" y1="20" x2="780" y2="80" class="sketch-stroke sketch-medium" stroke="#C8102E"/>
+  
+  <!-- Academy badge/shield outline -->
+  <path d="M 650 60 L 700 40 L 750 60 L 750 130 Q 700 160 650 160 Q 600 160 600 130 Z" class="sketch-stroke sketch-medium" stroke="#F6EB61" fill="none"/>
+  <circle cx="700" cy="100" r="25" class="sketch-stroke sketch-thin" stroke="#C8102E" fill="none"/>
+  <text x="700" y="105" text-anchor="middle" class="text-small" fill="#C8102E" font-weight="bold">LFC</text>
+  
+  <!-- Player figure - sketched style -->
+  <!-- Head -->
+  <circle cx="150" cy="80" r="28" class="sketch-stroke sketch-medium" stroke="#FFFFFF" fill="none"/>
+  <circle cx="140" cy="70" r="4" fill="#FFFFFF"/>
+  <circle cx="160" cy="70" r="4" fill="#FFFFFF"/>
+  
+  <!-- Body in Liverpool red -->
+  <ellipse cx="150" cy="150" rx="35" ry="45" class="sketch-stroke sketch-medium" stroke="#C8102E" fill="none"/>
+  
+  <!-- Jersey details -->
+  <line x1="150" y1="115" x2="150" y2="190" class="sketch-stroke sketch-thin" stroke="#C8102E"/>
+  <line x1="120" y1="140" x2="180" y2="140" class="sketch-stroke sketch-thin" stroke="#C8102E"/>
+  
+  <!-- Arms -->
+  <line x1="120" y1="130" x2="80" y2="100" class="sketch-stroke sketch-medium" stroke="#FFFFFF"/>
+  <line x1="180" y1="130" x2="220" y2="100" class="sketch-stroke sketch-medium" stroke="#FFFFFF"/>
+  
+  <!-- Legs -->
+  <line x1="130" y1="195" x2="120" y2="280" class="sketch-stroke sketch-medium" stroke="#FFFFFF"/>
+  <line x1="170" y1="195" x2="180" y2="280" class="sketch-stroke sketch-medium" stroke="#FFFFFF"/>
+  
+  <!-- Football at feet -->
+  <circle cx="150" cy="300" r="12" class="sketch-stroke sketch-medium" stroke="#FFFFFF" fill="none"/>
+  <line x1="145" y1="295" x2="155" y2="305" class="sketch-stroke sketch-thin" stroke="#FFFFFF"/>
+  
+  <!-- Sketched movement lines -->
+  <path d="M 240 130 Q 260 120 280 130" class="sketch-stroke sketch-thin" stroke="#C8102E" fill="none"/>
+  <path d="M 250 160 Q 270 155 290 170" class="sketch-stroke sketch-thin" stroke="#C8102E" fill="none"/>
+  
+  <!-- Stats/Attributes panel -->
+  <rect x="380" y="50" width="220" height="140" class="sketch-stroke sketch-medium" stroke="#F6EB61" fill="none" rx="8"/>
+  
+  <!-- Stat bars with red fill indicators -->
+  <text x="390" y="70" class="text-label" fill="#FFFFFF">ACADEMY POTENTIAL</text>
+  
+  <text x="390" y="95" class="text-small" fill="#FFFFFF">Pace</text>
+  <rect x="450" y="87" width="130" height="8" class="sketch-stroke sketch-thin" stroke="#FFFFFF" fill="none"/>
+  <rect x="450" y="87" width="104" height="8" fill="#C8102E" opacity="0.8"/>
+  
+  <text x="390" y="120" class="text-small" fill="#FFFFFF">Technical Ability</text>
+  <rect x="450" y="112" width="130" height="8" class="sketch-stroke sketch-thin" stroke="#FFFFFF" fill="none"/>
+  <rect x="450" y="112" width="117" height="8" fill="#C8102E" opacity="0.8"/>
+  
+  <text x="390" y="145" class="text-small" fill="#FFFFFF">Decision Making</text>
+  <rect x="450" y="137" width="130" height="8" class="sketch-stroke sketch-thin" stroke="#FFFFFF" fill="none"/>
+  <rect x="450" y="137" width="91" height="8" fill="#C8102E" opacity="0.8"/>
+  
+  <!-- Scout notes section -->
+  <rect x="380" y="210" width="220" height="140" class="sketch-stroke sketch-medium" stroke="#FFFFFF" fill="none" rx="8"/>
+  
+  <text x="390" y="230" class="text-label" fill="#F6EB61">SCOUT ASSESSMENT</text>
+  
+  <text x="390" y="255" class="text-small" fill="#FFFFFF">✓ Homegrown talent</text>
+  <text x="390" y="275" class="text-small" fill="#FFFFFF">✓ First-team ready</text>
+  <text x="390" y="295" class="text-small" fill="#FFFFFF">✓ Strong mentality</text>
+  <text x="390" y="315" class="text-small" fill="#FFFFFF">✓ Development pathway</text>
+  
+  <!-- Title/Subject -->
+  <text x="150" y="360" text-anchor="middle" class="text-title" fill="#FFFFFF">ACADEMY GRADUATE</text>
+  <text x="150" y="390" text-anchor="middle" class="text-label" fill="#F6EB61">Rising First-Team Prospect</text>
+  
+  <!-- Bottom decorative elements -->
+  <circle cx="50" cy="380" r="15" class="sketch-stroke sketch-thin" stroke="#C8102E" fill="none"/>
+  <circle cx="750" cy="380" r="15" class="sketch-stroke sketch-thin" stroke="#F6EB61" fill="none"/>
+  
+  <!-- Liverpool crest simplified line art -->
+  <path d="M 700 240 L 720 220 L 740 240 L 735 265 L 705 265 Z" class="sketch-stroke sketch-thin" stroke="#C8102E" fill="none"/>
+  
+</svg>

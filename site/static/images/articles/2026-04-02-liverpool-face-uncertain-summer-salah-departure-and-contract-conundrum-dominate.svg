@@ -1,0 +1,67 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative pitch lines -->
+  <line x1="0" y1="210" x2="800" y2="210" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Player silhouette - departing -->
+  <g id="player-main">
+    <!-- Head -->
+    <circle cx="250" cy="100" r="25" fill="none" stroke="#C8102E" stroke-width="3" stroke-dasharray="5,3"/>
+    
+    <!-- Body in Liverpool red kit -->
+    <ellipse cx="250" cy="160" rx="30" ry="45" fill="#C8102E" opacity="0.7"/>
+    <rect x="230" y="145" width="40" height="50" fill="#C8102E" opacity="0.8"/>
+    
+    <!-- Arms -->
+    <line x1="220" y1="155" x2="160" y2="130" stroke="#C8102E" stroke-width="4" stroke-linecap="round"/>
+    <line x1="280" y1="155" x2="340" y2="130" stroke="#C8102E" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Legs -->
+    <line x1="235" y1="205" x2="220" y2="280" stroke="#C8102E" stroke-width="4" stroke-linecap="round"/>
+    <line x1="265" y1="205" x2="280" y2="280" stroke="#C8102E" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Feet -->
+    <circle cx="220" cy="285" r="6" fill="#FFFFFF"/>
+    <circle cx="280" cy="285" r="6" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Exit/departure arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Arrow pointing right (departure) -->
+  <path d="M 350 120 Q 450 100 550 120" fill="none" stroke="#F6EB61" stroke-width="3" marker-end="url(#arrowhead)" stroke-dasharray="8,4"/>
+  
+  <!-- Arrow pointing down (contract situation) -->
+  <path d="M 250 320 L 250 360" stroke="#FFFFFF" stroke-width="3" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+  
+  <!-- Question marks for uncertainty -->
+  <text x="550" y="90" font-size="48" font-weight="bold" fill="#F6EB61" opacity="0.6" font-family="Arial, sans-serif">?</text>
+  <text x="220" y="380" font-size="36" font-weight="bold" fill="#FFFFFF" opacity="0.5" font-family="Arial, sans-serif">?</text>
+  
+  <!-- Exit stage indicators -->
+  <rect x="520" y="100" width="120" height="60" fill="none" stroke="#F6EB61" stroke-width="2" stroke-dasharray="6,3" rx="8"/>
+  <text x="535" y="135" font-size="16" font-weight="bold" fill="#F6EB61" font-family="Arial, sans-serif">OUTGOING</text>
+  
+  <!-- Contract status indicator -->
+  <rect x="180" y="350" width="140" height="50" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="6,3" rx="8"/>
+  <text x="190" y="378" font-size="14" font-weight="bold" fill="#FFFFFF" font-family="Arial, sans-serif">CONTRACT STATUS</text>
+  
+  <!-- Title text -->
+  <text x="400" y="40" font-size="32" font-weight="bold" fill="#C8102E" text-anchor="middle" font-family="Arial, sans-serif">TRANSFER RUMOURS</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="80" cy="340" r="8" fill="#C8102E" opacity="0.4"/>
+  <circle cx="720" cy="60" r="6" fill="#F6EB61" opacity="0.4"/>
+  <circle cx="700" cy="350" r="5" fill="#FFFFFF" opacity="0.3"/>
+  
+  <!-- Accent lines -->
+  <line x1="50" y1="30" x2="100" y2="30" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+  <line x1="700" y1="390" x2="750" y2="390" stroke="#F6EB61" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,105 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline -->
+  <rect x="80" y="40" width="640" height="340" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#F6EB61" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="50" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Center spot -->
+  <circle cx="400" cy="210" r="3" fill="#F6EB61" opacity="0.6"/>
+  
+  <!-- Left penalty area -->
+  <rect x="80" y="110" width="90" height="200" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Right penalty area -->
+  <rect x="630" y="110" width="90" height="200" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Left goal area -->
+  <rect x="80" y="160" width="50" height="100" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Right goal area -->
+  <rect x="670" y="160" width="50" height="100" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Sketched player 1 - Left side (Attacking) -->
+  <g opacity="0.85">
+    <!-- Head -->
+    <circle cx="200" cy="120" r="18" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Body -->
+    <line x1="200" y1="138" x2="200" y2="190" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Left arm -->
+    <line x1="200" y1="150" x2="160" y2="140" stroke="#C8102E" stroke-width="2"/>
+    <!-- Right arm -->
+    <line x1="200" y1="150" x2="240" y2="135" stroke="#C8102E" stroke-width="2"/>
+    <!-- Left leg -->
+    <line x1="200" y1="190" x2="180" y2="240" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Right leg -->
+    <line x1="200" y1="190" x2="220" y2="240" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Ball near feet -->
+    <circle cx="215" cy="245" r="8" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+  
+  <!-- Sketched player 2 - Center (Key moment) -->
+  <g opacity="0.9">
+    <!-- Head -->
+    <circle cx="380" cy="100" r="20" fill="none" stroke="#C8102E" stroke-width="3"/>
+    <!-- Body -->
+    <line x1="380" y1="120" x2="380" y2="185" stroke="#C8102E" stroke-width="3"/>
+    <!-- Left arm up -->
+    <line x1="380" y1="135" x2="340" y2="100" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Right arm up -->
+    <line x1="380" y1="135" x2="420" y2="100" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Left leg -->
+    <line x1="380" y1="185" x2="360" y2="245" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Right leg -->
+    <line x1="380" y1="185" x2="400" y2="245" stroke="#C8102E" stroke-width="2.5"/>
+  </g>
+  
+  <!-- Sketched player 3 - Right side (Defending) -->
+  <g opacity="0.75">
+    <!-- Head -->
+    <circle cx="580" cy="140" r="17" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Body -->
+    <line x1="580" y1="157" x2="580" y2="205" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Left arm -->
+    <line x1="580" y1="165" x2="540" y2="155" stroke="#C8102E" stroke-width="2"/>
+    <!-- Right arm -->
+    <line x1="580" y1="165" x2="620" y2="150" stroke="#C8102E" stroke-width="2"/>
+    <!-- Left leg -->
+    <line x1="580" y1="205" x2="560" y2="255" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Right leg -->
+    <line x1="580" y1="205" x2="600" y2="255" stroke="#C8102E" stroke-width="2.5"/>
+  </g>
+  
+  <!-- Tactical arrows showing movement -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61" opacity="0.7"/>
+    </marker>
+  </defs>
+  
+  <!-- Movement arrows -->
+  <line x1="220" y1="180" x2="300" y2="220" stroke="#F6EB61" stroke-width="2" stroke-dasharray="5,3" opacity="0.6" marker-end="url(#arrowhead)"/>
+  <line x1="560" y1="200" x2="480" y2="240" stroke="#F6EB61" stroke-width="2" stroke-dasharray="5,3" opacity="0.6" marker-end="url(#arrowhead)"/>
+  
+  <!-- Title section -->
+  <text x="400" y="320" font-size="28" font-weight="bold" fill="#C8102E" text-anchor="middle" font-family="Arial, sans-serif">MATCH REPORT</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="350" font-size="14" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" opacity="0.85">Slot's Tactical Masterclass</text>
+  
+  <!-- Corner decorative elements -->
+  <circle cx="50" cy="50" r="12" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.4"/>
+  <circle cx="750" cy="370" r="12" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Player ratings indicator -->
+  <g opacity="0.6">
+    <text x="80" y="400" font-size="11" fill="#FFFFFF" font-family="Arial, sans-serif">★ ★ ★</text>
+    <text x="700" y="400" font-size="11" fill="#FFFFFF" font-family="Arial, sans-serif" text-anchor="end">KEY MOMENTS</text>
+  </g>
+</svg>
