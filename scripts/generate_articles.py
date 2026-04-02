@@ -9,7 +9,7 @@ import os
 import sys
 import json
 import time
-import rando
+import random
 import re
 import requests
 from datetime import datetime, timezone, timedelta
