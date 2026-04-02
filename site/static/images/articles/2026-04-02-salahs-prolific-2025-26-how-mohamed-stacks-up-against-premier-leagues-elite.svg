@@ -1,0 +1,89 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch lines - sketchy style -->
+  <line x1="50" y1="100" x2="750" y2="100" stroke="#FFFFFF" stroke-width="2" opacity="0.6" stroke-dasharray="5,5"/>
+  <line x1="50" y1="320" x2="750" y2="320" stroke="#FFFFFF" stroke-width="2" opacity="0.6" stroke-dasharray="5,5"/>
+  <line x1="400" y1="60" x2="400" y2="360" stroke="#FFFFFF" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Center circle - sketchy -->
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5" stroke-dasharray="8,4"/>
+  
+  <!-- Center spot -->
+  <circle cx="400" cy="210" r="4" fill="#C8102E"/>
+  
+  <!-- Penalty areas left -->
+  <rect x="50" y="150" width="80" height="120" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.7"/>
+  <rect x="50" y="180" width="40" height="60" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Penalty areas right -->
+  <rect x="670" y="150" width="80" height="120" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.7"/>
+  <rect x="710" y="180" width="40" height="60" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Goal lines -->
+  <line x1="50" y1="100" x2="50" y2="320" stroke="#FFFFFF" stroke-width="2" opacity="0.4"/>
+  <line x1="750" y1="100" x2="750" y2="320" stroke="#FFFFFF" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Decorative stat visualization - bar chart style -->
+  <g opacity="0.8">
+    <!-- Bar 1 -->
+    <rect x="120" y="250" width="25" height="80" fill="#C8102E" opacity="0.7"/>
+    <rect x="120" y="250" width="25" height="80" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+    
+    <!-- Bar 2 -->
+    <rect x="160" y="270" width="25" height="60" fill="#C8102E" opacity="0.7"/>
+    <rect x="160" y="270" width="25" height="60" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+    
+    <!-- Bar 3 -->
+    <rect x="200" y="240" width="25" height="90" fill="#C8102E" opacity="0.7"/>
+    <rect x="200" y="240" width="25" height="90" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+    
+    <!-- Bar 4 -->
+    <rect x="240" y="260" width="25" height="70" fill="#C8102E" opacity="0.7"/>
+    <rect x="240" y="260" width="25" height="70" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Right side stat visualization -->
+  <g opacity="0.8">
+    <!-- Circular stats -->
+    <circle cx="550" cy="240" r="35" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <circle cx="550" cy="240" r="35" fill="none" stroke="#F6EB61" stroke-width="1.5" stroke-dasharray="75,150" opacity="0.6"/>
+    <text x="550" y="250" font-size="14" fill="#F6EB61" text-anchor="middle" font-weight="bold">85%</text>
+    
+    <circle cx="650" cy="240" r="35" fill="none" stroke="#C8102E" stroke-width="2"/>
+    <circle cx="650" cy="240" r="35" fill="none" stroke="#F6EB61" stroke-width="1.5" stroke-dasharray="105,105" opacity="0.6"/>
+    <text x="650" y="250" font-size="14" fill="#F6EB61" text-anchor="middle" font-weight="bold">92%</text>
+  </g>
+  
+  <!-- Sketchy player figure - simplified -->
+  <g opacity="0.9">
+    <!-- Head -->
+    <circle cx="680" cy="130" r="15" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Body in red kit -->
+    <rect x="670" y="150" width="20" height="35" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+    
+    <!-- Arms -->
+    <line x1="670" y1="160" x2="650" y2="155" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="690" y1="160" x2="710" y2="155" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Legs -->
+    <line x1="675" y1="185" x2="673" y2="210" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="685" y1="185" x2="687" y2="210" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+  
+  <!-- Title text -->
+  <text x="400" y="50" font-size="32" fill="#FFFFFF" text-anchor="middle" font-weight="bold" font-family="Arial, sans-serif">PLAYER STATISTICS</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="75" font-size="18" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif">Deep Dive Analysis</text>
+  
+  <!-- Bottom decorative elements -->
+  <line x1="100" y1="390" x2="700" y2="390" stroke="#C8102E" stroke-width="3" opacity="0.8"/>
+  <circle cx="115" cy="390" r="5" fill="#F6EB61"/>
+  <circle cx="785" cy="390" r="5" fill="#F6EB61"/>
+  
+  <!-- Liverpool FC badge indicator -->
+  <text x="50" y="410" font-size="12" fill="#FFFFFF" opacity="0.7" font-family="Arial, sans-serif">LFC ANALYTICS</text>
+</svg>

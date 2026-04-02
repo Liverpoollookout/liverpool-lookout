@@ -1,0 +1,76 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Subtle pitch lines in background -->
+  <line x1="400" y1="0" x2="400" y2="420" stroke="#1a2d4d" stroke-width="2" opacity="0.3"/>
+  <ellipse cx="400" cy="210" rx="60" ry="80" fill="none" stroke="#1a2d4d" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Stadium background impression -->
+  <rect x="50" y="20" width="700" height="200" fill="none" stroke="#F6EB61" stroke-width="1" opacity="0.2" rx="10"/>
+  
+  <!-- Player figure - Kenny Dalglish style -->
+  <!-- Head -->
+  <circle cx="280" cy="100" r="25" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  <path d="M 265 95 Q 270 90 280 90" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Body in Liverpool red kit -->
+  <path d="M 280 125 L 280 200" stroke="#C8102E" stroke-width="3"/>
+  <rect x="255" y="130" width="50" height="50" fill="#C8102E" opacity="0.8"/>
+  
+  <!-- White shirt collar detail -->
+  <path d="M 270 130 L 280 135 L 290 130" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Liverpool emblem suggestion on chest -->
+  <circle cx="280" cy="155" r="8" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Arms -->
+  <path d="M 255 140 L 220 160" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 305 140 L 340 165" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Hands -->
+  <circle cx="215" cy="165" r="6" fill="#C8102E" opacity="0.7"/>
+  <circle cx="345" cy="170" r="6" fill="#C8102E" opacity="0.7"/>
+  
+  <!-- Legs -->
+  <path d="M 270 200 L 265 280" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 290 200 L 295 280" stroke="#C8102E" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Feet -->
+  <ellipse cx="262" cy="285" rx="8" ry="5" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="298" cy="285" rx="8" ry="5" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Ball near feet with motion lines -->
+  <circle cx="330" cy="290" r="8" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M 320 290 L 310 290" stroke="#F6EB61" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 325 285 L 318 278" stroke="#F6EB61" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Dynamic action lines -->
+  <path d="M 350 200 L 380 180" stroke="#F6EB61" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+  <path d="M 360 220 L 395 210" stroke="#F6EB61" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+  
+  <!-- Legend name and details -->
+  <text x="480" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#C8102E">KENNY</text>
+  <text x="480" y="190" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#C8102E">DALGLISH</text>
+  
+  <!-- Subtitle -->
+  <text x="480" y="230" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" opacity="0.9">King of Anfield</text>
+  <text x="480" y="255" font-family="Arial, sans-serif" font-size="14" fill="#F6EB61">1977 - 1990</text>
+  
+  <!-- Decorative elements -->
+  <path d="M 470 270 L 580 270" stroke="#F6EB61" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Achievement stars -->
+  <path d="M 490 300 L 495 310 L 505 310 L 497 316 L 500 326 L 490 320 L 480 326 L 483 316 L 475 310 L 485 310 Z" fill="#F6EB61" opacity="0.7"/>
+  <path d="M 540 300 L 545 310 L 555 310 L 547 316 L 550 326 L 540 320 L 530 326 L 533 316 L 525 310 L 535 310 Z" fill="#F6EB61" opacity="0.7"/>
+  <path d="M 590 300 L 595 310 L 605 310 L 597 316 L 600 326 L 590 320 L 580 326 L 583 316 L 575 310 L 585 310 Z" fill="#F6EB61" opacity="0.7"/>
+  
+  <!-- Sketch texture overlay lines -->
+  <g stroke="#FFFFFF" stroke-width="0.5" opacity="0.1">
+    <line x1="0" y1="50" x2="800" y2="50"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+  </g>
+</svg>

@@ -1,0 +1,113 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline -->
+  <rect x="80" y="40" width="640" height="340" fill="none" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="50" fill="none" stroke="#2d5016" stroke-width="2"/>
+  
+  <!-- Penalty areas -->
+  <rect x="80" y="120" width="120" height="180" fill="none" stroke="#2d5016" stroke-width="1"/>
+  <rect x="600" y="120" width="120" height="180" fill="none" stroke="#2d5016" stroke-width="1"/>
+  
+  <!-- Goal areas -->
+  <rect x="80" y="155" width="60" height="110" fill="none" stroke="#2d5016" stroke-width="1"/>
+  <rect x="660" y="155" width="60" height="110" fill="none" stroke="#2d5016" stroke-width="1"/>
+  
+  <!-- Corner arcs -->
+  <path d="M 80 40 Q 80 60 100 60" fill="none" stroke="#2d5016" stroke-width="1"/>
+  <path d="M 720 40 Q 720 60 700 60" fill="none" stroke="#2d5016" stroke-width="1"/>
+  <path d="M 80 380 Q 80 360 100 360" fill="none" stroke="#2d5016" stroke-width="1"/>
+  <path d="M 720 380 Q 720 360 700 360" fill="none" stroke="#2d5016" stroke-width="1"/>
+  
+  <!-- LIVERPOOL FORMATION 4-2-3-1 (Left side - attacking) -->
+  <!-- Goalkeeper -->
+  <circle cx="120" cy="210" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="120" y="230" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">GK</text>
+  
+  <!-- Back four -->
+  <!-- Left back -->
+  <circle cx="200" cy="140" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="200" y="160" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">LB</text>
+  
+  <!-- Left center back -->
+  <circle cx="220" cy="210" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="220" y="235" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">CB</text>
+  
+  <!-- Right center back -->
+  <circle cx="280" cy="210" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="280" y="235" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">CB</text>
+  
+  <!-- Right back -->
+  <circle cx="200" cy="280" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="200" y="305" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">RB</text>
+  
+  <!-- Midfield two (double pivot) -->
+  <!-- Left midfielder -->
+  <circle cx="300" cy="160" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="300" y="180" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">CM</text>
+  
+  <!-- Right midfielder -->
+  <circle cx="300" cy="260" r="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="300" y="280" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">CM</text>
+  
+  <!-- Attack three -->
+  <!-- Left winger -->
+  <circle cx="380" cy="120" r="9" fill="#C8102E" stroke="#F6EB61" stroke-width="2"/>
+  <text x="380" y="143" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">LW</text>
+  
+  <!-- Central attacking mid -->
+  <circle cx="420" cy="210" r="9" fill="#C8102E" stroke="#F6EB61" stroke-width="2"/>
+  <text x="420" y="233" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">CAM</text>
+  
+  <!-- Right winger -->
+  <circle cx="380" cy="300" r="9" fill="#C8102E" stroke="#F6EB61" stroke-width="2"/>
+  <text x="380" y="323" font-size="9" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif">RW</text>
+  
+  <!-- Striker -->
+  <circle cx="480" cy="210" r="10" fill="#C8102E" stroke="#F6EB61" stroke-width="2.5"/>
+  <text x="480" y="235" font-size="10" fill="#FFFFFF" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">ST</text>
+  
+  <!-- Pressing arrows and triggers (showing defensive shape) -->
+  <!-- Pressing arrows from wingers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+    <marker id="arrowhead-white" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#FFFFFF"/>
+    </marker>
+  </defs>
+  
+  <!-- Forward pressing trigger lines -->
+  <line x1="380" y1="120" x2="520" y2="100" stroke="#F6EB61" stroke-width="2" stroke-dasharray="4,2" marker-end="url(#arrowhead)"/>
+  <line x1="380" y1="300" x2="520" y2="320" stroke="#F6EB61" stroke-width="2" stroke-dasharray="4,2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Center pressing -->
+  <line x1="420" y1="210" x2="560" y2="210" stroke="#F6EB61" stroke-width="2" stroke-dasharray="4,2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Ball position -->
+  <circle cx="600" cy="210" r="6" fill="#FFFFFF" stroke="#F6EB61" stroke-width="1.5"/>
+  
+  <!-- Title and system info -->
+  <text x="400" y="25" font-size="18" fill="#F6EB61" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold">SLOT'S 4-2-3-1 PRESSING SYSTEM</text>
+  
+  <!-- Tactical notes -->
+  <g opacity="0.8">
+    <text x="550" y="360" font-size="11" fill="#FFFFFF" font-family="Arial, sans-serif">High Pressing</text>
+    <text x="550" y="375" font-size="11" fill="#FFFFFF" font-family="Arial, sans-serif">Trigger: Opposition</text>
+    <text x="550" y="390" font-size="11" fill="#FFFFFF" font-family="Arial, sans-serif">possession on wings</text>
+  </g>
+  
+  <!-- Legend -->
+  <rect x="80" y="360" width="8" height="8" fill="#C8102E" stroke="#FFFFFF" stroke-width="0.5"/>
+  <text x="95" y="367" font-size="10" fill="#FFFFFF" font-family="Arial, sans-serif">Defensive Shape</text>
+  
+  <rect x="80" y="378" width="8" height="8" fill="#C8102E" stroke="#F6EB61" stroke-width="1.5"/>
+  <text x="95" y="385" font-size="10" fill="#FFFFFF" font-family="Arial, sans-serif">Pressing Players</text>
+</svg>

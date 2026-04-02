@@ -1,0 +1,78 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  <circle cx="750" cy="370" r="30" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Main player silhouette - figure in motion -->
+  <g id="player-figure">
+    <!-- Head -->
+    <circle cx="250" cy="100" r="25" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="5,3"/>
+    
+    <!-- Body - red kit -->
+    <ellipse cx="250" cy="165" rx="35" ry="50" fill="#C8102E" opacity="0.8"/>
+    <path d="M 250 165 Q 280 155 295 140" fill="none" stroke="#C8102E" stroke-width="3"/>
+    
+    <!-- Arms -->
+    <line x1="215" y1="145" x2="150" y2="120" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="285" y1="145" x2="350" y2="135" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Legs -->
+    <line x1="235" y1="215" x2="220" y2="300" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="265" y1="215" x2="280" y2="300" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Jersey details -->
+    <line x1="230" y1="150" x2="270" y2="150" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+    <path d="M 250 160 L 250 200" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+  </g>
+  
+  <!-- Departure arrow - pointing right and outward -->
+  <g id="exit-arrow">
+    <defs>
+      <marker id="arrowhead-gold" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+        <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+      </marker>
+      <marker id="arrowhead-white" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+        <polygon points="0 0, 10 3, 0 6" fill="#FFFFFF"/>
+      </marker>
+    </defs>
+    
+    <!-- Curved exit arrow -->
+    <path d="M 380 170 Q 500 120 600 140" fill="none" stroke="#F6EB61" stroke-width="4" stroke-dasharray="8,4" marker-end="url(#arrowhead-gold)"/>
+    
+    <!-- Secondary arrow indication -->
+    <path d="M 380 190 Q 480 220 580 240" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="5,3" marker-end="url(#arrowhead-white)" opacity="0.7"/>
+  </g>
+  
+  <!-- Alternative path arrows (uncertainty) -->
+  <g id="alternative-paths" opacity="0.6">
+    <path d="M 380 160 Q 420 80 520 100" fill="none" stroke="#C8102E" stroke-width="2" stroke-dasharray="4,4"/>
+    <polygon points="520,100 530,95 525,110" fill="#C8102E"/>
+    
+    <path d="M 380 200 Q 450 280 560 300" fill="none" stroke="#C8102E" stroke-width="2" stroke-dasharray="4,4"/>
+    <polygon points="560,300 575,295 565,310" fill="#C8102E"/>
+  </g>
+  
+  <!-- Question marks - uncertainty symbols -->
+  <g id="uncertainty">
+    <text x="600" y="160" font-size="48" fill="#F6EB61" opacity="0.5" font-family="Arial, sans-serif" font-weight="bold">?</text>
+    <circle cx="605" cy="155" r="35" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.4"/>
+  </g>
+  
+  <!-- Title/Label area -->
+  <text x="400" y="380" font-size="28" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="bold" text-anchor="middle">TRANSFER DEPARTURE</text>
+  
+  <!-- Subtitle text -->
+  <text x="400" y="405" font-size="14" fill="#F6EB61" font-family="Arial, sans-serif" text-anchor="middle" opacity="0.8">Contract Situation | Potential Exit</text>
+  
+  <!-- Decorative accent lines -->
+  <line x1="100" y1="35" x2="200" y2="35" stroke="#C8102E" stroke-width="2" opacity="0.6"/>
+  <line x1="600" y1="35" x2="700" y2="35" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Liverpool FC badge suggestion - simple shield shape -->
+  <g id="badge" opacity="0.3">
+    <path d="M 700 320 L 720 320 L 720 360 Q 710 375 700 375 Q 690 375 680 360 L 680 320 Z" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+</svg>
