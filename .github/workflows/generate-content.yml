@@ -2,15 +2,8 @@ name: Generate Liverpool Lookout Content
 
 on:
   schedule:
-    - cron: "0 6 * * *"
     - cron: "0 8 * * *"
-    - cron: "0 10 * * *"
-    - cron: "0 12 * * *"
-    - cron: "0 14 * * *"
-    - cron: "0 16 * * *"
-    - cron: "0 18 * * *"
-    - cron: "0 20 * * *"
-    - cron: "0 22 * * *"
+    - cron: "0 17 * * *"
   workflow_dispatch:
 
 jobs:
@@ -67,7 +60,7 @@ jobs:
         run: |
           git config --local user.email "bot@liverpool-lookout.com"
           git config --local user.name "Liverpool Lookout Bot"
-                      git add site/content/posts/ site/static/images/
+          git add site/content/posts/ site/static/images/
           if git diff --staged --quiet; then
             echo "No new articles to commit."
           else
