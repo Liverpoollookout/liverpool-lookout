@@ -29,26 +29,13 @@ IMAGES_DIR = "site/static/images/articles"
 # IMPORTANT: Trent Alexander-Arnold left for Real Madrid in summer 2024.
 # Do NOT include departed players here.
 KEY_PLAYERS = [
-    "Mohamed Salah",
-    "Virgil van Dijk",
-    "Alisson Becker",
-    "Dominik Szoboszlai",
-    "Darwin Nunez",
-    "Luis Diaz",
-    "Ryan Gravenberch",
-    "Alexis Mac Allister",
-    "Cody Gakpo",
-    "Joe Gomez",
-    "Ibrahima Konate",
-    "Harvey Elliott",
-    "Jarell Quansah",
-    "Caoimhin Kelleher",
-    "Federico Chiesa",
-    "Konstantinos Tsimikas",
-    "Conor Bradley",
-    "Curtis Jones",
-    "Wataru Endo",
-    "Diogo Jota"
+    "Mohamed Salah", "Virgil van Dijk", "Alisson Becker",
+    "Dominik Szoboszlai", "Darwin Nunez", "Luis Diaz",
+    "Ryan Gravenberch", "Alexis Mac Allister", "Cody Gakpo",
+    "Joe Gomez", "Ibrahima Konate", "Harvey Elliott",
+    "Jarell Quansah", "Caoimhin Kelleher", "Federico Chiesa",
+    "Konstantinos Tsimikas", "Conor Bradley", "Curtis Jones",
+    "Wataru Endo", "Diogo Jota"
 ]
 
 # Players who have LEFT Liverpool - NEVER write about them as current squad members
@@ -65,9 +52,9 @@ DEPARTED_PLAYERS = [
 ]
 
 ARTICLE_TYPES = [
-    "match_preview", "match_report", "player_spotlight", "transfer_news",
-    "tactical_analysis", "stats_analysis", "team_news", "historical",
-    "opinion", "youth_academy"
+    "match_preview", "match_report", "player_spotlight",
+    "transfer_news", "tactical_analysis", "stats_analysis",
+    "team_news", "historical", "opinion", "youth_academy"
 ]
 
 CATEGORIES = {
@@ -133,6 +120,7 @@ def _svg_academy():
 def _svg_default():
     return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#C8102E" rx="8"/><text x="400" y="210" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="42" font-weight="900" fill="white">LFC</text><text x="400" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="4">LIVERPOOL LOOKOUT</text></svg>'
 
+
 # DATA FETCHING
 def fetch_json(url, fallback=None):
     try:
@@ -184,6 +172,7 @@ def get_existing_slugs():
 def date_slug_prefix():
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
+
 # ARTICLE PROMPTS
 BASE_INSTRUCTIONS = """
 You are a professional football journalist specialising in Liverpool FC for LiverpoolLookout.com.
@@ -200,16 +189,13 @@ PROMPTS = {
     "match_preview": lambda ctx: f"""{BASE_INSTRUCTIONS}
 Write a Liverpool FC MATCH PREVIEW article (650-850 words).
 Context data: {json.dumps(ctx, indent=2)}
-Cover: expected lineups, key battles, tactical approach, recent form, prediction.
-Make the headline compelling and include both team names.
-End with a confident prediction section.
+Cover: expected lineups, key battles, tactical approach, recent form, prediction. Make the headline compelling and include both team names. End with a confident prediction section.
 Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Match Previews"}}
 """,
     "match_report": lambda ctx: f"""{BASE_INSTRUCTIONS}
 Write a Liverpool FC MATCH REPORT article (750-950 words).
 Context data: {json.dumps(ctx, indent=2)}
-Cover: match narrative, key moments, goals, standout performers, manager reaction tone.
-Include a "## Player Ratings" section (1-10) at the end.
+Cover: match narrative, key moments, goals, standout performers, manager reaction tone. Include a "## Player Ratings" section (1-10) at the end.
 Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Match Reports"}}
 """,
     "player_spotlight": lambda ctx: f"""{BASE_INSTRUCTIONS}
@@ -222,22 +208,19 @@ Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpo
     "transfer_news": lambda ctx: f"""{BASE_INSTRUCTIONS}
 Write a Liverpool FC TRANSFER NEWS article (550-750 words).
 Context data: {json.dumps(ctx, indent=2)}
-Cover: potential targets, reported links, likely fees (use "reported" language), how they would fit at Anfield.
-Be responsible - clearly label rumours vs confirmed news.
+Cover: potential targets, reported links, likely fees (use "reported" language), how they would fit at Anfield. Be responsible - clearly label rumours vs confirmed news.
 Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Transfer News"}}
 """,
     "tactical_analysis": lambda ctx: f"""{BASE_INSTRUCTIONS}
 Write a Liverpool FC TACTICAL ANALYSIS article (750-950 words).
 Context data: {json.dumps(ctx, indent=2)}
-Cover: Arne Slot's system (4-2-3-1 / 4-3-3 hybrid), pressing triggers, build-up patterns, set-piece routines.
-Use proper tactical terminology.
+Cover: Arne Slot's system (4-2-3-1 / 4-3-3 hybrid), pressing triggers, build-up patterns, set-piece routines. Use proper tactical terminology.
 Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Tactical Analysis"}}
 """,
     "stats_analysis": lambda ctx: f"""{BASE_INSTRUCTIONS}
 Write a Liverpool FC STATS AND DATA article (650-850 words).
 Context data: {json.dumps(ctx, indent=2)}
-Focus on one statistical theme. Use plausible, contextually appropriate statistics.
-Clearly present stats in markdown tables where appropriate.
+Focus on one statistical theme. Use plausible, contextually appropriate statistics. Clearly present stats in markdown tables where appropriate.
 Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Stats & Data"}}
 """,
     "team_news": lambda ctx: f"""{BASE_INSTRUCTIONS}
@@ -255,8 +238,7 @@ Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpo
     "opinion": lambda ctx: f"""{BASE_INSTRUCTIONS}
 Write an OPINION COLUMN article about Liverpool FC (600-800 words).
 Context data: {json.dumps(ctx, indent=2)}
-Take a clear, well-argued stance on a topical Liverpool FC debate.
-Structure: hook intro, argument, counter-argument, your verdict.
+Take a clear, well-argued stance on a topical Liverpool FC debate. Structure: hook intro, argument, counter-argument, your verdict.
 Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpool' or player surname)", "title": "...", "meta_description": "...(max 155 chars, LFC-specific)", "keywords": ["lfc-kw1","kw2","kw3","kw4","kw5"], "content": "...markdown...", "tags": ["tag1","tag2","tag3","tag4","tag5"], "category": "Opinion"}}
 """,
     "youth_academy": lambda ctx: f"""{BASE_INSTRUCTIONS}
@@ -267,17 +249,17 @@ Return ONLY valid JSON: {{"meta_title": "...(max 60 chars, must include 'Liverpo
 """,
 }
 
-# GENERATION
 
+# GENERATION - with rate limit retry logic
 def generate_illustration(client, article_type, context, slug):
     """Generate a unique SVG sketch illustration of the player/subject for this article."""
     if not client:
         return None
     subject = context.get("player", context.get("focus", "Liverpool FC"))
-    # Build a descriptive subject string
     if isinstance(subject, list):
         subject = subject[0] if subject else "Liverpool FC"
     subject = str(subject)[:80]
+
     prompt = (
         "You are an SVG illustrator. Create a stylised sketch/drawing illustration for a Liverpool FC blog post.\n\n"
         f"Subject: {subject}\n"
@@ -296,17 +278,13 @@ def generate_illustration(client, article_type, context, slug):
         "- Add class=\"article-svg\" to the svg element\n"
         "- Return only raw SVG starting with <svg and ending with </svg>"
     )
+
     try:
-        message = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=3000,
-            messages=[{"role": "user", "content": prompt}]
-        )
+        message = api_call_with_retry(client, "claude-haiku-4-5-20251001", 3000, prompt)
         raw = message.content[0].text.strip()
         raw = re.sub(r"^```(?:svg|xml|html)?\s*", "", raw, flags=re.MULTILINE)
         raw = re.sub(r"\s*```$", "", raw, flags=re.MULTILINE)
         raw = raw.strip()
-        # Sanitize XML entities - replace bare & with &amp; to prevent invalid SVG
         raw = re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)', '&amp;', raw)
         if not raw.startswith("<svg"):
             m = re.search(r"(<svg[\s\S]*?</svg>)", raw)
@@ -321,19 +299,43 @@ def generate_illustration(client, article_type, context, slug):
     except Exception as e:
         print("  Warning: illustration failed: " + str(e))
         return None
+
+
+def api_call_with_retry(client, model, max_tokens, prompt, max_retries=5):
+    """Call the Anthropic API with exponential backoff on rate limit errors."""
+    for attempt in range(max_retries):
+        try:
+            return client.messages.create(
+                model=model,
+                max_tokens=max_tokens,
+                messages=[{"role": "user", "content": prompt}]
+            )
+        except anthropic.RateLimitError as e:
+            if attempt == max_retries - 1:
+                raise
+            wait = (2 ** attempt) * 10  # 10s, 20s, 40s, 80s
+            print(f"  Rate limit hit. Waiting {wait}s before retry {attempt + 2}/{max_retries}...")
+            time.sleep(wait)
+        except anthropic.APIStatusError as e:
+            if e.status_code == 529 and attempt < max_retries - 1:
+                # API overloaded
+                wait = (2 ** attempt) * 15
+                print(f"  API overloaded. Waiting {wait}s before retry {attempt + 2}/{max_retries}...")
+                time.sleep(wait)
+            else:
+                raise
+
+
 def generate_article(client, article_type, context):
     prompt_fn = PROMPTS.get(article_type, PROMPTS["team_news"])
     prompt = prompt_fn(context)
-    message = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=2000,
-        messages=[{"role": "user", "content": prompt}]
-    )
+    message = api_call_with_retry(client, "claude-haiku-4-5-20251001", 2000, prompt)
     raw = message.content[0].text.strip()
     raw = re.sub(r"^```json\s*", "", raw, flags=re.MULTILINE)
     raw = re.sub(r"\s*```$", "", raw, flags=re.MULTILINE)
     raw = raw.strip()
     return json.loads(raw)
+
 
 def save_article(article, article_type, existing_slugs, client=None, context=None):
     now = datetime.now(timezone.utc)
@@ -347,8 +349,9 @@ def save_article(article, article_type, existing_slugs, client=None, context=Non
     existing_slugs.add(slug)
     filename = f"{slug}.md"
     filepath = os.path.join(CONTENT_DIR, filename)
-    # Generate unique illustration for this article
+
     image_path = generate_illustration(client, article_type, context or {}, slug) if client else None
+
     tags = article.get("tags", ["Liverpool FC", "LFC", "Premier League"])
     category = article.get("category", "News")
     meta_title = article.get("meta_title", title)[:60]
@@ -356,9 +359,11 @@ def save_article(article, article_type, existing_slugs, client=None, context=Non
     keywords = article.get("keywords", ["Liverpool FC", "LFC", "Premier League", "Anfield", "Arne Slot"])
     content_body = article.get("content", "")
     svg_content = get_animated_svg(article_type, title)
+
     tags_yaml = "\n".join(f'  - "{t}"' for t in tags)
     keywords_yaml = "\n".join(f'  - "{k}"' for k in keywords)
     image_fm = ('\nimage: "' + image_path + '"') if image_path else ""
+
     frontmatter = f"""---
 title: "{title.replace(chr(34), chr(39))}"
 meta_title: "{meta_title.replace(chr(34), chr(39))}"
@@ -377,17 +382,21 @@ sitemap:
   priority: 0.8
 ---
 """
+
     if image_path:
         illustration_html = f'\n<div class="article-illustration">\n<img src="{image_path}" alt="{title}" class="article-svg" loading="eager">\n</div>\n\n'
     else:
         illustration_html = f'\n<div class="article-illustration">\n{svg_content}\n</div>\n\n'
+
     full_content = frontmatter + illustration_html + content_body
+
     os.makedirs(CONTENT_DIR, exist_ok=True)
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(full_content)
     return filename
 
-# ARTICLE PLAN
+
+# ARTICLE PLAN - FIX: now returns all 10 articles per run
 def build_article_plan(fixtures, results, headlines):
     base = {
         "team": TEAM_NAME,
@@ -400,47 +409,92 @@ def build_article_plan(fixtures, results, headlines):
         "today": datetime.now(timezone.utc).strftime("%d %B %Y"),
         "day_of_week": datetime.now(timezone.utc).strftime("%A"),
     }
+
     next_match = fixtures[0] if fixtures else {}
     last_result = results[0] if results else {}
     recent_results = results[:3] if results else []
+
     players_pool = KEY_PLAYERS.copy()
     random.shuffle(players_pool)
 
-    # Full pool of Liverpool-specific article types
+    # Full pool of Liverpool-specific article types (12 total)
     all_articles = [
-        ("match_preview", {**base, "next_match": next_match, "recent_form": recent_results, "focus": "detailed Liverpool FC match preview with lineup predictions, key player battles and Slot's tactical approach"}),
-        ("match_report", {**base, "last_result": last_result, "recent_results": recent_results, "focus": "Liverpool FC match report - player ratings, key moments, Slot tactical decisions"}),
-        ("player_spotlight", {**base, "player": players_pool[0], "recent_results": recent_results, "focus": "current season form, statistics and contribution to Liverpool FC"}),
-        ("player_spotlight", {**base, "player": players_pool[1], "focus": "role in Liverpool FC system, strengths, areas for improvement this season"}),
-        ("transfer_news", {**base, "focus": "Liverpool FC transfer targets - specific player links to Anfield, fee estimates, likelihood", "rumour_tier": "Tier 1-2 links from credible sources"}),
-        ("transfer_news", {**base, "focus": "Liverpool FC transfer rumours - outgoings, contract situations, potential departures from Anfield", "rumour_tier": "Tier 2 links"}),
-        ("tactical_analysis", {**base, "recent_results": recent_results, "focus": "Liverpool FC tactical breakdown - Slot 4-2-3-1 or 4-3-3 system, pressing triggers, build-up patterns, set pieces"}),
-        ("stats_analysis", {**base, "focus": "Liverpool FC player statistics deep dive", "metric_theme": random.choice(["Salah goal contributions vs Premier League top scorers", "Liverpool xG and xGA vs top 6", "Gravenberch progressive passes and ball recoveries", "Liverpool pressing intensity and PPDA stats", "Van Dijk aerial duels and clearances", "Liverpool goals from set pieces this season", "Szoboszlai shot-creating actions and key passes"])}),
-        ("team_news", {**base, "upcoming": next_match, "focus": "Liverpool FC injury and fitness update - availability for next fixture, expected return dates, Slot press conference hints"}),
-        ("historical", {**base, "focus": "famous Liverpool FC moment, legendary player or iconic match from Anfield history", "era_hint": random.choice(["Shankly era (1959-74)", "Paisley golden age (1974-83)", "Dalglish era", "Gerrard years (2000s)", "Klopp era (2015-2024)", "Slot's debut season (2024-25)"])}),
-        ("opinion", {**base, "last_result": last_result, "topic": random.choice(["Why Salah is irreplaceable for Liverpool FC", "Is Slot already better than Klopp?", "Liverpool's must-have summer transfer priorities", "Why Van Dijk deserves the Ballon d'Or vote", "Liverpool's title credentials - a realistic assessment", "The academy player ready for Slot's first team"])}),
-        ("youth_academy", {**base, "focus": "Liverpool FC Academy graduate scouting report and first-team potential", "player_hint": random.choice(["Ben Doak", "Bobby Clark", "Luke Chambers", "James McConnell", "Trey Nyoni"])}),
+        ("match_preview", {**base, "next_match": next_match, "recent_form": recent_results,
+            "focus": "detailed Liverpool FC match preview with lineup predictions, key player battles and Slot's tactical approach"}),
+        ("match_report", {**base, "last_result": last_result, "recent_results": recent_results,
+            "focus": "Liverpool FC match report - player ratings, key moments, Slot tactical decisions"}),
+        ("player_spotlight", {**base, "player": players_pool[0], "recent_results": recent_results,
+            "focus": "current season form, statistics and contribution to Liverpool FC"}),
+        ("player_spotlight", {**base, "player": players_pool[1],
+            "focus": "role in Liverpool FC system, strengths, areas for improvement this season"}),
+        ("transfer_news", {**base,
+            "focus": "Liverpool FC transfer targets - specific player links to Anfield, fee estimates, likelihood",
+            "rumour_tier": "Tier 1-2 links from credible sources"}),
+        ("transfer_news", {**base,
+            "focus": "Liverpool FC transfer rumours - outgoings, contract situations, potential departures from Anfield",
+            "rumour_tier": "Tier 2 links"}),
+        ("tactical_analysis", {**base, "recent_results": recent_results,
+            "focus": "Liverpool FC tactical breakdown - Slot 4-2-3-1 or 4-3-3 system, pressing triggers, build-up patterns, set pieces"}),
+        ("stats_analysis", {**base,
+            "focus": "Liverpool FC player statistics deep dive",
+            "metric_theme": random.choice([
+                "Salah goal contributions vs Premier League top scorers",
+                "Liverpool xG and xGA vs top 6",
+                "Gravenberch progressive passes and ball recoveries",
+                "Liverpool pressing intensity and PPDA stats",
+                "Van Dijk aerial duels and clearances",
+                "Liverpool goals from set pieces this season",
+                "Szoboszlai shot-creating actions and key passes"
+            ])}),
+        ("team_news", {**base, "upcoming": next_match,
+            "focus": "Liverpool FC injury and fitness update - availability for next fixture, expected return dates, Slot press conference hints"}),
+        ("historical", {**base,
+            "focus": "famous Liverpool FC moment, legendary player or iconic match from Anfield history",
+            "era_hint": random.choice([
+                "Shankly era (1959-74)", "Paisley golden age (1974-83)", "Dalglish era",
+                "Gerrard years (2000s)", "Klopp era (2015-2024)", "Slot's debut season (2024-25)"
+            ])}),
+        ("opinion", {**base, "last_result": last_result,
+            "topic": random.choice([
+                "Why Salah is irreplaceable for Liverpool FC",
+                "Is Slot already better than Klopp?",
+                "Liverpool's must-have summer transfer priorities",
+                "Why Van Dijk deserves the Ballon d'Or vote",
+                "Liverpool's title credentials - a realistic assessment",
+                "The academy player ready for Slot's first team"
+            ])}),
+        ("youth_academy", {**base,
+            "focus": "Liverpool FC Academy graduate scouting report and first-team potential",
+            "player_hint": random.choice(["Ben Doak", "Bobby Clark", "Luke Chambers", "James McConnell", "Trey Nyoni"])}),
     ]
-    # Always include a match_report; fill remaining 2 slots from shuffled pool
+
+    # Shuffle non-essential articles, keep match_report first, return all 10
     match_reports = [a for a in all_articles if a[0] == "match_report"]
     other_articles = [a for a in all_articles if a[0] != "match_report"]
     random.shuffle(other_articles)
-    return match_reports[:1] + other_articles[:2]
+    # Return 1 match_report + 9 others = 10 total
+    return match_reports[:1] + other_articles[:9]
+
 
 def main():
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         print("ERROR: ANTHROPIC_API_KEY environment variable is not set.")
         sys.exit(1)
+
     client = anthropic.Anthropic(api_key=api_key)
+
     print("Fetching Liverpool FC data from TheSportsDB...")
     fixtures = fetch_fixtures()
     results = fetch_last_results()
     headlines = fetch_lfc_news_rss()
     print(f"  {len(fixtures)} upcoming fixtures, {len(results)} recent results, {len(headlines)} headlines")
+
     plan = build_article_plan(fixtures, results, headlines)
     existing_slugs = get_existing_slugs()
     print(f"  {len(existing_slugs)} existing articles found")
+    print(f"  Generating {len(plan)} articles this run...")
+
     generated, errors = 0, 0
     for i, (article_type, context) in enumerate(plan, 1):
         print(f"[{i}/{len(plan)}] Generating {article_type}...")
@@ -449,16 +503,21 @@ def main():
             filename = save_article(article, article_type, existing_slugs, client=client, context=context)
             print(f"  Saved: {filename}")
             generated += 1
-            time.sleep(1.5)
+            if i < len(plan):
+                time.sleep(2)  # polite delay between articles
         except json.JSONDecodeError as e:
             print(f"  JSON parse error: {e}")
             errors += 1
         except Exception as e:
             print(f"  Error: {e}")
             errors += 1
+
+    print("=" * 50)
     print(f"Generated: {generated} | Errors: {errors}")
+    print("=" * 50)
     if generated == 0:
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()
