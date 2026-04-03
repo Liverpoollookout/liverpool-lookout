@@ -1,0 +1,64 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative pitch lines -->
+  <line x1="400" y1="0" x2="400" y2="420" stroke="#F6EB61" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#F6EB61" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Left player silhouette (Anfield) -->
+  <g opacity="0.7">
+    <!-- Head -->
+    <circle cx="150" cy="100" r="25" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+    <!-- Body -->
+    <rect x="135" y="130" width="30" height="60" fill="#C8102E" stroke="#FFFFFF" stroke-width="2" rx="5"/>
+    <!-- Arms -->
+    <line x1="135" y1="145" x2="100" y2="120" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="165" y1="145" x2="200" y2="120" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="140" y1="190" x2="130" y2="250" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="160" y1="190" x2="170" y2="250" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Right player silhouette (Target) -->
+  <g opacity="0.7">
+    <!-- Head -->
+    <circle cx="650" cy="100" r="25" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+    <!-- Body -->
+    <rect x="635" y="130" width="30" height="60" fill="#C8102E" stroke="#FFFFFF" stroke-width="2" rx="5"/>
+    <!-- Arms -->
+    <line x1="635" y1="145" x2="600" y2="120" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="665" y1="145" x2="700" y2="120" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="640" y1="190" x2="630" y2="250" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="660" y1="190" x2="670" y2="250" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Transfer arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Main directional arrow -->
+  <path d="M 250 150 Q 400 80 550 150" stroke="#F6EB61" stroke-width="4" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="8,4"/>
+  
+  <!-- Accent arrow -->
+  <path d="M 280 200 L 520 200" stroke="#FFFFFF" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.6"/>
+  
+  <!-- Fee box -->
+  <rect x="320" y="280" width="160" height="80" fill="none" stroke="#F6EB61" stroke-width="2" rx="8"/>
+  <text x="400" y="310" font-size="18" font-weight="bold" fill="#F6EB61" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">TRANSFER</text>
+  <text x="400" y="335" font-size="14" fill="#FFFFFF" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">TARGET</text>
+  <text x="400" y="355" font-size="12" fill="#FFFFFF" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Fee Estimate</text>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">TRANSFER NEWS</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="350" r="4" fill="#F6EB61"/>
+  <circle cx="700" cy="350" r="4" fill="#F6EB61"/>
+  <circle cx="150" cy="380" r="3" fill="#C8102E" opacity="0.6"/>
+  <circle cx="650" cy="380" r="3" fill="#C8102E" opacity="0.6"/>
+</svg>

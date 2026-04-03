@@ -1,0 +1,61 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Anfield pitch outline -->
+  <rect x="80" y="40" width="640" height="340" fill="none" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#F6EB61" stroke-width="1" opacity="0.4"/>
+  <circle cx="400" cy="210" r="50" fill="none" stroke="#F6EB61" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Sketched player figure - Kenny Dalglish iconic pose -->
+  <g id="player">
+    <!-- Head -->
+    <circle cx="320" cy="100" r="22" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Hair sketch -->
+    <path d="M 305 90 Q 310 75 320 75 Q 330 75 335 90" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.7"/>
+    
+    <!-- Body - Liverpool kit -->
+    <ellipse cx="320" cy="150" rx="28" ry="40" fill="#C8102E" opacity="0.8" stroke="#C8102E" stroke-width="2"/>
+    <!-- White shirt stripe -->
+    <rect x="310" y="135" width="20" height="50" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+    
+    <!-- Left arm extended (ball control) -->
+    <path d="M 300 140 L 250 130 L 240 145" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Right arm -->
+    <path d="M 340 140 L 370 150" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Shorts -->
+    <rect x="305" y="185" width="30" height="25" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5"/>
+    
+    <!-- Left leg in stride -->
+    <path d="M 310 210 L 300 280 L 305 310" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Right leg -->
+    <path d="M 330 210 L 340 290 L 345 320" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Football -->
+    <circle cx="235" cy="120" r="8" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M 228 120 L 242 120" stroke="#FFFFFF" stroke-width="1"/>
+  </g>
+  
+  <!-- Kop stand silhouette -->
+  <g id="kop-stand" opacity="0.3">
+    <polygon points="100,380 150,280 200,260 250,270 300,250 350,260 400,240 450,260 500,250 550,270 600,260 650,280 700,380" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Shout/energy lines -->
+  <path d="M 240 60 Q 230 45 220 35" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 250 55 Q 245 40 240 30" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 260 58 Q 260 42 258 28" fill="none" stroke="#F6EB61" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Subject name text -->
+  <text x="400" y="380" font-size="36" font-weight="bold" text-anchor="middle" fill="#F6EB61" font-family="serif" letter-spacing="2">KENNY DALGLISH</text>
+  
+  <!-- Decorative stars -->
+  <polygon points="550,60 555,75 571,75 558,85 563,100 550,90 537,100 542,85 529,75 545,75" fill="#F6EB61" opacity="0.5"/>
+  <polygon points="650,320 654,330 665,330 656,337 659,347 650,340 641,347 644,337 635,330 646,330" fill="#F6EB61" opacity="0.4"/>
+  
+  <!-- Year/era indicator -->
+  <text x="80" y="35" font-size="14" fill="#FFFFFF" opacity="0.7" font-family="sans-serif">1977-1990</text>
+</svg>

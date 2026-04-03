@@ -1,0 +1,97 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline -->
+  <rect x="80" y="60" width="640" height="300" fill="none" stroke="#2d5a3d" stroke-width="2"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="60" x2="400" y2="360" stroke="#2d5a3d" stroke-width="1.5" stroke-dasharray="4,4"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="45" fill="none" stroke="#2d5a3d" stroke-width="1.5"/>
+  
+  <!-- Center spot -->
+  <circle cx="400" cy="210" r="3" fill="#2d5a3d"/>
+  
+  <!-- Left penalty area -->
+  <rect x="80" y="130" width="90" height="160" fill="none" stroke="#2d5a3d" stroke-width="1.5"/>
+  
+  <!-- Right penalty area -->
+  <rect x="630" y="130" width="90" height="160" fill="none" stroke="#2d5a3d" stroke-width="1.5"/>
+  
+  <!-- Left goal area -->
+  <rect x="80" y="160" width="50" height="100" fill="none" stroke="#2d5a3d" stroke-width="1.5"/>
+  
+  <!-- Right goal area -->
+  <rect x="670" y="160" width="50" height="100" fill="none" stroke="#2d5a3d" stroke-width="1.5"/>
+  
+  <!-- Sketched player figure 1 - Left side (Slot's influence) -->
+  <g transform="translate(200, 150)">
+    <!-- Head -->
+    <circle cx="0" cy="-25" r="8" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Body -->
+    <path d="M 0 -17 L 0 15" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+    <!-- Arms -->
+    <path d="M -8 0 L 8 0" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+    <!-- Legs -->
+    <path d="M -6 15 L -6 32" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+    <path d="M 6 15 L 6 32" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+  </g>
+  
+  <!-- Sketched player figure 2 - Center (Key moment) -->
+  <g transform="translate(400, 140)">
+    <!-- Head -->
+    <circle cx="0" cy="-25" r="8" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Body -->
+    <path d="M 0 -17 L 0 15" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+    <!-- Arms raised (celebrating) -->
+    <path d="M -10 -5 L -15 -20" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+    <path d="M 10 -5 L 15 -20" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+    <!-- Legs -->
+    <path d="M -6 15 L -4 32" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+    <path d="M 6 15 L 8 32" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+  </g>
+  
+  <!-- Sketched player figure 3 - Right side -->
+  <g transform="translate(600, 170)">
+    <!-- Head -->
+    <circle cx="0" cy="-25" r="8" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <!-- Body -->
+    <path d="M 0 -17 L 0 15" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+    <!-- Arms -->
+    <path d="M -8 0 L 8 0" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+    <!-- Legs -->
+    <path d="M -6 15 L -6 32" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+    <path d="M 6 15 L 6 32" stroke="#C8102E" stroke-width="2.5" fill="none"/>
+  </g>
+  
+  <!-- Tactical arrows showing movement -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Attacking arrow -->
+  <path d="M 300 220 Q 350 200 400 190" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.8"/>
+  
+  <!-- Defensive positioning arrow -->
+  <path d="M 500 240 Q 550 220 600 210" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)" opacity="0.8"/>
+  
+  <!-- Title text -->
+  <text x="400" y="390" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#C8102E" text-anchor="middle" stroke="#FFFFFF" stroke-width="0.3">
+    MATCH REPORT
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="14" fill="#F6EB61" text-anchor="middle">
+    Player Ratings • Slot Tactics • Key Moments
+  </text>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="100" cy="40" r="3" fill="#F6EB61" opacity="0.6"/>
+  <circle cx="700" cy="40" r="3" fill="#F6EB61" opacity="0.6"/>
+  <circle cx="100" cy="380" r="3" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="700" cy="380" r="3" fill="#FFFFFF" opacity="0.4"/>
+</svg>

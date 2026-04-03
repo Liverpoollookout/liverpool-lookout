@@ -1,0 +1,96 @@
+<svg viewBox="0 0 800 420" class="article-svg" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Sketch style grid/pitch lines -->
+  <g stroke="#F6EB61" stroke-width="1" opacity="0.2" stroke-dasharray="5,5">
+    <line x1="0" y1="210" x2="800" y2="210"/>
+    <line x1="400" y1="0" x2="400" y2="420"/>
+    <circle cx="400" cy="210" r="40" fill="none"/>
+  </g>
+  
+  <!-- Title background -->
+  <rect x="50" y="20" width="700" height="80" fill="#C8102E" opacity="0.15" rx="10"/>
+  
+  <!-- Main title text -->
+  <text x="400" y="55" font-family="sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">
+    INJURY UPDATE
+  </text>
+  <text x="400" y="90" font-family="sans-serif" font-size="24" fill="#F6EB61" text-anchor="middle">
+    Fitness Report
+  </text>
+  
+  <!-- Sketched player figure left side -->
+  <g opacity="0.9">
+    <!-- Head -->
+    <circle cx="150" cy="150" r="30" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <!-- Body in red -->
+    <rect x="135" y="185" width="30" height="50" fill="none" stroke="#C8102E" stroke-width="2.5" rx="3"/>
+    <!-- Arms -->
+    <line x1="135" y1="200" x2="100" y2="220" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <line x1="165" y1="200" x2="200" y2="220" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="140" y1="235" x2="130" y2="300" stroke="#0a1628" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="160" y1="235" x2="170" y2="300" stroke="#0a1628" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Feet -->
+    <line x1="130" y1="300" x2="110" y2="310" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <line x1="170" y1="300" x2="190" y2="310" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Health status indicators -->
+  <g>
+    <!-- Available section -->
+    <rect x="280" y="140" width="200" height="100" fill="none" stroke="#F6EB61" stroke-width="2" rx="8" stroke-dasharray="8,4"/>
+    <circle cx="385" cy="160" r="8" fill="#90EE90"/>
+    <text x="300" y="165" font-family="sans-serif" font-size="16" font-weight="bold" fill="#F6EB61">
+      AVAILABLE
+    </text>
+    <text x="300" y="190" font-family="sans-serif" font-size="13" fill="#FFFFFF" opacity="0.8">
+      Ready for Selection
+    </text>
+    <text x="300" y="210" font-family="sans-serif" font-size="13" fill="#FFFFFF" opacity="0.8">
+      Next Fixture
+    </text>
+  </g>
+  
+  <!-- Monitoring section -->
+  <g>
+    <rect x="520" y="140" width="200" height="100" fill="none" stroke="#C8102E" stroke-width="2" rx="8" stroke-dasharray="8,4"/>
+    <circle cx="625" cy="160" r="8" fill="#FFD700"/>
+    <text x="540" y="165" font-family="sans-serif" font-size="16" font-weight="bold" fill="#C8102E">
+      MONITORING
+    </text>
+    <text x="540" y="190" font-family="sans-serif" font-size="13" fill="#FFFFFF" opacity="0.8">
+      Being Assessed
+    </text>
+    <text x="540" y="210" font-family="sans-serif" font-size="13" fill="#FFFFFF" opacity="0.8">
+      Latest Status
+    </text>
+  </g>
+  
+  <!-- Recovery timeline -->
+  <g opacity="0.7">
+    <line x1="100" y1="310" x2="700" y2="310" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <circle cx="100" cy="310" r="6" fill="#C8102E"/>
+    <circle cx="300" cy="310" r="6" fill="#F6EB61"/>
+    <circle cx="500" cy="310" r="6" fill="#90EE90"/>
+    <circle cx="700" cy="310" r="6" fill="#90EE90"/>
+    
+    <text x="100" y="340" font-family="sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Injury</text>
+    <text x="300" y="340" font-family="sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Rehab</text>
+    <text x="500" y="340" font-family="sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Training</text>
+    <text x="700" y="340" font-family="sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Match</text>
+  </g>
+  
+  <!-- Medical cross accent -->
+  <g opacity="0.3">
+    <line x1="60" y1="360" x2="80" y2="380" stroke="#C8102E" stroke-width="2"/>
+    <line x1="80" y1="360" x2="60" y2="380" stroke="#C8102E" stroke-width="2"/>
+  </g>
+  
+  <!-- Footer badge -->
+  <circle cx="750" cy="380" r="25" fill="#C8102E" opacity="0.6"/>
+  <text x="750" y="387" font-family="sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    LFC
+  </text>
+</svg>

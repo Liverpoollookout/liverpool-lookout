@@ -1,0 +1,108 @@
+<svg viewBox="0 0 800 420" class="article-svg" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Pitch outline -->
+  <rect x="80" y="40" width="640" height="340" fill="#1a472a" stroke="#FFFFFF" stroke-width="2" opacity="0.8"/>
+  
+  <!-- Center line -->
+  <line x1="400" y1="40" x2="400" y2="380" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="210" r="60" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Center spot -->
+  <circle cx="400" cy="210" r="4" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- Penalty areas -->
+  <rect x="80" y="110" width="100" height="200" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.4"/>
+  <rect x="620" y="110" width="100" height="200" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Goal areas -->
+  <rect x="80" y="150" width="50" height="120" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+  <rect x="670" y="150" width="50" height="120" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- 4-2-3-1 Formation - Liverpool (Left side, attacking right) -->
+  <!-- Goalkeeper -->
+  <circle cx="120" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="120" y="215" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="bold">GK</text>
+  
+  <!-- Defenders (4) -->
+  <!-- Left Back -->
+  <circle cx="200" cy="140" r="14" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="200" y="215" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="bold" y="145">LB</text>
+  
+  <!-- Center Back 1 -->
+  <circle cx="200" cy="210" r="14" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="200" y="215" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="bold">CB</text>
+  
+  <!-- Center Back 2 -->
+  <circle cx="200" cy="280" r="14" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="200" y="285" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="bold">CB</text>
+  
+  <!-- Right Back -->
+  <circle cx="240" cy="140" r="14" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="240" y="145" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="bold">RB</text>
+  
+  <!-- Midfielders (2 - Defensive) -->
+  <!-- Left DM -->
+  <circle cx="310" cy="160" r="13" fill="#C8102E" stroke="#F6EB61" stroke-width="2.5"/>
+  <text x="310" y="165" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="bold">DM</text>
+  
+  <!-- Right DM -->
+  <circle cx="310" cy="260" r="13" fill="#C8102E" stroke="#F6EB61" stroke-width="2.5"/>
+  <text x="310" y="265" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="bold">DM</text>
+  
+  <!-- Attacking Midfielders (3) -->
+  <!-- Left AM -->
+  <circle cx="380" cy="120" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="380" y="125" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="bold">AM</text>
+  
+  <!-- Center AM -->
+  <circle cx="380" cy="210" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="380" y="215" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="bold">CAM</text>
+  
+  <!-- Right AM -->
+  <circle cx="380" cy="300" r="12" fill="#C8102E" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="380" y="305" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="bold">AM</text>
+  
+  <!-- Striker -->
+  <circle cx="480" cy="210" r="14" fill="#C8102E" stroke="#FFFFFF" stroke-width="2.5"/>
+  <text x="480" y="215" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="bold">ST</text>
+  
+  <!-- Pressing trigger arrows (from DMs) -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Pressing lines from defensive midfielders -->
+  <path d="M 330 160 Q 360 180 390 200" fill="none" stroke="#F6EB61" stroke-width="2" stroke-dasharray="4,4" opacity="0.7" marker-end="url(#arrowhead)"/>
+  <path d="M 330 260 Q 360 240 390 220" fill="none" stroke="#F6EB61" stroke-width="2" stroke-dasharray="4,4" opacity="0.7" marker-end="url(#arrowhead)"/>
+  
+  <!-- Pressing trigger zone (highlighted area) -->
+  <circle cx="420" cy="210" r="80" fill="none" stroke="#F6EB61" stroke-width="1.5" stroke-dasharray="5,5" opacity="0.5"/>
+  
+  <!-- Connection lines showing defensive shape -->
+  <line x1="200" y1="140" x2="240" y2="140" stroke="#FFFFFF" stroke-width="1.5" opacity="0.4"/>
+  <line x1="200" y1="210" x2="200" y2="280" stroke="#FFFFFF" stroke-width="1.5" opacity="0.4"/>
+  <line x1="240" y1="140" x2="200" y2="280" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- Connection lines showing attacking shape -->
+  <line x1="310" y1="160" x2="380" y2="120" stroke="#FFFFFF" stroke-width="1.5" opacity="0.4"/>
+  <line x1="310" y1="160" x2="380" y2="210" stroke="#FFFFFF" stroke-width="1.5" opacity="0.4"/>
+  <line x1="310" y1="260" x2="380" y2="300" stroke="#FFFFFF" stroke-width="1.5" opacity="0.4"/>
+  <line x1="380" y1="210" x2="480" y2="210" stroke="#FFFFFF" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Title and labels -->
+  <text x="400" y="30" font-size="20" fill="#F6EB61" text-anchor="middle" font-weight="bold" font-family="Arial, sans-serif">SLOT 4-2-3-1 SYSTEM</text>
+  
+  <text x="650" y="395" font-size="13" fill="#C8102E" text-anchor="start" font-weight="bold" font-family="Arial, sans-serif">Pressing Trigger</text>
+  <line x1="650" y1="405" x2="680" y2="405" stroke="#F6EB61" stroke-width="2" stroke-dasharray="4,4"/>
+  
+  <!-- Sketch aesthetic lines -->
+  <line x1="75" y1="35" x2="85" y2="40" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+  <line x1="715" y1="35" x2="725" y2="42" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+  <line x1="75" y1="385" x2="85" y2="380" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+</svg>

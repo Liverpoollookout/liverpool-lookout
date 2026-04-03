@@ -1,0 +1,63 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Decorative sketchy border -->
+  <path d="M 20 20 L 780 20 L 780 400 L 20 400 Z" fill="none" stroke="#C8102E" stroke-width="2" opacity="0.6" stroke-dasharray="5,5"/>
+  
+  <!-- Large Liver Bird silhouette sketch style -->
+  <g opacity="0.15">
+    <circle cx="650" cy="100" r="80" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+    <path d="M 650 50 Q 670 60 680 90 Q 670 100 650 110 Q 630 100 620 90 Q 630 60 650 50" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Sketched thought bubble/opinion symbol -->
+  <circle cx="150" cy="80" r="50" fill="none" stroke="#F6EB61" stroke-width="2.5"/>
+  <circle cx="130" cy="140" r="12" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  <circle cx="110" cy="160" r="8" fill="none" stroke="#F6EB61" stroke-width="2"/>
+  
+  <!-- Central opinion/debate element -->
+  <g>
+    <!-- Left side sketch -->
+    <circle cx="200" cy="210" r="60" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+    <path d="M 170 180 L 230 240" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 230 180 L 170 240" stroke="#C8102E" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="200" cy="210" r="15" fill="none" stroke="#C8102E" stroke-width="1.5"/>
+    
+    <!-- Right side sketch -->
+    <circle cx="600" cy="210" r="60" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    <path d="M 590 190 L 610 190" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 590 210 L 610 210" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 590 230 L 610 230" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Connecting arrows showing debate -->
+    <path d="M 270 200 L 530 220" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 530 230 L 270 210" stroke="#F6EB61" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+  </g>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#F6EB61"/>
+    </marker>
+  </defs>
+  
+  <!-- Sketchy accent lines -->
+  <path d="M 50 300 Q 150 280 250 300" stroke="#C8102E" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <path d="M 550 320 Q 650 300 750 320" stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.7"/>
+  
+  <!-- Title text: "OPINION" -->
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#C8102E" text-anchor="middle" letter-spacing="2">OPINION</text>
+  
+  <!-- Subtitle: Liverpool FC -->
+  <text x="400" y="395" font-family="Arial, sans-serif" font-size="24" fill="#F6EB61" text-anchor="middle" letter-spacing="1">LIVERPOOL FC</text>
+  
+  <!-- Decorative corner sketches -->
+  <circle cx="40" cy="40" r="8" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+  <circle cx="760" cy="40" r="8" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
+  <circle cx="40" cy="380" r="8" fill="none" stroke="#C8102E" stroke-width="1.5"/>
+  <circle cx="760" cy="380" r="8" fill="none" stroke="#C8102E" stroke-width="1.5"/>
+</svg>

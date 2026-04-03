@@ -1,0 +1,97 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" class="article-svg">
+  <!-- Dark navy background -->
+  <rect width="800" height="420" fill="#0a1628"/>
+  
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a2d4d" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="420" fill="url(#grid)" opacity="0.3"/>
+  
+  <!-- Left accent stripe in gold -->
+  <line x1="0" y1="0" x2="0" y2="420" stroke="#F6EB61" stroke-width="4"/>
+  
+  <!-- Player sketch - Luis Diaz -->
+  <!-- Head -->
+  <circle cx="280" cy="90" r="28" fill="none" stroke="#C8102E" stroke-width="2.5"/>
+  
+  <!-- Hair detail -->
+  <path d="M 255 70 Q 280 55 305 70" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <path d="M 260 65 Q 280 50 300 65" fill="none" stroke="#C8102E" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Face features -->
+  <circle cx="270" cy="85" r="3" fill="#C8102E"/>
+  <circle cx="290" cy="85" r="3" fill="#C8102E"/>
+  <path d="M 275 95 Q 280 100 285 95" fill="none" stroke="#C8102E" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Neck -->
+  <line x1="275" y1="115" x2="275" y2="140" stroke="#C8102E" stroke-width="3"/>
+  
+  <!-- Liverpool kit - torso (red) -->
+  <path d="M 245 140 L 235 200 L 245 210 L 315 210 L 325 200 L 315 140 Z" fill="#C8102E" stroke="#C8102E" stroke-width="2"/>
+  
+  <!-- White shirt detail -->
+  <path d="M 275 145 L 275 205" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="275" cy="155" r="4" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Shirt collar lines -->
+  <line x1="260" y1="140" x2="250" y2="150" stroke="#C8102E" stroke-width="1.5"/>
+  <line x1="290" y1="140" x2="300" y2="150" stroke="#C8102E" stroke-width="1.5"/>
+  
+  <!-- Left arm -->
+  <path d="M 245 160 Q 190 165 170 220" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Left hand -->
+  <circle cx="165" cy="225" r="10" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <line x1="158" y1="225" x2="150" y2="220" stroke="#C8102E" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="172" y1="225" x2="180" y2="220" stroke="#C8102E" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Right arm extended (ball control) -->
+  <path d="M 315 160 Q 380 150 420 160" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Right hand -->
+  <circle cx="425" cy="160" r="9" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <line x1="425" y1="152" x2="425" y2="142" stroke="#C8102E" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Legs -->
+  <line x1="260" y1="210" x2="255" y2="290" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+  <line x1="290" y1="210" x2="300" y2="290" stroke="#C8102E" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Feet -->
+  <ellipse cx="253" cy="295" rx="12" ry="8" fill="none" stroke="#C8102E" stroke-width="2"/>
+  <ellipse cx="303" cy="295" rx="12" ry="8" fill="none" stroke="#C8102E" stroke-width="2"/>
+  
+  <!-- Football at feet -->
+  <circle cx="320" cy="305" r="15" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  <line x1="320" y1="290" x2="320" y2="320" stroke="#FFFFFF" stroke-width="1.5"/>
+  <path d="M 305 305 Q 320 315 335 305" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  
+  <!-- Dynamic motion lines -->
+  <line x1="320" y1="310" x2="350" y2="320" stroke="#F6EB61" stroke-width="2" opacity="0.7" stroke-linecap="round"/>
+  <line x1="325" y1="305" x2="360" y2="305" stroke="#F6EB61" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+  <line x1="330" y1="315" x2="370" y2="330" stroke="#F6EB61" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+  
+  <!-- Decorative elements -->
+  <line x1="400" y1="40" x2="450" y2="40" stroke="#F6EB61" stroke-width="2" opacity="0.6"/>
+  <circle cx="425" cy="40" r="3" fill="#F6EB61"/>
+  
+  <!-- Player name - "LUIS DIAZ" -->
+  <text x="500" y="120" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#C8102E" letter-spacing="2">
+    LUIS
+  </text>
+  <text x="500" y="170" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF" letter-spacing="2">
+    DÍAZ
+  </text>
+  
+  <!-- Accent underline -->
+  <line x1="500" y1="185" x2="680" y2="185" stroke="#F6EB61" stroke-width="3"/>
+  
+  <!-- Corner decorative elements -->
+  <line x1="520" y1="220" x2="560" y2="220" stroke="#C8102E" stroke-width="2" opacity="0.6"/>
+  <line x1="520" y1="225" x2="545" y2="225" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Right side accent -->
+  <line x1="795" y1="0" x2="795" y2="420" stroke="#F6EB61" stroke-width="3" opacity="0.4"/>
+</svg>
