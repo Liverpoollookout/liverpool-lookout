@@ -2,8 +2,8 @@
 """
 Liverpool Lookout - Automated Content Generator
 Runs twice daily via GitHub Actions.
-Generates 10 SEO-optimised articles per run using Claude API + free football data APIs.
-Includes animated SVG illustrations for each article category.
+Generates 5 SEO-optimised articles per run using Claude API + free football data APIs.
+Uses static SVG illustrations to conserve API credits.
 """
 import os
 import sys
@@ -280,7 +280,7 @@ def generate_illustration(client, article_type, context, slug):
     )
 
     try:
-        message = api_call_with_retry(client, "claude-haiku-4-5-20251001", 3000, prompt)
+        message = api_call_with_retry(client, "claude-haiku-4-5-20251001", 800, prompt)
         raw = message.content[0].text.strip()
         raw = re.sub(r"^```(?:svg|xml|html)?\s*", "", raw, flags=re.MULTILINE)
         raw = re.sub(r"\s*```$", "", raw, flags=re.MULTILINE)
@@ -338,7 +338,7 @@ def generate_article(client, article_type, context):
     last_err = None
     for attempt in range(3):
         try:
-            message = api_call_with_retry(client, "claude-haiku-4-5-20251001", 3000, prompt)
+            message = api_call_with_retry(client, "claude-haiku-4-5-20251001", 1500, prompt)
             raw = message.content[0].text.strip()
             raw = re.sub(r"^```json\s*", "", raw, flags=re.MULTILINE)
             raw = re.sub(r"\s*```$", "", raw, flags=re.MULTILINE)
@@ -363,7 +363,7 @@ def save_article(article, article_type, existing_slugs, client=None, context=Non
     filename = f"{slug}.md"
     filepath = os.path.join(CONTENT_DIR, filename)
 
-    image_path = generate_illustration(client, article_type, context or {}, slug) if client else None
+    image_path = None  # Illustration generation disabled to conserve API credits
 
     tags = article.get("tags", ["Liverpool FC", "LFC", "Premier League"])
     category = article.get("category", "News")
@@ -485,8 +485,8 @@ def build_article_plan(fixtures, results, headlines):
     match_reports = [a for a in all_articles if a[0] == "match_report"]
     other_articles = [a for a in all_articles if a[0] != "match_report"]
     random.shuffle(other_articles)
-    # Return 1 match_report + 9 others = 10 total
-    return match_reports[:1] + other_articles[:9]
+    # Return 1 match_report + 4 others = 5 total (reduced to save API credits)
+    return match_reports[:1] + other_articles[:4]
 
 
 def main():
