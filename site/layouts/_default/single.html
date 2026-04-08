@@ -5,16 +5,13 @@
     {{/* ── Main article column ──────────────────────── */}}
     <div>
       <article itemscope itemtype="https://schema.org/NewsArticle">
-
         <header class="article-header">
           {{ with .Params.categories }}
           <a href="{{ (index . 0) | urlize | printf "/categories/%s/" }}" class="article-category">
             {{ index . 0 }}
           </a>
           {{ end }}
-
           <h1 class="article-title" itemprop="headline">{{ .Title }}</h1>
-
           <div class="article-meta">
             <time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
               {{ .Date.Format "Monday, 2 January 2006" }}
@@ -32,8 +29,7 @@
         {{ with .Site.Params.adsensePublisher }}
         <div class="ad-leaderboard">
           <p class="ad-label">Advertisement</p>
-          <ins class="adsbygoogle"
-               style="display:block"
+          <ins class="adsbygoogle" style="display:block"
                data-ad-client="{{ . }}"
                data-ad-slot="{{ $.Site.Params.adsenseSlotLeaderboard }}"
                data-ad-format="horizontal"
@@ -42,14 +38,7 @@
         </div>
         {{ end }}
 
-        {{/* ── Hero illustration image ──────────── */}}
-        {{ with .Params.image }}
-        <div class="article-hero-image">
-          <img src="{{ . }}" alt="{{ $.Title }}" class="article-hero-img" loading="eager">
-        </div>
-        {{ end }}
-
-        {{/* ── Article body ────────────────────────── */}}
+        {{/* ── Article body (images stripped at source) ────────────────── */}}
         <div class="article-body" itemprop="articleBody">
           {{ $content := .Content }}
           {{/* Inject mid-article ad after roughly the 3rd paragraph */}}
@@ -60,8 +49,7 @@
               {{ with $.Site.Params.adsensePublisher }}
               <div class="ad-inarticle">
                 <p class="ad-label">Advertisement</p>
-                <ins class="adsbygoogle"
-                     style="display:block;text-align:center"
+                <ins class="adsbygoogle" style="display:block;text-align:center"
                      data-ad-layout="in-article"
                      data-ad-format="fluid"
                      data-ad-client="{{ . }}"
@@ -89,8 +77,7 @@
       {{ with .Site.Params.adsensePublisher }}
       <div class="ad-leaderboard" style="margin-top:2rem;">
         <p class="ad-label">Advertisement</p>
-        <ins class="adsbygoogle"
-             style="display:block"
+        <ins class="adsbygoogle" style="display:block"
              data-ad-client="{{ . }}"
              data-ad-slot="{{ $.Site.Params.adsenseSlotLeaderboard }}"
              data-ad-format="auto"
@@ -108,9 +95,7 @@
           {{ range . }}
           <article class="card">
             <div class="card-body">
-              {{ with .Params.categories }}
-              <div class="card-category">{{ index . 0 }}</div>
-              {{ end }}
+              {{ with .Params.categories }}<div class="card-category">{{ index . 0 }}</div>{{ end }}
               <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
               <div class="card-meta">
                 <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
@@ -132,8 +117,7 @@
       <div class="sidebar-widget">
         <div class="sidebar-widget-title">Advertisement</div>
         <div class="sidebar-ad">
-          <ins class="adsbygoogle"
-               style="display:inline-block;width:300px;height:250px"
+          <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px"
                data-ad-client="{{ . }}"
                data-ad-slot="{{ $.Site.Params.adsenseSlotSidebar }}"></ins>
           <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
@@ -170,8 +154,7 @@
       <div class="sidebar-widget">
         <div class="sidebar-widget-title">Advertisement</div>
         <div class="sidebar-ad">
-          <ins class="adsbygoogle"
-               style="display:inline-block;width:300px;height:250px"
+          <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px"
                data-ad-client="{{ . }}"
                data-ad-slot="{{ $.Site.Params.adsenseSlotSidebar }}"></ins>
           <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
