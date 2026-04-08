@@ -1,33 +1,20 @@
 #!/usr/bin/env python3
 """
-strip_images.py
-Removes all image/SVG content from every markdown post in site/content/posts/.
-Runs on every GitHub Actions deploy.
-
-Strips:
-  - <div class="article-illustration">...</div> blocks
-  - <svg>...</svg> blocks
-  - <img> tags
-  - image: frontmatter field
+strip_images.py - Remove all images and SVGs from markdown posts.
 """
 import re, os, glob
 
 POSTS_DIR = "site/content/posts"
 
-# article-illustration wrapper — match class attr with either quote style
-# Using ["'] to avoid the single-quote closing the raw string
+# Match <div class="article-illustration" ...> ... </div>
+# [^>]+ covers the attribute regardless of quote style
 RE_ILLUS = re.compile(
-    r"<div[^>]+class=["'][^"']*article-illustration[^"']*["'][^>]*>.*?</div>",
+    r"<div[^>]+article-illustration[^>]*>.*?</div>",
     re.DOTALL | re.IGNORECASE,
 )
 
-# Any SVG block
 RE_SVG = re.compile(r"<svg[\s\S]*?</svg>", re.DOTALL | re.IGNORECASE)
-
-# Any <img ...> tag
-RE_IMG = re.compile(r"<img(?:\s[^>]*)?/?>\s*", re.IGNORECASE)
-
-# "image: ..." frontmatter line
+RE_IMG = re.compile(r"<img[^>]*>", re.IGNORECASE)
 RE_IMG_FM = re.compile(r"^image:.*$", re.MULTILINE)
 
 
