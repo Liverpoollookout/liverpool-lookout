@@ -11,7 +11,7 @@ Credit-saving measures vs previous version:
   - Per-type max_tokens tuned to actual word-count targets
   - Shorter prompts to cut input token usage
   - Skip match_report when no result data is available
-  - Hard stop on PermissionDeniedError (credit exhaustion)
+  - Hard stop on any billing/credit error (HTTP 400 or 403)
 """
 import os
 import sys
@@ -22,7 +22,6 @@ import re
 import requests
 from datetime import datetime, timezone
 import anthropic
-
 # ── CONFIG ──────────────────────────────────────────────────────────────────
 TEAM_ID       = "133602"
 TEAM_NAME     = "Liverpool FC"
@@ -33,11 +32,10 @@ CONTENT_DIR   = "site/content/posts"
 STATIC_DIR    = "site/static"
 IMAGES_DIR    = "site/static/images/articles"
 
-ARTICLES_PER_RUN = 3   # keep low to stay inside credit limits
+ARTICLES_PER_RUN = 3
 
-# Model tiers
-MODEL_HEAVY   = "claude-haiku-4-5-20251001"   # complex long-form
-MODEL_LIGHT   = "claude-haiku-3-5-20251001"   # shorter / simpler
+MODEL_HEAVY   = "claude-haiku-4-5-20251001"
+MODEL_LIGHT   = "claude-haiku-3-5-20251001"
 
 KEY_PLAYERS = [
     "Mohamed Salah", "Virgil van Dijk", "Alisson Becker",
@@ -69,7 +67,6 @@ CATEGORIES = {
     "youth_academy":     "Academy",
 }
 
-# Per-type output token budgets (sized to word targets + JSON overhead)
 MAX_TOKENS = {
     "match_preview":     900,
     "match_report":      950,
@@ -95,7 +92,6 @@ MODEL_FOR = {
     "opinion":           MODEL_LIGHT,
     "youth_academy":     MODEL_LIGHT,
 }
-
 
 # ── STATIC SVG ILLUSTRATIONS ────────────────────────────────────────────────
 def get_animated_svg(article_type, title=""):
@@ -146,7 +142,6 @@ def _svg_academy():
 def _svg_default():
     return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#C8102E" rx="8"/><text x="400" y="210" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="42" font-weight="900" fill="white">LFC</text></svg>'
 
-
 # ── DATA FETCHING ────────────────────────────────────────────────────────────
 def fetch_json(url, fallback=None):
     try:
@@ -191,8 +186,17 @@ def get_existing_slugs():
     return {f.replace(".md", "") for f in os.listdir(CONTENT_DIR) if f.endswith(".md")}
 
 
+# ── CREDIT-ERROR DETECTION ──────────────────────────────────────────────────
+def is_credit_error(exc):
+    """Return True if this exception indicates exhausted API credits."""
+    msg = str(exc).lower()
+    return ("credit balance is too low" in msg or
+            "credit_balance_too_low" in msg or
+            "insufficient_quota" in msg or
+            "exceeded your current quota" in msg)
+
+
 # ── PROMPTS ──────────────────────────────────────────────────────────────────
-# Kept short to reduce input tokens - only essential rules.
 BASE = """You are a professional Liverpool FC journalist for LiverpoolLookout.com.
 RULES: UK English. Name specific LFC players. Never fabricate scores/quotes/fees.
 Label rumours: according to reports / sources suggest.
@@ -267,10 +271,9 @@ PROMPTS = {
     ),
 }
 
-
 # ── API CALL ─────────────────────────────────────────────────────────────────
 def api_call_with_retry(client, model, max_tokens, prompt, max_retries=4):
-    """Exponential backoff on rate limit; immediate exit on billing errors."""
+    """Exponential backoff on rate limit; immediate exit on billing/credit errors."""
     for attempt in range(max_retries):
         try:
             return client.messages.create(
@@ -281,13 +284,22 @@ def api_call_with_retry(client, model, max_tokens, prompt, max_retries=4):
         except anthropic.RateLimitError:
             if attempt == max_retries - 1:
                 raise
-            wait = (2 ** attempt) * 10  # 10s, 20s, 40s
+            wait = (2 ** attempt) * 10
             print(f"  Rate limit. Waiting {wait}s (attempt {attempt+2}/{max_retries})...")
             time.sleep(wait)
         except (anthropic.PermissionDeniedError, anthropic.AuthenticationError) as e:
-            print(f"  Billing/auth error - stopping run: {e}")
+            print(f"  Billing/auth error: {e}")
+            raise
+        except anthropic.BadRequestError as e:
+            # Anthropic returns HTTP 400 for credit balance too low
+            if is_credit_error(e):
+                print(f"  Credit balance too low - stopping: {e}")
+                raise
             raise
         except anthropic.APIStatusError as e:
+            if is_credit_error(e):
+                print(f"  Credit error ({e.status_code}) - stopping: {e}")
+                raise
             if e.status_code == 529 and attempt < max_retries - 1:
                 wait = (2 ** attempt) * 15
                 print(f"  API overloaded. Waiting {wait}s...")
@@ -314,6 +326,13 @@ def generate_article(client, article_type, context):
             print(f"  JSON parse error (attempt {attempt+1}/3): {e}")
             if attempt < 2:
                 time.sleep(3)
+        except (anthropic.PermissionDeniedError, anthropic.AuthenticationError,
+                anthropic.BadRequestError):
+            raise
+        except anthropic.APIStatusError as e:
+            if is_credit_error(e):
+                raise
+            raise
     raise last_err
 
 
@@ -364,7 +383,6 @@ sitemap:
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(full_content)
     return slug + ".md"
-
 
 # ── ARTICLE PLAN ─────────────────────────────────────────────────────────────
 def build_article_plan(fixtures, results, headlines):
@@ -421,7 +439,6 @@ def build_article_plan(fixtures, results, headlines):
         )}),
     ]
 
-    # Always include match_preview; shuffle rest; take ARTICLES_PER_RUN total
     priority  = [c for c in candidates if c[0] == "match_preview"]
     remainder = [c for c in candidates if c[0] != "match_preview"]
     random.shuffle(remainder)
@@ -457,9 +474,21 @@ def main():
             generated += 1
             if i < len(plan):
                 time.sleep(2)
-        except (anthropic.PermissionDeniedError, anthropic.AuthenticationError):
-            print("  STOPPING: billing/auth error - no more API calls.")
+        except (anthropic.PermissionDeniedError, anthropic.AuthenticationError) as e:
+            print(f"  STOPPING: auth/billing error: {e}")
             break
+        except anthropic.BadRequestError as e:
+            if is_credit_error(e):
+                print(f"  STOPPING: credit balance too low. Top up at console.anthropic.com/settings/billing")
+                sys.exit(0)
+            print(f"  Bad request: {e}")
+            errors += 1
+        except anthropic.APIStatusError as e:
+            if is_credit_error(e):
+                print(f"  STOPPING: credit balance too low. Top up at console.anthropic.com/settings/billing")
+                sys.exit(0)
+            print(f"  API error: {e}")
+            errors += 1
         except json.JSONDecodeError as e:
             print(f"  JSON error: {e}")
             errors += 1
@@ -470,7 +499,7 @@ def main():
     print("=" * 50)
     print(f"Generated: {generated} | Errors: {errors}")
     print("=" * 50)
-    if generated == 0:
+    if generated == 0 and errors > 0:
         sys.exit(1)
 
 
