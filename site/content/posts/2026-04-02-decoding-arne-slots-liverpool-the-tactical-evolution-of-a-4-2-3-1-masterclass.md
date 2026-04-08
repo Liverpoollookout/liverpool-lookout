@@ -3,7 +3,7 @@ title: "Decoding Arne Slot's Liverpool: The Tactical Evolution of a 4-2-3-1 Mast
 meta_title: "Liverpool FC Tactical Analysis: Slot's 4-2-3-1 System Decode"
 date: 2026-04-02T15:22:46Z
 description: "In-depth tactical breakdown of Arne Slot's Liverpool FC system, examining pressing triggers, build-up patterns, and set-piece routines with Salah, van Dijk"
-image: "/images/articles/2026-04-02-decoding-arne-slots-liverpool-the-tactical-evolution-of-a-4-2-3-1-masterclass.svg"
+
 tags:
   - "Tactical Analysis"
   - "Arne Slot"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-decoding-arne-slots-liverpool-the-tactical-evolution-of-a-4-2-3-1-masterclass.svg" alt="Decoding Arne Slot's Liverpool: The Tactical Evolution of a 4-2-3-1 Masterclass" class="article-svg" loading="eager">
-</div>
 
 # Decoding Arne Slot's Liverpool: The Tactical Evolution of a 4-2-3-1 Masterclass
 

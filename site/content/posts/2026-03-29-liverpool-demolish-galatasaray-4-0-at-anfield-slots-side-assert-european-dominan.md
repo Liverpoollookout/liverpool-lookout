@@ -3,7 +3,7 @@ title: "Liverpool Demolish Galatasaray 4-0 at Anfield: Slot's Side Assert Europe
 meta_title: "Liverpool 4-0 Galatasaray: Salah Stars in Champions League"
 date: 2026-03-29T09:56:15Z
 description: "Liverpool produced a commanding Champions League performance, thrashing Galatasaray 4-0 at Anfield. Mohamed Salah was among the standout performers as Slot"
-image: "/images/articles/2026-03-29-liverpool-demolish-galatasaray-4-0-at-anfield-slots-side-assert-european-dominan.svg"
+
 tags:
   - "Match Report"
   - "Champions League"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-29-liverpool-demolish-galatasaray-4-0-at-anfield-slots-side-assert-european-dominan.svg" alt="Liverpool Demolish Galatasaray 4-0 at Anfield: Slot's Side Assert European Dominance" class="article-svg" loading="eager">
-</div>
 
 # Liverpool 4-0 Galatasaray: Reds Assert Dominance in Champions League Last-16 Thriller
 

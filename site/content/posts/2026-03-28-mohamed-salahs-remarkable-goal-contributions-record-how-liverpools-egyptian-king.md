@@ -3,7 +3,7 @@ title: "Mohamed Salah's Remarkable Goal Contributions Record: How Liverpool's Eg
 meta_title: "Salah's Goal Contributions: Liverpool Star vs Premier League"
 date: 2026-03-28T19:47:29Z
 description: "Deep dive into Mohamed Salah's goal contributions statistics for Liverpool FC. Compare the Egyptian winger's Premier League output against top scorers in 2"
-image: "/images/articles/2026-03-28-mohamed-salahs-remarkable-goal-contributions-record-how-liverpools-egyptian-king.svg"
+
 tags:
   - "Mohamed Salah"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-mohamed-salahs-remarkable-goal-contributions-record-how-liverpools-egyptian-king.svg" alt="Mohamed Salah's Remarkable Goal Contributions Record: How Liverpool's Egyptian King Compares to Premier League's Elite Scorers" class="article-svg" loading="eager">
-</div>
 
 # Mohamed Salah's Remarkable Goal Contributions: How Liverpool's Egyptian King Compares to Premier League's Elite Scorers
 

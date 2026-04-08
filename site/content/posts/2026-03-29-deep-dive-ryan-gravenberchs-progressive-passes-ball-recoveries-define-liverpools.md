@@ -3,7 +3,7 @@ title: "Deep Dive: Ryan Gravenberch's Progressive Passes & Ball Recoveries Defin
 meta_title: "Gravenberch's Progressive Passes: Liverpool's 2025-26 Data"
 date: 2026-03-29T09:57:05Z
 description: "Analysing Ryan Gravenberch's 2025-26 statistics at Liverpool FC. Progressive passes, ball recoveries, and midfield dominance under Arne Slot's system."
-image: "/images/articles/2026-03-29-deep-dive-ryan-gravenberchs-progressive-passes-ball-recoveries-define-liverpools.svg"
+
 tags:
   - "Liverpool FC"
   - "Ryan Gravenberch"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-29-deep-dive-ryan-gravenberchs-progressive-passes-ball-recoveries-define-liverpools.svg" alt="Deep Dive: Ryan Gravenberch's Progressive Passes & Ball Recoveries Define Liverpool's Midfield Control" class="article-svg" loading="eager">
-</div>
 
 # Deep Dive: Ryan Gravenberch's Progressive Passes & Ball Recoveries Define Liverpool's Midfield Control
 

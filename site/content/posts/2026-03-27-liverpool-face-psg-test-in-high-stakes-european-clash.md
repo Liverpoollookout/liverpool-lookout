@@ -3,7 +3,7 @@ title: "Liverpool Face PSG Test in High-Stakes European Clash"
 meta_title: "Liverpool vs PSG Preview: Salah and Slot's European Quest"
 date: 2026-03-27T21:53:23Z
 description: "Liverpool's Champions League showdown with PSG analysed. Salah, Van Dijk and Slot's tactical masterclass could prove decisive at Anfield."
-image: "/images/articles/2026-03-27-liverpool-face-psg-test-in-high-stakes-european-clash.svg"
+
 tags:
   - "Match Preview"
   - "Champions League"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-27-liverpool-face-psg-test-in-high-stakes-european-clash.svg" alt="Liverpool Face PSG Test in High-Stakes European Clash" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Face PSG Test in High-Stakes European Clash
 

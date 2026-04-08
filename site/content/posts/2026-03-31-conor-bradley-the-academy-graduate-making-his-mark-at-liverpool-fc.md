@@ -3,7 +3,7 @@ title: "Conor Bradley: The Academy Graduate Making His Mark at Liverpool FC"
 meta_title: "Conor Bradley: Liverpool's Rising Right-Back Talent"
 date: 2026-03-31T12:09:50Z
 description: "Conor Bradley analysis: Liverpool's promising right-back stepping up under Arne Slot. Form, statistics, and role in 2025-26 season explored."
-image: "/images/articles/2026-03-31-conor-bradley-the-academy-graduate-making-his-mark-at-liverpool-fc.svg"
+
 tags:
   - "Conor Bradley"
   - "Right-Back"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-conor-bradley-the-academy-graduate-making-his-mark-at-liverpool-fc.svg" alt="Conor Bradley: The Academy Graduate Making His Mark at Liverpool FC" class="article-svg" loading="eager">
-</div>
 
 # Conor Bradley: The Academy Graduate Making His Mark at Liverpool FC
 

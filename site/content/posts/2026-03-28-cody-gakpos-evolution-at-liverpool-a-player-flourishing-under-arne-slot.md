@@ -3,7 +3,7 @@ title: "Cody Gakpo's Evolution at Liverpool: A Player Flourishing Under Arne Slo
 meta_title: "Cody Gakpo Liverpool: 2025-26 Season Spotlight"
 date: 2026-03-28T11:05:04Z
 description: "Liverpool winger Cody Gakpo's breakthrough 2025-26 season analysed. Form, statistics, role in Slot's system, and impact on Reds' campaign explored."
-image: "/images/articles/2026-03-28-cody-gakpos-evolution-at-liverpool-a-player-flourishing-under-arne-slot.svg"
+
 tags:
   - "Cody Gakpo"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-cody-gakpos-evolution-at-liverpool-a-player-flourishing-under-arne-slot.svg" alt="Cody Gakpo's Evolution at Liverpool: A Player Flourishing Under Arne Slot" class="article-svg" loading="eager">
-</div>
 
 # Cody Gakpo's Evolution at Liverpool: A Player Flourishing Under Arne Slot
 

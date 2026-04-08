@@ -3,7 +3,7 @@ title: "Ryan Gravenberch's Progressive Play: The Statistical Case for Liverpool'
 meta_title: "Gravenberch Progressive Passes: Liverpool's Midfield Stats"
 date: 2026-03-29T17:07:06Z
 description: "Deep dive into Ryan Gravenberch's progressive passes and ball recoveries for Liverpool FC in 2025-26. Key midfield statistics analysed."
-image: "/images/articles/2026-03-29-ryan-gravenberchs-progressive-play-the-statistical-case-for-liverpools-midfield.svg"
+
 tags:
   - "ryan-gravenberch"
   - "liverpool-statistics"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-29-ryan-gravenberchs-progressive-play-the-statistical-case-for-liverpools-midfield.svg" alt="Ryan Gravenberch's Progressive Play: The Statistical Case for Liverpool's Midfield Evolution" class="article-svg" loading="eager">
-</div>
 
 # Ryan Gravenberch's Progressive Play: The Statistical Case for Liverpool's Midfield Evolution
 

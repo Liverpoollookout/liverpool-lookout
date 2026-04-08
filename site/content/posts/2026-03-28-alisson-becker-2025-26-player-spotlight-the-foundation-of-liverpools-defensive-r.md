@@ -3,7 +3,7 @@ title: "Alisson Becker 2025-26 Player Spotlight: The Foundation of Liverpool's D
 meta_title: "Alisson Becker: Liverpool's Commanding Guardian Under Slot"
 date: 2026-03-28T23:03:46Z
 description: "Analysing Alisson Becker's crucial role in Arne Slot's Liverpool system. How the Brazilian goalkeeper continues to elevate his game at Anfield."
-image: "/images/articles/2026-03-28-alisson-becker-2025-26-player-spotlight-the-foundation-of-liverpools-defensive-r.svg"
+
 tags:
   - "Alisson Becker"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-alisson-becker-2025-26-player-spotlight-the-foundation-of-liverpools-defensive-r.svg" alt="Alisson Becker 2025-26 Player Spotlight: The Foundation of Liverpool's Defensive Revolution" class="article-svg" loading="eager">
-</div>
 
 # Alisson Becker: The Architect Behind Liverpool's Defensive Fortress
 

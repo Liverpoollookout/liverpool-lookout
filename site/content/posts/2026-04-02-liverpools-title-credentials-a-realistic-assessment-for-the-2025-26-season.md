@@ -3,7 +3,7 @@ title: "Liverpool's Title Credentials: A Realistic Assessment for the 2025-26 Se
 meta_title: "Liverpool's Title Credentials: Can Slot's Side Compete?"
 date: 2026-04-02T15:24:32Z
 description: "Opinion: Can Liverpool challenge for the Premier League title under Arne Slot? We assess their squad, departures, and genuine contention prospects."
-image: "/images/articles/2026-04-02-liverpools-title-credentials-a-realistic-assessment-for-the-2025-26-season.svg"
+
 tags:
   - "Opinion"
   - "Title Race"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-liverpools-title-credentials-a-realistic-assessment-for-the-2025-26-season.svg" alt="Liverpool's Title Credentials: A Realistic Assessment for the 2025-26 Season" class="article-svg" loading="eager">
-</div>
 
 # Liverpool's Title Credentials: A Realistic Assessment for the 2025-26 Season
 

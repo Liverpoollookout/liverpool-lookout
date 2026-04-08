@@ -17,10 +17,6 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#2d7a2d" rx="8"/><rect x="60" y="40" width="680" height="320" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2"/><circle cx="400" cy="200" r="60" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2"/><line x1="400" y1="40" x2="400" y2="360" stroke="rgba(255,255,255,0.5)" stroke-width="2"/><circle cx="400" cy="200" r="16" fill="white" stroke="#333" stroke-width="2"><animate attributeName="cx" values="200;600;200" dur="3s" repeatCount="indefinite"/><animate attributeName="cy" values="200;120;200" dur="3s" repeatCount="indefinite"/></circle><text x="400" y="210" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="28" font-weight="900" fill="white">MATCH PREVIEW</text><rect x="290" y="50" width="220" height="50" rx="6" fill="#C8102E" opacity="0.9"/><text x="400" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="white">COMING UP</text></svg>
-</div>
-
 # Liverpool vs PSG: Can Slot's Reds Maintain Champions League Momentum at Anfield?
 
 Liverpool welcome Paris Saint-Germain to Anfield in what promises to be a compelling Champions League encounter, with Arne Slot's side looking to build on an impressive recent run of form that has captured the imagination of the Anfield faithful.

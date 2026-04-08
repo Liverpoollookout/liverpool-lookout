@@ -3,7 +3,7 @@ title: "Mohamed Salah's 2025-26 Output: How Liverpool's Star Compares to England
 meta_title: "Salah's Goal Contributions vs Premier League Rivals | Liverp"
 date: 2026-04-02T09:44:17Z
 description: "Deep dive into Mohamed Salah's goal contribution statistics for Liverpool FC in 2025-26, compared with Premier League's top scorers. Exclusive LFC data ana"
-image: "/images/articles/2026-04-02-mohamed-salahs-2025-26-output-how-liverpools-star-compares-to-englands-elite-sco.svg"
+
 tags:
   - "Mohamed Salah"
   - "Liverpool FC Statistics"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-mohamed-salahs-2025-26-output-how-liverpools-star-compares-to-englands-elite-sco.svg" alt="Mohamed Salah's 2025-26 Output: How Liverpool's Star Compares to England's Elite Scorers" class="article-svg" loading="eager">
-</div>
 
 # Mohamed Salah's 2025-26 Output: How Liverpool's Star Compares to England's Elite Scorers
 

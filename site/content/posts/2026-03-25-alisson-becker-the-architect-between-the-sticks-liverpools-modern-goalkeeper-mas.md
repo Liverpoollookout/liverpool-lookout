@@ -17,10 +17,6 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#111" rx="8"/><text x="400" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#F6EB61">&#9733; &#9733; &#9733; &#9733; &#9733;</text><text x="400" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="3">PLAYER SPOTLIGHT</text><ellipse cx="400" cy="180" rx="200" ry="180" fill="#C8102E" opacity="0.15"/><circle cx="400" cy="140" r="40" fill="#C8102E" opacity="0.7"/><rect x="370" y="178" width="60" height="80" rx="10" fill="#C8102E" opacity="0.7"/></svg>
-</div>
-
 # Alisson Becker: The Architect Between the Sticks
 
 When Alisson Ramis Becker first arrived at Anfield in summer 2018, Liverpool supporters witnessed the arrival of a world-class shot-stopper. Nearly eight years on, the Brazilian has transcended that singular definition. Under Arne Slot's tactical blueprint, Alisson has become something far more sophisticated: the fulcrum upon which Liverpool's modern attacking football pivots.

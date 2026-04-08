@@ -16,29 +16,7 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg" role="img" aria-label="Tactical Analysis illustration">
-      <rect width="800" height="400" fill="#1a1a2e" rx="8"/>
-      <rect x="80" y="40" width="640" height="320" rx="6" fill="#2d7a2d"/>
-      <rect x="100" y="60" width="600" height="280" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
-      <circle cx="400" cy="200" r="50" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
-      <line x1="400" y1="60" x2="400" y2="340" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
-      <circle cx="200" cy="200" r="12" fill="#C8102E"><animate attributeName="cy" values="200;195;200" dur="1.5s" repeatCount="indefinite"/></circle>circle>
-      <circle cx="300" cy="130" r="12" fill="#C8102E"><animate attributeName="cy" values="130;125;130" dur="1.5s" repeatCount="indefinite" begin="0.1s"/></circle>circle>
-      <circle cx="300" cy="200" r="12" fill="#C8102E"><animate attributeName="cy" values="200;195;200" dur="1.5s" repeatCount="indefinite" begin="0.2s"/></circle>circle>
-      <circle cx="300" cy="270" r="12" fill="#C8102E"><animate attributeName="cy" values="270;265;270" dur="1.5s" repeatCount="indefinite" begin="0.3s"/></circle>circle>
-      <circle cx="370" cy="150" r="12" fill="#C8102E"><animate attributeName="cy" values="150;145;150" dur="1.5s" repeatCount="indefinite" begin="0.4s"/></circle>circle>
-      <circle cx="370" cy="250" r="12" fill="#C8102E"><animate attributeName="cy" values="250;245;250" dur="1.5s" repeatCount="indefinite" begin="0.5s"/></circle>circle>
-      <circle cx="430" cy="130" r="12" fill="#C8102E"><animate attributeName="cy" values="130;125;130" dur="1.5s" repeatCount="indefinite" begin="0.6s"/></circle>circle>
-      <circle cx="430" cy="200" r="12" fill="#C8102E"><animate attributeName="cy" values="200;195;200" dur="1.5s" repeatCount="indefinite" begin="0.7s"/></circle>circle>
-      <circle cx="430" cy="270" r="12" fill="#C8102E"><animate attributeName="cy" values="270;265;270" dur="1.5s" repeatCount="indefinite" begin="0.8s"/></circle>circle>
-      <circle cx="550" cy="160" r="12" fill="#C8102E"><animate attributeName="cy" values="160;155;160" dur="1.5s" repeatCount="indefinite" begin="0.9s"/></circle>circle>
-      <circle cx="550" cy="240" r="12" fill="#C8102E"><animate attributeName="cy" values="240;235;240" dur="1.5s" repeatCount="indefinite" begin="1s"/></circle>circle>
-      <path d="M 430 200 Q 490 170 550 200" stroke="yellow" stroke-width="2" fill="none" stroke-dasharray="6,4" opacity="0.8"><animate attributeName="stroke-dashoffset" values="0;-40" dur="1s" repeatCount="indefinite"/></path>path>
-      <path d="M 370 150 Q 400 120 430 130" stroke="yellow" stroke-width="2" fill="none" stroke-dasharray="6,4" opacity="0.8"><animate attributeName="stroke-dashoffset" values="0;-40" dur="1s" repeatCount="indefinite" begin="0.5s"/></path>path>
-      <text x="400" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="3">TACTICAL ANALYSIS</text>text>
-  </svg>svg>
-</div>div>
+div>
 
 # Precision Over Chaos: Deconstructing Arne Slot's Liverpool Tactical System
 

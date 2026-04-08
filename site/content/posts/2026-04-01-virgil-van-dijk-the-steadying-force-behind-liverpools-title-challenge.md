@@ -3,7 +3,7 @@ title: "Virgil van Dijk: The Steadying Force Behind Liverpool's Title Challenge"
 meta_title: "Van Dijk 2025-26: Liverpool's Defensive Colossus"
 date: 2026-04-01T20:08:05Z
 description: "Analysing Virgil van Dijk's commanding 2025-26 season for Liverpool FC. Form, statistics, leadership role under Arne Slot explored in depth."
-image: "/images/articles/2026-04-01-virgil-van-dijk-the-steadying-force-behind-liverpools-title-challenge.svg"
+
 tags:
   - "Virgil van Dijk"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-01-virgil-van-dijk-the-steadying-force-behind-liverpools-title-challenge.svg" alt="Virgil van Dijk: The Steadying Force Behind Liverpool's Title Challenge" class="article-svg" loading="eager">
-</div>
 
 # Virgil van Dijk: The Steadying Force Behind Liverpool's Title Challenge
 

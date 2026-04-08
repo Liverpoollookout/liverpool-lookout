@@ -3,7 +3,7 @@ title: "Liverpool Face PSG in Crucial European Clash: Slot's Tactical Masterclas
 meta_title: "Liverpool vs PSG Preview: Salah and Van Dijk Lead Reds"
 date: 2026-04-02T15:21:52Z
 description: "Liverpool take on PSG in a high-stakes European encounter. Mohamed Salah and Virgil van Dijk lead the charge as Arne Slot's side seeks continental glory."
-image: "/images/articles/2026-04-02-liverpool-face-psg-in-crucial-european-clash-slots-tactical-masterclass-awaited.svg"
+
 tags:
   - "Match Preview"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-liverpool-face-psg-in-crucial-european-clash-slots-tactical-masterclass-awaited.svg" alt="Liverpool Face PSG in Crucial European Clash: Slot's Tactical Masterclass Awaited" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Face PSG in Crucial European Clash: Slot's Tactical Masterclass Awaited
 

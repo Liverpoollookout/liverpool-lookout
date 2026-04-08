@@ -3,7 +3,7 @@ title: "Virgil van Dijk Must Be In The Ballon d'Or Conversation: Why Liverpool's
 meta_title: "Van Dijk Deserves Ballon d'Or Recognition | Liverpool"
 date: 2026-03-31T23:51:38Z
 description: "Opinion: Virgil van Dijk's defensive excellence and leadership at Liverpool justify serious Ballon d'Or consideration in 2026. Why the captain deserves rec"
-image: "/images/articles/2026-03-31-virgil-van-dijk-must-be-in-the-ballon-dor-conversation-why-liverpools-captain-re.svg"
+
 tags:
   - "Virgil van Dijk"
   - "Ballon d'Or"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-virgil-van-dijk-must-be-in-the-ballon-dor-conversation-why-liverpools-captain-re.svg" alt="Virgil van Dijk Must Be In The Ballon d'Or Conversation: Why Liverpool's Captain Remains Elite" class="article-svg" loading="eager">
-</div>
 
 # Virgil van Dijk Must Be In The Ballon d'Or Conversation: Why Liverpool's Captain Remains Elite
 

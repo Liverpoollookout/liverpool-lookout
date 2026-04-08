@@ -3,7 +3,7 @@ title: "Liverpool Face Summer Upheaval: Salah Departure Confirmed, Multiple Star
 meta_title: "Liverpool Transfer News: Salah Exit Looms, Squad Overhaul"
 date: 2026-04-02T19:43:26Z
 description: "Liverpool transfer news: Salah to leave Anfield, van Dijk contract concerns, and Slot's summer rebuild plans revealed."
-image: "/images/articles/2026-04-02-liverpool-face-summer-upheaval-salah-departure-confirmed-multiple-stars-linked-a.svg"
+
 tags:
   - "Transfer-News"
   - "Mohamed-Salah"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-liverpool-face-summer-upheaval-salah-departure-confirmed-multiple-stars-linked-a.svg" alt="Liverpool Face Summer Upheaval: Salah Departure Confirmed, Multiple Stars Linked Away" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Face Major Squad Overhaul as Salah Era Ends
 

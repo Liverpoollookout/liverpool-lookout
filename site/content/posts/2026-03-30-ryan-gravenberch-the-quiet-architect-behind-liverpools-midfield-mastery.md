@@ -3,7 +3,7 @@ title: "Ryan Gravenberch: The Quiet Architect Behind Liverpool's Midfield Master
 meta_title: "Ryan Gravenberch: Liverpool's Midfield Lynchpin in 2025-26"
 date: 2026-03-30T17:16:00Z
 description: "Analysing Ryan Gravenberch's pivotal role in Arne Slot's Liverpool system. Strengths, improvements, and his evolution as a midfielder at Anfield."
-image: "/images/articles/2026-03-30-ryan-gravenberch-the-quiet-architect-behind-liverpools-midfield-mastery.svg"
+
 tags:
   - "Player Analysis"
   - "Ryan Gravenberch"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-30-ryan-gravenberch-the-quiet-architect-behind-liverpools-midfield-mastery.svg" alt="Ryan Gravenberch: The Quiet Architect Behind Liverpool's Midfield Mastery" class="article-svg" loading="eager">
-</div>
 
 # Ryan Gravenberch: The Quiet Architect Behind Liverpool's Midfield Mastery
 

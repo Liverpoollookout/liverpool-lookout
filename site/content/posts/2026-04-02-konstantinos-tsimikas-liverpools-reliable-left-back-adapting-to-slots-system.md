@@ -3,7 +3,7 @@ title: "Konstantinos Tsimikas: Liverpool's Reliable Left-Back Adapting to Slot's
 meta_title: "Tsimikas Liverpool: Left-Back's 2025-26 Season Analysis"
 date: 2026-04-02T15:23:15Z
 description: "Analyse Konstantinos Tsimikas's role in Liverpool FC's 2025-26 campaign under Arne Slot. Strengths, weaknesses, and tactical contributions examined."
-image: "/images/articles/2026-04-02-konstantinos-tsimikas-liverpools-reliable-left-back-adapting-to-slots-system.svg"
+
 tags:
   - "Konstantinos Tsimikas"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-konstantinos-tsimikas-liverpools-reliable-left-back-adapting-to-slots-system.svg" alt="Konstantinos Tsimikas: Liverpool's Reliable Left-Back Adapting to Slot's System" class="article-svg" loading="eager">
-</div>
 
 # Konstantinos Tsimikas: Liverpool's Reliable Left-Back Adapting to Slot's System
 

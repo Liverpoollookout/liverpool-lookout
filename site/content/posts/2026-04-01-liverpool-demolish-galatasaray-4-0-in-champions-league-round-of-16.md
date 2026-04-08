@@ -3,7 +3,7 @@ title: "Liverpool Demolish Galatasaray 4-0 in Champions League Round of 16"
 meta_title: "Liverpool 4-0 Galatasaray: Dominant Display at Anfield"
 date: 2026-04-01T23:51:48Z
 description: "Liverpool FC cruise to a commanding 4-0 victory over Galatasaray at Anfield in the Champions League Round of 16, with Salah and Nunez starring in Slot's ta"
-image: "/images/articles/2026-04-01-liverpool-demolish-galatasaray-4-0-in-champions-league-round-of-16.svg"
+
 tags:
   - "Champions League"
   - "Match Report"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-01-liverpool-demolish-galatasaray-4-0-in-champions-league-round-of-16.svg" alt="Liverpool Demolish Galatasaray 4-0 in Champions League Round of 16" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Demolish Galatasaray 4-0 in Champions League Round of 16
 

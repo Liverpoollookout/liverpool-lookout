@@ -3,7 +3,7 @@ title: "Liverpool Face Summer Upheaval: Salah Departure Confirmed, Multiple Exit
 meta_title: "Liverpool Transfer News: Salah Exit Looms, Summer Overhaul"
 date: 2026-04-01T17:15:19Z
 description: "Liverpool transfer news: Mohamed Salah set to leave Anfield. Arne Slot faces summer rebuild as multiple departures expected from Merseyside."
-image: "/images/articles/2026-04-01-liverpool-face-summer-upheaval-salah-departure-confirmed-multiple-exits-anticipa.svg"
+
 tags:
   - "Liverpool FC"
   - "Transfer News"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-01-liverpool-face-summer-upheaval-salah-departure-confirmed-multiple-exits-anticipa.svg" alt="Liverpool Face Summer Upheaval: Salah Departure Confirmed, Multiple Exits Anticipated" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Face Summer Upheaval: Salah Departure Confirmed, Multiple Exits Anticipated
 

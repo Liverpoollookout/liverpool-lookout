@@ -3,7 +3,7 @@ title: "Liverpool Face PSG in Crucial Champions League Clash: Salah Set to Shine
 meta_title: "Liverpool vs PSG: Salah's Champions League Masterclass Previ"
 date: 2026-04-03T10:10:29Z
 description: "Liverpool host PSG in a pivotal Champions League tie. Arne Slot's side look to Mohamed Salah, Virgil van Dijk and Darwin Nunez to deliver at Anfield."
-image: "/images/articles/2026-04-03-liverpool-face-psg-in-crucial-champions-league-clash-salah-set-to-shine-in-epic.svg"
+
 tags:
   - "Champions League"
   - "Match Preview"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-03-liverpool-face-psg-in-crucial-champions-league-clash-salah-set-to-shine-in-epic.svg" alt="Liverpool Face PSG in Crucial Champions League Clash: Salah Set to Shine in Epic European Battle" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Face PSG in Crucial Champions League Clash: Salah Set to Shine in Epic European Battle
 

@@ -3,7 +3,7 @@ title: "Liverpool's Summer 2026 Transfer Strategy: Key Targets Emerging as Arne 
 meta_title: "Liverpool Transfer Targets Summer 2026 | LiverpoolLookout"
 date: 2026-03-29T08:04:20Z
 description: "Liverpool identify summer transfer targets to strengthen Arne Slot's squad. Latest links, reported fees and how new arrivals could fit at Anfield."
-image: "/images/articles/2026-03-29-liverpools-summer-2026-transfer-strategy-key-targets-emerging-as-arne-slot-plans.svg"
+
 tags:
   - "Transfer News"
   - "Arne Slot"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-29-liverpools-summer-2026-transfer-strategy-key-targets-emerging-as-arne-slot-plans.svg" alt="Liverpool's Summer 2026 Transfer Strategy: Key Targets Emerging as Arne Slot Plans Squad Overhaul" class="article-svg" loading="eager">
-</div>
 
 # Liverpool's Summer 2026 Transfer Strategy: Key Targets Emerging as Arne Slot Plans Squad Overhaul
 

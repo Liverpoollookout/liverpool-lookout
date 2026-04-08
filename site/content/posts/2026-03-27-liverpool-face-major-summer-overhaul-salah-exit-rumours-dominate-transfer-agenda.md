@@ -3,7 +3,7 @@ title: "Liverpool Face Major Summer Overhaul: Salah Exit Rumours Dominate Transf
 meta_title: "Liverpool Transfer News: Salah Departure Looms, Contract Tal"
 date: 2026-03-27T12:01:39Z
 description: "Liverpool transfer news: Mohamed Salah's future uncertain as contract talks stall. Arne Slot faces potential departures at Anfield ahead of 2025-26 season."
-image: "/images/articles/2026-03-27-liverpool-face-major-summer-overhaul-salah-exit-rumours-dominate-transfer-agenda.svg"
+
 tags:
   - "Transfer News"
   - "Mohamed Salah"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#0a0a2e" rx="8"/><path d="M 250 200 L 550 200" stroke="#C8102E" stroke-width="4" fill="none" stroke-dasharray="10,5"><animate attributeName="stroke-dashoffset" values="0;-60" dur="1s" repeatCount="indefinite"/></path><polygon points="560,190 580,200 560,210" fill="#C8102E"/><rect x="100" y="165" width="130" height="70" rx="8" fill="rgba(200,16,46,0.8)"/><text x="165" y="205" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="16" font-weight="900" fill="white">SELLING</text><rect x="570" y="165" width="130" height="70" rx="8" fill="rgba(200,16,46,0.8)"/><text x="635" y="205" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="16" font-weight="900" fill="white">ANFIELD</text><text x="400" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="white" letter-spacing="4">TRANSFER NEWS</text></svg>
-</div>
 
 # Liverpool Face Major Summer Overhaul: Salah Exit Rumours Dominate Transfer Agenda
 

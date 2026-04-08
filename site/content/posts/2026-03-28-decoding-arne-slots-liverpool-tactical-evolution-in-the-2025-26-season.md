@@ -3,7 +3,7 @@ title: "Decoding Arne Slot's Liverpool: Tactical Evolution in the 2025-26 Season
 meta_title: "Liverpool FC Tactical Breakdown: Slot's 4-2-3-1 System Expla"
 date: 2026-03-28T19:47:03Z
 description: "Tactical analysis of Arne Slot's Liverpool FC system. Explore pressing triggers, build-up patterns, and set-piece routines at Anfield."
-image: "/images/articles/2026-03-28-decoding-arne-slots-liverpool-tactical-evolution-in-the-2025-26-season.svg"
+
 tags:
   - "Arne Slot"
   - "Tactical Analysis"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-decoding-arne-slots-liverpool-tactical-evolution-in-the-2025-26-season.svg" alt="Decoding Arne Slot's Liverpool: Tactical Evolution in the 2025-26 Season" class="article-svg" loading="eager">
-</div>
 
 # Decoding Arne Slot's Liverpool: Tactical Evolution in the 2025-26 Season
 

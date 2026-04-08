@@ -3,7 +3,7 @@ title: "Liverpool 4-0 Galatasaray: Clinical Display Sends Reds Through in Style"
 meta_title: "Liverpool 4-0 Galatasaray: Reds Dominate Champions League"
 date: 2026-03-28T15:05:10Z
 description: "Liverpool crush Galatasaray 4-0 at Anfield in Champions League Round of 16. Salah and Nunez shine as Slot's side advances with emphatic victory."
-image: "/images/articles/2026-03-28-liverpool-4-0-galatasaray-clinical-display-sends-reds-through-in-style.svg"
+
 tags:
   - "Champions League"
   - "Match Report"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-liverpool-4-0-galatasaray-clinical-display-sends-reds-through-in-style.svg" alt="Liverpool 4-0 Galatasaray: Clinical Display Sends Reds Through in Style" class="article-svg" loading="eager">
-</div>
 
 # Liverpool 4-0 Galatasaray: Clinical Display Sends Reds Through in Style
 

@@ -3,7 +3,7 @@ title: "Liverpool's Set-Piece Mastery in 2025-26: A Statistical Analysis"
 meta_title: "Liverpool Set-Piece Goals 2025-26: Stats Deep Dive"
 date: 2026-04-02T15:23:40Z
 description: "Detailed breakdown of Liverpool FC's set-piece goal statistics for 2025-26 season under Arne Slot. Goals, trends, and key contributors analysed."
-image: "/images/articles/2026-04-02-liverpools-set-piece-mastery-in-2025-26-a-statistical-analysis.svg"
+
 tags:
   - "Liverpool FC"
   - "Set-Piece Analysis"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-liverpools-set-piece-mastery-in-2025-26-a-statistical-analysis.svg" alt="Liverpool's Set-Piece Mastery in 2025-26: A Statistical Analysis" class="article-svg" loading="eager">
-</div>
 
 # Liverpool's Set-Piece Mastery in 2025-26: A Statistical Analysis
 

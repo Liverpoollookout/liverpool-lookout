@@ -3,7 +3,7 @@ title: "Liverpool Face Uncertain Summer: Salah Departure Signals Major Anfield R
 meta_title: "Liverpool Transfer News: Salah Exit Looms, Squad Overhaul In"
 date: 2026-03-28T17:05:40Z
 description: "Latest Liverpool FC transfer news: Mohamed Salah's potential exit, contract situations, and Arne Slot's plans to reshape the squad for 2025-26 season."
-image: "/images/articles/2026-03-28-liverpool-face-uncertain-summer-salah-departure-signals-major-anfield-rebuild.svg"
+
 tags:
   - "Transfer News"
   - "Mohamed Salah"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-liverpool-face-uncertain-summer-salah-departure-signals-major-anfield-rebuild.svg" alt="Liverpool Face Uncertain Summer: Salah Departure Signals Major Anfield Rebuild" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Face Uncertain Summer: Salah Departure Signals Major Anfield Rebuild
 

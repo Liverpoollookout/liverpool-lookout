@@ -3,7 +3,7 @@ title: "Why Virgil van Dijk Deserves Your Ballon d'Or Vote"
 meta_title: "Van Dijk Deserves Ballon d'Or Recognition | Liverpool"
 date: 2026-04-02T12:08:52Z
 description: "Van Dijk's dominance in defence merits Ballon d'Or consideration. The Liverpool captain epitomises excellence at Anfield under Arne Slot."
-image: "/images/articles/2026-04-02-why-virgil-van-dijk-deserves-your-ballon-dor-vote.svg"
+
 tags:
   - "Virgil van Dijk"
   - "Ballon d'Or"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-why-virgil-van-dijk-deserves-your-ballon-dor-vote.svg" alt="Why Virgil van Dijk Deserves Your Ballon d'Or Vote" class="article-svg" loading="eager">
-</div>
 
 # Why Virgil van Dijk Deserves Your Ballon d'Or Vote
 

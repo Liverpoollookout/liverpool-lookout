@@ -3,7 +3,7 @@ title: "On This Day: When Kenny Dalglish Became Liverpool's Greatest Ever Signin
 meta_title: "Liverpool's Greatest Signing: Kenny Dalglish's Arrival in 19"
 date: 2026-04-02T09:43:53Z
 description: "Relive the historic moment Kenny Dalglish joined Liverpool FC in 1977, transforming the club and replacing Kevin Keegan. A defining moment in Anfield's leg"
-image: "/images/articles/2026-04-02-on-this-day-when-kenny-dalglish-became-liverpools-greatest-ever-signing.svg"
+
 tags:
   - "Kenny Dalglish"
   - "Liverpool History"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-on-this-day-when-kenny-dalglish-became-liverpools-greatest-ever-signing.svg" alt="On This Day: When Kenny Dalglish Became Liverpool's Greatest Ever Signing" class="article-svg" loading="eager">
-</div>
 
 # On This Day: When Kenny Dalglish Became Liverpool's Greatest Ever Signing
 

@@ -3,7 +3,7 @@ title: "Liverpool Transfer News: Arne Slot Eyes Summer Reinforcements as Reds Pl
 meta_title: "Liverpool FC Transfer Targets 2026: Slot's Summer Plans"
 date: 2026-04-02T15:24:05Z
 description: "Latest Liverpool FC transfer targets and rumours for summer 2026. Explore Slot's potential signings to strengthen Anfield's squad depth."
-image: "/images/articles/2026-04-02-liverpool-transfer-news-arne-slot-eyes-summer-reinforcements-as-reds-plan-squad.svg"
+
 tags:
   - "Transfer News"
   - "Arne Slot"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-liverpool-transfer-news-arne-slot-eyes-summer-reinforcements-as-reds-plan-squad.svg" alt="Liverpool Transfer News: Arne Slot Eyes Summer Reinforcements as Reds Plan Squad Overhaul" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Transfer News: Arne Slot Eyes Summer Reinforcements as Reds Plan Squad Overhaul
 

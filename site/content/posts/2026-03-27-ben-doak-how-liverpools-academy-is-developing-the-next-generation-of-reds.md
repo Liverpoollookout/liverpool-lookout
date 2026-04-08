@@ -3,7 +3,7 @@ title: "Ben Doak: How Liverpool's Academy Is Developing the Next Generation of R
 meta_title: "Ben Doak: Liverpool's Academy Gem Ready for First-Team"
 date: 2026-03-27T23:48:26Z
 description: "Scouting report on Ben Doak and Liverpool FC's academy prospects under Arne Slot. Analysing the pathway from U21s to Anfield first-team football."
-image: "/images/articles/2026-03-27-ben-doak-how-liverpools-academy-is-developing-the-next-generation-of-reds.svg"
+
 tags:
   - "Ben Doak"
   - "Liverpool Academy"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-27-ben-doak-how-liverpools-academy-is-developing-the-next-generation-of-reds.svg" alt="Ben Doak: How Liverpool's Academy Is Developing the Next Generation of Reds" class="article-svg" loading="eager">
-</div>
 
 # Ben Doak: How Liverpool's Academy Is Developing the Next Generation of Reds
 

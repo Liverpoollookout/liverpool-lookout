@@ -16,43 +16,7 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-  <svg class="article-svg" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Opinion piece animated illustration">
-      <defs>
-            <linearGradient id="op1" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" style="stop-color:#1a0a0a"/>
-                    <stop offset="100%" style="stop-color:#2a1a1a"/>
-            </linearGradient>linearGradient>
-      </defs>defs>
-      <rect width="600" height="300" fill="url(#op1)" rx="12"/>
-      <text x="300" y="35" text-anchor="middle" fill="#F6EB61" font-size="18" font-weight="bold" font-family="Arial">OPINION</text>text>
-      <rect x="30" y="55" width="230" height="160" rx="12" fill="#C8102E" opacity="0.85"/>
-      <rect x="30" y="55" width="230" height="160" rx="12" fill="none" stroke="#F6EB61" stroke-width="1.5"/>
-      <polygon points="60,215 90,215 75,240" fill="#C8102E"/>
-      <text x="145" y="90" text-anchor="middle" fill="white" font-size="11" font-weight="bold" font-family="Arial">FANS SAY:</text>text>
-      <text x="145" y="112" text-anchor="middle" fill="white" font-size="10" font-family="Arial">"The fixture list</text>text>
-      <text x="145" y="127" text-anchor="middle" fill="white" font-size="10" font-family="Arial">is destroying us."</text>text>
-      <text x="145" y="150" text-anchor="middle" fill="white" font-size="10" font-family="Arial">"Too many games,</text>text>
-      <text x="145" y="165" text-anchor="middle" fill="white" font-size="10" font-family="Arial">not enough rest."</text>text>
-      <text x="145" y="188" text-anchor="middle" fill="#F6EB61" font-size="9" font-family="Arial">- Liverpool Supporters</text>text>
-      <rect x="340" y="55" width="230" height="160" rx="12" fill="#333" opacity="0.9"/>
-      <rect x="340" y="55" width="230" height="160" rx="12" fill="none" stroke="#888" stroke-width="1.5"/>
-      <polygon points="510,215 540,215 525,240" fill="#333"/>
-      <text x="455" y="90" text-anchor="middle" fill="#ccc" font-size="11" font-weight="bold" font-family="Arial">PREMIER LEAGUE:</text>text>
-      <text x="455" y="112" text-anchor="middle" fill="#ccc" font-size="10" font-family="Arial">"The schedule</text>text>
-      <text x="455" y="127" text-anchor="middle" fill="#ccc" font-size="10" font-family="Arial">is fair for all."</text>text>
-      <text x="455" y="150" text-anchor="middle" fill="#ccc" font-size="10" font-family="Arial">"Clubs signed up</text>text>
-      <text x="455" y="165" text-anchor="middle" fill="#ccc" font-size="10" font-family="Arial">for this."</text>text>
-      <text x="455" y="188" text-anchor="middle" fill="#888" font-size="9" font-family="Arial">- PL Spokesperson</text>text>
-      <text x="300" y="255" text-anchor="middle" fill="#F6EB61" font-size="22" font-weight="bold" font-family="Arial">VS</text>text>
-      <circle cx="300" cy="248" r="18" fill="none" stroke="#F6EB61" stroke-width="2">
-            <animate attributeName="r" values="18;24;18" dur="1.5s" repeatCount="indefinite"/>
-            <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
-      </circle>circle>
-      <text x="300" y="285" text-anchor="middle" fill="#666" font-size="10" font-family="Arial">Opinion illustrated</text>text>
-  </svg>svg>
-</div>div>
-
+div>
 
       </defs># Liverpool's Injury Crisis Exposes a Brutal Truth: The Fixture Calendar is Broken
 

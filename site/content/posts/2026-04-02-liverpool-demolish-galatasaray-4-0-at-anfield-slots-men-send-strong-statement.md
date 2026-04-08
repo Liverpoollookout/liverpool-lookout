@@ -3,7 +3,7 @@ title: "Liverpool Demolish Galatasaray 4-0 at Anfield: Slot's Men Send Strong St
 meta_title: "Liverpool 4-0 Galatasaray: Salah Stars in Champions League"
 date: 2026-04-02T10:39:29Z
 description: "Liverpool's commanding 4-0 victory over Galatasaray in the Champions League Round of 16 showcases Arne Slot's tactical brilliance and the Reds' European am"
-image: "/images/articles/2026-04-02-liverpool-demolish-galatasaray-4-0-at-anfield-slots-men-send-strong-statement.svg"
+
 tags:
   - "Match Report"
   - "Champions League"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-liverpool-demolish-galatasaray-4-0-at-anfield-slots-men-send-strong-statement.svg" alt="Liverpool Demolish Galatasaray 4-0 at Anfield: Slot's Men Send Strong Statement" class="article-svg" loading="eager">
-</div>
 
 # Liverpool 4-0 Galatasaray: Slot's Reds Deliver Masterclass Performance
 

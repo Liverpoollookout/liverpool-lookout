@@ -3,7 +3,7 @@ title: "Liverpool's Summer Transfer Hunt: Arne Slot Eyes World-Class Reinforceme
 meta_title: "Liverpool FC Transfer Targets: Summer 2026 Window Analysis"
 date: 2026-03-30T15:58:10Z
 description: "Liverpool FC transfer news: Arne Slot's summer 2026 targets analysed. Potential replacements, realistic fees, and how new signings could fit Anfield's tact"
-image: "/images/articles/2026-03-30-liverpools-summer-transfer-hunt-arne-slot-eyes-world-class-reinforcements.svg"
+
 tags:
   - "Transfer News"
   - "Arne Slot"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-30-liverpools-summer-transfer-hunt-arne-slot-eyes-world-class-reinforcements.svg" alt="Liverpool's Summer Transfer Hunt: Arne Slot Eyes World-Class Reinforcements" class="article-svg" loading="eager">
-</div>
 
 # Liverpool's Summer Transfer Hunt: Arne Slot Eyes World-Class Reinforcements
 

@@ -17,10 +17,6 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#0d2137" rx="8"/><text x="400" y="60" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="14" font-weight="700" fill="#F6EB61" letter-spacing="4">STARS OF THE FUTURE</text><g transform="translate(400,260)"><circle cx="0" cy="-40" r="16" fill="#C8102E" opacity="0.85"/><rect x="-12" y="-24" width="24" height="35" rx="6" fill="#C8102E" opacity="0.85"/></g><text x="400" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="3">ACADEMY &amp; YOUTH</text></svg>
-</div>
-
 # Trey Nyoni and the Next Generation: How Liverpool's Academy is Building Future Stars
 
 Whilst Arne Slot's first-team squad continues to dominate domestically and compete in Europe, the real foundation of Liverpool FC's future is being carefully crafted at the Academy on Merseyside. As we approach the final months of the 2025-26 season, attention has naturally turned to the talented cohort emerging through the club's youth system—and none more so than midfielder Trey Nyoni, who is rapidly establishing himself as one of the most exciting prospects in English football.

@@ -3,7 +3,7 @@ title: "Liverpool 4-0 Galatasaray: Reds Dispatch Turkish Giants with Clinical Ch
 meta_title: "Liverpool 4-0 Galatasaray: Dominant Anfield Display"
 date: 2026-04-02T17:10:22Z
 description: "Liverpool thrashed Galatasaray 4-0 at Anfield in Champions League Round of 16. Salah, Nunez, and Diaz shine as Slot's side advance with commanding display."
-image: "/images/articles/2026-04-02-liverpool-4-0-galatasaray-reds-dispatch-turkish-giants-with-clinical-champions-l.svg"
+
 tags:
   - "Champions League"
   - "Match Report"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-liverpool-4-0-galatasaray-reds-dispatch-turkish-giants-with-clinical-champions-l.svg" alt="Liverpool 4-0 Galatasaray: Reds Dispatch Turkish Giants with Clinical Champions League Performance" class="article-svg" loading="eager">
-</div>
 
 # Liverpool 4-0 Galatasaray: Reds Dispatch Turkish Giants with Clinical Champions League Performance
 

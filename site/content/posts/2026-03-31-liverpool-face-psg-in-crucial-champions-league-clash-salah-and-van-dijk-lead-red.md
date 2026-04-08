@@ -3,7 +3,7 @@ title: "Liverpool Face PSG in Crucial Champions League Clash: Salah and Van Dijk
 meta_title: "Liverpool vs PSG Preview: Salah's Champions League Battle"
 date: 2026-03-31T12:09:21Z
 description: "Liverpool travel to PSG in a pivotal Champions League encounter. Slot's tactics, Salah's form, and Van Dijk's defensive prowess will be crucial for the Red"
-image: "/images/articles/2026-03-31-liverpool-face-psg-in-crucial-champions-league-clash-salah-and-van-dijk-lead-red.svg"
+
 tags:
   - "Champions League"
   - "Match Preview"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-liverpool-face-psg-in-crucial-champions-league-clash-salah-and-van-dijk-lead-red.svg" alt="Liverpool Face PSG in Crucial Champions League Clash: Salah and Van Dijk Lead Reds' European Quest" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Face PSG in Crucial Champions League Clash: Salah and Van Dijk Lead Reds' European Quest
 

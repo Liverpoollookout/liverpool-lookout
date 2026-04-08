@@ -3,7 +3,7 @@ title: "Liverpool Demolish Galatasaray 4-0 at Anfield in Dominant Champions Leag
 meta_title: "Liverpool 4-0 Galatasaray: Salah Stars in Champions League"
 date: 2026-04-02T19:39:22Z
 description: "Liverpool FC cruise past Galatasaray 4-0 at Anfield in UEFA Champions League Round of 16. Mohamed Salah leads devastating performance under Arne Slot."
-image: "/images/articles/2026-04-02-liverpool-demolish-galatasaray-4-0-at-anfield-in-dominant-champions-league-displ.svg"
+
 tags:
   - "Champions League"
   - "Match Report"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-liverpool-demolish-galatasaray-4-0-at-anfield-in-dominant-champions-league-displ.svg" alt="Liverpool Demolish Galatasaray 4-0 at Anfield in Dominant Champions League Display" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Demolish Galatasaray 4-0 at Anfield in Dominant Champions League Display
 

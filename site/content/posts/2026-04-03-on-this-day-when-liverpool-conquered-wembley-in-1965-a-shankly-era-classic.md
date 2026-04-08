@@ -3,7 +3,7 @@ title: "On This Day: When Liverpool Conquered Wembley in 1965 – A Shankly Era 
 meta_title: "Liverpool's 1965 FA Cup Glory: Shankly's Masterclass"
 date: 2026-04-03T10:09:32Z
 description: "Relive Liverpool FC's iconic 1965 FA Cup victory under Bill Shankly. A defining moment in the Reds' glorious history at Anfield and beyond."
-image: "/images/articles/2026-04-03-on-this-day-when-liverpool-conquered-wembley-in-1965-a-shankly-era-classic.svg"
+
 tags:
   - "history"
   - "bill-shankly"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-03-on-this-day-when-liverpool-conquered-wembley-in-1965-a-shankly-era-classic.svg" alt="On This Day: When Liverpool Conquered Wembley in 1965 – A Shankly Era Classic" class="article-svg" loading="eager">
-</div>
 
 # On This Day: When Liverpool Conquered Wembley in 1965 – A Shankly Era Classic
 

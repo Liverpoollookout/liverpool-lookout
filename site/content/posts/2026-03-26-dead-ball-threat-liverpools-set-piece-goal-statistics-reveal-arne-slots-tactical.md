@@ -24,10 +24,6 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#0d1117" rx="8"/><rect x="80" y="140" width="60" height="180" fill="#C8102E"/><rect x="160" y="100" width="60" height="220" fill="#C8102E" opacity="0.85"/><rect x="240" y="160" width="60" height="160" fill="#C8102E" opacity="0.7"/><rect x="320" y="60" width="60" height="260" fill="#C8102E" opacity="0.9"/><rect x="400" y="120" width="60" height="200" fill="#C8102E" opacity="0.75"/><rect x="480" y="80" width="60" height="240" fill="#C8102E" opacity="0.8"/><rect x="560" y="130" width="60" height="190" fill="#4CAF50" opacity="0.8"/><rect x="640" y="50" width="60" height="270" fill="#4CAF50" opacity="0.9"/><line x1="70" y1="320" x2="740" y2="320" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><text x="400" y="370" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="3">STATS &amp; DATA</text></svg>
-</div>
-
 # Dead Ball Threat: Liverpool's Set-Piece Goals Reveal Slot's Tactical Blueprint
 
 As Liverpool FC continues its 2025-26 campaign under Arne Slot's stewardship, a compelling statistical narrative has emerged from Anfield: the Reds have transformed set-piece execution into a genuinely potent offensive weapon. With significant departures reshaping the squad—including Trent Alexander-Arnold's summer 2024 exit to Real Madrid—the tactical landscape has shifted considerably, yet set-piece effectiveness has surged.

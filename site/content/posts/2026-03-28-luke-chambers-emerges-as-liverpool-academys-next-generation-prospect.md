@@ -3,7 +3,7 @@ title: "Luke Chambers Emerges as Liverpool Academy's Next Generation Prospect"
 meta_title: "Luke Chambers: Liverpool's Rising Academy Talent"
 date: 2026-03-28T09:54:56Z
 description: "Liverpool FC academy prospect Luke Chambers impresses with potential to challenge for first-team minutes under Arne Slot. Development pathway examined."
-image: "/images/articles/2026-03-28-luke-chambers-emerges-as-liverpool-academys-next-generation-prospect.svg"
+
 tags:
   - "Liverpool Academy"
   - "Luke Chambers"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-luke-chambers-emerges-as-liverpool-academys-next-generation-prospect.svg" alt="Luke Chambers Emerges as Liverpool Academy's Next Generation Prospect" class="article-svg" loading="eager">
-</div>
 
 # Luke Chambers Emerges as Liverpool Academy's Next Generation Prospect
 

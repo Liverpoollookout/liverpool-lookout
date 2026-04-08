@@ -3,7 +3,7 @@ title: "Harvey Elliott: The Midfield Spark Driving Liverpool's European Ambition
 meta_title: "Harvey Elliott: Liverpool's Midfield Catalyst in 2025-26"
 date: 2026-03-27T15:11:22Z
 description: "Harvey Elliott analysis: Liverpool's creative midfielder excels under Arne Slot. Form, role, statistics, strengths and areas for improvement in 2025-26 sea"
-image: "/images/articles/2026-03-27-harvey-elliott-the-midfield-spark-driving-liverpools-european-ambitions.svg"
+
 tags:
   - "Harvey Elliott"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-27-harvey-elliott-the-midfield-spark-driving-liverpools-european-ambitions.svg" alt="Harvey Elliott: The Midfield Spark Driving Liverpool's European Ambitions" class="article-svg" loading="eager">
-</div>
 
 # Harvey Elliott: The Midfield Spark Driving Liverpool's European Ambitions
 

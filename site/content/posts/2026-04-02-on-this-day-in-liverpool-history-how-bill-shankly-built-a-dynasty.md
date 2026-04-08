@@ -3,7 +3,7 @@ title: "On This Day in Liverpool History: How Bill Shankly Built a Dynasty"
 meta_title: "Liverpool's Greatest: The Shankly Era Revolution"
 date: 2026-04-02T17:13:31Z
 description: "Explore Liverpool FC's transformative Shankly era (1959-1974) and the legendary manager's blueprint that shaped modern football greatness at Anfield."
-image: "/images/articles/2026-04-02-on-this-day-in-liverpool-history-how-bill-shankly-built-a-dynasty.svg"
+
 tags:
   - "Liverpool FC"
   - "Bill Shankly"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-on-this-day-in-liverpool-history-how-bill-shankly-built-a-dynasty.svg" alt="On This Day in Liverpool History: How Bill Shankly Built a Dynasty" class="article-svg" loading="eager">
-</div>
 
 # On This Day in Liverpool History: How Bill Shankly Built a Dynasty
 

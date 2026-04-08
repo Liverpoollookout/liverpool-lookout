@@ -3,7 +3,7 @@ title: "On This Day: Reliving Liverpool's Glorious 1977 European Cup Triumph"
 meta_title: "Liverpool's 1977 European Cup Glory: Paisley's Masterpiece"
 date: 2026-03-31T17:35:25Z
 description: "Revisit Liverpool FC's iconic 1977 European Cup victory at the Stadio Olimpico. A golden moment under Bob Paisley's legendary management era."
-image: "/images/articles/2026-03-31-on-this-day-reliving-liverpools-glorious-1977-european-cup-triumph.svg"
+
 tags:
   - "Liverpool FC"
   - "Bob Paisley"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-on-this-day-reliving-liverpools-glorious-1977-european-cup-triumph.svg" alt="On This Day: Reliving Liverpool's Glorious 1977 European Cup Triumph" class="article-svg" loading="eager">
-</div>
 
 # On This Day: Liverpool's 1977 European Cup Glory—A Golden Moment at the Stadio Olimpico
 

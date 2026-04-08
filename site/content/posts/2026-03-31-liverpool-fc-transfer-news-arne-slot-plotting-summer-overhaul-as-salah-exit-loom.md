@@ -3,7 +3,7 @@ title: "Liverpool FC Transfer News: Arne Slot Plotting Summer Overhaul as Salah 
 meta_title: "Liverpool Transfer Targets 2025-26: Salah Exit Plans & Anfie"
 date: 2026-03-31T09:48:00Z
 description: "Liverpool transfer rumours: Mohamed Salah departure confirmed for summer 2026. Explore Arne Slot's potential targets to replace the Egyptian king at Anfiel"
-image: "/images/articles/2026-03-31-liverpool-fc-transfer-news-arne-slot-plotting-summer-overhaul-as-salah-exit-loom.svg"
+
 tags:
   - "Liverpool FC"
   - "Transfer News"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-liverpool-fc-transfer-news-arne-slot-plotting-summer-overhaul-as-salah-exit-loom.svg" alt="Liverpool FC Transfer News: Arne Slot Plotting Summer Overhaul as Salah Exit Looms" class="article-svg" loading="eager">
-</div>
 
 # Liverpool FC Transfer News: Arne Slot Plotting Summer Overhaul as Salah Exit Looms
 

@@ -17,10 +17,6 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#0d1117" rx="8"/><rect x="80" y="140" width="60" height="180" fill="#C8102E"/><rect x="160" y="100" width="60" height="220" fill="#C8102E" opacity="0.85"/><rect x="240" y="160" width="60" height="160" fill="#C8102E" opacity="0.7"/><rect x="320" y="60" width="60" height="260" fill="#C8102E" opacity="0.9"/><rect x="400" y="120" width="60" height="200" fill="#C8102E" opacity="0.75"/><rect x="480" y="80" width="60" height="240" fill="#C8102E" opacity="0.8"/><rect x="560" y="130" width="60" height="190" fill="#4CAF50" opacity="0.8"/><rect x="640" y="50" width="60" height="270" fill="#4CAF50" opacity="0.9"/><line x1="70" y1="320" x2="740" y2="320" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><text x="400" y="370" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="3">STATS &amp; DATA</text></svg>
-</div>
-
 # Liverpool's Pressing Intensity Under Slot: How the Reds Compare to the Elite
 
 With Liverpool's Champions League quarter-final against PSG looming, there's been considerable scrutiny of Arne Slot's tactical approach and how it differs from his predecessor. One area that's proven particularly revealing is pressing intensity—the measure of how aggressively a team applies pressure to opposition ball carriers in the attacking third.

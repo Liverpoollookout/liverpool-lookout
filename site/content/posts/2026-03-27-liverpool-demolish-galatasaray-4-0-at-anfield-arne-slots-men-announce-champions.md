@@ -3,7 +3,7 @@ title: "Liverpool Demolish Galatasaray 4-0 at Anfield: Arne Slot's Men Announce 
 meta_title: "Liverpool 4-0 Galatasaray: Dominant Display at Anfield"
 date: 2026-03-27T18:38:34Z
 description: "Liverpool crush Galatasaray 4-0 in Champions League Round of 16. Salah, Nunez, and Diaz star as Slot's side showcases clinical finishing and defensive mast"
-image: "/images/articles/2026-03-27-liverpool-demolish-galatasaray-4-0-at-anfield-arne-slots-men-announce-champions.svg"
+
 tags:
   - "Match Report"
   - "Champions League"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-27-liverpool-demolish-galatasaray-4-0-at-anfield-arne-slots-men-announce-champions.svg" alt="Liverpool Demolish Galatasaray 4-0 at Anfield: Arne Slot's Men Announce Champions League Credentials" class="article-svg" loading="eager">
-</div>
 
 # Liverpool 4-0 Galatasaray: Reds' Champions League Statement
 

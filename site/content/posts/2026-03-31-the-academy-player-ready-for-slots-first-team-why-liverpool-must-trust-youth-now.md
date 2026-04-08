@@ -3,7 +3,7 @@ title: "The Academy Player Ready for Slot's First Team: Why Liverpool Must Trust
 meta_title: "Liverpool Academy Star Ready for Slot's First Team"
 date: 2026-03-31T20:04:34Z
 description: "Opinion: Which Liverpool academy talent is primed for Arne Slot's first-team plans? Examining the pathway for young Reds to break through at Anfield."
-image: "/images/articles/2026-03-31-the-academy-player-ready-for-slots-first-team-why-liverpool-must-trust-youth-now.svg"
+
 tags:
   - "Harvey Elliott"
   - "Academy Development"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-the-academy-player-ready-for-slots-first-team-why-liverpool-must-trust-youth-now.svg" alt="The Academy Player Ready for Slot's First Team: Why Liverpool Must Trust Youth Now" class="article-svg" loading="eager">
-</div>
 
 # The Academy Player Ready for Slot's First Team: Why Liverpool Must Trust Youth Now
 

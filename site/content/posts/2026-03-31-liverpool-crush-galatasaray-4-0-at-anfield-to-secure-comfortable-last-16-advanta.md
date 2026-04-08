@@ -3,7 +3,7 @@ title: "Liverpool Crush Galatasaray 4-0 at Anfield to Secure Comfortable Last-16
 meta_title: "Liverpool 4-0 Galatasaray: Dominant Champions League Display"
 date: 2026-03-31T09:47:12Z
 description: "Liverpool FC delivered a masterclass performance at Anfield, defeating Galatasaray 4-0 in the Champions League Round of 16. Salah, Nunez, and Diaz shine un"
-image: "/images/articles/2026-03-31-liverpool-crush-galatasaray-4-0-at-anfield-to-secure-comfortable-last-16-advanta.svg"
+
 tags:
   - "Liverpool FC"
   - "Champions League"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-liverpool-crush-galatasaray-4-0-at-anfield-to-secure-comfortable-last-16-advanta.svg" alt="Liverpool Crush Galatasaray 4-0 at Anfield to Secure Comfortable Last-16 Advantage" class="article-svg" loading="eager">
-</div>
 
 # Liverpool 4-0 Galatasaray: Merseysiders Deliver Champions League Masterclass
 

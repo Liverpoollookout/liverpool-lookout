@@ -3,7 +3,7 @@ title: "Liverpool Face PSG in Champions League Quarter-Final Showdown: Slot's Ta
 meta_title: "Liverpool vs PSG: Champions League Preview & Lineup"
 date: 2026-03-28T11:04:33Z
 description: "Liverpool prepare for crucial PSG clash in Champions League. Preview Salah, Van Dijk battle with tactical analysis and predicted XI under Arne Slot."
-image: "/images/articles/2026-03-28-liverpool-face-psg-in-champions-league-quarter-final-showdown-slots-tactical-blu.svg"
+
 tags:
   - "Match Preview"
   - "Champions League"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-liverpool-face-psg-in-champions-league-quarter-final-showdown-slots-tactical-blu.svg" alt="Liverpool Face PSG in Champions League Quarter-Final Showdown: Slot's Tactical Blueprint Revealed" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Face PSG in Champions League Quarter-Final Showdown: Slot's Tactical Blueprint Revealed
 

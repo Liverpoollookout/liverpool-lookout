@@ -3,7 +3,7 @@ title: "Liverpool Demolish Galatasaray 4-0 at Anfield in Champions League Round 
 meta_title: "Liverpool 4-0 Galatasaray: Dominant Display at Anfield"
 date: 2026-03-31T23:50:50Z
 description: "Liverpool FC cruise past Galatasaray with commanding 4-0 victory at Anfield. Arne Slot's side puts on a masterclass in European football with clinical fini"
-image: "/images/articles/2026-03-31-liverpool-demolish-galatasaray-4-0-at-anfield-in-champions-league-round-of-16.svg"
+
 tags:
   - "Champions League"
   - "Match Report"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-liverpool-demolish-galatasaray-4-0-at-anfield-in-champions-league-round-of-16.svg" alt="Liverpool Demolish Galatasaray 4-0 at Anfield in Champions League Round of 16" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Demolish Galatasaray 4-0 at Anfield in Champions League Round of 16
 

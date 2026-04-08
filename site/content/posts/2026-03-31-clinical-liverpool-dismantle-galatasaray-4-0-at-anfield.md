@@ -3,7 +3,7 @@ title: "Clinical Liverpool Dismantle Galatasaray 4-0 at Anfield"
 meta_title: "Liverpool 4-0 Galatasaray: Salah Stars in Champions League W"
 date: 2026-03-31T12:08:53Z
 description: "Liverpool FC cruise past Galatasaray 4-0 in Champions League Round of 16. Salah shines as Slot's side put on dominant display at Anfield."
-image: "/images/articles/2026-03-31-clinical-liverpool-dismantle-galatasaray-4-0-at-anfield.svg"
+
 tags:
   - "Champions League"
   - "Match Report"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-clinical-liverpool-dismantle-galatasaray-4-0-at-anfield.svg" alt="Clinical Liverpool Dismantle Galatasaray 4-0 at Anfield" class="article-svg" loading="eager">
-</div>
 
 # Clinical Liverpool Dismantle Galatasaray 4-0 at Anfield
 

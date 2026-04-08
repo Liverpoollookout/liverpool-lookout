@@ -3,7 +3,7 @@ title: "Dissecting Arne Slot's Liverpool: How the 4-2-3-1 Hybrid is Reshaping An
 meta_title: "Liverpool FC Tactical Analysis: Slot's 4-2-3-1 System Explai"
 date: 2026-03-28T07:59:32Z
 description: "In-depth tactical breakdown of Arne Slot's Liverpool FC system: pressing triggers, build-up patterns, and set-piece routines with Salah, van Dijk and Grave"
-image: "/images/articles/2026-03-28-dissecting-arne-slots-liverpool-how-the-4-2-3-1-hybrid-is-reshaping-anfield.svg"
+
 tags:
   - "Arne Slot"
   - "Liverpool FC Tactics"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-dissecting-arne-slots-liverpool-how-the-4-2-3-1-hybrid-is-reshaping-anfield.svg" alt="Dissecting Arne Slot's Liverpool: How the 4-2-3-1 Hybrid is Reshaping Anfield" class="article-svg" loading="eager">
-</div>
 
 # Dissecting Arne Slot's Liverpool: How the 4-2-3-1 Hybrid is Reshaping Anfield
 

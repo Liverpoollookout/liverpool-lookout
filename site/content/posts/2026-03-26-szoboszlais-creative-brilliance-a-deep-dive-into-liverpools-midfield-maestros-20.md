@@ -3,7 +3,7 @@ title: "Szoboszlai's Creative Brilliance: A Deep Dive into Liverpool's Midfield 
 meta_title: "Szoboszlai Stats: Liverpool Midfielder's Creative Excellence"
 date: 2026-03-26T23:43:31Z
 description: "Analysing Dominik Szoboszlai's shot-creating actions and key passes for Liverpool FC in the 2025-26 season. Tactical insights under Arne Slot."
-image: "/images/articles/2026-03-26-szoboszlais-creative-brilliance-a-deep-dive-into-liverpools-midfield-maestros-20.svg"
+
 tags:
   - "Dominik Szoboszlai"
   - "Liverpool FC Statistics"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#0d1117" rx="8"/><rect x="80" y="140" width="60" height="180" fill="#C8102E"/><rect x="160" y="100" width="60" height="220" fill="#C8102E" opacity="0.85"/><rect x="240" y="160" width="60" height="160" fill="#C8102E" opacity="0.7"/><rect x="320" y="60" width="60" height="260" fill="#C8102E" opacity="0.9"/><rect x="400" y="120" width="60" height="200" fill="#C8102E" opacity="0.75"/><rect x="480" y="80" width="60" height="240" fill="#C8102E" opacity="0.8"/><rect x="560" y="130" width="60" height="190" fill="#4CAF50" opacity="0.8"/><rect x="640" y="50" width="60" height="270" fill="#4CAF50" opacity="0.9"/><line x1="70" y1="320" x2="740" y2="320" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><text x="400" y="370" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="3">STATS &amp; DATA</text></svg>
-</div>
 
 # Szoboszlai's Creative Brilliance: A Deep Dive into Liverpool's Midfield Maestro's 2025-26 Statistics
 

@@ -3,7 +3,7 @@ title: "Quansah's Evolution: How Liverpool's Young Defender is Establishing Hims
 meta_title: "Jarell Quansah: Liverpool's Rising Defensive Talent"
 date: 2026-03-27T13:17:51Z
 description: "Jarell Quansah player spotlight: examining the Liverpool FC defender's role in Arne Slot's system, strengths, weaknesses, and 2025-26 season form at Anfiel"
-image: "/images/articles/2026-03-27-quansahs-evolution-how-liverpools-young-defender-is-establishing-himself-under-s.svg"
+
 tags:
   - "Jarell Quansah"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-27-quansahs-evolution-how-liverpools-young-defender-is-establishing-himself-under-s.svg" alt="Quansah's Evolution: How Liverpool's Young Defender is Establishing Himself Under Slot" class="article-svg" loading="eager">
-</div>
 
 # Quansah's Evolution: How Liverpool's Young Defender is Establishing Himself Under Slot
 

@@ -3,7 +3,7 @@ title: "Deconstructing Arne Slot's Liverpool: A Tactical Deep Dive into the 4-2-
 meta_title: "Liverpool Tactics: Slot's 4-2-3-1 System Analysed"
 date: 2026-03-28T14:05:30Z
 description: "Tactical analysis of Arne Slot's Liverpool FC system. Explore pressing triggers, build-up patterns, and how Salah, van Dijk, and Gravenberch execute the 4-"
-image: "/images/articles/2026-03-28-deconstructing-arne-slots-liverpool-a-tactical-deep-dive-into-the-4-2-3-1-revolu.svg"
+
 tags:
   - "Arne Slot"
   - "4-2-3-1 Formation"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-deconstructing-arne-slots-liverpool-a-tactical-deep-dive-into-the-4-2-3-1-revolu.svg" alt="Deconstructing Arne Slot's Liverpool: A Tactical Deep Dive into the 4-2-3-1 Revolution" class="article-svg" loading="eager">
-</div>
 
 # Deconstructing Arne Slot's Liverpool: A Tactical Deep Dive into the 4-2-3-1 Revolution
 

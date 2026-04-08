@@ -3,7 +3,7 @@ title: "Liverpool Host PSG in Crucial Champions League Clash: Team News, Tactics
 meta_title: "Liverpool vs PSG Preview: Slot's Champions League Test"
 date: 2026-04-02T19:43:00Z
 description: "Liverpool face PSG at Anfield in pivotal Champions League tie. Salah, van Dijk & Slot's Reds seek knockout progression. Full preview & lineup predictions."
-image: "/images/articles/2026-04-02-liverpool-host-psg-in-crucial-champions-league-clash-team-news-tactics-predictio.svg"
+
 tags:
   - "Champions League"
   - "Match Preview"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-liverpool-host-psg-in-crucial-champions-league-clash-team-news-tactics-predictio.svg" alt="Liverpool Host PSG in Crucial Champions League Clash: Team News, Tactics & Prediction" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Host PSG in Crucial Champions League Clash: Slot's Reds Target Knockout Progression
 

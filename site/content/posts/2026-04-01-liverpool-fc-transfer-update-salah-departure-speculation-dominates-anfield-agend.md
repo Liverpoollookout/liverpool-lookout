@@ -3,7 +3,7 @@ title: "Liverpool FC Transfer Update: Salah Departure Speculation Dominates Anfi
 meta_title: "Liverpool Transfer News: Salah Exit Rumours & Summer Plans"
 date: 2026-04-01T22:02:02Z
 description: "Latest Liverpool FC transfer news: Mohamed Salah exit rumours, contract situations, and Arne Slot's summer rebuild plans for 2025-26 season."
-image: "/images/articles/2026-04-01-liverpool-fc-transfer-update-salah-departure-speculation-dominates-anfield-agend.svg"
+
 tags:
   - "Transfer News"
   - "Mohamed Salah"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-01-liverpool-fc-transfer-update-salah-departure-speculation-dominates-anfield-agend.svg" alt="Liverpool FC Transfer Update: Salah Departure Speculation Dominates Anfield Agenda" class="article-svg" loading="eager">
-</div>
 
 # Liverpool FC Transfer Update: Salah Speculation & Summer Rebuild Questions
 

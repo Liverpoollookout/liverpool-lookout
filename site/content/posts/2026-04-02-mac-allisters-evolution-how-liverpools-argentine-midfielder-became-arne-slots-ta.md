@@ -3,7 +3,7 @@ title: "Mac Allister's Evolution: How Liverpool's Argentine Midfielder Became Ar
 meta_title: "Mac Allister: Liverpool's Midfield Anchor Under Slot"
 date: 2026-04-02T17:10:48Z
 description: "Alexis Mac Allister analysis: his role in Liverpool's 2025-26 system under Arne Slot, key strengths, and areas for development at Anfield."
-image: "/images/articles/2026-04-02-mac-allisters-evolution-how-liverpools-argentine-midfielder-became-arne-slots-ta.svg"
+
 tags:
   - "Player Analysis"
   - "Alexis Mac Allister"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-mac-allisters-evolution-how-liverpools-argentine-midfielder-became-arne-slots-ta.svg" alt="Mac Allister's Evolution: How Liverpool's Argentine Midfielder Became Arne Slot's Tactical Cornerstone" class="article-svg" loading="eager">
-</div>
 
 # Mac Allister's Evolution: How Liverpool's Argentine Midfielder Became Arne Slot's Tactical Cornerstone
 

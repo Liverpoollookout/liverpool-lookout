@@ -3,7 +3,7 @@ title: "Arne Slot's Tactical Blueprint at Liverpool: Deconstructing the 4-2-3-1 
 meta_title: "Liverpool Tactical Analysis: Slot's 4-2-3-1 System Explained"
 date: 2026-04-01T18:11:54Z
 description: "Detailed tactical breakdown of Arne Slot's Liverpool FC system: pressing triggers, build-up patterns, and set-piece routines in the 2025-26 season."
-image: "/images/articles/2026-04-01-arne-slots-tactical-blueprint-at-liverpool-deconstructing-the-4-2-3-1-system.svg"
+
 tags:
   - "Tactical Analysis"
   - "Arne Slot"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-01-arne-slots-tactical-blueprint-at-liverpool-deconstructing-the-4-2-3-1-system.svg" alt="Arne Slot's Tactical Blueprint at Liverpool: Deconstructing the 4-2-3-1 System" class="article-svg" loading="eager">
-</div>
 
 # Arne Slot's Tactical Blueprint at Liverpool: Deconstructing the 4-2-3-1 System
 

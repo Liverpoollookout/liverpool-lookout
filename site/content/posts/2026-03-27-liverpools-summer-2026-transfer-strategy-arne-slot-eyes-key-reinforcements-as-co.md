@@ -3,7 +3,7 @@ title: "Liverpool's Summer 2026 Transfer Strategy: Arne Slot Eyes Key Reinforcem
 meta_title: "Liverpool Transfer Targets Summer 2026 | LFC Scout Report"
 date: 2026-03-27T21:52:56Z
 description: "Exclusive Liverpool FC transfer analysis. Mohamed Salah's future uncertain as Arne Slot plans summer signings. Targets, fees, and Anfield fit explored."
-image: "/images/articles/2026-03-27-liverpools-summer-2026-transfer-strategy-arne-slot-eyes-key-reinforcements-as-co.svg"
+
 tags:
   - "transfer-news"
   - "Mohamed Salah"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-27-liverpools-summer-2026-transfer-strategy-arne-slot-eyes-key-reinforcements-as-co.svg" alt="Liverpool's Summer 2026 Transfer Strategy: Arne Slot Eyes Key Reinforcements as Contract Uncertainty Looms" class="article-svg" loading="eager">
-</div>
 
 # Liverpool's Summer 2026 Transfer Strategy: Arne Slot Eyes Key Reinforcements as Contract Uncertainty Looms
 

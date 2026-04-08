@@ -3,7 +3,7 @@ title: "Jarell Quansah Player Spotlight: Liverpool's Emerging Centre-Back in the
 meta_title: "Jarell Quansah: Liverpool's Rising Defensive Prospect"
 date: 2026-03-30T10:45:32Z
 description: "Analysis of Jarell Quansah's 2025-26 season form at Liverpool FC under Arne Slot. Strengths, statistics and development as a key defender at Anfield."
-image: "/images/articles/2026-03-30-jarell-quansah-player-spotlight-liverpools-emerging-centre-back-in-the-slot-era.svg"
+
 tags:
   - "Jarell Quansah"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-30-jarell-quansah-player-spotlight-liverpools-emerging-centre-back-in-the-slot-era.svg" alt="Jarell Quansah Player Spotlight: Liverpool's Emerging Centre-Back in the Slot Era" class="article-svg" loading="eager">
-</div>
 
 # Jarell Quansah: Liverpool's Emerging Defensive Prospect in the Slot Era
 

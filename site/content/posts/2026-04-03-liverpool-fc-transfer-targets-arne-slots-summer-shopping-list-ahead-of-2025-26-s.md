@@ -3,7 +3,7 @@ title: "Liverpool FC Transfer Targets: Arne Slot's Summer Shopping List Ahead of
 meta_title: "Liverpool Transfer Targets 2025-26 | Anfield Summer Plans"
 date: 2026-04-03T10:09:10Z
 description: "Exclusive Liverpool FC transfer news: Slot's potential targets, reported fee estimates, and how new signings could strengthen Anfield's squad for 2025-26."
-image: "/images/articles/2026-04-03-liverpool-fc-transfer-targets-arne-slots-summer-shopping-list-ahead-of-2025-26-s.svg"
+
 tags:
   - "Transfer News"
   - "Arne Slot"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-03-liverpool-fc-transfer-targets-arne-slots-summer-shopping-list-ahead-of-2025-26-s.svg" alt="Liverpool FC Transfer Targets: Arne Slot's Summer Shopping List Ahead of 2025-26 Season" class="article-svg" loading="eager">
-</div>
 
 # Liverpool FC Transfer Targets: Arne Slot's Summer Shopping List Ahead of 2025-26 Season
 

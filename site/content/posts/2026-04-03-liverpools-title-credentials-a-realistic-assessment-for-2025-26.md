@@ -24,10 +24,6 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#1a1a2e" rx="8"/><rect x="60" y="80" width="280" height="160" rx="16" fill="#C8102E"/><polygon points="100,240 80,280 140,240" fill="#C8102E"/><text x="200" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="48" fill="white" opacity="0.9">"</text><text x="200" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="white">My View...</text><rect x="460" y="120" width="280" height="160" rx="16" fill="#444"/><polygon points="700,280 720,320 660,280" fill="#444"/><text x="600" y="190" text-anchor="middle" font-family="Georgia,serif" font-size="48" fill="white" opacity="0.6">"</text><text x="600" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#ccc">Counter point...</text><text x="400" y="215" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="32" font-weight="900" fill="white">VS</text><text x="400" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="4">OPINION</text></svg>
-</div>
-
 # Liverpool's Title Credentials: A Realistic Assessment for 2025-26
 
 Liverpool's devastating 4-0 demolition of Galatasaray at Anfield in the Champions League Round of 16 would have us believe Arne Slot's side are unstoppable. But can they truly mount a credible Premier League title challenge? The answer is more nuanced than the scoreline suggests.

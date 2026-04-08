@@ -3,7 +3,7 @@ title: "Diogo Jota: The Unsung Hero of Liverpool's 2025-26 Campaign"
 meta_title: "Diogo Jota: Liverpool's Versatile Forward Shines Under Slot"
 date: 2026-04-01T12:09:00Z
 description: "Liverpool FC player spotlight on Diogo Jota's crucial role under Arne Slot. Analysing his versatility, strengths and areas for improvement this season at A"
-image: "/images/articles/2026-04-01-diogo-jota-the-unsung-hero-of-liverpools-2025-26-campaign.svg"
+
 tags:
   - "Diogo Jota"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-01-diogo-jota-the-unsung-hero-of-liverpools-2025-26-campaign.svg" alt="Diogo Jota: The Unsung Hero of Liverpool's 2025-26 Campaign" class="article-svg" loading="eager">
-</div>
 
 # Diogo Jota: The Unsung Hero of Liverpool's 2025-26 Campaign
 

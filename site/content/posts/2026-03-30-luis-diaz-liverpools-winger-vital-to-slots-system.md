@@ -3,7 +3,7 @@ title: "Luis Diaz: Liverpool's Winger Vital to Slot's System"
 meta_title: "Luis Diaz Liverpool 2025-26: Form, Role & Analysis"
 date: 2026-03-30T15:58:34Z
 description: "Analyse Luis Diaz's role in Arne Slot's Liverpool FC setup for 2025-26. Exploring his strengths, recent form, and development areas this season at Anfield."
-image: "/images/articles/2026-03-30-luis-diaz-liverpools-winger-vital-to-slots-system.svg"
+
 tags:
   - "Luis Diaz"
   - "Player Analysis"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-30-luis-diaz-liverpools-winger-vital-to-slots-system.svg" alt="Luis Diaz: Liverpool's Winger Vital to Slot's System" class="article-svg" loading="eager">
-</div>
 
 # Luis Diaz: The Mercurial Winger Driving Liverpool's Attack Under Slot
 

@@ -3,7 +3,7 @@ title: "Diogo Jota: Liverpool's Versatile Threat in Arne Slot's System"
 meta_title: "Diogo Jota Liverpool 2025-26: Form & Analysis"
 date: 2026-04-02T10:39:55Z
 description: "Analyse Diogo Jota's 2025-26 season at Liverpool FC under Arne Slot. Current form, statistics, tactical role, and contribution to the Reds' attack."
-image: "/images/articles/2026-04-02-diogo-jota-liverpools-versatile-threat-in-arne-slots-system.svg"
+
 tags:
   - "Diogo Jota"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-diogo-jota-liverpools-versatile-threat-in-arne-slots-system.svg" alt="Diogo Jota: Liverpool's Versatile Threat in Arne Slot's System" class="article-svg" loading="eager">
-</div>
 
 # Diogo Jota: Liverpool's Versatile Threat in Arne Slot's System
 

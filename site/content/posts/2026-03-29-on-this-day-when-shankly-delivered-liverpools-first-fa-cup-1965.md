@@ -3,7 +3,7 @@ title: "On This Day: When Shankly Delivered Liverpool's First FA Cup (1965)"
 meta_title: "Liverpool's 1965 FA Cup Glory: Shankly's First Trophy"
 date: 2026-03-29T17:06:39Z
 description: "Relive Liverpool FC's iconic 1965 FA Cup triumph under Bill Shankly—the moment that transformed the Reds into English football royalty at Wembley."
-image: "/images/articles/2026-03-29-on-this-day-when-shankly-delivered-liverpools-first-fa-cup-1965.svg"
+
 tags:
   - "Bill Shankly"
   - "1965 FA Cup"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-29-on-this-day-when-shankly-delivered-liverpools-first-fa-cup-1965.svg" alt="On This Day: When Shankly Delivered Liverpool's First FA Cup (1965)" class="article-svg" loading="eager">
-</div>
 
 # On This Day: When Shankly Delivered Liverpool's First FA Cup (1965)
 

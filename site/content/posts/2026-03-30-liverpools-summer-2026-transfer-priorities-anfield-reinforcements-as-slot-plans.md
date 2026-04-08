@@ -3,7 +3,7 @@ title: "Liverpool's Summer 2026 Transfer Priorities: Anfield Reinforcements as S
 meta_title: "Liverpool Transfer Targets Summer 2026 | LiverpoolLookout"
 date: 2026-03-30T17:15:33Z
 description: "Exclusive Liverpool FC transfer news: key targets identified for summer 2026 as Arne Slot reshapes the squad. Latest reports on Anfield's recruitment plans"
-image: "/images/articles/2026-03-30-liverpools-summer-2026-transfer-priorities-anfield-reinforcements-as-slot-plans.svg"
+
 tags:
   - "Liverpool FC"
   - "Transfer News"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-30-liverpools-summer-2026-transfer-priorities-anfield-reinforcements-as-slot-plans.svg" alt="Liverpool's Summer 2026 Transfer Priorities: Anfield Reinforcements as Slot Plans Squad Evolution" class="article-svg" loading="eager">
-</div>
 
 # Liverpool's Summer 2026 Transfer Priorities: Anfield Reinforcements as Slot Plans Squad Evolution
 

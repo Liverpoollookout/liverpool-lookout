@@ -3,7 +3,7 @@ title: "Liverpool Transfer Targets Summer 2026: Who Could Arrive at Anfield?"
 meta_title: "Liverpool Transfer Targets Summer 2026: Anfield's Key Priori"
 date: 2026-03-31T21:59:22Z
 description: "Liverpool FC transfer news: Arne Slot's summer 2026 targets revealed. Explore potential signings to strengthen Anfield's squad ahead of next season."
-image: "/images/articles/2026-03-31-liverpool-transfer-targets-summer-2026-who-could-arrive-at-anfield.svg"
+
 tags:
   - "transfer-news"
   - "summer-2026"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-liverpool-transfer-targets-summer-2026-who-could-arrive-at-anfield.svg" alt="Liverpool Transfer Targets Summer 2026: Who Could Arrive at Anfield?" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Transfer Targets Summer 2026: Who Could Arrive at Anfield?
 

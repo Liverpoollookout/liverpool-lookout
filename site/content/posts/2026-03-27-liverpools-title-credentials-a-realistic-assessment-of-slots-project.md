@@ -3,7 +3,7 @@ title: "Liverpool's Title Credentials – A Realistic Assessment of Slot's Proje
 meta_title: "Liverpool Title Credentials 2025-26: Can Slot's Side Deliver"
 date: 2026-03-27T18:39:01Z
 description: "Can Liverpool FC challenge for the Premier League title under Arne Slot? We assess their strengths, weaknesses, and genuine promotion prospects for 2025-26"
-image: "/images/articles/2026-03-27-liverpools-title-credentials-a-realistic-assessment-of-slots-project.svg"
+
 tags:
   - "Liverpool FC"
   - "Premier League"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-27-liverpools-title-credentials-a-realistic-assessment-of-slots-project.svg" alt="Liverpool's Title Credentials – A Realistic Assessment of Slot's Project" class="article-svg" loading="eager">
-</div>
 
 # Liverpool's Title Credentials – A Realistic Assessment of Slot's Project
 

@@ -3,7 +3,7 @@ title: "On This Day: Reliving Liverpool's Glory in Madrid – The 2019 Champions
 meta_title: "Liverpool's Historic 2019 Champions League Final Victory"
 date: 2026-03-29T19:49:21Z
 description: "Revisiting Liverpool FC's iconic 2019 Champions League final win in Madrid. A moment that defined the Klopp era and restored European royalty to Anfield."
-image: "/images/articles/2026-03-29-on-this-day-reliving-liverpools-glory-in-madrid-the-2019-champions-league-triump.svg"
+
 tags:
   - "Klopp era"
   - "Champions League history"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-29-on-this-day-reliving-liverpools-glory-in-madrid-the-2019-champions-league-triump.svg" alt="On This Day: Reliving Liverpool's Glory in Madrid – The 2019 Champions League Triumph" class="article-svg" loading="eager">
-</div>
 
 # On This Day: Reliving Liverpool's Historic 2019 Champions League Victory
 

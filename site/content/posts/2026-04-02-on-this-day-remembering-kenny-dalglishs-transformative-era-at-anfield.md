@@ -3,7 +3,7 @@ title: "On This Day: Remembering Kenny Dalglish's Transformative Era at Anfield"
 meta_title: "Liverpool's Greatest: Kenny Dalglish Era Legacy"
 date: 2026-04-02T10:40:24Z
 description: "Explore Kenny Dalglish's legendary Liverpool FC tenure that defined the 1980s. A historical retrospective on the King of Anfield's greatest moments."
-image: "/images/articles/2026-04-02-on-this-day-remembering-kenny-dalglishs-transformative-era-at-anfield.svg"
+
 tags:
   - "Liverpool FC history"
   - "Kenny Dalglish"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-on-this-day-remembering-kenny-dalglishs-transformative-era-at-anfield.svg" alt="On This Day: Remembering Kenny Dalglish's Transformative Era at Anfield" class="article-svg" loading="eager">
-</div>
 
 # On This Day: The King of Anfield – Kenny Dalglish's Transformative Liverpool Era
 

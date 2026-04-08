@@ -3,7 +3,7 @@ title: "On This Day: When Kenny Dalglish Arrived to Spark a Dynasty"
 meta_title: "Liverpool's 1977 European Cup Glory: The Dalglish Era Begins"
 date: 2026-03-27T19:54:21Z
 description: "Revisit Liverpool FC's legendary 1977 European Cup triumph and Kenny Dalglish's transformative arrival. A watershed moment in Anfield's glorious history."
-image: "/images/articles/2026-03-27-on-this-day-when-kenny-dalglish-arrived-to-spark-a-dynasty.svg"
+
 tags:
   - "Kenny Dalglish"
   - "1977-78 season"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-27-on-this-day-when-kenny-dalglish-arrived-to-spark-a-dynasty.svg" alt="On This Day: When Kenny Dalglish Arrived to Spark a Dynasty" class="article-svg" loading="eager">
-</div>
 
 # On This Day: Kenny Dalglish and the Summer That Changed Liverpool Forever
 

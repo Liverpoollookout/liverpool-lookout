@@ -3,7 +3,7 @@ title: "Liverpool's Summer Transfer Blueprint: Who Could Join Arne Slot's Revolu
 meta_title: "Liverpool Transfer Targets 2025-26 | Anfield Plans"
 date: 2026-04-02T17:11:37Z
 description: "Exclusive transfer analysis on Liverpool FC's potential targets for 2025-26. Discover which players could bolster Slot's squad and reported fee estimates."
-image: "/images/articles/2026-04-02-liverpools-summer-transfer-blueprint-who-could-join-arne-slots-revolution-at-anf.svg"
+
 tags:
   - "Liverpool FC"
   - "Transfer News"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-liverpools-summer-transfer-blueprint-who-could-join-arne-slots-revolution-at-anf.svg" alt="Liverpool's Summer Transfer Blueprint: Who Could Join Arne Slot's Revolution at Anfield?" class="article-svg" loading="eager">
-</div>
 
 # Liverpool's Summer Transfer Blueprint: Who Could Join Arne Slot's Revolution at Anfield?
 

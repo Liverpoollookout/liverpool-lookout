@@ -19,10 +19,6 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#0d2137" rx="8"/><text x="400" y="60" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="14" font-weight="700" fill="#F6EB61" letter-spacing="4">STARS OF THE FUTURE</text><g transform="translate(400,260)"><circle cx="0" cy="-40" r="16" fill="#C8102E" opacity="0.85"/><rect x="-12" y="-24" width="24" height="35" rx="6" fill="#C8102E" opacity="0.85"/></g><text x="400" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="3">ACADEMY &amp; YOUTH</text></svg>
-</div>
-
 # From Kirkby to the Reds: Bobby Clark's Ascent and Liverpool's Academy Excellence
 
 Whilst Arne Slot's first-team performances continue to dominate headlines at Anfield, a quieter revolution has been taking place in the corridors of Liverpool's academy. As the 2025-26 season progresses, the club's youth development system has been quietly nurturing a fresh generation of talent—and few represent this progress more vividly than Bobby Clark.

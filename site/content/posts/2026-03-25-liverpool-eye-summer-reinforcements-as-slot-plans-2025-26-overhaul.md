@@ -17,10 +17,6 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#0a0a2e" rx="8"/><path d="M 250 200 L 550 200" stroke="#C8102E" stroke-width="4" fill="none" stroke-dasharray="10,5"><animate attributeName="stroke-dashoffset" values="0;-60" dur="1s" repeatCount="indefinite"/></path><polygon points="560,190 580,200 560,210" fill="#C8102E"/><rect x="100" y="165" width="130" height="70" rx="8" fill="rgba(200,16,46,0.8)"/><text x="165" y="205" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="16" font-weight="900" fill="white">SELLING</text><rect x="570" y="165" width="130" height="70" rx="8" fill="rgba(200,16,46,0.8)"/><text x="635" y="205" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="16" font-weight="900" fill="white">ANFIELD</text><text x="400" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="white" letter-spacing="4">TRANSFER NEWS</text></svg>
-</div>
-
 # Liverpool Eye Summer Reinforcements as Slot Plans 2025-26 Overhaul
 
 With the 2024-25 campaign entering its final stretch, Arne Slot is already casting his net across Europe in search of quality additions for next season. Liverpool's summer recruitment drive is shaping up to be crucial as the Reds prepare for a competitive 2025-26 campaign.

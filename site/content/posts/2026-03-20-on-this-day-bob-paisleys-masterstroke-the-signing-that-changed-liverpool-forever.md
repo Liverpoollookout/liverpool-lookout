@@ -17,53 +17,7 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-  <svg class="article-svg" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Liverpool FC History animated illustration">
-      <defs>
-            <linearGradient id="hist1" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" style="stop-color:#0d0d1a"/>
-                    <stop offset="100%" style="stop-color:#1a1a0d"/>
-            </linearGradient>linearGradient>
-            <linearGradient id="hist2" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" style="stop-color:#F6EB61"/>
-                    <stop offset="100%" style="stop-color:#C8A000"/>
-            </linearGradient>linearGradient>
-      </defs>defs>
-      <rect width="600" height="300" fill="url(#hist1)" rx="12"/>
-      <text x="300" y="30" text-anchor="middle" fill="#F6EB61" font-size="16" font-weight="bold" font-family="Georgia, serif">ON THIS DAY IN HISTORY</text>text>
-      <text x="300" y="50" text-anchor="middle" fill="#C8102E" font-size="12" font-family="Georgia, serif">Liverpool FC - The Golden Era</text>text>
-      <rect x="240" y="65" width="120" height="160" rx="6" fill="url(#hist2)" opacity="0.9"/>
-      <rect x="250" y="75" width="100" height="30" rx="3" fill="#C8102E"/>
-      <text x="300" y="95" text-anchor="middle" fill="white" font-size="10" font-family="Arial">EUROPEAN CUP</text>text>
-      <rect x="258" y="115" width="84" height="80" rx="2" fill="#C8102E" opacity="0.4"/>
-      <ellipse cx="300" cy="175" rx="42" ry="16" fill="#B8A000"/>
-      <rect x="258" y="175" width="84" height="50" rx="3" fill="url(#hist2)"/>
-      <ellipse cx="300" cy="225" rx="50" ry="12" fill="#B8A000"/>
-      <ellipse cx="300" cy="65" rx="20" ry="6" fill="#F6EB61"/>
-      <circle cx="300" cy="65" r="5" fill="#C8102E">
-            <animate attributeName="r" values="5;9;5" dur="2s" repeatCount="indefinite"/>
-            <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
-      </circle>circle>
-      <text x="50" y="120" fill="#F6EB61" font-size="22" font-family="Georgia">★</text>text>
-      <text x="50" y="150" fill="#F6EB61" font-size="22" font-family="Georgia">★</text>text>
-      <text x="50" y="180" fill="#F6EB61" font-size="22" font-family="Georgia">★</text>text>
-      <text x="520" y="120" fill="#F6EB61" font-size="22" font-family="Georgia">★</text>text>
-      <text x="520" y="150" fill="#F6EB61" font-size="22" font-family="Georgia">★</text>text>
-      <text x="520" y="180" fill="#F6EB61" font-size="22" font-family="Georgia">★</text>text>
-      <text x="50" y="120" fill="#F6EB61" font-size="22" font-family="Georgia" opacity="0">★
-            <animate attributeName="opacity" values="0;1;0" dur="3s" begin="0s" repeatCount="indefinite"/>
-      </text>text>
-      <text x="520" y="150" fill="#F6EB61" font-size="22" font-family="Georgia" opacity="0">★
-            <animate attributeName="opacity" values="0;1;0" dur="3s" begin="1s" repeatCount="indefinite"/>
-      </text>text>
-      <text x="50" y="180" fill="#F6EB61" font-size="22" font-family="Georgia" opacity="0">★
-            <animate attributeName="opacity" values="0;1;0" dur="3s" begin="2s" repeatCount="indefinite"/>
-      </text>text>
-      <text x="300" y="260" text-anchor="middle" fill="#C8102E" font-size="14" font-weight="bold" font-family="Georgia, serif">BOB PAISLEY ERA</text>text>
-      <text x="300" y="278" text-anchor="middle" fill="#888" font-size="10" font-family="Arial">History illustrated</text>text>
-  </svg>svg>
-</div>div>
-
+div>
 
       </defs># On This Day: Bob Paisley's Masterstroke – The Signing That Changed Liverpool Forever
 

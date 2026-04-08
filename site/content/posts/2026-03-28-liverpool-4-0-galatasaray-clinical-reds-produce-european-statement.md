@@ -3,7 +3,7 @@ title: "Liverpool 4-0 Galatasaray: Clinical Reds Produce European Statement"
 meta_title: "Liverpool 4-0 Galatasaray: Reds Dominate Champions League"
 date: 2026-03-28T14:04:36Z
 description: "Liverpool demolished Galatasaray 4-0 at Anfield in Champions League Round of 16. Salah, Nunez and Diaz shine as Slot's side advances with authority."
-image: "/images/articles/2026-03-28-liverpool-4-0-galatasaray-clinical-reds-produce-european-statement.svg"
+
 tags:
   - "Match Report"
   - "Champions League"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-liverpool-4-0-galatasaray-clinical-reds-produce-european-statement.svg" alt="Liverpool 4-0 Galatasaray: Clinical Reds Produce European Statement" class="article-svg" loading="eager">
-</div>
 
 # Liverpool 4-0 Galatasaray: Clinical Reds Produce European Statement at Anfield
 

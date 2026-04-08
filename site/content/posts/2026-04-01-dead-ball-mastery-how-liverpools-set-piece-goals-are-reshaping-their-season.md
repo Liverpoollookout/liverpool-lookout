@@ -3,7 +3,7 @@ title: "Dead-Ball Mastery: How Liverpool's Set-Piece Goals Are Reshaping Their S
 meta_title: "Liverpool Set-Piece Goals 2025-26: Full Statistical Analysis"
 date: 2026-04-01T11:18:13Z
 description: "Analysing Liverpool FC's set-piece goal statistics for 2025-26. Van Dijk, Salah, and Nunez lead the numbers under Arne Slot's system at Anfield."
-image: "/images/articles/2026-04-01-dead-ball-mastery-how-liverpools-set-piece-goals-are-reshaping-their-season.svg"
+
 tags:
   - "Set Pieces"
   - "Van Dijk"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-01-dead-ball-mastery-how-liverpools-set-piece-goals-are-reshaping-their-season.svg" alt="Dead-Ball Mastery: How Liverpool's Set-Piece Goals Are Reshaping Their Season" class="article-svg" loading="eager">
-</div>
 
 # Dead-Ball Mastery: How Liverpool's Set-Piece Goals Are Reshaping Their Season
 

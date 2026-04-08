@@ -3,7 +3,7 @@ title: "On This Day: When Kenny Dalglish Announced Himself to European Football"
 meta_title: "Liverpool's 1977 European Cup Glory: Dalglish's First Triump"
 date: 2026-03-28T21:02:20Z
 description: "Revisit Liverpool FC's 1977 European Cup final victory in Rome. How Dalglish's arrival heralded a new era of dominance under Bob Paisley at Anfield."
-image: "/images/articles/2026-03-28-on-this-day-when-kenny-dalglish-announced-himself-to-european-football.svg"
+
 tags:
   - "Liverpool FC"
   - "Kenny Dalglish"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-on-this-day-when-kenny-dalglish-announced-himself-to-european-football.svg" alt="On This Day: When Kenny Dalglish Announced Himself to European Football" class="article-svg" loading="eager">
-</div>
 
 # On This Day: When Kenny Dalglish Announced Himself to European Football
 

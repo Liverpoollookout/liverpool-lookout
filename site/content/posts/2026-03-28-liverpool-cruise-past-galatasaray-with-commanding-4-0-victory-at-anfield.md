@@ -3,7 +3,7 @@ title: "Liverpool Cruise Past Galatasaray with Commanding 4-0 Victory at Anfield
 meta_title: "Liverpool 4-0 Galatasaray: Reds Dominate Champions League"
 date: 2026-03-28T23:02:58Z
 description: "Liverpool demolished Galatasaray 4-0 at Anfield in Champions League Round of 16. Salah, Nunez and Diaz shine under Arne Slot's tactical masterclass."
-image: "/images/articles/2026-03-28-liverpool-cruise-past-galatasaray-with-commanding-4-0-victory-at-anfield.svg"
+
 tags:
   - "Champions League"
   - "Match Report"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-liverpool-cruise-past-galatasaray-with-commanding-4-0-victory-at-anfield.svg" alt="Liverpool Cruise Past Galatasaray with Commanding 4-0 Victory at Anfield" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Cruise Past Galatasaray with Commanding 4-0 Victory at Anfield
 

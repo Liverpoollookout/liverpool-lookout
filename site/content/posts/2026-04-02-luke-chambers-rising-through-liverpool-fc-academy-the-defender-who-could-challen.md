@@ -3,7 +3,7 @@ title: "Luke Chambers Rising Through Liverpool FC Academy: The Defender Who Coul
 meta_title: "Luke Chambers: Liverpool's Academy Prospect Ready for First-"
 date: 2026-04-02T17:12:03Z
 description: "Liverpool academy graduate Luke Chambers emerges as exciting prospect under Arne Slot. Exclusive scouting report on the defender's first-team potential at "
-image: "/images/articles/2026-04-02-luke-chambers-rising-through-liverpool-fc-academy-the-defender-who-could-challen.svg"
+
 tags:
   - "Liverpool Academy"
   - "Luke Chambers"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-luke-chambers-rising-through-liverpool-fc-academy-the-defender-who-could-challen.svg" alt="Luke Chambers Rising Through Liverpool FC Academy: The Defender Who Could Challenge for Anfield Glory" class="article-svg" loading="eager">
-</div>
 
 # Luke Chambers Rising Through Liverpool FC Academy: The Defender Who Could Challenge for Anfield Glory
 

@@ -3,7 +3,7 @@ title: "Liverpool FC Transfer Update: Salah Departure Signals Major Anfield Resh
 meta_title: "Liverpool Transfer News: Salah Exit Looms, Summer Overhaul"
 date: 2026-03-30T12:11:04Z
 description: "Latest Liverpool transfer news: Mohamed Salah exit confirmed for summer 2026. Arne Slot plans Anfield overhaul with potential departures and target replace"
-image: "/images/articles/2026-03-30-liverpool-fc-transfer-update-salah-departure-signals-major-anfield-reshuffled.svg"
+
 tags:
   - "transfer-news"
   - "Mohamed-Salah"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-30-liverpool-fc-transfer-update-salah-departure-signals-major-anfield-reshuffled.svg" alt="Liverpool FC Transfer Update: Salah Departure Signals Major Anfield Reshuffled" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Transfer News: Salah Set to Leave Anfield After Decade of Dominance
 

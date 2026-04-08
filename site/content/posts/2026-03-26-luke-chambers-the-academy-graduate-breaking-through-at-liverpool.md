@@ -3,7 +3,7 @@ title: "Luke Chambers: The Academy Graduate Breaking Through at Liverpool"
 meta_title: "Luke Chambers: Liverpool's Rising Academy Star"
 date: 2026-03-26T22:25:14Z
 description: "Scouting report on Liverpool FC academy prospect Luke Chambers. A detailed look at the rising talent pushing for first-team opportunities under Arne Slot."
-image: "/images/articles/2026-03-26-luke-chambers-the-academy-graduate-breaking-through-at-liverpool.svg"
+
 tags:
   - "Academy"
   - "Youth Development"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#0d2137" rx="8"/><text x="400" y="60" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="14" font-weight="700" fill="#F6EB61" letter-spacing="4">STARS OF THE FUTURE</text><g transform="translate(400,260)"><circle cx="0" cy="-40" r="16" fill="#C8102E" opacity="0.85"/><rect x="-12" y="-24" width="24" height="35" rx="6" fill="#C8102E" opacity="0.85"/></g><text x="400" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="3">ACADEMY &amp; YOUTH</text></svg>
-</div>
 
 # Luke Chambers: The Academy Graduate Breaking Through at Liverpool
 

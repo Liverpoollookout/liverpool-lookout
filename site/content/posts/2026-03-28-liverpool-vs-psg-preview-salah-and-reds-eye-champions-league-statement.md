@@ -3,7 +3,7 @@ title: "Liverpool vs PSG Preview: Salah and Reds Eye Champions League Statement"
 meta_title: "Liverpool vs PSG: Slot's Tactical Blueprint for European Glo"
 date: 2026-03-28T15:05:36Z
 description: "Liverpool prepare for crucial PSG clash. Slot's tactical approach, Salah in focus, and key defensive battles at Anfield. LFC seek European progression."
-image: "/images/articles/2026-03-28-liverpool-vs-psg-preview-salah-and-reds-eye-champions-league-statement.svg"
+
 tags:
   - "Match Preview"
   - "Champions League"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-liverpool-vs-psg-preview-salah-and-reds-eye-champions-league-statement.svg" alt="Liverpool vs PSG Preview: Salah and Reds Eye Champions League Statement" class="article-svg" loading="eager">
-</div>
 
 # Liverpool vs PSG Preview: Slot's Tactical Blueprint for European Glory
 

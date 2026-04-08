@@ -3,7 +3,7 @@ title: "Breaking Down Arne Slot's Tactical Blueprint at Liverpool: Formation, Pr
 meta_title: "Liverpool Tactics: Slot's 4-2-3-1 Evolution Explained"
 date: 2026-04-03T10:11:48Z
 description: "In-depth tactical analysis of Arne Slot's Liverpool system: 4-2-3-1 structure, gegenpressing triggers, possession patterns, and set-piece routines."
-image: "/images/articles/2026-04-03-breaking-down-arne-slots-tactical-blueprint-at-liverpool-formation-pressing-buil.svg"
+
 tags:
   - "Arne Slot"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-03-breaking-down-arne-slots-tactical-blueprint-at-liverpool-formation-pressing-buil.svg" alt="Breaking Down Arne Slot's Tactical Blueprint at Liverpool: Formation, Pressing & Build-Up Play" class="article-svg" loading="eager">
-</div>
 
 # Breaking Down Arne Slot's Tactical Blueprint at Liverpool: Formation, Pressing & Build-Up Play
 

@@ -3,7 +3,7 @@ title: "On This Day: Reliving Liverpool's Greatest European Escape – The Istan
 meta_title: "Liverpool's 2005 Champions League Final: The Miracle of Ista"
 date: 2026-04-01T09:55:29Z
 description: "Revisit Liverpool FC's legendary 2005 Champions League final comeback. A masterclass in resilience that defined the modern Reds' European legacy at Anfield"
-image: "/images/articles/2026-04-01-on-this-day-reliving-liverpools-greatest-european-escape-the-istanbul-miracle-20.svg"
+
 tags:
   - "Liverpool FC"
   - "Champions League History"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-01-on-this-day-reliving-liverpools-greatest-european-escape-the-istanbul-miracle-20.svg" alt="On This Day: Reliving Liverpool's Greatest European Escape – The Istanbul Miracle, 2005" class="article-svg" loading="eager">
-</div>
 
 # On This Day: Reliving Liverpool's Greatest European Escape – The Istanbul Miracle, 2005
 

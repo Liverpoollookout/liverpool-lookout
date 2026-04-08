@@ -18,10 +18,6 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#111827" rx="8"/><rect x="60" y="40" width="680" height="300" rx="6" fill="white" opacity="0.95"/><rect x="60" y="40" width="680" height="55" rx="6" fill="#C8102E"/><text x="400" y="78" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="22" font-weight="900" fill="white" letter-spacing="2">TEAM NEWS</text><circle cx="120" cy="67" r="8" fill="#ff0"><animate attributeName="opacity" values="1;0.2;1" dur="0.8s" repeatCount="indefinite"/></circle><rect x="90" y="115" width="400" height="14" rx="4" fill="#e0e0e0"/><rect x="90" y="140" width="500" height="14" rx="4" fill="#e0e0e0"/><rect x="90" y="165" width="350" height="14" rx="4" fill="#e0e0e0"/><rect x="90" y="190" width="450" height="14" rx="4" fill="#e0e0e0"/><rect x="90" y="215" width="300" height="14" rx="4" fill="#e0e0e0"/></svg>
-</div>
-
 # Liverpool Team News: Injury Updates and Fitness Reports
 
 **Wednesday, 25 March 2026**

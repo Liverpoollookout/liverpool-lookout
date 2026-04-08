@@ -3,7 +3,7 @@ title: "Joe Gomez: Liverpool's Versatile Defensive Anchor in the Slot Era"
 meta_title: "Joe Gomez Liverpool FC: Defensive Evolution Under Slot"
 date: 2026-03-30T23:54:45Z
 description: "Analysis of Joe Gomez's vital role in Liverpool FC's 2025-26 defence. Examining his form, versatility, and development under manager Arne Slot at Anfield."
-image: "/images/articles/2026-03-30-joe-gomez-liverpools-versatile-defensive-anchor-in-the-slot-era.svg"
+
 tags:
   - "Joe Gomez"
   - "Liverpool FC Defence"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-30-joe-gomez-liverpools-versatile-defensive-anchor-in-the-slot-era.svg" alt="Joe Gomez: Liverpool's Versatile Defensive Anchor in the Slot Era" class="article-svg" loading="eager">
-</div>
 
 # Joe Gomez: Liverpool's Unsung Defensive Pillar
 

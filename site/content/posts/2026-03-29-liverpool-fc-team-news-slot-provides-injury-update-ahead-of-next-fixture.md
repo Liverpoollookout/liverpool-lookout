@@ -3,7 +3,7 @@ title: "Liverpool FC Team News: Slot Provides Injury Update Ahead of Next Fixtur
 meta_title: "Liverpool FC Injury Update: Squad Fitness Report"
 date: 2026-03-29T14:05:32Z
 description: "Latest Liverpool FC injury news and fitness updates. Arne Slot reveals squad availability, expected return dates, and rotation plans for upcoming match."
-image: "/images/articles/2026-03-29-liverpool-fc-team-news-slot-provides-injury-update-ahead-of-next-fixture.svg"
+
 tags:
   - "Liverpool FC"
   - "Arne Slot"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-29-liverpool-fc-team-news-slot-provides-injury-update-ahead-of-next-fixture.svg" alt="Liverpool FC Team News: Slot Provides Injury Update Ahead of Next Fixture" class="article-svg" loading="eager">
-</div>
 
 # Liverpool FC Team News: Slot Provides Injury Update Ahead of Next Fixture
 

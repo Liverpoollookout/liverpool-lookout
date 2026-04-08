@@ -17,10 +17,6 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#1a1a2e" rx="8"/><rect x="80" y="40" width="640" height="320" rx="6" fill="#2d7a2d"/><rect x="100" y="60" width="600" height="280" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/><circle cx="400" cy="200" r="50" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/><circle cx="200" cy="200" r="12" fill="#C8102E"/><circle cx="300" cy="130" r="12" fill="#C8102E"/><circle cx="300" cy="200" r="12" fill="#C8102E"/><circle cx="300" cy="270" r="12" fill="#C8102E"/><circle cx="430" cy="130" r="12" fill="#C8102E"/><circle cx="430" cy="200" r="12" fill="#C8102E"/><circle cx="430" cy="270" r="12" fill="#C8102E"/><circle cx="550" cy="160" r="12" fill="#C8102E"/><circle cx="550" cy="240" r="12" fill="#C8102E"/><text x="400" y="385" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="3">TACTICAL ANALYSIS</text></svg>
-</div>
-
 # Blueprint for Dominance: Dissecting Arne Slot's Pressing and Possession System at Liverpool
 
 When Arne Slot arrived at Anfield, he inherited a team built on counter-pressing intensity and vertical transitions. Yet Liverpool's display against Galatasaray—a commanding 4-0 victory that suggested a scoreline could have extended considerably higher—revealed something more methodical, more controlled, more fundamentally Dutch in its construction. This wasn't chaos; this was architecture.

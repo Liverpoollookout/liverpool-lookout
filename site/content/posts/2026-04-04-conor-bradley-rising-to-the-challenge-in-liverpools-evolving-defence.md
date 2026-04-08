@@ -24,10 +24,6 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#111" rx="8"/><text x="400" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#F6EB61">&#9733; &#9733; &#9733; &#9733; &#9733;</text><text x="400" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="3">PLAYER SPOTLIGHT</text><ellipse cx="400" cy="180" rx="200" ry="180" fill="#C8102E" opacity="0.15"/><circle cx="400" cy="140" r="40" fill="#C8102E" opacity="0.7"/><rect x="370" y="178" width="60" height="80" rx="10" fill="#C8102E" opacity="0.7"/></svg>
-</div>
-
 # Conor Bradley: Rising to the Challenge in Liverpool's Evolving Defence
 
 When Trent Alexander-Arnold departed for Real Madrid last summer, Liverpool faced a significant void on the right flank. The departure of such a talismanic figure—one who had defined an era at Anfield—left questions about succession and defensive stability. Nearly two years into the post-Trent era, Conor Bradley has emerged as a pivotal figure in Arne Slot's defensive blueprint, and his development this season offers genuine encouragement for Reds supporters.

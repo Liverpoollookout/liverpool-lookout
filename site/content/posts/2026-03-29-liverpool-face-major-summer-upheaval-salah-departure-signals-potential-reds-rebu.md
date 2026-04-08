@@ -3,7 +3,7 @@ title: "Liverpool Face Major Summer Upheaval: Salah Departure Signals Potential 
 meta_title: "Liverpool Transfer News: Salah Exit Looms, Summer Overhaul A"
 date: 2026-03-29T21:03:35Z
 description: "Liverpool transfer rumours: Mohamed Salah set to depart Anfield. Arne Slot faces summer overhaul with contract situations dominating agenda at LFC."
-image: "/images/articles/2026-03-29-liverpool-face-major-summer-upheaval-salah-departure-signals-potential-reds-rebu.svg"
+
 tags:
   - "transfer-news"
   - "arne-slot"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-29-liverpool-face-major-summer-upheaval-salah-departure-signals-potential-reds-rebu.svg" alt="Liverpool Face Major Summer Upheaval: Salah Departure Signals Potential Reds Rebuild" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Face Major Summer Upheaval: Salah Departure Signals Potential Reds Rebuild
 

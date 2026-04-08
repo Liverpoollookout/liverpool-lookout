@@ -3,7 +3,7 @@ title: "Liverpool Demolish Galatasaray 4-0 at Anfield in Champions League Round 
 meta_title: "Liverpool 4-0 Galatasaray: Salah Stars in Champions League"
 date: 2026-03-27T10:34:23Z
 description: "Liverpool's devastating performance against Galatasaray in the Champions League Round of 16. Mohamed Salah leads the charge as Arne Slot's side advances wi"
-image: "/images/articles/2026-03-27-liverpool-demolish-galatasaray-4-0-at-anfield-in-champions-league-round-of-16.svg"
+
 tags:
   - "Champions League"
   - "Match Report"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#111111" rx="8"/><rect x="200" y="80" width="400" height="180" rx="12" fill="rgba(0,0,0,0.5)"/><text x="300" y="200" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="72" font-weight="900" fill="white">LFC</text><text x="400" y="200" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="48" font-weight="900" fill="#C8102E">VS</text><text x="500" y="200" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="72" font-weight="900" fill="#aaa">OPP</text><text x="400" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="white" letter-spacing="4">MATCH REPORT</text></svg>
-</div>
 
 # Liverpool Demolish Galatasaray 4-0 at Anfield in Champions League Round of 16
 

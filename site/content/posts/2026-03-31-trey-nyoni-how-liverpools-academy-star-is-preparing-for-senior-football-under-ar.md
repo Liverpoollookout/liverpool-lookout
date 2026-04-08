@@ -3,7 +3,7 @@ title: "Trey Nyoni: How Liverpool's Academy Star Is Preparing for Senior Footbal
 meta_title: "Trey Nyoni: Liverpool's Academy Gem Ready for First Team"
 date: 2026-03-31T09:47:36Z
 description: "Trey Nyoni scouting report: Liverpool FC academy graduate breaking through. Analysis of the midfielder's development and first-team potential at Anfield."
-image: "/images/articles/2026-03-31-trey-nyoni-how-liverpools-academy-star-is-preparing-for-senior-football-under-ar.svg"
+
 tags:
   - "Academy"
   - "Youth Development"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-trey-nyoni-how-liverpools-academy-star-is-preparing-for-senior-football-under-ar.svg" alt="Trey Nyoni: How Liverpool's Academy Star Is Preparing for Senior Football Under Arne Slot" class="article-svg" loading="eager">
-</div>
 
 # Trey Nyoni: Liverpool's Academy Gem Ready for First Team
 

@@ -3,7 +3,7 @@ title: "Liverpool Demolish Galatasaray 4-0 in Commanding Champions League Perfor
 meta_title: "Liverpool 4-0 Galatasaray: Dominant Display at Anfield"
 date: 2026-03-31T19:37:56Z
 description: "Liverpool produced a masterclass at Anfield, thrashing Galatasaray 4-0 in the Champions League Round of 16. Salah and Díaz shine under Slot's tactical blue"
-image: "/images/articles/2026-03-31-liverpool-demolish-galatasaray-4-0-in-commanding-champions-league-performance.svg"
+
 tags:
   - "Champions League"
   - "Match Report"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-liverpool-demolish-galatasaray-4-0-in-commanding-champions-league-performance.svg" alt="Liverpool Demolish Galatasaray 4-0 in Commanding Champions League Performance" class="article-svg" loading="eager">
-</div>
 
 # Liverpool 4-0 Galatasaray: Slot's Men Deliver Champions League Statement
 

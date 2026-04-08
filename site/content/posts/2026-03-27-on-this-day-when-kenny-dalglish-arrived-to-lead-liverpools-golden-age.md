@@ -3,7 +3,7 @@ title: "On This Day: When Kenny Dalglish Arrived to Lead Liverpool's Golden Age"
 meta_title: "Liverpool FC's 1977 European Cup Glory: Dalglish Era Begins"
 date: 2026-03-27T12:57:04Z
 description: "Revisit Liverpool FC's legendary 1977 European Cup triumph and Kenny Dalglish's transformative arrival at Anfield. A defining moment in Reds history."
-image: "/images/articles/2026-03-27-on-this-day-when-kenny-dalglish-arrived-to-lead-liverpools-golden-age.svg"
+
 tags:
   - "Liverpool FC"
   - "Kenny Dalglish"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#1a0a00" rx="8"/><g transform="translate(400,200)"><path d="M-40,-80 Q-50,-40 -30,0 L-20,30 L-5,30 L-5,50 L-25,50 L-25,65 L25,65 L25,50 L5,50 L5,30 L20,30 L30,0 Q50,-40 40,-80 Z" fill="#F6EB61" opacity="0.9"/><path d="M-40,-50 Q-65,-50 -65,-20 Q-65,10 -30,0" stroke="#F6EB61" stroke-width="8" fill="none"/><path d="M40,-50 Q65,-50 65,-20 Q65,10 30,0" stroke="#F6EB61" stroke-width="8" fill="none"/></g><text x="400" y="340" text-anchor="middle" font-family="Georgia,serif" font-size="16" font-style="italic" fill="#F6EB61" opacity="0.9">On This Day in Liverpool FC History</text><rect x="30" y="20" width="740" height="360" rx="8" fill="none" stroke="#F6EB61" stroke-width="2" stroke-dasharray="10,6" opacity="0.4"/></svg>
-</div>
 
 # On This Day: Kenny Dalglish and the Dawn of Liverpool's Greatest Era
 

@@ -3,7 +3,7 @@ title: "Ryan Gravenberch: How Liverpool's Dutch Maestro is Reshaping the Reds' M
 meta_title: "Ryan Gravenberch: Liverpool's Midfield Architect"
 date: 2026-04-02T15:21:25Z
 description: "Analysis of Ryan Gravenberch's 2025-26 form at Liverpool FC under Arne Slot. Strengths, statistics, and role in the Reds' midfield evolution."
-image: "/images/articles/2026-04-02-ryan-gravenberch-how-liverpools-dutch-maestro-is-reshaping-the-reds-midfield.svg"
+
 tags:
   - "Ryan Gravenberch"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-ryan-gravenberch-how-liverpools-dutch-maestro-is-reshaping-the-reds-midfield.svg" alt="Ryan Gravenberch: How Liverpool's Dutch Maestro is Reshaping the Reds' Midfield" class="article-svg" loading="eager">
-</div>
 
 # Ryan Gravenberch: How Liverpool's Dutch Maestro is Reshaping the Reds' Midfield
 

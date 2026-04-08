@@ -24,10 +24,6 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg"><rect width="800" height="400" fill="#111" rx="8"/><text x="400" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#F6EB61">&#9733; &#9733; &#9733; &#9733; &#9733;</text><text x="400" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="3">PLAYER SPOTLIGHT</text><ellipse cx="400" cy="180" rx="200" ry="180" fill="#C8102E" opacity="0.15"/><circle cx="400" cy="140" r="40" fill="#C8102E" opacity="0.7"/><rect x="370" y="178" width="60" height="80" rx="10" fill="#C8102E" opacity="0.7"/></svg>
-</div>
-
 # Alisson Becker: Liverpool's Steadfast Guardian in Turbulent Times
 
 As Liverpool FC navigates what has proven to be a challenging 2025-26 season under manager Arne Slot, one figure has remained a constant pillar of consistency between the sticks. Alisson Becker, the club's world-class Brazilian goalkeeper, continues to exemplify the standards expected at Anfield despite the considerable turbulence surrounding the team's recent performances.

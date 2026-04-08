@@ -3,7 +3,7 @@ title: "Dissecting Arne Slot's Liverpool: How the 4-2-3-1 Has Transformed Anfiel
 meta_title: "Liverpool Tactical Analysis: Slot's 4-2-3-1 System Breakdown"
 date: 2026-03-29T11:05:39Z
 description: "In-depth tactical analysis of Arne Slot's Liverpool system for 2025-26. Explore pressing triggers, build-up patterns, and set-piece routines at Anfield."
-image: "/images/articles/2026-03-29-dissecting-arne-slots-liverpool-how-the-4-2-3-1-has-transformed-anfields-attacki.svg"
+
 tags:
   - "Tactical Analysis"
   - "Arne Slot"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-29-dissecting-arne-slots-liverpool-how-the-4-2-3-1-has-transformed-anfields-attacki.svg" alt="Dissecting Arne Slot's Liverpool: How the 4-2-3-1 Has Transformed Anfield's Attacking Play" class="article-svg" loading="eager">
-</div>
 
 # Dissecting Arne Slot's Liverpool: How the 4-2-3-1 Has Transformed Anfield's Attacking Play
 

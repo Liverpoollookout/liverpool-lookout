@@ -3,7 +3,7 @@ title: "Liverpool Face Uncertain Summer as Salah Departure Edges Closer and Slot
 meta_title: "Liverpool Transfer News: Salah Exit Looms, Squad Overhaul In"
 date: 2026-03-31T15:55:18Z
 description: "Liverpool transfer rumours: Mohamed Salah set to leave Anfield at season's end. Arne Slot plans squad changes as contract situations develop."
-image: "/images/articles/2026-03-31-liverpool-face-uncertain-summer-as-salah-departure-edges-closer-and-slot-plans-o.svg"
+
 tags:
   - "transfer-news"
   - "Mohamed-Salah"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-liverpool-face-uncertain-summer-as-salah-departure-edges-closer-and-slot-plans-o.svg" alt="Liverpool Face Uncertain Summer as Salah Departure Edges Closer and Slot Plans Overhaul" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Face Uncertain Summer as Salah Departure Edges Closer and Squad Overhaul Looms
 

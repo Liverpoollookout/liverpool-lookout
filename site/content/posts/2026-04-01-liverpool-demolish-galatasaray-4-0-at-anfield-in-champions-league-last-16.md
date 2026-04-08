@@ -3,7 +3,7 @@ title: "Liverpool Demolish Galatasaray 4-0 at Anfield in Champions League Last 1
 meta_title: "Liverpool 4-0 Galatasaray: Clinical Performance at Anfield"
 date: 2026-04-01T11:17:22Z
 description: "Liverpool FC delivered a commanding 4-0 victory over Galatasaray in the UEFA Champions League Last 16 first leg at Anfield. Dominant display under Arne Slo"
-image: "/images/articles/2026-04-01-liverpool-demolish-galatasaray-4-0-at-anfield-in-champions-league-last-16.svg"
+
 tags:
   - "Champions League"
   - "Galatasaray"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-01-liverpool-demolish-galatasaray-4-0-at-anfield-in-champions-league-last-16.svg" alt="Liverpool Demolish Galatasaray 4-0 at Anfield in Champions League Last 16" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Demolish Galatasaray 4-0 at Anfield in Champions League Last 16
 

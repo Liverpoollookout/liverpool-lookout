@@ -3,7 +3,7 @@ title: "Liverpool's Summer Transfer Blueprint: Why Arne Slot Must Act Now"
 meta_title: "Liverpool Summer Transfers 2026: What Slot Must Prioritise"
 date: 2026-03-29T15:05:51Z
 description: "Opinion: With Salah's future uncertain, Liverpool need a bold summer strategy. Slot must address key weaknesses or risk another trophy drought at Anfield."
-image: "/images/articles/2026-03-29-liverpools-summer-transfer-blueprint-why-arne-slot-must-act-now.svg"
+
 tags:
   - "Transfer Strategy"
   - "Arne Slot"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-29-liverpools-summer-transfer-blueprint-why-arne-slot-must-act-now.svg" alt="Liverpool's Summer Transfer Blueprint: Why Arne Slot Must Act Now" class="article-svg" loading="eager">
-</div>
 
 # Liverpool's Summer Transfer Blueprint: Why Arne Slot Must Act Now
 

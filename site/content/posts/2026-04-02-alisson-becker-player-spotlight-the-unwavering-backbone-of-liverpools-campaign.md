@@ -3,7 +3,7 @@ title: "Alisson Becker Player Spotlight: The Unwavering Backbone of Liverpool's 
 meta_title: "Alisson Becker: Liverpool's Guardian in 2025-26"
 date: 2026-04-02T17:13:58Z
 description: "Analysing Alisson Becker's crucial role in Liverpool's 2025-26 season under Arne Slot. Form, statistics, strengths and what makes him essential to the Reds"
-image: "/images/articles/2026-04-02-alisson-becker-player-spotlight-the-unwavering-backbone-of-liverpools-campaign.svg"
+
 tags:
   - "Alisson Becker"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-alisson-becker-player-spotlight-the-unwavering-backbone-of-liverpools-campaign.svg" alt="Alisson Becker Player Spotlight: The Unwavering Backbone of Liverpool's Campaign" class="article-svg" loading="eager">
-</div>
 
 # Alisson Becker Player Spotlight: The Unwavering Backbone of Liverpool's Campaign
 

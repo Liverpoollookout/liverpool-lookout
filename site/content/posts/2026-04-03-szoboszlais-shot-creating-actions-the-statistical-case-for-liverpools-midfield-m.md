@@ -3,7 +3,7 @@ title: "Szoboszlai's Shot-Creating Actions: The Statistical Case for Liverpool's
 meta_title: "Szoboszlai Statistics: Liverpool's Creative Heartbeat 2025-2"
 date: 2026-04-03T10:12:17Z
 description: "Dominik Szoboszlai statistical deep dive: shot-creating actions, key passes & creative metrics driving Liverpool FC's 2025-26 campaign under Arne Slot."
-image: "/images/articles/2026-04-03-szoboszlais-shot-creating-actions-the-statistical-case-for-liverpools-midfield-m.svg"
+
 tags:
   - "Dominik Szoboszlai"
   - "Liverpool Statistics"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-03-szoboszlais-shot-creating-actions-the-statistical-case-for-liverpools-midfield-m.svg" alt="Szoboszlai's Shot-Creating Actions: The Statistical Case for Liverpool's Midfield Mastermind" class="article-svg" loading="eager">
-</div>
 
 # Szoboszlai's Shot-Creating Actions: The Statistical Case for Liverpool's Midfield Mastermind
 

@@ -3,7 +3,7 @@ title: "Federico Chiesa Player Spotlight: Liverpool's Italian Winger in Focus"
 meta_title: "Chiesa at Liverpool: 2025-26 Season Form & Statistics"
 date: 2026-03-31T17:35:52Z
 description: "Analysing Federico Chiesa's current form at Liverpool FC under Arne Slot in the 2025-26 season. Statistics, strengths, and contributions examined."
-image: "/images/articles/2026-03-31-federico-chiesa-player-spotlight-liverpools-italian-winger-in-focus.svg"
+
 tags:
   - "Player Spotlight"
   - "Federico Chiesa"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-federico-chiesa-player-spotlight-liverpools-italian-winger-in-focus.svg" alt="Federico Chiesa Player Spotlight: Liverpool's Italian Winger in Focus" class="article-svg" loading="eager">
-</div>
 
 # Federico Chiesa Player Spotlight: Liverpool's Italian Winger in Focus
 

@@ -3,7 +3,7 @@ title: "Liverpool Destroy Galatasaray 4-0 at Anfield to Advance in Champions Lea
 meta_title: "Liverpool 4-0 Galatasaray: Salah Stars in CL Demolition"
 date: 2026-03-30T20:05:19Z
 description: "Liverpool FC demolish Galatasaray 4-0 in Champions League Round of 16 first leg at Anfield. Salah brilliant as Slot's side produce commanding display."
-image: "/images/articles/2026-03-30-liverpool-destroy-galatasaray-4-0-at-anfield-to-advance-in-champions-league.svg"
+
 tags:
   - "Liverpool FC"
   - "Champions League"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-30-liverpool-destroy-galatasaray-4-0-at-anfield-to-advance-in-champions-league.svg" alt="Liverpool Destroy Galatasaray 4-0 at Anfield to Advance in Champions League" class="article-svg" loading="eager">
-</div>
 
 # Liverpool 4-0 Galatasaray: Reds Deliver Champions League Masterclass
 

@@ -3,7 +3,7 @@ title: "Liverpool Face Major Summer Overhaul as Salah Departure Confirmed"
 meta_title: "Liverpool Transfer News: Salah Exit Looms, Summer Rebuild Ah"
 date: 2026-03-31T19:38:19Z
 description: "Latest Liverpool FC transfer news: Mohamed Salah set to leave Anfield. Arne Slot plans summer rebuild with potential incomings as Reds reshape squad."
-image: "/images/articles/2026-03-31-liverpool-face-major-summer-overhaul-as-salah-departure-confirmed.svg"
+
 tags:
   - "transfer-news"
   - "salah-exit"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-liverpool-face-major-summer-overhaul-as-salah-departure-confirmed.svg" alt="Liverpool Face Major Summer Overhaul as Salah Departure Confirmed" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Face Major Summer Overhaul as Salah Departure Confirmed
 

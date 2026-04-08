@@ -3,7 +3,7 @@ title: "Luke Chambers: The Academy Graduate Ready to Challenge for Liverpool's F
 meta_title: "Luke Chambers: Liverpool Academy Star Set for First-Team"
 date: 2026-04-02T19:41:07Z
 description: "Promising Liverpool FC academy talent Luke Chambers analysed. Can the defender break into Arne Slot's first-team plans alongside Van Dijk and Konate?"
-image: "/images/articles/2026-04-02-luke-chambers-the-academy-graduate-ready-to-challenge-for-liverpools-future.svg"
+
 tags:
   - "Academy"
   - "Centre-back"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-luke-chambers-the-academy-graduate-ready-to-challenge-for-liverpools-future.svg" alt="Luke Chambers: The Academy Graduate Ready to Challenge for Liverpool's Future" class="article-svg" loading="eager">
-</div>
 
 # Luke Chambers: The Academy Graduate Ready to Challenge for Liverpool's Future
 

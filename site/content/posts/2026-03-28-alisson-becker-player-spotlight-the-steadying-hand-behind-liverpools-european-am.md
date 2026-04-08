@@ -3,7 +3,7 @@ title: "Alisson Becker Player Spotlight: The Steadying Hand Behind Liverpool's E
 meta_title: "Alisson Becker: Liverpool's Defensive Cornerstone 2025-26"
 date: 2026-03-28T21:01:53Z
 description: "Analyse Alisson Becker's 2025-26 season form at Liverpool FC. How the Brazilian goalkeeper continues to anchor Arne Slot's defence at Anfield."
-image: "/images/articles/2026-03-28-alisson-becker-player-spotlight-the-steadying-hand-behind-liverpools-european-am.svg"
+
 tags:
   - "Alisson Becker"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-alisson-becker-player-spotlight-the-steadying-hand-behind-liverpools-european-am.svg" alt="Alisson Becker Player Spotlight: The Steadying Hand Behind Liverpool's European Ambitions" class="article-svg" loading="eager">
-</div>
 
 # Alisson Becker Player Spotlight: The Steadying Hand Behind Liverpool's European Ambitions
 

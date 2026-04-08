@@ -3,7 +3,7 @@ title: "Liverpool 4-0 Galatasaray: Slot's Reds Deliver Commanding Display"
 meta_title: "Liverpool 4-0 Galatasaray: Reds Dominate Champions League"
 date: 2026-03-31T11:13:14Z
 description: "Liverpool demolished Galatasaray 4-0 at Anfield in UEFA Champions League Round of 16. Salah, Nunez and Diaz shine under Arne Slot's tactics."
-image: "/images/articles/2026-03-31-liverpool-4-0-galatasaray-slots-reds-deliver-commanding-display.svg"
+
 tags:
   - "Match Report"
   - "Champions League"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-liverpool-4-0-galatasaray-slots-reds-deliver-commanding-display.svg" alt="Liverpool 4-0 Galatasaray: Slot's Reds Deliver Commanding Display" class="article-svg" loading="eager">
-</div>
 
 # Liverpool 4-0 Galatasaray: Slot's Reds Deliver Commanding Display
 

@@ -3,7 +3,7 @@ title: "Ben Doak: How Liverpool's Academy Prospect Could Become Arne Slot's Next
 meta_title: "Ben Doak Liverpool Academy Star: First-Team Breakthrough Rep"
 date: 2026-03-30T19:39:03Z
 description: "Exclusive analysis of Ben Doak's development at Liverpool FC Academy. Can the Scottish talent follow Harvey Elliott's path to Anfield stardom under Arne Sl"
-image: "/images/articles/2026-03-30-ben-doak-how-liverpools-academy-prospect-could-become-arne-slots-next-elite-wing.svg"
+
 tags:
   - "Ben Doak"
   - "Liverpool Academy"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-30-ben-doak-how-liverpools-academy-prospect-could-become-arne-slots-next-elite-wing.svg" alt="Ben Doak: How Liverpool's Academy Prospect Could Become Arne Slot's Next Elite Winger" class="article-svg" loading="eager">
-</div>
 
 # Ben Doak: Liverpool's Academy Prospect Primed for First-Team Impact
 

@@ -3,7 +3,7 @@ title: "Liverpool FC Team News: Slot Provides Injury Update Ahead of Next Fixtur
 meta_title: "Liverpool FC Injury Update: Squad News & Return Dates"
 date: 2026-03-28T07:59:55Z
 description: "Latest Liverpool FC injury news and squad availability. Arne Slot reveals fitness updates on key players including Salah, Van Dijk and Nunez ahead of upcom"
-image: "/images/articles/2026-03-28-liverpool-fc-team-news-slot-provides-injury-update-ahead-of-next-fixture.svg"
+
 tags:
   - "Liverpool FC"
   - "Team News"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-liverpool-fc-team-news-slot-provides-injury-update-ahead-of-next-fixture.svg" alt="Liverpool FC Team News: Slot Provides Injury Update Ahead of Next Fixture" class="article-svg" loading="eager">
-</div>
 
 # Liverpool FC Team News: Slot Provides Injury Update Ahead of Next Fixture
 

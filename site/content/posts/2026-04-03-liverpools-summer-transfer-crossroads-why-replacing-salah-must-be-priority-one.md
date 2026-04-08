@@ -3,7 +3,7 @@ title: "Liverpool's Summer Transfer Crossroads: Why Replacing Salah Must Be Prio
 meta_title: "Liverpool's Summer Priorities: Salah's Future Changes Everyt"
 date: 2026-04-03T10:12:45Z
 description: "Opinion: Mohamed Salah's rumoured departure forces Liverpool to rethink summer 2026 transfer strategy. Arne Slot faces crucial decisions at Anfield."
-image: "/images/articles/2026-04-03-liverpools-summer-transfer-crossroads-why-replacing-salah-must-be-priority-one.svg"
+
 tags:
   - "Transfer Strategy"
   - "Mohamed Salah"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-03-liverpools-summer-transfer-crossroads-why-replacing-salah-must-be-priority-one.svg" alt="Liverpool's Summer Transfer Crossroads: Why Replacing Salah Must Be Priority One" class="article-svg" loading="eager">
-</div>
 
 # Liverpool's Summer Transfer Crossroads: Why Replacing Salah Must Be Priority One
 

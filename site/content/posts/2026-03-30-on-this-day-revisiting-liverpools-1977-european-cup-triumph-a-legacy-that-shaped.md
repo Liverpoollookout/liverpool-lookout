@@ -3,7 +3,7 @@ title: "On This Day: Revisiting Liverpool's 1977 European Cup Triumph – A Lega
 meta_title: "Liverpool's 1977 European Cup Glory: Historic Anfield Moment"
 date: 2026-03-30T12:10:40Z
 description: "Explore Liverpool FC's iconic 1977 European Cup victory at Anfield. A defining moment in the club's storied history and foundation for modern success under"
-image: "/images/articles/2026-03-30-on-this-day-revisiting-liverpools-1977-european-cup-triumph-a-legacy-that-shaped.svg"
+
 tags:
   - "Liverpool FC history"
   - "European Cup 1977"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-30-on-this-day-revisiting-liverpools-1977-european-cup-triumph-a-legacy-that-shaped.svg" alt="On This Day: Revisiting Liverpool's 1977 European Cup Triumph – A Legacy That Shaped the Modern Reds" class="article-svg" loading="eager">
-</div>
 
 # On This Day: Liverpool's 1977 European Cup Triumph – The Foundation of Anfield Immortality
 

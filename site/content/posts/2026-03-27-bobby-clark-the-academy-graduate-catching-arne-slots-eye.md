@@ -3,7 +3,7 @@ title: "Bobby Clark: The Academy Graduate Catching Arne Slot's Eye"
 meta_title: "Bobby Clark: Liverpool Academy's Midfield Prospect"
 date: 2026-03-27T19:54:44Z
 description: "Liverpool FC's academy talent Bobby Clark emerges as midfield prospect under Arne Slot. Scouting report on the young talent's potential and development pat"
-image: "/images/articles/2026-03-27-bobby-clark-the-academy-graduate-catching-arne-slots-eye.svg"
+
 tags:
   - "Academy"
   - "Youth Development"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-27-bobby-clark-the-academy-graduate-catching-arne-slots-eye.svg" alt="Bobby Clark: The Academy Graduate Catching Arne Slot's Eye" class="article-svg" loading="eager">
-</div>
 
 # Bobby Clark: The Academy Graduate Catching Arne Slot's Eye
 

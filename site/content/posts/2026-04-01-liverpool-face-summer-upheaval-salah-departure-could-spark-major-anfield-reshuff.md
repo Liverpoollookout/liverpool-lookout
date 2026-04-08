@@ -3,7 +3,7 @@ title: "Liverpool Face Summer Upheaval: Salah Departure Could Spark Major Anfiel
 meta_title: "Liverpool Transfer News: Salah Exit Looms, Squad Overhaul Im"
 date: 2026-04-01T12:08:34Z
 description: "Liverpool transfer news: Mohamed Salah set to leave Anfield. Arne Slot plans squad rebuild as departures mount ahead of 2025-26 season."
-image: "/images/articles/2026-04-01-liverpool-face-summer-upheaval-salah-departure-could-spark-major-anfield-reshuff.svg"
+
 tags:
   - "Transfer News"
   - "Mohamed Salah"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-01-liverpool-face-summer-upheaval-salah-departure-could-spark-major-anfield-reshuff.svg" alt="Liverpool Face Summer Upheaval: Salah Departure Could Spark Major Anfield Reshuffle" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Face Summer Upheaval: Salah Departure Could Spark Major Anfield Reshuffle
 

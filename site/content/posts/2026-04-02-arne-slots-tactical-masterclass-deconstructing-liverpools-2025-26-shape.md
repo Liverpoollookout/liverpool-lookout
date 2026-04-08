@@ -3,7 +3,7 @@ title: "Arne Slot's Tactical Masterclass: Deconstructing Liverpool's 2025-26 Sha
 meta_title: "Liverpool FC Tactical Analysis: Slot's 4-2-3-1 System Decode"
 date: 2026-04-02T19:42:07Z
 description: "In-depth tactical breakdown of Arne Slot's Liverpool FC system: pressing triggers, build-up play, and defensive structure analysed in detail."
-image: "/images/articles/2026-04-02-arne-slots-tactical-masterclass-deconstructing-liverpools-2025-26-shape.svg"
+
 tags:
   - "tactical analysis"
   - "Arne Slot"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-arne-slots-tactical-masterclass-deconstructing-liverpools-2025-26-shape.svg" alt="Arne Slot's Tactical Masterclass: Deconstructing Liverpool's 2025-26 Shape" class="article-svg" loading="eager">
-</div>
 
 # Arne Slot's Tactical Masterclass: Deconstructing Liverpool's 2025-26 Shape
 

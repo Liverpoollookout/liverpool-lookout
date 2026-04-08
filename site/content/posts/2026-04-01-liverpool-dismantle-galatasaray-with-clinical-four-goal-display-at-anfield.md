@@ -3,7 +3,7 @@ title: "Liverpool Dismantle Galatasaray with Clinical Four-Goal Display at Anfie
 meta_title: "Liverpool 4-0 Galatasaray: Champions League Masterclass"
 date: 2026-04-01T15:58:58Z
 description: "Liverpool delivered a dominant Champions League performance, defeating Galatasaray 4-0 at Anfield. Salah and Nunez starred as Slot's side progressed with a"
-image: "/images/articles/2026-04-01-liverpool-dismantle-galatasaray-with-clinical-four-goal-display-at-anfield.svg"
+
 tags:
   - "Liverpool FC"
   - "Champions League"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-01-liverpool-dismantle-galatasaray-with-clinical-four-goal-display-at-anfield.svg" alt="Liverpool Dismantle Galatasaray with Clinical Four-Goal Display at Anfield" class="article-svg" loading="eager">
-</div>
 
 # Liverpool 4-0 Galatasaray: Reds Advance with Commanding Anfield Display
 

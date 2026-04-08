@@ -3,7 +3,7 @@ title: "On This Day: Reliving Steven Gerrard's Immortal Istanbul Night"
 meta_title: "Gerrard's Greatest: Liverpool's 2005 Champions League Miracl"
 date: 2026-04-02T19:40:42Z
 description: "Revisiting Liverpool FC's unforgettable 2005 Champions League final in Istanbul when Gerrard inspired the greatest comeback in European football history."
-image: "/images/articles/2026-04-02-on-this-day-reliving-steven-gerrards-immortal-istanbul-night.svg"
+
 tags:
   - "Liverpool FC history"
   - "Steven Gerrard legacy"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-on-this-day-reliving-steven-gerrards-immortal-istanbul-night.svg" alt="On This Day: Reliving Steven Gerrard's Immortal Istanbul Night" class="article-svg" loading="eager">
-</div>
 
 # On This Day: The Night Istanbul Became Immortal – Liverpool's 2005 Champions League Miracle
 

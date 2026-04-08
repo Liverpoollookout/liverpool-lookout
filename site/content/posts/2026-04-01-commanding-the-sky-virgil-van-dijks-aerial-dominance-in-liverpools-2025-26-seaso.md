@@ -3,7 +3,7 @@ title: "Commanding The Sky: Virgil van Dijk's Aerial Dominance in Liverpool's 20
 meta_title: "Van Dijk Aerial Stats: Liverpool Defence 2025-26 Analysis"
 date: 2026-04-01T20:08:29Z
 description: "Deep dive into Virgil van Dijk's aerial duel statistics and clearance data as Liverpool FC dominates Premier League defence under Arne Slot."
-image: "/images/articles/2026-04-01-commanding-the-sky-virgil-van-dijks-aerial-dominance-in-liverpools-2025-26-seaso.svg"
+
 tags:
   - "virgil-van-dijk"
   - "liverpool-fc"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-01-commanding-the-sky-virgil-van-dijks-aerial-dominance-in-liverpools-2025-26-seaso.svg" alt="Commanding The Sky: Virgil van Dijk's Aerial Dominance in Liverpool's 2025-26 Season" class="article-svg" loading="eager">
-</div>
 
 # Commanding The Sky: Virgil van Dijk's Aerial Dominance in Liverpool's 2025-26 Season
 

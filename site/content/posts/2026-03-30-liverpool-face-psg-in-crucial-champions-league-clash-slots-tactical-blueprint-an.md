@@ -3,7 +3,7 @@ title: "Liverpool Face PSG in Crucial Champions League Clash: Slot's Tactical Bl
 meta_title: "Liverpool vs PSG Preview: Salah & Van Dijk Lead Reds"
 date: 2026-03-30T22:01:48Z
 description: "Liverpool prepare for PSG showdown. Salah, Van Dijk & Nunez key as Slot targets European glory. Full preview, lineups & prediction inside."
-image: "/images/articles/2026-03-30-liverpool-face-psg-in-crucial-champions-league-clash-slots-tactical-blueprint-an.svg"
+
 tags:
   - "match-preview"
   - "champions-league"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-30-liverpool-face-psg-in-crucial-champions-league-clash-slots-tactical-blueprint-an.svg" alt="Liverpool Face PSG in Crucial Champions League Clash: Slot's Tactical Blueprint Analysed" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Face PSG in Crucial Champions League Clash: Slot's Tactical Blueprint Analysed
 

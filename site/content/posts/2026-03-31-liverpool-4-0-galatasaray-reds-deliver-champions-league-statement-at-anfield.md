@@ -3,7 +3,7 @@ title: "Liverpool 4-0 Galatasaray: Reds Deliver Champions League Statement at An
 meta_title: "Liverpool 4-0 Galatasaray: Salah Stars in Champions League"
 date: 2026-03-31T17:34:58Z
 description: "Liverpool demolished Galatasaray 4-0 at Anfield in UEFA Champions League Round of 16. Salah and Nunez shine as Slot's side dominates."
-image: "/images/articles/2026-03-31-liverpool-4-0-galatasaray-reds-deliver-champions-league-statement-at-anfield.svg"
+
 tags:
   - "Champions League"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-liverpool-4-0-galatasaray-reds-deliver-champions-league-statement-at-anfield.svg" alt="Liverpool 4-0 Galatasaray: Reds Deliver Champions League Statement at Anfield" class="article-svg" loading="eager">
-</div>
 
 # Liverpool 4-0 Galatasaray: Reds Deliver Champions League Statement at Anfield
 

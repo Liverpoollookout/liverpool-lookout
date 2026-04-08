@@ -3,7 +3,7 @@ title: "Deconstructing Arne Slot's Liverpool: The 4-2-3-1 Blueprint Reshaping An
 meta_title: "Liverpool 4-2-3-1 Tactics: Slot's Pressing & Build-Up System"
 date: 2026-03-29T21:04:07Z
 description: "Tactical analysis of Arne Slot's Liverpool system: pressing triggers, build-up patterns, and set-piece routines transforming the Reds' 2025-26 season."
-image: "/images/articles/2026-03-29-deconstructing-arne-slots-liverpool-the-4-2-3-1-blueprint-reshaping-anfield.svg"
+
 tags:
   - "Arne Slot"
   - "Liverpool Tactics"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-29-deconstructing-arne-slots-liverpool-the-4-2-3-1-blueprint-reshaping-anfield.svg" alt="Deconstructing Arne Slot's Liverpool: The 4-2-3-1 Blueprint Reshaping Anfield" class="article-svg" loading="eager">
-</div>
 
 # Deconstructing Arne Slot's Liverpool: The 4-2-3-1 Blueprint Reshaping Anfield
 

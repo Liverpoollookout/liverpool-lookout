@@ -3,7 +3,7 @@ title: "Ben Doak Emerges as Liverpool's Next Academy Success Story"
 meta_title: "Ben Doak: Liverpool's Academy Gem Ready for First-Team"
 date: 2026-04-01T18:12:16Z
 description: "Ben Doak shines in Liverpool's academy pathway. We examine the Scottish winger's development and potential to challenge for first-team football under Arne "
-image: "/images/articles/2026-04-01-ben-doak-emerges-as-liverpools-next-academy-success-story.svg"
+
 tags:
   - "Academy"
   - "Youth Development"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-01-ben-doak-emerges-as-liverpools-next-academy-success-story.svg" alt="Ben Doak Emerges as Liverpool's Next Academy Success Story" class="article-svg" loading="eager">
-</div>
 
 # Ben Doak Emerges as Liverpool's Next Academy Success Story
 

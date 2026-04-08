@@ -3,7 +3,7 @@ title: "Van Dijk's Aerial Excellence: Breaking Down Liverpool's Defensive Statis
 meta_title: "Van Dijk Aerial Dominance: Liverpool's 2025-26 Stats Deep Di"
 date: 2026-03-27T16:40:12Z
 description: "Analyse Virgil van Dijk's commanding aerial duel performance and clearance statistics for Liverpool FC during the 2025-26 season under Arne Slot."
-image: "/images/articles/2026-03-27-van-dijks-aerial-excellence-breaking-down-liverpools-defensive-statistics-in-202.svg"
+
 tags:
   - "statistics"
   - "virgil-van-dijk"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-27-van-dijks-aerial-excellence-breaking-down-liverpools-defensive-statistics-in-202.svg" alt="Van Dijk's Aerial Excellence: Breaking Down Liverpool's Defensive Statistics in 2025-26" class="article-svg" loading="eager">
-</div>
 
 # Van Dijk's Aerial Excellence: Breaking Down Liverpool's Defensive Statistics in 2025-26
 

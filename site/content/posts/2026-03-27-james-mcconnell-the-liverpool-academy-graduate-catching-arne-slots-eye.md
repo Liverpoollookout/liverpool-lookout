@@ -3,7 +3,7 @@ title: "James McConnell: The Liverpool Academy Graduate Catching Arne Slot's Eye
 meta_title: "McConnell: Liverpool's Academy Prospect Ready for First-Team"
 date: 2026-03-27T15:11:46Z
 description: "Liverpool's James McConnell impresses in U21s and loan moves. Can the academy graduate follow Harvey Elliott's path to Anfield prominence under Arne Slot?"
-image: "/images/articles/2026-03-27-james-mcconnell-the-liverpool-academy-graduate-catching-arne-slots-eye.svg"
+
 tags:
   - "Academy"
   - "James McConnell"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-27-james-mcconnell-the-liverpool-academy-graduate-catching-arne-slots-eye.svg" alt="James McConnell: The Liverpool Academy Graduate Catching Arne Slot's Eye" class="article-svg" loading="eager">
-</div>
 
 # James McConnell: The Liverpool Academy Graduate Catching Arne Slot's Eye
 

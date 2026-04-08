@@ -3,7 +3,7 @@ title: "Wataru Endo: Liverpool's Unsung Midfield Maestro Proving His Worth Under
 meta_title: "Wataru Endo: Liverpool's Midfield Anchor in 2025-26"
 date: 2026-03-29T23:06:57Z
 description: "Analyse Wataru Endo's pivotal role in Liverpool FC's midfield during 2025-26. Form, statistics, and contribution under Arne Slot explained."
-image: "/images/articles/2026-03-29-wataru-endo-liverpools-unsung-midfield-maestro-proving-his-worth-under-arne-slot.svg"
+
 tags:
   - "Player Analysis"
   - "Wataru Endo"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-29-wataru-endo-liverpools-unsung-midfield-maestro-proving-his-worth-under-arne-slot.svg" alt="Wataru Endo: Liverpool's Unsung Midfield Maestro Proving His Worth Under Arne Slot" class="article-svg" loading="eager">
-</div>
 
 # Wataru Endo: Liverpool's Unsung Midfield Maestro Proving His Worth Under Arne Slot
 

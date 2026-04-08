@@ -3,7 +3,7 @@ title: "Liverpool Transfer Crossroads: Salah's Future Uncertain as Reds Plan Sum
 meta_title: "Liverpool Transfer News: Salah Exit Looms, Contract Situatio"
 date: 2026-04-02T15:20:59Z
 description: "Latest Liverpool FC transfer news on Mohamed Salah's potential departure, contract negotiations, and Arne Slot's summer plans for Anfield squad restructuri"
-image: "/images/articles/2026-04-02-liverpool-transfer-crossroads-salahs-future-uncertain-as-reds-plan-summer-overha.svg"
+
 tags:
   - "Transfer News"
   - "Mohamed Salah"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-liverpool-transfer-crossroads-salahs-future-uncertain-as-reds-plan-summer-overha.svg" alt="Liverpool Transfer Crossroads: Salah's Future Uncertain as Reds Plan Summer Overhaul" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Transfer Crossroads: Salah's Future Uncertain as Reds Plan Summer Overhaul
 

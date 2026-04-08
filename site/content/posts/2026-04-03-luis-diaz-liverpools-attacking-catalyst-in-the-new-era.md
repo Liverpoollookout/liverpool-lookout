@@ -3,7 +3,7 @@ title: "Luis Diaz: Liverpool's Attacking Catalyst in the New Era"
 meta_title: "Luis Diaz Liverpool: 2025-26 Season Analysis & Form"
 date: 2026-04-03T10:09:58Z
 description: "In-depth analysis of Luis Diaz's 2025-26 campaign under Arne Slot. Examining the Colombian's form, statistics, role, and impact at Liverpool FC."
-image: "/images/articles/2026-04-03-luis-diaz-liverpools-attacking-catalyst-in-the-new-era.svg"
+
 tags:
   - "Luis Diaz"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-03-luis-diaz-liverpools-attacking-catalyst-in-the-new-era.svg" alt="Luis Diaz: Liverpool's Attacking Catalyst in the New Era" class="article-svg" loading="eager">
-</div>
 
 # Luis Diaz: Liverpool's Attacking Catalyst in the New Era
 

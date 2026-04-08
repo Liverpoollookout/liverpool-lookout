@@ -3,7 +3,7 @@ title: "Liverpool Demolish Galatasaray 4-0 at Anfield to Advance in Champions Le
 meta_title: "Liverpool 4-0 Galatasaray: Salah Stars in Champions League R"
 date: 2026-03-31T15:54:52Z
 description: "Liverpool thrash Galatasaray 4-0 at Anfield in Champions League Round of 16. Salah and Nunez shine as Arne Slot's side dominates. Full match report."
-image: "/images/articles/2026-03-31-liverpool-demolish-galatasaray-4-0-at-anfield-to-advance-in-champions-league.svg"
+
 tags:
   - "UEFA Champions League"
   - "Arne Slot"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-liverpool-demolish-galatasaray-4-0-at-anfield-to-advance-in-champions-league.svg" alt="Liverpool Demolish Galatasaray 4-0 at Anfield to Advance in Champions League" class="article-svg" loading="eager">
-</div>
 
 # Liverpool 4-0 Galatasaray: Clinical Performance Sends Reds Through
 

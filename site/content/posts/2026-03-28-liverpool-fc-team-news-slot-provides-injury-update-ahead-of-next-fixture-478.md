@@ -3,7 +3,7 @@ title: "Liverpool FC Team News: Slot Provides Injury Update Ahead of Next Fixtur
 meta_title: "Liverpool FC Injury Update: Salah, Van Dijk Fitness Latest"
 date: 2026-03-28T14:04:59Z
 description: "Latest Liverpool FC injury news and fitness updates. Manager Arne Slot reveals availability of key players including Salah, Van Dijk and Darwin Nunez ahead"
-image: "/images/articles/2026-03-28-liverpool-fc-team-news-slot-provides-injury-update-ahead-of-next-fixture-478.svg"
+
 tags:
   - "Liverpool FC"
   - "Team News"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-liverpool-fc-team-news-slot-provides-injury-update-ahead-of-next-fixture-478.svg" alt="Liverpool FC Team News: Slot Provides Injury Update Ahead of Next Fixture" class="article-svg" loading="eager">
-</div>
 
 # Liverpool FC Team News: Slot Provides Injury Update Ahead of Next Fixture
 

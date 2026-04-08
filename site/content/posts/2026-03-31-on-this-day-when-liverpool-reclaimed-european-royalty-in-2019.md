@@ -3,7 +3,7 @@ title: "On This Day: When Liverpool Reclaimed European Royalty in 2019"
 meta_title: "Liverpool's 2019 Champions League Glory: The Salah Era"
 date: 2026-03-31T21:59:46Z
 description: "Relive Liverpool FC's iconic 2019 Champions League triumph under Jurgen Klopp. Mohamed Salah and the Reds' journey to glory at Anfield."
-image: "/images/articles/2026-03-31-on-this-day-when-liverpool-reclaimed-european-royalty-in-2019.svg"
+
 tags:
   - "history"
   - "klopp-era"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-31-on-this-day-when-liverpool-reclaimed-european-royalty-in-2019.svg" alt="On This Day: When Liverpool Reclaimed European Royalty in 2019" class="article-svg" loading="eager">
-</div>
 
 # On This Day: When Liverpool Reclaimed European Royalty in 2019
 

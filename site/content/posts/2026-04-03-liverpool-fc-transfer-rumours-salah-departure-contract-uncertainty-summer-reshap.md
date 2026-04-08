@@ -3,7 +3,7 @@ title: "Liverpool FC Transfer Rumours: Salah Departure, Contract Uncertainty & S
 meta_title: "Liverpool Transfer News: Salah Exit Looms, Squad Overhaul Ah"
 date: 2026-04-03T10:10:55Z
 description: "Latest Liverpool FC transfer news: Mohamed Salah's exit confirmed, contract situations for Van Dijk and key players, plus Slot's summer plans for Anfield."
-image: "/images/articles/2026-04-03-liverpool-fc-transfer-rumours-salah-departure-contract-uncertainty-summer-reshap.svg"
+
 tags:
   - "Transfer News"
   - "Mohamed Salah"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-03-liverpool-fc-transfer-rumours-salah-departure-contract-uncertainty-summer-reshap.svg" alt="Liverpool FC Transfer Rumours: Salah Departure, Contract Uncertainty & Summer Reshaping" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Transfer News: Salah Departure Confirmed, Squad Overhaul Imminent
 

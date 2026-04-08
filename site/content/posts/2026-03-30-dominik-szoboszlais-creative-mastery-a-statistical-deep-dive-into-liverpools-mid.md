@@ -3,7 +3,7 @@ title: "Dominik Szoboszlai's Creative Mastery: A Statistical Deep Dive into Live
 meta_title: "Szoboszlai Stats: Liverpool's Creative Force Analysed"
 date: 2026-03-30T22:02:16Z
 description: "Comprehensive analysis of Dominik Szoboszlai's shot-creating actions and key passes for Liverpool FC in the 2025-26 season. Tactical insights inside."
-image: "/images/articles/2026-03-30-dominik-szoboszlais-creative-mastery-a-statistical-deep-dive-into-liverpools-mid.svg"
+
 tags:
   - "Dominik Szoboszlai"
   - "Liverpool Statistics"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-30-dominik-szoboszlais-creative-mastery-a-statistical-deep-dive-into-liverpools-mid.svg" alt="Dominik Szoboszlai's Creative Mastery: A Statistical Deep Dive into Liverpool's Midfield Engine" class="article-svg" loading="eager">
-</div>
 
 # Dominik Szoboszlai's Creative Mastery: A Statistical Deep Dive into Liverpool's Midfield Engine
 

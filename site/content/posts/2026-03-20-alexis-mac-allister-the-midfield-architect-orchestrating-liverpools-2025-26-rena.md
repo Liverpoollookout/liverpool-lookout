@@ -16,23 +16,7 @@ sitemap:
   priority: 0.8
 ---
 
-<div class="article-illustration">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" class="article-svg" role="img" aria-label="Player Analysis illustration">
-      <defs><radialGradient id="sp2" cx="50%" cy="50%" r="50%"><stop offset="0%" style="stop-color:#C8102E;stop-opacity:0.3"/><stop offset="100%" style="stop-color:#111111;stop-opacity:1"/></radialGradient>radialGradient></defs>defs>
-    <rect width="800" height="400" fill="#111" rx="8"/>
-    <ellipse cx="400" cy="200" rx="200" ry="180" fill="url(#sp2)"><animate attributeName="rx" values="200;220;200" dur="2s" repeatCount="indefinite"/></ellipse>ellipse>
-    <g transform="translate(400, 200)">
-          <ellipse cx="0" cy="-60" rx="22" ry="22" fill="#C8102E"/>
-          <rect x="-18" y="-38" width="36" height="50" rx="8" fill="#C8102E"/>
-          <rect x="-16" y="12" width="14" height="45" rx="6" fill="#C8102E"><animate attributeName="height" values="45;35;45" dur="0.8s" repeatCount="indefinite"/></rect>rect>
-          <rect x="2" y="12" width="14" height="35" rx="6" fill="#C8102E"><animate attributeName="height" values="35;45;35" dur="0.8s" repeatCount="indefinite"/></rect>rect>
-          <circle cx="12" cy="65" r="10" fill="white" stroke="#333" stroke-width="1.5"><animate attributeName="cx" values="12;-12;12" dur="1.6s" repeatCount="indefinite"/></circle>circle>
-    </g>g>
-      <text x="400" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#F6EB61">★ ★ ★ ★ ★</text>text>
-      <text x="400" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="white" letter-spacing="3">PLAYER SPOTLIGHT</text>text>
-  </svg>svg>
-</div>div>
-
+div>
 
     </defs># Alexis Mac Allister: The Midfield Architect Orchestrating Liverpool's 2025-26 Renaissance
 

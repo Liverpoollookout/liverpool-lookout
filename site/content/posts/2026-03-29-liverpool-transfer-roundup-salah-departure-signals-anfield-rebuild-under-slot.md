@@ -3,7 +3,7 @@ title: "Liverpool Transfer Roundup: Salah Departure Signals Anfield Rebuild Unde
 meta_title: "Liverpool FC Transfer News: Salah Exit Looms, Summer Overhau"
 date: 2026-03-29T09:56:39Z
 description: "Liverpool FC transfer news: Mohamed Salah exit confirmed for summer 2026. Arne Slot plans midfield reinforcements as Reds reshape squad at Anfield."
-image: "/images/articles/2026-03-29-liverpool-transfer-roundup-salah-departure-signals-anfield-rebuild-under-slot.svg"
+
 tags:
   - "liverpool-fc"
   - "transfers"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-29-liverpool-transfer-roundup-salah-departure-signals-anfield-rebuild-under-slot.svg" alt="Liverpool Transfer Roundup: Salah Departure Signals Anfield Rebuild Under Slot" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Transfer Roundup: Salah Departure Signals Anfield Rebuild Under Slot
 

@@ -3,7 +3,7 @@ title: "Caoimhin Kelleher: The Steady Hand Behind Liverpool's Defence"
 meta_title: "Kelleher: Liverpool's Reliable Goalkeeper Leading the Line"
 date: 2026-03-28T15:06:05Z
 description: "Analysis of Caoimhin Kelleher's vital role in Liverpool FC's 2025-26 season under Arne Slot. Exploring his strengths, development areas, and impact at Anfi"
-image: "/images/articles/2026-03-28-caoimhin-kelleher-the-steady-hand-behind-liverpools-defence.svg"
+
 tags:
   - "Caoimhin Kelleher"
   - "Liverpool goalkeepers"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-caoimhin-kelleher-the-steady-hand-behind-liverpools-defence.svg" alt="Caoimhin Kelleher: The Steady Hand Behind Liverpool's Defence" class="article-svg" loading="eager">
-</div>
 
 # Caoimhin Kelleher: The Steady Hand Behind Liverpool's Defence
 

@@ -3,7 +3,7 @@ title: "Liverpool's Summer Transfer Plans: Targets, Fees and Anfield Fit"
 meta_title: "Liverpool Transfer Targets Summer 2025-26 | LiverpoolLookout"
 date: 2026-04-02T19:42:32Z
 description: "Exclusive Liverpool FC transfer analysis. Explore Arne Slot's summer targets, reported fees, and how new signings would integrate with Salah, Van Dijk and "
-image: "/images/articles/2026-04-02-liverpools-summer-transfer-plans-targets-fees-and-anfield-fit.svg"
+
 tags:
   - "Liverpool FC"
   - "Transfer News"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-liverpools-summer-transfer-plans-targets-fees-and-anfield-fit.svg" alt="Liverpool's Summer Transfer Plans: Targets, Fees and Anfield Fit" class="article-svg" loading="eager">
-</div>
 
 # Liverpool's Summer Transfer Plans: Targets, Fees and Anfield Fit
 

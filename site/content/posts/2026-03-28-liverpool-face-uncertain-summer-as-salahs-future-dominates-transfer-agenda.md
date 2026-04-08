@@ -3,7 +3,7 @@ title: "Liverpool Face Uncertain Summer as Salah's Future Dominates Transfer Age
 meta_title: "Liverpool Transfer News: Salah Exit Looms, Slot Eyes Replace"
 date: 2026-03-28T09:55:24Z
 description: "Mohamed Salah set to leave Liverpool at season's end. Arne Slot plans overhaul with potential departures. Latest transfer rumours and contract situations a"
-image: "/images/articles/2026-03-28-liverpool-face-uncertain-summer-as-salahs-future-dominates-transfer-agenda.svg"
+
 tags:
   - "transfer-news"
   - "Mohamed-Salah"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-03-28-liverpool-face-uncertain-summer-as-salahs-future-dominates-transfer-agenda.svg" alt="Liverpool Face Uncertain Summer as Salah's Future Dominates Transfer Agenda" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Face Uncertain Summer as Salah's Future Dominates Transfer Agenda
 

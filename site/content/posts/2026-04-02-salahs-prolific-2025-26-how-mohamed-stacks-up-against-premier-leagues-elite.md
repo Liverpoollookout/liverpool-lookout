@@ -3,7 +3,7 @@ title: "Salah's Prolific 2025-26: How Mohamed Stacks Up Against Premier League's
 meta_title: "Salah's 2025-26 Goal Contributions: Liverpool Data Deep Dive"
 date: 2026-04-02T19:41:32Z
 description: "In-depth statistical analysis of Mohamed Salah's goal contributions this season compared to Premier League top scorers. Liverpool FC exclusive data breakdo"
-image: "/images/articles/2026-04-02-salahs-prolific-2025-26-how-mohamed-stacks-up-against-premier-leagues-elite.svg"
+
 tags:
   - "Mohamed Salah"
   - "Liverpool Statistics"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-salahs-prolific-2025-26-how-mohamed-stacks-up-against-premier-leagues-elite.svg" alt="Salah's Prolific 2025-26: How Mohamed Stacks Up Against Premier League's Elite" class="article-svg" loading="eager">
-</div>
 
 # Salah's Prolific 2025-26: How Mohamed Stacks Up Against Premier League's Elite
 

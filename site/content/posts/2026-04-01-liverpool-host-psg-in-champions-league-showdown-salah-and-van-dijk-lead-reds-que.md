@@ -3,7 +3,7 @@ title: "Liverpool Host PSG in Champions League Showdown: Salah and Van Dijk Lead
 meta_title: "Liverpool vs PSG Preview: Slot's Tactical Battle"
 date: 2026-04-01T17:15:46Z
 description: "Liverpool face PSG in crucial Champions League clash. Preview Slot's tactics, Salah's form, and Van Dijk's defensive prowess in this heavyweight encounter."
-image: "/images/articles/2026-04-01-liverpool-host-psg-in-champions-league-showdown-salah-and-van-dijk-lead-reds-que.svg"
+
 tags:
   - "Match Preview"
   - "Champions League"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-01-liverpool-host-psg-in-champions-league-showdown-salah-and-van-dijk-lead-reds-que.svg" alt="Liverpool Host PSG in Champions League Showdown: Salah and Van Dijk Lead Reds' Quest" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Host PSG in Champions League Showdown: Salah and Van Dijk Lead Reds' Quest for European Glory
 

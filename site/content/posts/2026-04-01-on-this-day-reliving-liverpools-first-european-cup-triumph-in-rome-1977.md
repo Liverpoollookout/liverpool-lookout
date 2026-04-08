@@ -3,7 +3,7 @@ title: "On This Day: Reliving Liverpool's First European Cup Triumph in Rome, 19
 meta_title: "Liverpool's 1977 European Cup Glory: Paisley's Masterpiece"
 date: 2026-04-01T11:17:49Z
 description: "Explore Liverpool FC's historic 1977 European Cup victory under Bob Paisley. A defining moment in the club's golden era at Anfield's zenith."
-image: "/images/articles/2026-04-01-on-this-day-reliving-liverpools-first-european-cup-triumph-in-rome-1977.svg"
+
 tags:
   - "Liverpool FC"
   - "Bob Paisley"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-01-on-this-day-reliving-liverpools-first-european-cup-triumph-in-rome-1977.svg" alt="On This Day: Reliving Liverpool's First European Cup Triumph in Rome, 1977" class="article-svg" loading="eager">
-</div>
 
 # On This Day: Liverpool's 1977 European Cup Glory – A Golden Moment in Red History
 

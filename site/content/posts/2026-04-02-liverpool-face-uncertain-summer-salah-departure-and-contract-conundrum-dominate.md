@@ -3,7 +3,7 @@ title: "Liverpool Face Uncertain Summer: Salah Departure and Contract Conundrum 
 meta_title: "Liverpool Transfer News: Salah Exit Looms, Contract Crisis"
 date: 2026-04-02T17:11:12Z
 description: "Mohamed Salah set to leave Liverpool at season end. Arne Slot faces major rebuilding challenge as contract situations create summer uncertainty at Anfield."
-image: "/images/articles/2026-04-02-liverpool-face-uncertain-summer-salah-departure-and-contract-conundrum-dominate.svg"
+
 tags:
   - "transfers"
   - "Mohamed Salah"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-liverpool-face-uncertain-summer-salah-departure-and-contract-conundrum-dominate.svg" alt="Liverpool Face Uncertain Summer: Salah Departure and Contract Conundrum Dominate Transfer Agenda" class="article-svg" loading="eager">
-</div>
 
 # Liverpool Face Uncertain Summer: Salah Departure and Contract Conundrum Dominate Transfer Agenda
 

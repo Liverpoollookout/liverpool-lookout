@@ -3,7 +3,7 @@ title: "Darwin Nunez: Liverpool's Clinical Striker Delivering on Arne Slot's Vis
 meta_title: "Darwin Nunez Liverpool 2025-26: Form, Stats & Analysis"
 date: 2026-04-02T19:40:16Z
 description: "Analyse Darwin Nunez's 2025-26 season at Liverpool FC. Current form, statistics, role under Arne Slot, strengths and areas for improvement at Anfield."
-image: "/images/articles/2026-04-02-darwin-nunez-liverpools-clinical-striker-delivering-on-arne-slots-vision.svg"
+
 tags:
   - "Darwin Nunez"
   - "Liverpool FC"
@@ -24,10 +24,6 @@ sitemap:
   changefreq: daily
   priority: 0.8
 ---
-
-<div class="article-illustration">
-<img src="/images/articles/2026-04-02-darwin-nunez-liverpools-clinical-striker-delivering-on-arne-slots-vision.svg" alt="Darwin Nunez: Liverpool's Clinical Striker Delivering on Arne Slot's Vision" class="article-svg" loading="eager">
-</div>
 
 # Darwin Nunez: Liverpool's Clinical Striker Delivering on Arne Slot's Vision
 
