@@ -2,7 +2,6 @@ name: Generate Liverpool Lookout Content
 
 on:
   schedule:
-    # Once daily at 08:00 UTC
     - cron: "0 8 * * *"
   workflow_dispatch:
 
@@ -29,48 +28,17 @@ jobs:
         run: pip install anthropic requests
 
       - name: Check Python syntax
-        run: python -m py_compile scripts/generate_articles.py
+        run: |
+          python -m py_compile scripts/generate_articles.py
+          python -m py_compile scripts/strip_images.py
 
       - name: Generate articles
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/generate_articles.py
 
-      - name: Strip images and SVGs from all existing posts
-        run: |
-          python - <<'EOF'
-          import re, os, glob
-          posts_dir = "site/content/posts"
-          # Remove <div class="article-illustration">...</div> blocks (multiline)
-          illus_pattern = re.compile(
-              r'<div\s+class=["']article-illustration["'][^>]*>.*?</div>\s*',
-              re.DOTALL | re.IGNORECASE
-          )
-          # Remove standalone <svg ...>...</svg> blocks
-          svg_pattern = re.compile(
-              r'<svg[\s\S]*?</svg>\s*',
-              re.DOTALL | re.IGNORECASE
-          )
-          # Remove <img ...> tags
-          img_pattern = re.compile(
-              r'<img\s[^>]*/?>',
-              re.IGNORECASE
-          )
-          cleaned = 0
-          for path in glob.glob(os.path.join(posts_dir, "*.md")):
-              with open(path, "r", encoding="utf-8") as f:
-                  content = f.read()
-              new = illus_pattern.sub("", content)
-              new = svg_pattern.sub("", new)
-              new = img_pattern.sub("", new)
-              # Collapse more than 2 consecutive blank lines
-              new = re.sub(r'\n{3,}', "\n\n", new)
-              if new != content:
-                  with open(path, "w", encoding="utf-8") as f:
-                      f.write(new)
-                  cleaned += 1
-          print(f"Cleaned images/SVGs from {cleaned} posts")
-          EOF
+      - name: Strip images and SVGs from all posts
+        run: python scripts/strip_images.py
 
       - name: Commit and push
         run: |
