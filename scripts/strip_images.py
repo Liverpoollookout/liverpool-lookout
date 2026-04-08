@@ -2,32 +2,33 @@
 """
 strip_images.py
 Removes all image/SVG content from every markdown post in site/content/posts/.
-Runs as part of the GitHub Actions workflow on every deploy.
+Runs on every GitHub Actions deploy.
 
 Strips:
-  - <div class="article-illustration">...</div> blocks (old SVG wrappers)
-  - Bare <svg ...>...</svg> blocks
-  - <img ...> tags
+  - <div class="article-illustration">...</div> blocks
+  - <svg>...</svg> blocks
+  - <img> tags
   - image: frontmatter field
 """
 import re, os, glob
 
 POSTS_DIR = "site/content/posts"
 
-# Matches <div class="article-illustration" ...> ... </div>  (multiline)
+# article-illustration wrapper — match class attr with either quote style
+# Using ["'] to avoid the single-quote closing the raw string
 RE_ILLUS = re.compile(
-    r'<div[^>]+class=["'][^"']*article-illustration[^"']*["'][^>]*>.*?</div>',
+    r"<div[^>]+class=["'][^"']*article-illustration[^"']*["'][^>]*>.*?</div>",
     re.DOTALL | re.IGNORECASE,
 )
 
-# Matches any <svg ...> ... </svg> block
-RE_SVG = re.compile(r'<svg[\s\S]*?</svg>', re.DOTALL | re.IGNORECASE)
+# Any SVG block
+RE_SVG = re.compile(r"<svg[\s\S]*?</svg>", re.DOTALL | re.IGNORECASE)
 
-# Matches any <img ...> tag (self-closing or not)
-RE_IMG = re.compile(r'<img(?:\s[^>]*)?\/?>\s*', re.IGNORECASE)
+# Any <img ...> tag
+RE_IMG = re.compile(r"<img(?:\s[^>]*)?/?>\s*", re.IGNORECASE)
 
-# Matches "image: ..." frontmatter line
-RE_IMG_FM = re.compile(r'^image:.*$', re.MULTILINE)
+# "image: ..." frontmatter line
+RE_IMG_FM = re.compile(r"^image:.*$", re.MULTILINE)
 
 
 def clean(content):
@@ -35,8 +36,7 @@ def clean(content):
     content = RE_SVG.sub("", content)
     content = RE_IMG.sub("", content)
     content = RE_IMG_FM.sub("", content)
-    # Collapse runs of 3+ blank lines down to 2
-    content = re.sub(r'\n{3,}', "\n\n", content)
+    content = re.sub(r"\n{3,}", "\n\n", content)
     return content
 
 
