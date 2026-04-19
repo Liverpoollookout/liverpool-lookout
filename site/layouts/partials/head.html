@@ -10,7 +10,7 @@
 
     {{/* ── Title ───────────────────────────────────────────── */}}
     <title>
-           {{- if .IsHome -}}
+           {{- if .IsHome -}
              {{ .Site.Title }}
            {{- else if .Title -}}
              {{ .Title }} | Liverpool Lookout
@@ -194,12 +194,3 @@
 <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 
-{{/* ── Preconnect for performance ───────────────────────── */}}
-{{/* ── Google AdSense ─────────────────────────────────── */}}
-{{ with .Site.Params.adsensePublisher }}
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>
-{{ end }}
-
-{{/* ── Preconnect for performance ───────────────────────── */}}
-<link rel="preconnect" href="https://pagead2.googlesyndication.com">
-<link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
