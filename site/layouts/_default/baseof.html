@@ -9,10 +9,5 @@
     {{- block "main" . }}{{- end }}
   </main>
   {{- partial "footer.html" . -}}
-  {{/* AdSense init — loads asynchronously, won't block render */}}
-  {{ with .Site.Params.adsensePublisher }}
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}"
-       crossorigin="anonymous"></script>
-  {{ end }}
 </body>
 </html>
