@@ -25,19 +25,6 @@
           </div>
         </header>
 
-        {{/* ── Leaderboard ad after header ─────────── */}}
-        {{ with .Site.Params.adsensePublisher }}
-        <div class="ad-leaderboard">
-          <p class="ad-label">Advertisement</p>
-          <ins class="adsbygoogle" style="display:block"
-               data-ad-client="{{ . }}"
-               data-ad-slot="{{ $.Site.Params.adsenseSlotLeaderboard }}"
-               data-ad-format="horizontal"
-               data-full-width-responsive="true"></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </div>
-        {{ end }}
-
         {{/* ── Article body (images stripped at source) ────────────────── */}}
         <div class="article-body" itemprop="articleBody">
           {{ $content := .Content }}
@@ -45,19 +32,6 @@
           {{ $parts := split $content "</p>" }}
           {{ range $i, $part := $parts }}
             {{ $part | safeHTML }}</p>
-            {{ if eq $i 2 }}
-              {{ with $.Site.Params.adsensePublisher }}
-              <div class="ad-inarticle">
-                <p class="ad-label">Advertisement</p>
-                <ins class="adsbygoogle" style="display:block;text-align:center"
-                     data-ad-layout="in-article"
-                     data-ad-format="fluid"
-                     data-ad-client="{{ . }}"
-                     data-ad-slot="{{ $.Site.Params.adsenseSlotInArticle }}"></ins>
-                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-              </div>
-              {{ end }}
-            {{ end }}
           {{ end }}
         </div>
 
@@ -72,19 +46,6 @@
         {{ end }}
 
       </article>
-
-      {{/* ── End-of-article ad ────────────────────── */}}
-      {{ with .Site.Params.adsensePublisher }}
-      <div class="ad-leaderboard" style="margin-top:2rem;">
-        <p class="ad-label">Advertisement</p>
-        <ins class="adsbygoogle" style="display:block"
-             data-ad-client="{{ . }}"
-             data-ad-slot="{{ $.Site.Params.adsenseSlotLeaderboard }}"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      </div>
-      {{ end }}
 
       {{/* ── Related articles ─────────────────────── */}}
       {{ $related := .Site.RegularPages.Related . | first 6 }}
@@ -112,19 +73,6 @@
     {{/* ── Sidebar ──────────────────────────────────── */}}
     <aside class="sidebar" aria-label="Sidebar">
 
-      {{/* Sidebar 300x250 ad */}}
-      {{ with .Site.Params.adsensePublisher }}
-      <div class="sidebar-widget">
-        <div class="sidebar-widget-title">Advertisement</div>
-        <div class="sidebar-ad">
-          <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px"
-               data-ad-client="{{ . }}"
-               data-ad-slot="{{ $.Site.Params.adsenseSlotSidebar }}"></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </div>
-      </div>
-      {{ end }}
-
       {{/* Latest articles widget */}}
       <div class="sidebar-widget">
         <div class="sidebar-widget-title">Latest Articles</div>
@@ -148,19 +96,6 @@
           </ul>
         </div>
       </div>
-
-      {{/* Second sidebar ad */}}
-      {{ with .Site.Params.adsensePublisher }}
-      <div class="sidebar-widget">
-        <div class="sidebar-widget-title">Advertisement</div>
-        <div class="sidebar-ad">
-          <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px"
-               data-ad-client="{{ . }}"
-               data-ad-slot="{{ $.Site.Params.adsenseSlotSidebar }}"></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </div>
-      </div>
-      {{ end }}
 
     </aside>
   </div>
