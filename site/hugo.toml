@@ -13,13 +13,6 @@ summaryLength = 40
  author = "Liverpool Lookout"
  logo = "/images/logo.svg"
  twitterHandle = "@LiverpoolLookout"
- # ------------------------------------------------------
- # Google AdSense
- # ------------------------------------------------------
- adsensePublisher = "ca-pub-9962113860155230"
- adsenseSlotLeaderboard = "1234567890" # 728x90 - top of article
- adsenseSlotInArticle = "0987654321" # in-article responsive
- adsenseSlotSidebar = "1122334455" # 300x250
 
  [taxonomies]
  tag = "tags"
