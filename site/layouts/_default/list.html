@@ -12,20 +12,6 @@
     </p>
   </header>
 
-  {{/* ── Top ad ──────────────────────────────────────── */}}
-  {{ with .Site.Params.adsensePublisher }}
-  <div class="ad-leaderboard">
-    <p class="ad-label">Advertisement</p>
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="{{ . }}"
-         data-ad-slot="{{ $.Site.Params.adsenseSlotLeaderboard }}"
-         data-ad-format="horizontal"
-         data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
-  {{ end }}
-
   <div class="article-grid">
     {{ range .Paginator.Pages }}
     <article class="card">
